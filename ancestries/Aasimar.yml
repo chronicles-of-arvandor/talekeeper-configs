@@ -1,0 +1,210 @@
+ancestry:
+  ==: Ancestry
+  id: 59cb2ad6-b2bf-432c-b6e8-a5e804dc4243
+  name: Aasimar
+  name-plural: Aasimar
+  sub-ancestries:
+  - ==: SubAncestry
+    id: 8f476afa-17e0-479e-859d-cab4024b0f46
+    name: Protector
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 160
+    minimum-height: 4'10"
+    maximum-height: 6'4"
+    minimum-weight: 114lb
+    maximum-weight: 270lb
+    traits:
+    - ==: AncestryTrait
+      name: Age
+      description: Aasimar mature at the same rate as humans, but they can live up
+        to 160 years.
+    - ==: AncestryTrait
+      name: Size
+      description: Aasimar have the same range of height and weight as humans.
+    - ==: AncestryTrait
+      name: Celestial Resistance
+      description: You have resistance to necrotic damage and radiant damage.
+    - ==: AncestryTrait
+      name: Healing Hands
+      description: As an action, you can touch a creature and cause it to regain a
+        number of hit points equal to your level. Once you use this trait, you can't
+        use it again until you finish a long rest.
+    - ==: AncestryTrait
+      name: Light Bearer
+      description: You know the light cantrip. Charisma is your spellcasting ability
+        for it.
+    - ==: AncestryTrait
+      name: Languages
+      description: You can speak, read, and write Common and Celestial.
+    - ==: AncestryTrait
+      name: Radiant Soul
+      description: Starting at 3rd level, you can use your action to unleash the divine
+        energy within yourself, causing your eyes to glimmer and two luminous, incorporeal
+        wings to sprout from your back. Your transformation lasts for 1 minute or
+        until you end it as a bonus action. During it, you have a flying speed of
+        30 feet, and once on each of your turns, you can deal extra radiant damage
+        to one target when you deal damage to it with an attack or a spell. The extra
+        radiant damage equals your level. Once you use this trait, you can't use it
+        again until you finish a long rest.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNkOWUzOTA4NGE2YjM1NGZkZWRiMDRjOGM4Mjg4MTk1NjlhNTJhOTBiOWZkZWI2NGFiMDkxOWIwMDU3OTFkMSJ9fX0=
+  - ==: SubAncestry
+    id: b64485ee-82f9-452a-bb79-920bb7a16399
+    name: Scourge
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 160
+    minimum-height: 4'10"
+    maximum-height: 6'4"
+    minimum-weight: 114lb
+    maximum-weight: 270lb
+    traits:
+    - ==: AncestryTrait
+      name: Age
+      description: Aasimar mature at the same rate as humans, but they can live up
+        to 160 years.
+    - ==: AncestryTrait
+      name: Size
+      description: Aasimar have the same range of height and weight as humans.
+    - ==: AncestryTrait
+      name: Celestial Resistance
+      description: You have resistance to necrotic damage and radiant damage.
+    - ==: AncestryTrait
+      name: Healing Hands
+      description: As an action, you can touch a creature and cause it to regain a
+        number of hit points equal to your level. Once you use this trait, you can't
+        use it again until you finish a long rest.
+    - ==: AncestryTrait
+      name: Light Bearer
+      description: You know the light cantrip. Charisma is your spellcasting ability
+        for it.
+    - ==: AncestryTrait
+      name: Languages
+      description: You can speak, read, and write Common and Celestial.
+    - ==: AncestryTrait
+      name: Radiant Consumption
+      description: Starting at 3rd level, you can use your action to unleash the divine
+        energy within yourself, causing a searing light to radiate from you, pour
+        out of your eyes and mouth, and threaten to char you. Your transformation
+        lasts for 1 minute or until you end it as a bonus action. During it, you shed
+        bright light in a 10-foot radius and dim light for an additional 10 feet,
+        and at the end of each of your turns, you and each creature within 10 feet
+        of you take radiant damage equal to half your level (rounded up). In addition,
+        once on each of your turns, you can deal extra radiant damage to one target
+        when you deal damage to it with an attack or a spell. The extra radiant damage
+        equals your level. Once you use this trait, you can't use it again until you
+        finish a long rest.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNkOWUzOTA4NGE2YjM1NGZkZWRiMDRjOGM4Mjg4MTk1NjlhNTJhOTBiOWZkZWI2NGFiMDkxOWIwMDU3OTFkMSJ9fX0=
+  - ==: SubAncestry
+    id: 1302fa29-e6a7-441f-83c3-2a61d7ad7774
+    name: Fallen
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 160
+    minimum-height: 4'10"
+    maximum-height: 6'4"
+    minimum-weight: 114lb
+    maximum-weight: 270lb
+    traits:
+    - ==: AncestryTrait
+      name: Age
+      description: Aasimar mature at the same rate as humans, but they can live up
+        to 160 years.
+    - ==: AncestryTrait
+      name: Size
+      description: Aasimar have the same range of height and weight as humans.
+    - ==: AncestryTrait
+      name: Celestial Resistance
+      description: You have resistance to necrotic damage and radiant damage.
+    - ==: AncestryTrait
+      name: Healing Hands
+      description: As an action, you can touch a creature and cause it to regain a
+        number of hit points equal to your level. Once you use this trait, you can't
+        use it again until you finish a long rest.
+    - ==: AncestryTrait
+      name: Light Bearer
+      description: You know the light cantrip. Charisma is your spellcasting ability
+        for it.
+    - ==: AncestryTrait
+      name: Languages
+      description: You can speak, read, and write Common and Celestial.
+    - ==: AncestryTrait
+      name: Necrotic Shroud
+      description: Starting at 3rd level, you can use your action to unleash the divine
+        energy within yourself, causing your eyes to turn into pools of darkness and
+        two skeletal, ghostly, flightless wings to sprout from your back. The instant
+        you transform, other creatures within 10 feet of you that can see you must
+        each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your
+        Charisma modifier) or become frightened of you until the end of your next
+        turn. Your transformation lasts for 1 minute or until you end it as a bonus
+        action. During it, once on each of your turns, you can deal extra necrotic
+        damage to one target when you deal damage to it with an attack or a spell.
+        The extra necrotic damage equals your level. Once you use this trait, you
+        can't use it again until you finish a long rest.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNkOWUzOTA4NGE2YjM1NGZkZWRiMDRjOGM4Mjg4MTk1NjlhNTJhOTBiOWZkZWI2NGFiMDkxOWIwMDU3OTFkMSJ9fX0=
+  dark-vision:
+    ==: Distance
+    value: 60.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 160
+  minimum-height: 4'10"
+  maximum-height: 6'4"
+  minimum-weight: 114lb
+  maximum-weight: 270lb
+  traits:
+  - ==: AncestryTrait
+    name: Size
+    description: You are Medium or Small. You choose the size when you select this
+      ancestry.
+  - ==: AncestryTrait
+    name: Celestial Resistance
+    description: You have resistance to necrotic damage and radiant damage.
+  - ==: AncestryTrait
+    name: Healing Hands
+    description: As an action, you can touch a creature and roll a number of d4s equal
+      to your proficiency bonus. The creature regains a number of hit points equal
+      to the total rolled. Once you use this trait, you can't use it again until you
+      finish a long rest.
+  - ==: AncestryTrait
+    name: Light Bearer
+    description: You know the light cantrip. Charisma is your spellcasting ability
+      for it.
+  - ==: AncestryTrait
+    name: Celestial Revelation
+    description: When you reach 3rd level, choose one of the revelation options below.
+      Thereafter, you can use a bonus action to unleash the celestial energy within
+      yourself, gaining the benefits of that revelation. Your transformation lasts
+      for 1 minute or until you end it as a bonus action. Once you transform using
+      your revelation below, you can't use it again until you finish a long rest.
+  - ==: AncestryTrait
+    name: Necrotic Shroud
+    description: Your eyes briefly become pools of darkness, and ghostly, flightless
+      wings sprout from your back temporarily. Creatures other than your allies within
+      10 feet of you that can see you must succeed on a Charisma saving throw (DC
+      8 + your proficiency bonus + your Charisma modifier) or become frightened of
+      you until the end of your next turn. Until the transformation ends, once on
+      each of your turns, you can deal extra necrotic damage to one target when you
+      deal damage to it with an attack or a spell. The extra damage equals your proficiency
+      bonus.
+  - ==: AncestryTrait
+    name: Radiant Consumption
+    description: Searing light temporarily radiates from your eyes and mouth. For
+      the duration, you shed bright light in a 10-foot radius and dim light for an
+      additional 10 feet, and at the end of each of your turns, each creature within
+      10 feet of you takes radiant damage equal to your proficiency bonus. Until the
+      transformation ends, once on each of your turns, you can deal extra radiant
+      damage to one target when you deal damage to it with an attack or a spell. The
+      extra damage equals your proficiency bonus.
+  - ==: AncestryTrait
+    name: Radiant Soul
+    description: Two luminous, spectral wings sprout from your back temporarily. Until
+      the transformation ends, you have a flying speed equal to your walking speed,
+      and once on each of your turns, you can deal extra radiant damage to one target
+      when you deal damage to it with an attack or a spell. The extra damage equals
+      your proficiency bonus.
+  - ==: AncestryTrait
+    name: Languages
+    description: You can speak, read and write Common and one other language that
+      you and your DM agree is appropriate for your character.
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNkOWUzOTA4NGE2YjM1NGZkZWRiMDRjOGM4Mjg4MTk1NjlhNTJhOTBiOWZkZWI2NGFiMDkxOWIwMDU3OTFkMSJ9fX0=
