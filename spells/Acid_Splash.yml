@@ -1,0 +1,52 @@
+==: Spell
+id: 1843a861-58a5-41d5-bda9-a08c0f41d292
+name: Acid Splash
+source: PHB
+page: 211
+srd: true
+basic-rules: true
+level: 0
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You hurl a bubble of acid. Choose one creature you can see within range,
+      or choose two creatures you can see within range that are within 5 feet of
+      each other. A target must succeed on a Dexterity saving throw or take
+      {@damage 1d6} acid damage.
+  - ==: StringSpellEntry
+    value: This spell's damage increases by {@dice 1d6} when you reach 5th level
+      ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage
+      4d6}).
+scaling-level-dice:
+  - ==: SpellScalingLevelDice
+    label: acid damage
+    scaling:
+      "1": 1d6
+      "5": 2d6
+      "11": 3d6
+      "17": 4d6
+damage-inflict:
+  - ACID
+saving-throw:
+  - DEXTERITY
+misc-tags:
+  - SCALING_EFFECTS
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET
+  - MULTIPLE_TARGETS

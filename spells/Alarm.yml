@@ -1,0 +1,45 @@
+==: Spell
+id: 0520b491-7f22-420a-8764-7706dc37564d
+name: Alarm
+source: PHB
+page: 211
+srd: true
+level: 1
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a tiny bell and a piece of fine silver wire
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 8
+meta:
+  ==: SpellMeta
+  ritual: true
+entries:
+  - ==: StringSpellEntry
+    value: You set an alarm against unwanted intrusion. Choose a door, a window, or
+      an area within range that is no larger than a 20-foot cube. Until the
+      spell ends, an alarm alerts you whenever a Tiny or larger creature touches
+      or enters the warded area. When you cast the spell, you can designate
+      creatures that won't set off the alarm. You also choose whether the alarm
+      is mental or audible.
+  - ==: StringSpellEntry
+    value: A mental alarm alerts you with a ping in your mind if you are within 1
+      mile of the warded area. This ping awakens you if you are sleeping.
+  - ==: StringSpellEntry
+    value: An audible alarm produces the sound of a hand bell for 10 seconds within
+      60 feet.
+area-tags:
+  - CUBE

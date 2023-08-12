@@ -1,0 +1,40 @@
+==: Spell
+id: 626e69eb-3509-43c3-a5a7-33546167792a
+name: Light
+source: PHB
+page: 255
+srd: true
+basic-rules: true
+level: 0
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  material: a firefly or phosphorescent moss
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: You touch one object that is no larger than 10 feet in any dimension.
+      Until the spell ends, the object sheds bright light in a 20-foot radius
+      and dim light for an additional 20 feet. The light can be colored as you
+      like. Completely covering the object with something opaque blocks the
+      light. The spell ends if you cast it again or dismiss it as an action.
+  - ==: StringSpellEntry
+    value: If you target an object held or worn by a hostile creature, that creature
+      must succeed on a Dexterity saving throw to avoid the spell.
+saving-throw:
+  - DEXTERITY
+misc-tags:
+  - CREATES_LIGHT
+  - AFFECTS_OBJECTS

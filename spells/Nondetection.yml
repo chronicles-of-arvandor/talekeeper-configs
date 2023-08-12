@@ -1,0 +1,40 @@
+==: Spell
+id: bffc49f2-3044-489a-a8d4-03f707056288
+name: Nondetection
+source: PHB
+page: 263
+srd: true
+level: 3
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a pinch of diamond dust worth 25 gp sprinkled over the target, which the
+      spell consumes
+    cost: 2500
+    consume: true
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 8
+entries:
+  - ==: StringSpellEntry
+    value: For the duration, you hide a target that you touch from divination magic.
+      The target can be a willing creature or a place or an object no larger
+      than 10 feet in any dimension. The target can't be targeted by any
+      divination magic or perceived through magical scrying sensors.
+misc-tags:
+  - AFFECTS_OBJECTS
+area-tags:
+  - SINGLE_TARGET

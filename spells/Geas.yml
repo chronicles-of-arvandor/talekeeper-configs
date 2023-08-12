@@ -1,0 +1,60 @@
+==: Spell
+id: c9f50b57-c77e-4f47-a73b-e9b957e0064f
+name: Geas
+source: PHB
+page: 244
+srd: true
+level: 5
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: DAY
+    amount: 30
+entries:
+  - ==: StringSpellEntry
+    value: You place a magical command on a creature that you can see within range,
+      forcing it to carry out some service or refrain from some action or course
+      of activity as you decide. If the creature can understand you, it must
+      succeed on a Wisdom saving throw or become {@condition charmed} by you for
+      the duration. While the creature is {@condition charmed} by you, it takes
+      {@damage 5d10} psychic damage each time it acts in a manner directly
+      counter to your instructions, but no more than once each day. A creature
+      that can't understand you is unaffected by the spell.
+  - ==: StringSpellEntry
+    value: You can issue any command you choose, short of an activity that would
+      result in certain death. Should you issue a suicidal command, the spell
+      ends.
+  - ==: StringSpellEntry
+    value: You can end the spell early by using an action to dismiss it. A {@spell
+      remove curse}, {@spell greater restoration}, or {@spell wish} spell also
+      ends it.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 7th or 8th level, the
+        duration is 1 year. When you cast this spell using a spell slot of 9th
+        level, the spell lasts until it is ended by one of the spells mentioned
+        above.
+damage-inflict:
+  - PSYCHIC
+condition-inflict:
+  - CHARMED
+saving-throw:
+  - WISDOM
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

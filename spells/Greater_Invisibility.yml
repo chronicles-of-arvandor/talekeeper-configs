@@ -1,0 +1,35 @@
+==: Spell
+id: 05a6583c-bf51-4df4-9ae7-8c027d22b32e
+name: Greater Invisibility
+source: PHB
+page: 246
+srd: true
+basic-rules: true
+level: 4
+school: ILLUSION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You or a creature you touch becomes {@condition invisible} until the
+      spell ends. Anything the target is wearing or carrying is {@condition
+      invisible} as long as it is on the target's person.
+condition-inflict:
+  - INVISIBLE
+area-tags:
+  - SINGLE_TARGET

@@ -1,0 +1,45 @@
+==: Spell
+id: 8cd1a119-1041-45b4-b2e7-6f36cc327b45
+name: Identify
+source: PHB
+page: 252
+srd: true
+basic-rules: true
+level: 1
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a pearl worth at least 100 gp and an owl feather
+    cost: 10000
+duration:
+  - ==: InstantSpellDuration
+meta:
+  ==: SpellMeta
+  ritual: true
+entries:
+  - ==: StringSpellEntry
+    value: You choose one object that you must touch throughout the casting of the
+      spell. If it is a magic item or some other magic-imbued object, you learn
+      its properties and how to use them, whether it requires attunement to use,
+      and how many charges it has, if any. You learn whether any spells are
+      affecting the item and what they are. If the item was created by a spell,
+      you learn which spell created it.
+  - ==: StringSpellEntry
+    value: If you instead touch a creature throughout the casting, you learn what
+      spells, if any, are currently affecting it.
+misc-tags:
+  - AFFECTS_OBJECTS
+area-tags:
+  - SINGLE_TARGET

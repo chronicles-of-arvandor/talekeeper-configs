@@ -1,0 +1,33 @@
+==: Spell
+id: a68a2c5d-68c3-43f4-ad93-6bc12b9c9ee5
+name: True Strike
+source: PHB
+page: 284
+srd: true
+level: 0
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: ROUND
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You extend your hand and point a finger at a target in range. Your magic
+      grants you a brief insight into the target's defenses. On your next turn,
+      you gain advantage on your first attack roll against the target, provided
+      that this spell hasn't ended.
+area-tags:
+  - SINGLE_TARGET

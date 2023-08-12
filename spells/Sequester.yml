@@ -1,0 +1,51 @@
+==: Spell
+id: be9d2c9d-2093-4b13-95bc-a307921c5ce1
+name: Sequester
+source: PHB
+page: 274
+srd: true
+level: 7
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a powder composed of diamond, emerald, ruby, and sapphire dust worth at
+      least 5,000 gp, which the spell consumes
+    cost: 500000
+    consume: true
+duration:
+  - ==: PermanentSpellDuration
+    ends:
+      - DISPEL
+entries:
+  - ==: StringSpellEntry
+    value: By means of this spell, a willing creature or an object can be hidden
+      away, safe from detection for the duration. When you cast the spell and
+      touch the target, it becomes {@condition invisible} and can't be targeted
+      by {@filter divination spells|spells|school=D} or perceived through
+      scrying sensors created by divination spells.
+  - ==: StringSpellEntry
+    value: If the target is a creature, it falls into a state of suspended
+      animation. Time ceases to flow for it, and it doesn't grow older.
+  - ==: StringSpellEntry
+    value: You can set a condition for the spell to end early. The condition can be
+      anything you choose, but it must occur or be visible within 1 mile of the
+      target. Examples include "after 1,000 years" or "when the {@creature
+      tarrasque} awakens." This spell also ends if the target takes any damage.
+condition-inflict:
+  - INVISIBLE
+misc-tags:
+  - AFFECTS_OBJECTS
+area-tags:
+  - SINGLE_TARGET

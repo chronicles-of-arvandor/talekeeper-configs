@@ -1,0 +1,43 @@
+==: Spell
+id: fbc4ff32-5834-4af2-9f05-cade34bc7a13
+name: Faerie Fire
+source: PHB
+page: 239
+srd: true
+basic-rules: true
+level: 1
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: Each object in a 20-foot cube within range is outlined in blue, green, or
+      violet light (your choice). Any creature in the area when the spell is
+      cast is also outlined in light if it fails a Dexterity saving throw. For
+      the duration, objects and affected creatures shed dim light in a 10-foot
+      radius.
+  - ==: StringSpellEntry
+    value: Any attack roll against an affected creature or object has advantage if
+      the attacker can see it, and the affected creature or object can't benefit
+      from being {@condition invisible}.
+saving-throw:
+  - DEXTERITY
+misc-tags:
+  - CREATES_LIGHT
+area-tags:
+  - CUBE

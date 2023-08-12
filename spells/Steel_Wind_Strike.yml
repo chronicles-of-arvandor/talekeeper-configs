@@ -1,0 +1,43 @@
+==: Spell
+id: 6da6300c-8037-4183-88fe-fe741ade4848
+name: Steel Wind Strike
+source: XGE
+page: 166
+level: 5
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithObjectMaterial
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a melee weapon worth at least 1 sp
+    cost: 10
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You flourish the weapon used in the casting and then vanish to strike
+      like the wind. Choose up to five creatures you can see within range. Make
+      a melee spell attack against each target. On a hit, a target takes
+      {@damage 6d10} force damage.
+  - ==: StringSpellEntry
+    value: You can then teleport to an unoccupied space you can see within 5 feet of
+      one of the targets you hit or missed.
+damage-inflict:
+  - FORCE
+spell-attack:
+  - MELEE
+misc-tags:
+  - REQUIRES_SIGHT
+  - TELEPORTATION
+area-tags:
+  - MULTIPLE_TARGETS

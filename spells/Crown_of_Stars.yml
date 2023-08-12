@@ -1,0 +1,51 @@
+==: Spell
+id: 9b963a9a-09a2-45bd-835d-f367809ac1bc
+name: Crown of Stars
+source: XGE
+page: 152
+level: 7
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: Seven star-like motes of light appear and orbit your head until the spell
+      ends. You can use a bonus action to send one of the motes streaking toward
+      one creature or object within 120 feet of you. When you do so, make a
+      ranged spell attack. On a hit, the target takes {@damage 4d12} radiant
+      damage. Whether you hit or miss, the mote is expended. The spell ends
+      early if you expend the last mote.
+  - ==: StringSpellEntry
+    value: If you have four or more motes remaining, they shed bright light in a
+      30-foot radius and dim light for an additional 30 feet. If you have one to
+      three motes remaining, they shed dim light in a 30-foot radius.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 8th level or higher, the
+        number of motes created increases by two for each slot level above 7th.
+damage-inflict:
+  - RADIANT
+spell-attack:
+  - RANGED
+misc-tags:
+  - CREATES_LIGHT
+  - AFFECTS_OBJECTS
+  - USES_BONUS_ACTION
+area-tags:
+  - SINGLE_TARGET

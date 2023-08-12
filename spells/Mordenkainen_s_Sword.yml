@@ -1,0 +1,51 @@
+==: Spell
+id: 9d436577-8177-408b-b310-acdf1a34df68
+name: Mordenkainen's Sword
+source: PHB
+page: 262
+srd: Arcane Sword
+basic-rules: true
+level: 7
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a miniature platinum sword with a grip and pommel of copper and zinc,
+      worth 250 gp
+    cost: 25000
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You create a sword-shaped plane of force that hovers within range. It
+      lasts for the duration.
+  - ==: StringSpellEntry
+    value: When the sword appears, you make a melee spell attack against a target of
+      your choice within 5 feet of the sword. On a hit, the target takes
+      {@damage 3d10} force damage. Until the spell ends, you can use a bonus
+      action on each of your turns to move the sword up to 20 feet to a spot you
+      can see and repeat this attack against the same target or a different one.
+damage-inflict:
+  - FORCE
+spell-attack:
+  - MELEE
+misc-tags:
+  - REQUIRES_SIGHT
+  - USES_BONUS_ACTION
+area-tags:
+  - SINGLE_TARGET

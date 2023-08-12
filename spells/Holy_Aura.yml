@@ -1,0 +1,50 @@
+==: Spell
+id: a2ac2aef-3399-480d-8200-da38123f9b2d
+name: Holy Aura
+source: PHB
+page: 251
+srd: true
+basic-rules: true
+level: 8
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a tiny reliquary worth at least 1,000 gp containing a sacred relic, such
+      as a scrap of cloth from a saint's robe or a piece of parchment from a
+      religious text
+    cost: 100000
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: Divine light washes out from you and coalesces in a soft radiance in a
+      30-foot radius around you. Creatures of your choice in that radius when
+      you cast this spell shed dim light in a 5-foot radius and have advantage
+      on all saving throws, and other creatures have disadvantage on attack
+      rolls against them until the spell ends. In addition, when a fiend or an
+      undead hits an affected creature with a melee attack, the aura flashes
+      with brilliant light. The attacker must succeed on a Constitution saving
+      throw or be {@condition blinded} until the spell ends.
+condition-inflict:
+  - BLINDED
+saving-throw:
+  - CONSTITUTION
+misc-tags:
+  - CREATES_LIGHT
+area-tags:
+  - SPHERE

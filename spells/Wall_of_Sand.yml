@@ -1,0 +1,41 @@
+==: Spell
+id: 169e29cc-a039-46cc-be66-436ddd1990fc
+name: Wall of Sand
+source: XGE
+page: 170
+level: 3
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 90
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a handful of sand
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You create a wall of swirling sand on the ground at a point you can see
+      within range. You can make the wall up to 30 feet long, 10 feet high, and
+      10 feet thick, and it vanishes when the spell ends. It blocks line of
+      sight but not movement. A creature is {@condition blinded} while in the
+      wall's space and must spend 3 feet of movement for every 1 foot it moves
+      there.
+condition-inflict:
+  - BLINDED
+misc-tags:
+  - DIFFICULT_TERRAIN
+  - REQUIRES_SIGHT
+area-tags:
+  - WALL

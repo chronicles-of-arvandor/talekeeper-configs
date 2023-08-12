@@ -1,0 +1,45 @@
+==: Spell
+id: a7027b88-7d97-4f47-86c6-a043125f138c
+name: Fear
+source: PHB
+page: 239
+srd: true
+level: 3
+school: ILLUSION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: ConeSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a white feather or the heart of a hen
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You project a phantasmal image of a creature's worst fears. Each creature
+      in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever
+      it is holding and become {@condition frightened} for the duration.
+  - ==: StringSpellEntry
+    value: While {@condition frightened} by this spell, a creature must take the
+      {@action Dash} action and move away from you by the safest available route
+      on each of its turns, unless there is nowhere to move. If the creature
+      ends its turn in a location where it doesn't have line of sight to you,
+      the creature can make a Wisdom saving throw. On a successful save, the
+      spell ends for that creature.
+condition-inflict:
+  - FRIGHTENED
+saving-throw:
+  - WISDOM
+area-tags:
+  - CONE

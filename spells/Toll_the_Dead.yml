@@ -1,0 +1,57 @@
+==: Spell
+id: 11792c28-3794-40a8-8397-092951a3fbf6
+name: Toll the Dead
+source: XGE
+page: 169
+level: 0
+school: NECROMANCY
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You point at one creature you can see within range, and the sound of a
+      dolorous bell fills the air around it for a moment. The target must
+      succeed on a Wisdom saving throw or take {@damage 1d8} necrotic damage. If
+      the target is missing any of its hit points, it instead takes {@damage
+      1d12} necrotic damage.
+  - ==: StringSpellEntry
+    value: The spell's damage increases by one die when you reach 5th level
+      ({@damage 2d8} or {@damage 2d12}), 11th level ({@damage 3d8} or {@damage
+      3d12}), and 17th level ({@damage 4d8} or {@damage 4d12}).
+scaling-level-dice:
+  - ==: SpellScalingLevelDice
+    label: necrotic damage
+    scaling:
+      "1": 1d8
+      "5": 2d8
+      "11": 3d8
+      "17": 4d8
+  - ==: SpellScalingLevelDice
+    label: necrotic damage to wounded creature
+    scaling:
+      "1": 1d12
+      "5": 2d12
+      "11": 3d12
+      "17": 4d12
+damage-inflict:
+  - NECROTIC
+saving-throw:
+  - WISDOM
+misc-tags:
+  - SCALING_EFFECTS
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

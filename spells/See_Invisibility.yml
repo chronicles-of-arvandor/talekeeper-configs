@@ -1,0 +1,30 @@
+==: Spell
+id: f599b885-297b-42c3-8859-3cba1b5698ae
+name: See Invisibility
+source: PHB
+page: 274
+srd: true
+level: 2
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a pinch of talc and a small sprinkling of powdered silver
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: For the duration, you see {@condition invisible} creatures and objects as
+      if they were visible, and you can see into the Ethereal Plane. Ethereal
+      creatures and objects appear ghostly and translucent.

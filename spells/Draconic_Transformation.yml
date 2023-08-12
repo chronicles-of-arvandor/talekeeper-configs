@@ -1,0 +1,63 @@
+==: Spell
+id: 31a83d99-8f9e-4425-9bed-b26fa0d22e89
+name: Draconic Transformation
+source: FTD
+page: 19
+level: 7
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: BONUS
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a statuette of a dragon, worth at least 500 gp
+    cost: 50000
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: "With a roar, you draw on the magic of dragons to transform yourself,
+      taking on draconic features. You gain the following benefits until the
+      spell ends:"
+  - ==: ListSpellEntry
+    items:
+      - type: item
+        name: Blindsight
+        entries:
+          - You have {@sense blindsight} with a range of 30 feet. Within that
+            range, you can effectively see anything that isn't behind total
+            cover, even if you're {@condition blinded} or in darkness. Moreover,
+            you can see an {@condition invisible} creature, unless the creature
+            successfully hides from you.
+      - type: item
+        name: Breath Weapon
+        entries:
+          - When you cast this spell, and as a bonus action on subsequent turns
+            for the duration, you can exhale shimmering energy in a 60-foot
+            cone. Each creature in that area must make a Dexterity saving throw,
+            taking {@damage 6d8} force damage on a failed save, or half as much
+            damage on a successful one.
+      - type: item
+        name: Wings
+        entries:
+          - Incorporeal wings sprout from your back, giving you a flying speed
+            of 60 feet.
+damage-inflict:
+  - FORCE
+saving-throw:
+  - DEXTERITY
+misc-tags:
+  - REQUIRES_SIGHT
+  - USES_BONUS_ACTION

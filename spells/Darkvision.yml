@@ -1,0 +1,32 @@
+==: Spell
+id: ed1b09a8-d1a9-47e3-a938-fd2a38ffde4a
+name: Darkvision
+source: PHB
+page: 230
+srd: true
+level: 2
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: either a pinch of dried carrot or an agate
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 8
+entries:
+  - ==: StringSpellEntry
+    value: You touch a willing creature to grant it the ability to see in the dark.
+      For the duration, that creature has {@sense darkvision} out to a range of
+      60 feet.
+area-tags:
+  - SINGLE_TARGET

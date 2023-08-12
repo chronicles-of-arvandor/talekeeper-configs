@@ -1,0 +1,49 @@
+==: Spell
+id: 468fb011-90e4-4f61-947f-94ed9b848477
+name: Create or Destroy Water
+source: PHB
+page: 229
+srd: true
+level: 1
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a drop of water if creating water or a few grains of sand if destroying it
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You either create or destroy water.
+  - ==: EntriesSpellEntry
+    name: Create Water
+    entries:
+      - You create up to 10 gallons of clean water within range in an open
+        container. Alternatively, the water falls as rain in a 30-foot cube
+        within range, extinguishing exposed flames in the area.
+  - ==: EntriesSpellEntry
+    name: Destroy Water
+    entries:
+      - You destroy up to 10 gallons of water in an open container within range.
+        Alternatively, you destroy fog in a 30-foot cube within range.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 2nd level or higher, you
+        create or destroy 10 additional gallons of water, or the size of the
+        cube increases by 5 feet, for each slot level above 1st.
+misc-tags:
+  - PERMANENT_EFFECTS
+area-tags:
+  - CUBE

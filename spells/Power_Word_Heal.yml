@@ -1,0 +1,45 @@
+==: Spell
+id: e9b3f89f-b298-4287-988e-b51552e448ce
+name: Power Word Heal
+source: PHB
+page: 266
+level: 9
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: A wave of healing energy washes over the creature you touch. The target
+      regains all its hit points. If the creature is {@condition charmed},
+      {@condition frightened}, {@condition paralyzed}, or {@condition stunned},
+      the condition ends. If the creature is {@condition prone}, it can use its
+      reaction to stand up. This spell has no effect on undead or constructs.
+affects-creature-type:
+  - ABERRATION
+  - BEAST
+  - CELESTIAL
+  - DRAGON
+  - ELEMENTAL
+  - FEY
+  - FIEND
+  - GIANT
+  - HUMANOID
+  - MONSTROSITY
+  - OOZE
+  - PLANT
+misc-tags:
+  - HEALING
+area-tags:
+  - SINGLE_TARGET

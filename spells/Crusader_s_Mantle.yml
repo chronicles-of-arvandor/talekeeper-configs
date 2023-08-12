@@ -1,0 +1,37 @@
+==: Spell
+id: c6516134-86fa-48be-bc6d-58f9d38fa24c
+name: Crusader's Mantle
+source: PHB
+page: 230
+level: 3
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: RadiusSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: Holy power radiates from you in an aura with a 30-foot radius, awakening
+      boldness in friendly creatures. Until the spell ends, the aura moves with
+      you, centered on you. While in the aura, each nonhostile creature in the
+      aura (including you) deals an extra {@damage 1d4} radiant damage when it
+      hits with a weapon attack.
+damage-inflict:
+  - RADIANT
+misc-tags:
+  - ADDITIONAL_ATTACK_DAMAGE
+area-tags:
+  - SPHERE

@@ -1,0 +1,42 @@
+==: Spell
+id: e3cdac66-661e-484e-b96f-e1beff32271f
+name: Bless
+source: PHB
+page: 219
+srd: true
+basic-rules: true
+level: 1
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a sprinkling of holy water
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You bless up to three creatures of your choice within range. Whenever a
+      target makes an attack roll or a saving throw before the spell ends, the
+      target can roll a {@dice d4} and add the number rolled to the attack roll
+      or saving throw.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 2nd level or higher, you
+        can target one additional creature for each slot level above 1st.
+area-tags:
+  - MULTIPLE_TARGETS

@@ -1,0 +1,42 @@
+==: Spell
+id: 03925f50-d376-4f3d-bc2c-72ce9258e8e6
+name: Heroism
+source: PHB
+page: 250
+srd: true
+level: 1
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: A willing creature you touch is imbued with bravery. Until the spell
+      ends, the creature is immune to being {@condition frightened} and gains
+      temporary hit points equal to your spellcasting ability modifier at the
+      start of each of its turns. When the spell ends, the target loses any
+      remaining temporary hit points from this spell.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 2nd level or higher, you
+        can target one additional creature for each slot level above 1st.
+misc-tags:
+  - GRANTS_TEMPORARY_HIT_POINTS
+area-tags:
+  - SINGLE_TARGET

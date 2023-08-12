@@ -1,0 +1,44 @@
+==: Spell
+id: e2bb8a66-cb77-4c64-9918-2c4e8381047a
+name: Maze
+source: PHB
+page: 258
+srd: true
+basic-rules: true
+level: 8
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You banish a creature that you can see within range into a labyrinthine
+      demiplane. The target remains there for the duration or until it escapes
+      the maze.
+  - ==: StringSpellEntry
+    value: The target can use its action to attempt to escape. When it does so, it
+      makes a DC 20 Intelligence check. If it succeeds, it escapes, and the
+      spell ends (a {@creature minotaur} or {@creature goristro} demon
+      automatically succeeds).
+  - ==: StringSpellEntry
+    value: When the spell ends, the target reappears in the space it left or, if
+      that space is occupied, in the nearest unoccupied space.
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

@@ -1,0 +1,38 @@
+==: Spell
+id: dddbd31e-70c0-4e71-8e0f-d3291a7b98c4
+name: Revivify
+source: PHB
+page: 272
+srd: true
+basic-rules: true
+level: 3
+school: NECROMANCY
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: diamonds worth 300 gp, which the spell consumes
+    cost: 30000
+    consume: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You touch a creature that has died within the last minute. That creature
+      returns to life with 1 hit point. This spell can't return to life a
+      creature that has died of old age, nor can it restore any missing body
+      parts.
+misc-tags:
+  - HEALING
+area-tags:
+  - SINGLE_TARGET

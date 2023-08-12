@@ -1,0 +1,43 @@
+==: Spell
+id: e106e132-c34a-4a4d-aff6-f1e474aa4b38
+name: Knock
+source: PHB
+page: 254
+srd: true
+basic-rules: true
+level: 2
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: Choose an object that you can see within range. The object can be a door,
+      a box, a {@item chest|phb}, a set of {@item manacles|phb}, a padlock, or
+      another object that contains a mundane or magical means that prevents
+      access.
+  - ==: StringSpellEntry
+    value: A target that is held shut by a mundane lock or that is stuck or barred
+      becomes unlocked, unstuck, or unbarred. If the object has multiple locks,
+      only one of them is unlocked.
+  - ==: StringSpellEntry
+    value: If you choose a target that is held shut with {@spell arcane lock}, that
+      spell is suppressed for 10 minutes, during which time the target can be
+      opened and shut normally.
+  - ==: StringSpellEntry
+    value: When you cast the spell, a loud knock, audible from as far away as 300
+      feet, emanates from the target object.
+misc-tags:
+  - AFFECTS_OBJECTS
+  - REQUIRES_SIGHT

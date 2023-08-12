@@ -1,0 +1,45 @@
+==: Spell
+id: afffd824-b1fe-45b6-8686-06630e2270f5
+name: Gust
+source: XGE
+page: 157
+level: 0
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: "You seize the air and compel it to create one of the following effects
+      at a point you can see within range:"
+  - ==: ListSpellEntry
+    items:
+      - One Medium or smaller creature that you choose must succeed on a
+        Strength saving throw or be pushed up to 5 feet away from you.
+      - You create a small blast of air capable of moving one object that is
+        neither held nor carried and that weighs no more than 5 pounds. The
+        object is pushed up to 10 feet away from you. It isn't pushed with
+        enough force to cause damage.
+      - You create a harmless sensory effect using air, such as causing leaves
+        to rustle, wind to slam shutters closed, or your clothing to ripple in a
+        breeze.
+saving-throw:
+  - STRENGTH
+misc-tags:
+  - FORCED_MOVEMENT
+  - AFFECTS_OBJECTS
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

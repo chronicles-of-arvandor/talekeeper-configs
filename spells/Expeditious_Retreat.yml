@@ -1,0 +1,32 @@
+==: Spell
+id: b91c6617-812b-4639-a853-77f9f66390ad
+name: Expeditious Retreat
+source: PHB
+page: 238
+srd: true
+level: 1
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: BONUS
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: This spell allows you to move at an incredible pace. When you cast this
+      spell, and then as a bonus action on each of your turns until the spell
+      ends, you can take the {@action Dash} action.
+misc-tags:
+  - USES_BONUS_ACTION

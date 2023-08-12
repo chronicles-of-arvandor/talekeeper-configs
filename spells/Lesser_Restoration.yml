@@ -1,0 +1,30 @@
+==: Spell
+id: 9f4dfd9b-3879-46cd-8560-980b233def91
+name: Lesser Restoration
+source: PHB
+page: 255
+srd: true
+basic-rules: true
+level: 2
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You touch a creature and can end either one disease or one condition
+      afflicting it. The condition can be {@condition blinded}, {@condition
+      deafened}, {@condition paralyzed}, or {@condition poisoned}.
+area-tags:
+  - SINGLE_TARGET

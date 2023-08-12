@@ -1,0 +1,52 @@
+==: Spell
+id: 6dae8474-88a8-4f34-bec4-e80fed7a65ec
+name: Conjure Celestial
+source: PHB
+page: 225
+srd: true
+level: 7
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 90
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You summon a {@filter celestial of challenge rating 4 or
+      lower|bestiary|challenge
+      rating=[&0;&4]|type=celestial|miscellaneous=!swarm}, which appears in an
+      unoccupied space that you can see within range. The celestial disappears
+      when it drops to 0 hit points or when the spell ends.
+  - ==: StringSpellEntry
+    value: The celestial is friendly to you and your companions for the duration.
+      Roll initiative for the celestial, which has its own turns. It obeys any
+      verbal commands that you issue to it (no action required by you), as long
+      as they don't violate its alignment. If you don't issue any commands to
+      the celestial, it defends itself from hostile creatures but otherwise
+      takes no actions.
+  - ==: StringSpellEntry
+    value: The DM has {@creature couatl||the celestial}'s statistics.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a 9th-level spell slot, you summon a
+        {@filter celestial of challenge rating 5 or lower|bestiary|challenge
+        rating=[&0;&5]|type=celestial|miscellaneous=!swarm}.
+misc-tags:
+  - REQUIRES_SIGHT
+  - SUMMONS_CREATURE

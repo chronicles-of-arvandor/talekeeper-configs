@@ -1,0 +1,45 @@
+==: Spell
+id: ac1d568f-5475-4ee4-a462-89f3bf9df6a5
+name: Ashardalon's Stride
+source: FTD
+page: 19
+level: 3
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: BONUS
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: The billowing flames of a dragon blast from your feet, granting you
+      explosive speed. For the duration, your speed increases by 20 feet and
+      moving doesn't provoke opportunity attacks.
+  - ==: StringSpellEntry
+    value: When you move within 5 feet of a creature or an object that isn't being
+      worn or carried, it takes {@damage 1d6} fire damage from your trail of
+      heat. A creature or object can take this damage only once during a turn.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 4th level or higher,
+        increase your speed by 5 feet for each spell slot level above 3rd. The
+        spell deals an additional {@scaledamage 1d6|3-9|1d6} fire damage for
+        each slot level above 3rd.
+damage-inflict:
+  - FIRE
+misc-tags:
+  - AFFECTS_OBJECTS

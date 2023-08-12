@@ -1,0 +1,49 @@
+==: Spell
+id: 6b6feaae-d16d-4bcc-a375-d2d66d74595c
+name: Stinking Cloud
+source: PHB
+page: 278
+srd: true
+level: 3
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 90
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a rotten egg or several skunk cabbage leaves
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You create a 20-foot-radius sphere of yellow, nauseating gas centered on
+      a point within range. The cloud spreads around corners, and its area is
+      {@quickref Vision and Light|PHB|2||heavily obscured}. The cloud lingers in
+      the air for the duration.
+  - ==: StringSpellEntry
+    value: Each creature that is completely within the cloud at the start of its
+      turn must make a Constitution saving throw against poison. On a failed
+      save, the creature spends its action that turn retching and reeling.
+      Creatures that don't need to breathe or are immune to poison automatically
+      succeed on this saving throw.
+  - ==: StringSpellEntry
+    value: A moderate wind (at least 10 miles per hour) disperses the cloud after 4
+      rounds. A strong wind (at least 20 miles per hour) disperses it after 1
+      round.
+saving-throw:
+  - CONSTITUTION
+misc-tags:
+  - OBSCURES_VISION
+area-tags:
+  - SPHERE

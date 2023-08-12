@@ -1,0 +1,45 @@
+==: Spell
+id: b8b85a1b-8ccb-4e1c-9a0f-26cc40736551
+name: Cone of Cold
+source: PHB
+page: 224
+srd: true
+basic-rules: true
+level: 5
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: ConeSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a small crystal or glass cone
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: A blast of cold air erupts from your hands. Each creature in a 60-foot
+      cone must make a Constitution saving throw. A creature takes {@damage 8d8}
+      cold damage on a failed save, or half as much damage on a successful one.
+  - ==: StringSpellEntry
+    value: A creature killed by this spell becomes a frozen statue until it thaws.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 6th level or higher, the
+        damage increases by {@scaledamage 8d8|5-9|1d8} for each slot level above
+        5th.
+damage-inflict:
+  - COLD
+saving-throw:
+  - CONSTITUTION
+area-tags:
+  - CONE

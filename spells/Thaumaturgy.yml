@@ -1,0 +1,44 @@
+==: Spell
+id: 85140434-d042-4704-9a4f-6a3638e1d388
+name: Thaumaturgy
+source: PHB
+page: 282
+srd: true
+basic-rules: true
+level: 0
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: "You manifest a minor wonder, a sign of supernatural power, within range.
+      You create one of the following magical effects within range:"
+  - ==: ListSpellEntry
+    items:
+      - Your voice booms up to three times as loud as normal for 1 minute.
+      - You cause flames to flicker, brighten, dim, or change color for 1 minute.
+      - You cause harmless tremors in the ground for 1 minute.
+      - You create an instantaneous sound that originates from a point of your
+        choice within range, such as a rumble of thunder, the cry of a raven, or
+        ominous whispers.
+      - You instantaneously cause an unlocked door or window to fly open or slam
+        shut.
+      - You alter the appearance of your eyes for 1 minute.
+  - ==: StringSpellEntry
+    value: If you cast this spell multiple times, you can have up to three of its
+      1-minute effects active at a time, and you can dismiss such an effect as
+      an action.

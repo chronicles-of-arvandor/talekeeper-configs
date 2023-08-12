@@ -1,0 +1,44 @@
+==: Spell
+id: a4e6f380-4acf-4b58-8d93-b38b23fde988
+name: Phantom Steed
+source: PHB
+page: 265
+srd: true
+level: 3
+school: ILLUSION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+meta:
+  ==: SpellMeta
+  ritual: true
+entries:
+  - ==: StringSpellEntry
+    value: A Large quasi-real, horselike creature appears on the ground in an
+      unoccupied space of your choice within range. You decide the creature's
+      appearance, but it is equipped with a saddle, bit, and bridle. Any of the
+      equipment created by the spell vanishes in a puff of smoke if it is
+      carried more than 10 feet away from the steed.
+  - ==: StringSpellEntry
+    value: For the duration, you or a creature you choose can ride the steed. The
+      creature uses the statistics for a {@creature riding horse}, except it has
+      a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a
+      fast pace. When the spell ends, the steed gradually fades, giving the
+      rider 1 minute to dismount. The spell ends if you use an action to dismiss
+      it or if the steed takes any damage.
+misc-tags:
+  - SUMMONS_CREATURE

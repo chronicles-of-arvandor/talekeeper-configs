@@ -1,0 +1,43 @@
+==: Spell
+id: 59b7537d-90a6-46da-8813-c0c56f74f6d4
+name: Beast Bond
+source: XGE
+page: 150
+level: 1
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a bit of fur wrapped in a cloth
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You establish a telepathic link with one beast you touch that is friendly
+      to you or {@condition charmed} by you. The spell fails if the beast's
+      Intelligence score is 4 or higher. Until the spell ends, the link is
+      active while you and the beast are within line of sight of each other.
+      Through the link, the beast can understand your telepathic messages to it,
+      and it can telepathically communicate simple emotions and concepts back to
+      you. While the link is active, the beast gains advantage on attack rolls
+      against any creature within 5 feet of you that you can see.
+condition-inflict:
+  - CHARMED
+affects-creature-type:
+  - BEAST
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

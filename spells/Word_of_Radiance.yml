@@ -1,0 +1,48 @@
+==: Spell
+id: 97d6130a-b56b-4c55-aa9e-caa76d13f9b0
+name: Word of Radiance
+source: XGE
+page: 171
+level: 0
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 5
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  material: a holy symbol
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You utter a divine word, and burning radiance erupts from you. Each
+      creature of your choice that you can see within range must succeed on a
+      Constitution saving throw or take {@damage 1d6} radiant damage.
+  - ==: StringSpellEntry
+    value: The spell's damage increases by {@dice 1d6} when you reach 5th level
+      ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage
+      4d6}).
+scaling-level-dice:
+  - ==: SpellScalingLevelDice
+    label: radiant damage
+    scaling:
+      "1": 1d6
+      "5": 2d6
+      "11": 3d6
+      "17": 4d6
+damage-inflict:
+  - RADIANT
+saving-throw:
+  - CONSTITUTION
+misc-tags:
+  - SCALING_EFFECTS
+  - REQUIRES_SIGHT
+area-tags:
+  - MULTIPLE_TARGETS

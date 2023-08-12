@@ -1,0 +1,51 @@
+==: Spell
+id: 87e0d4d1-5b1c-4c19-85dd-e51e2a70fab8
+name: Hold Person
+source: PHB
+page: 251
+srd: true
+basic-rules: true
+level: 2
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a small, straight piece of iron
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: Choose a humanoid that you can see within range. The target must succeed
+      on a Wisdom saving throw or be {@condition paralyzed} for the duration. At
+      the end of each of its turns, the target can make another Wisdom saving
+      throw. On a success, the spell ends on the target.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 3rd level or higher, you
+        can target one additional humanoid for each slot level above 2nd. The
+        humanoids must be within 30 feet of each other when you target them.
+condition-inflict:
+  - PARALYZED
+saving-throw:
+  - WISDOM
+affects-creature-type:
+  - HUMANOID
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

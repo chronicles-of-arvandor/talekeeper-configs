@@ -1,0 +1,42 @@
+==: Spell
+id: f71ac4da-3244-45ad-a646-0c5d928556ac
+name: Life Transference
+source: XGE
+page: 160
+level: 3
+school: NECROMANCY
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You sacrifice some of your health to mend another creature's injuries.
+      You take {@damage 4d8} necrotic damage, which can't be reduced in any way,
+      and one creature of your choice that you can see within range regains a
+      number of hit points equal to twice the necrotic damage you take.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 4th level or higher, the
+        damage increases by {@scaledamage 4d8|3-9|1d8} for each slot level above
+        3rd.
+damage-inflict:
+  - NECROTIC
+misc-tags:
+  - HEALING
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

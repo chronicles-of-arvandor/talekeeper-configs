@@ -1,0 +1,49 @@
+==: Spell
+id: a9df8c02-3cb6-4637-ab15-4c8086a47c07
+name: Mold Earth
+source: XGE
+page: 162
+level: 0
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: "You choose a portion of dirt or stone that you can see within range and
+      that fits within a 5-foot cube. You manipulate it in one of the following
+      ways:"
+  - ==: ListSpellEntry
+    items:
+      - If you target an area of loose earth, you can instantaneously excavate
+        it, move it along the ground, and deposit it up to 5 feet away. This
+        movement doesn't involve enough force to cause damage.
+      - You cause shapes, colors, or both to appear on the dirt or stone,
+        spelling out words, creating images, or shaping patterns. The changes
+        last for 1 hour.
+      - If the dirt or stone you target is on the ground, you cause it to become
+        {@quickref difficult terrain||3}. Alternatively, you can cause the
+        ground to become normal terrain if it is already {@quickref difficult
+        terrain||3}. This change lasts for 1 hour.
+  - ==: StringSpellEntry
+    value: If you cast this spell multiple times, you can have no more than two of
+      its non-instantaneous effects active at a time, and you can dismiss such
+      an effect as an action.
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - CUBE

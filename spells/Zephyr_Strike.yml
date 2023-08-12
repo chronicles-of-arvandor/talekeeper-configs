@@ -1,0 +1,36 @@
+==: Spell
+id: ff64cfd7-b167-489d-a630-7aa9647fa941
+name: Zephyr Strike
+source: XGE
+page: 171
+level: 1
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: BONUS
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You move like the wind. Until the spell ends, your movement doesn't
+      provoke opportunity attacks.
+  - ==: StringSpellEntry
+    value: Once before the spell ends, you can give yourself advantage on one weapon
+      attack roll on your turn. That attack deals an extra {@damage 1d8} force
+      damage on a hit. Whether you hit or miss, your walking speed increases by
+      30 feet until the end of that turn.
+damage-inflict:
+  - FORCE
+misc-tags:
+  - ADDITIONAL_ATTACK_DAMAGE

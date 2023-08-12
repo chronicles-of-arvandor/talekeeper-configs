@@ -1,0 +1,44 @@
+==: Spell
+id: fb6203e5-fa61-43dd-8c5a-e85a16dd0036
+name: Maelstrom
+source: XGE
+page: 160
+level: 5
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 120
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: paper or leaf in the shape of a funnel
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: A swirling mass of 5-foot-deep water appears in a 30-foot radius centered
+      on a point you can see within range. The point must be on the ground or in
+      a body of water. Until the spell ends, that area is {@quickref difficult
+      terrain||3}, and any creature that starts its turn there must succeed on a
+      Strength saving throw or take {@damage 6d6} bludgeoning damage and be
+      pulled 10 feet toward the center.
+damage-inflict:
+  - BLUDGEONING
+saving-throw:
+  - STRENGTH
+misc-tags:
+  - DIFFICULT_TERRAIN
+  - FORCED_MOVEMENT
+  - REQUIRES_SIGHT
+area-tags:
+  - CIRCLE

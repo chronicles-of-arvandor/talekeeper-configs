@@ -1,0 +1,47 @@
+==: Spell
+id: 1ebb03e1-0654-4eb1-b548-74f9ae4af62e
+name: Shape Water
+source: XGE
+page: 164
+level: 0
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: "You choose an area of water that you can see within range and that fits
+      within a 5-foot cube. You manipulate it in one of the following ways:"
+  - ==: ListSpellEntry
+    items:
+      - You instantaneously move or otherwise change the flow of the water as
+        you direct, up to 5 feet in any direction. This movement doesn't have
+        enough force to cause damage.
+      - You cause the water to form into simple shapes and animate at your
+        direction. This change lasts for 1 hour.
+      - You change the water's color or opacity. The water must be changed in
+        the same way throughout. This change lasts for 1 hour.
+      - You freeze the water, provided that there are no creatures in it. The
+        water unfreezes in 1 hour.
+  - ==: StringSpellEntry
+    value: If you cast this spell multiple times, you can have no more than two of
+      its non-instantaneous effects active at a time, and you can dismiss such
+      an effect as an action.
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - CUBE

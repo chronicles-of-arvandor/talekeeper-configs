@@ -1,0 +1,49 @@
+==: Spell
+id: 7df52259-672f-43d3-8110-992bbe2493de
+name: Tasha's Hideous Laughter
+source: PHB
+page: 280
+srd: Hideous Laughter
+level: 1
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: tiny tarts and a feather that is waved in the air
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: A creature of your choice that you can see within range perceives
+      everything as hilariously funny and falls into fits of laughter if this
+      spell affects it. The target must succeed on a Wisdom saving throw or fall
+      {@condition prone}, becoming {@condition incapacitated} and unable to
+      stand up for the duration. A creature with an Intelligence score of 4 or
+      less isn't affected.
+  - ==: StringSpellEntry
+    value: At the end of each of its turns, and each time it takes damage, the
+      target can make another Wisdom saving throw. The target has advantage on
+      the saving throw if it's triggered by damage. On a success, the spell
+      ends.
+condition-inflict:
+  - INCAPACITATED
+  - PRONE
+saving-throw:
+  - WISDOM
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

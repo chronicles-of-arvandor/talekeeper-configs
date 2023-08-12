@@ -1,0 +1,52 @@
+==: Spell
+id: 5c51ae10-7f03-484d-96da-f03f7be06b56
+name: Augury
+source: PHB
+page: 215
+srd: true
+basic-rules: true
+level: 2
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: specially marked sticks, bones, or similar tokens worth at least 25 gp
+    cost: 2500
+duration:
+  - ==: InstantSpellDuration
+meta:
+  ==: SpellMeta
+  ritual: true
+entries:
+  - ==: StringSpellEntry
+    value: "By casting gem-inlaid sticks, rolling dragon bones, laying out ornate
+      cards, or employing some other divining tool, you receive an omen from an
+      otherworldly entity about the results of a specific course of action that
+      you plan to take within the next 30 minutes. The DM chooses from the
+      following possible omens:"
+  - ==: ListSpellEntry
+    items:
+      - Weal, for good results
+      - Woe, for bad results
+      - Weal and woe, for both good and bad results
+      - Nothing, for results that aren't especially good or bad
+  - ==: StringSpellEntry
+    value: The spell doesn't take into account any possible circumstances that might
+      change the outcome, such as the casting of additional spells or the loss
+      or gain of a companion.
+  - ==: StringSpellEntry
+    value: If you cast the spell two or more times before completing your next long
+      rest, there is a cumulative {@chance 25|||Random reading!|Regular reading}
+      chance for each casting after the first that you get a random reading. The
+      DM makes this roll in secret.

@@ -1,0 +1,58 @@
+==: Spell
+id: 2200b3b3-8722-4923-a70c-7fa2c5e666cf
+name: Gate
+source: PHB
+page: 244
+srd: true
+basic-rules: true
+level: 9
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: a diamond worth at least 5,000 gp
+    cost: 500000
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You conjure a portal linking an unoccupied space you can see within range
+      to a precise location on a different plane of existence. The portal is a
+      circular opening, which you can make 5 to 20 feet in diameter. You can
+      orient the portal in any direction you choose. The portal lasts for the
+      duration.
+  - ==: StringSpellEntry
+    value: The portal has a front and a back on each plane where it appears. Travel
+      through the portal is possible only by moving through its front. Anything
+      that does so is instantly transported to the other plane, appearing in the
+      unoccupied space nearest to the portal.
+  - ==: StringSpellEntry
+    value: Deities and other planar rulers can prevent portals created by this spell
+      from opening in their presence or anywhere within their domains.
+  - ==: StringSpellEntry
+    value: When you cast this spell, you can speak the name of a specific creature
+      (a pseudonym, title, or nickname doesn't work). If that creature is on a
+      plane other than the one you are on, the portal opens in the named
+      creature's immediate vicinity and draws the creature through it to the
+      nearest unoccupied space on your side of the portal. You gain no special
+      power over the creature, and it is free to act as the DM deems
+      appropriate. It might leave, attack you, or help you.
+misc-tags:
+  - PLANE_SHIFTING
+  - REQUIRES_SIGHT
+  - TELEPORTATION

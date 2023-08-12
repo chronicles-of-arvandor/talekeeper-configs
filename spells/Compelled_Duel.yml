@@ -1,0 +1,45 @@
+==: Spell
+id: c908d30d-9760-433d-b073-c82a915486e1
+name: Compelled Duel
+source: PHB
+page: 224
+level: 1
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: BONUS
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You attempt to compel a creature into a duel. One creature that you can
+      see within range must make a Wisdom saving throw. On a failed save, the
+      creature is drawn to you, compelled by your divine demand. For the
+      duration, it has disadvantage on attack rolls against creatures other than
+      you, and must make a Wisdom saving throw each time it attempts to move to
+      a space that is more than 30 feet away from you; if it succeeds on this
+      saving throw, this spell doesn't restrict the target's movement for that
+      turn.
+  - ==: StringSpellEntry
+    value: The spell ends if you attack any other creature, if you cast a spell that
+      targets a hostile creature other than the target, if a creature friendly
+      to you damages the target or casts a harmful spell on it, or if you end
+      your turn more than 30 feet away from the target.
+saving-throw:
+  - WISDOM
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

@@ -1,0 +1,52 @@
+==: Spell
+id: 837e4b9e-299e-4bec-a91f-12153c58224b
+name: Hunger of Hadar
+source: PHB
+page: 251
+level: 3
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 150
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a pickled octopus tentacle
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You open a gateway to the dark between the stars, a region infested with
+      unknown horrors. A 20-foot-radius sphere of blackness and bitter cold
+      appears, centered on a point within range and lasting for the duration.
+      This void is filled with a cacophony of soft whispers and slurping noises
+      that can be heard up to 30 feet away. No light, magical or otherwise, can
+      illuminate the area, and creatures fully within the area are {@condition
+      blinded}.
+  - ==: StringSpellEntry
+    value: The void creates a warp in the fabric of space, and the area is
+      {@quickref difficult terrain||3}. Any creature that starts its turn in the
+      area takes {@damage 2d6} cold damage. Any creature that ends its turn in
+      the area must succeed on a Dexterity saving throw or take {@damage 2d6}
+      acid damage as milky, otherworldly tentacles rub against it.
+damage-inflict:
+  - ACID
+  - COLD
+condition-inflict:
+  - BLINDED
+saving-throw:
+  - DEXTERITY
+misc-tags:
+  - DIFFICULT_TERRAIN
+area-tags:
+  - SPHERE

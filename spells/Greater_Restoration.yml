@@ -1,0 +1,41 @@
+==: Spell
+id: f9bad5d7-353e-4235-9d0b-49f6a7fb4a21
+name: Greater Restoration
+source: PHB
+page: 246
+srd: true
+basic-rules: true
+level: 5
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: diamond dust worth at least 100 gp, which the spell consumes
+    cost: 10000
+    consume: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: "You imbue a creature you touch with positive energy to undo a
+      debilitating effect. You can reduce the target's {@condition exhaustion}
+      level by one, or end one of the following effects on the target:"
+  - ==: ListSpellEntry
+    items:
+      - One effect that {@condition charmed} or {@condition petrified} the target
+      - One curse, including the target's attunement to a cursed magic item
+      - Any reduction to one of the target's ability scores
+      - One effect reducing the target's hit point maximum
+area-tags:
+  - SINGLE_TARGET

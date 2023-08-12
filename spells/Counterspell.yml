@@ -1,0 +1,37 @@
+==: Spell
+id: 35017902-ea4a-41af-8163-192b217aa775
+name: Counterspell
+source: PHB
+page: 228
+srd: true
+basic-rules: true
+level: 3
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: REACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You attempt to interrupt a creature in the process of casting a spell. If
+      the creature is casting a spell of 3rd level or lower, its spell fails and
+      has no effect. If it is casting a spell of 4th level or higher, make an
+      ability check using your spellcasting ability. The DC equals 10 + the
+      spell's level. On a success, the creature's spell fails and has no effect.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 4th level or higher, the
+        interrupted spell has no effect if its level is less than or equal to
+        the level of the spell slot you used.

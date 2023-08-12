@@ -1,0 +1,33 @@
+==: Spell
+id: 44933d36-7202-4570-a425-ef2c74c57985
+name: Feather Fall
+source: PHB
+page: 239
+srd: true
+level: 1
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: REACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  material: a small feather or a piece of down
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: Choose up to five falling creatures within range. A falling creature's
+      rate of descent slows to 60 feet per round until the spell ends. If the
+      creature lands before the spell ends, it takes no falling damage and can
+      land on its feet, and the spell ends for that creature.
+area-tags:
+  - MULTIPLE_TARGETS

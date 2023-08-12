@@ -1,0 +1,50 @@
+==: Spell
+id: 0d8d848d-5b28-4aae-b64d-83b97841bb40
+name: Tasha's Otherworldly Guise
+source: TCE
+page: 116
+level: 6
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: BONUS
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: an object engraved with a symbol of the Outer Planes, worth at least 500 gp
+    cost: 50000
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: "Uttering an incantation, you draw on the magic of the Lower Planes or
+      Upper Planes (your choice) to transform yourself. You gain the following
+      benefits until the spell ends:"
+  - ==: ListSpellEntry
+    items:
+      - You are immune to fire and poison damage (Lower Planes) or radiant and
+        necrotic damage (Upper Planes).
+      - You are immune to the {@condition poisoned} condition (Lower Planes) or
+        the {@condition charmed} condition (Upper Planes).
+      - Spectral wings appear on your back, giving you a flying speed of 40 feet.
+      - You have a +2 bonus to AC.
+      - All your weapon attacks are magical, and when you make a weapon attack,
+        you can use your spellcasting ability modifier, instead of Strength or
+        Dexterity, for the attack and damage rolls.
+      - You can attack twice, instead of once, when you take the {@action
+        Attack} action on your turn. You ignore this benefit if you already have
+        a feature, like Extra Attack, that lets you attack more than once when
+        you take the Attack action on your turn.
+misc-tags:
+  - MODIFIES_AC

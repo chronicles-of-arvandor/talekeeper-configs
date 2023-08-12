@@ -1,0 +1,37 @@
+==: Spell
+id: 39ffcb1c-4a77-40d9-a192-e3afb37a5b7c
+name: Sending
+source: PHB
+page: 274
+srd: true
+level: 3
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceUnlimited
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a short piece of fine copper wire
+duration:
+  - ==: TimedSpellDuration
+    type: ROUND
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: You send a short message of twenty-five words or less to a creature with
+      which you are familiar. The creature hears the message in its mind,
+      recognizes you as the sender if it knows you, and can answer in a like
+      manner immediately. The spell enables creatures with Intelligence scores
+      of at least 1 to understand the meaning of your message.
+  - ==: StringSpellEntry
+    value: You can send the message across any distance and even to other planes of
+      existence, but if the target is on a different plane than you, there is a
+      {@chance 5|||Message lost!|Message arrives} chance that the message
+      doesn't arrive.

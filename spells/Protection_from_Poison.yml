@@ -1,0 +1,34 @@
+==: Spell
+id: f8da409d-7706-49cd-8ad9-7fd970918a64
+name: Protection from Poison
+source: PHB
+page: 270
+srd: true
+level: 2
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: You touch a creature. If it is {@condition poisoned}, you neutralize the
+      poison. If more than one poison afflicts the target, you neutralize one
+      poison that you know is present, or you neutralize one at random.
+  - ==: StringSpellEntry
+    value: For the duration, the target has advantage on saving throws against being
+      {@condition poisoned}, and it has resistance to poison damage.
+area-tags:
+  - SINGLE_TARGET

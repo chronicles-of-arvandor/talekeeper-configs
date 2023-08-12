@@ -1,0 +1,47 @@
+==: Spell
+id: 6808c17b-8e83-41a8-bb53-d9eeff51aa36
+name: Tasha's Mind Whip
+source: TCE
+page: 115
+level: 2
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 90
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: ROUND
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: You psychically lash out at one creature you can see within range. The
+      target must make an Intelligence saving throw. On a failed save, the
+      target takes {@damage 3d6} psychic damage, and it can't take a reaction
+      until the end of its next turn. Moreover, on its next turn, it must choose
+      whether it gets a move, an action, or a bonus action; it gets only one of
+      the three. On a successful save, the target takes half as much damage and
+      suffers none of the spell's other effects.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 3rd level or higher, you
+        can target one additional creature for each slot level above 2nd. The
+        creatures must be within 30 feet of each other when you target them.
+damage-inflict:
+  - PSYCHIC
+saving-throw:
+  - INTELLIGENCE
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

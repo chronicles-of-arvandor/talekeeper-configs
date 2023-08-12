@@ -1,0 +1,44 @@
+==: Spell
+id: 9138e7f6-2678-4ef8-8c6d-f27817265035
+name: Shadow of Moil
+source: XGE
+page: 164
+level: 4
+school: NECROMANCY
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: an undead eyeball encased in a gem worth at least 150 gp
+    cost: 15000
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: Flame-like shadows wreathe your body until the spell ends, causing you to
+      become heavily obscured to others. The shadows turn dim light within 10
+      feet of you into darkness, and bright light in the same area to dim light.
+  - ==: StringSpellEntry
+    value: Until the spell ends, you have resistance to radiant damage. In addition,
+      whenever a creature within 10 feet of you hits you with an attack, the
+      shadows lash out at that creature, dealing it {@damage 2d8} necrotic
+      damage.
+damage-inflict:
+  - NECROTIC
+misc-tags:
+  - OBSCURES_VISION
+area-tags:
+  - SPHERE

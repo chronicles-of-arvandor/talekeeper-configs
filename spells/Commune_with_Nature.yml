@@ -1,0 +1,46 @@
+==: Spell
+id: 88c66df1-a544-4d91-8e6a-c235673ce537
+name: Commune with Nature
+source: PHB
+page: 224
+srd: true
+level: 5
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+meta:
+  ==: SpellMeta
+  ritual: true
+entries:
+  - ==: StringSpellEntry
+    value: You briefly become one with nature and gain knowledge of the surrounding
+      territory. In the outdoors, the spell gives you knowledge of the land
+      within 3 miles of you. In caves and other natural underground settings,
+      the radius is limited to 300 feet. The spell doesn't function where nature
+      has been replaced by construction, such as in dungeons and towns.
+  - ==: StringSpellEntry
+    value: "You instantly gain knowledge of up to three facts of your choice about
+      any of the following subjects as they relate to the area:"
+  - ==: ListSpellEntry
+    items:
+      - terrain and bodies of water
+      - prevalent plants, minerals, animals, or peoples
+      - powerful celestials, fey, fiends, elementals, or undead
+      - influence from other planes of existence
+      - buildings
+  - ==: StringSpellEntry
+    value: For example, you could determine the location of powerful undead in the
+      area, the location of major sources of safe drinking water, and the
+      location of any nearby towns.

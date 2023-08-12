@@ -1,0 +1,99 @@
+==: Spell
+id: 2131e373-6bcb-49f7-b45c-529df866fba3
+name: Chaos Bolt
+source: XGE
+page: 151
+level: 1
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 120
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You hurl an undulating, warbling mass of chaotic energy at one creature
+      in range. Make a ranged spell attack against the target. On a hit, the
+      target takes {@damage 2d8 + 1d6} damage. Choose one of the {@dice d8}s.
+      The number rolled on that die determines the attack's damage type, as
+      shown below.
+  - ==: TableSpellEntry
+    caption: Chaos Bolt
+    col-labels:
+      - "{@dice d8}"
+      - Damage Type
+    col-styles:
+      - col-2 text-center
+      - col-10
+    rows:
+      - - type: cell
+          roll:
+            exact: 1
+        - Acid
+      - - type: cell
+          roll:
+            exact: 2
+        - Cold
+      - - type: cell
+          roll:
+            exact: 3
+        - Fire
+      - - type: cell
+          roll:
+            exact: 4
+        - Force
+      - - type: cell
+          roll:
+            exact: 5
+        - Lightning
+      - - type: cell
+          roll:
+            exact: 6
+        - Poison
+      - - type: cell
+          roll:
+            exact: 7
+        - Psychic
+      - - type: cell
+          roll:
+            exact: 8
+        - Thunder
+  - ==: StringSpellEntry
+    value: If you roll the same number on both {@dice d8}s, the chaotic energy leaps
+      from the target to a different creature of your choice within 30 feet of
+      it. Make a new attack roll against the new target, and make a new damage
+      roll, which could cause the chaotic energy to leap again.
+  - ==: StringSpellEntry
+    value: A creature can be targeted only once by each casting of this spell.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 2nd level or higher, each
+        target takes {@scaledamage 2d8 + 1d6|1-9|1d6} extra damage of the type
+        rolled for each slot level above 1st.
+damage-inflict:
+  - ACID
+  - COLD
+  - FIRE
+  - FORCE
+  - LIGHTNING
+  - POISON
+  - PSYCHIC
+  - THUNDER
+spell-attack:
+  - RANGED
+misc-tags:
+  - ROLLABLE_EFFECTS
+area-tags:
+  - SINGLE_TARGET

@@ -1,0 +1,41 @@
+==: Spell
+id: 057f0422-bfb3-4ede-bfc8-b9cfbb22667d
+name: Mage Hand
+source: PHB
+page: 256
+srd: true
+basic-rules: true
+level: 0
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: A spectral, floating hand appears at a point you choose within range. The
+      hand lasts for the duration or until you dismiss it as an action. The hand
+      vanishes if it is ever more than 30 feet away from you or if you cast this
+      spell again.
+  - ==: StringSpellEntry
+    value: You can use your action to control the hand. You can use the hand to
+      manipulate an object, open an unlocked door or container, stow or retrieve
+      an item from an open container, or pour the contents out of a vial. You
+      can move the hand up to 30 feet each time you use it.
+  - ==: StringSpellEntry
+    value: The hand can't attack, activate magic items, or carry more than 10 pounds.
+misc-tags:
+  - AFFECTS_OBJECTS

@@ -1,0 +1,70 @@
+==: Spell
+id: 39b8b392-10d2-4e9d-8014-decc2e9922fe
+name: Sleep
+source: PHB
+page: 276
+srd: true
+basic-rules: true
+level: 1
+school: ENCHANTMENT
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 90
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a pinch of fine sand, rose petals, or a cricket
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: This spell sends creatures into a magical slumber. Roll {@dice 5d8}; the
+      total is how many hit points of creatures this spell can affect. Creatures
+      within 20 feet of a point you choose within range are affected in
+      ascending order of their current hit points (ignoring {@condition
+      unconscious} creatures).
+  - ==: StringSpellEntry
+    value: Starting with the creature that has the lowest current hit points, each
+      creature affected by this spell falls {@condition unconscious} until the
+      spell ends, the sleeper takes damage, or someone uses an action to shake
+      or slap the sleeper awake. Subtract each creature's hit points from the
+      total before moving on to the creature with the next lowest hit points. A
+      creature's hit points must be equal to or less than the remaining total
+      for that creature to be affected.
+  - ==: StringSpellEntry
+    value: Undead and creatures immune to being {@condition charmed} aren't affected
+      by this spell.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 2nd level or higher, roll
+        an additional {@scaledice 5d8|1-9|2d8} for each slot level above 1st.
+condition-inflict:
+  - UNCONSCIOUS
+affects-creature-type:
+  - ABERRATION
+  - BEAST
+  - CELESTIAL
+  - CONSTRUCT
+  - DRAGON
+  - ELEMENTAL
+  - FEY
+  - FIEND
+  - GIANT
+  - HUMANOID
+  - MONSTROSITY
+  - OOZE
+  - PLANT
+  - UNDEAD
+area-tags:
+  - SPHERE

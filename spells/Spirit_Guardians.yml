@@ -1,0 +1,58 @@
+==: Spell
+id: d5f6f98e-4080-45ec-9899-d2d890e61afb
+name: Spirit Guardians
+source: PHB
+page: 278
+srd: true
+basic-rules: true
+level: 3
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: RadiusSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 15
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a holy symbol
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You call forth spirits to protect you. They flit around you to a distance
+      of 15 feet for the duration. If you are good or neutral, their spectral
+      form appears angelic or fey (your choice). If you are evil, they appear
+      fiendish.
+  - ==: StringSpellEntry
+    value: When you cast this spell, you can designate any number of creatures you
+      can see to be unaffected by it. An affected creature's speed is halved in
+      the area, and when the creature enters the area for the first time on a
+      turn or starts its turn there, it must make a Wisdom saving throw. On a
+      failed save, the creature takes {@damage 3d8} radiant damage (if you are
+      good or neutral) or {@damage 3d8} necrotic damage (if you are evil). On a
+      successful save, the creature takes half as much damage.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 4th level or higher, the
+        damage increases by {@scaledamage 3d8|3-9|1d8} for each slot level above
+        3rd.
+damage-inflict:
+  - NECROTIC
+  - RADIANT
+saving-throw:
+  - WISDOM
+misc-tags:
+  - REQUIRES_SIGHT
+area-tags:
+  - SPHERE

@@ -1,0 +1,49 @@
+==: Spell
+id: 1d9dd72d-a9e4-4ee0-836c-67e1b5c94391
+name: Burning Hands
+source: PHB
+page: 220
+srd: true
+basic-rules: true
+level: 1
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: ConeSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 15
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: As you hold your hands with thumbs touching and fingers spread, a thin
+      sheet of flames shoots forth from your outstretched fingertips. Each
+      creature in a 15-foot cone must make a Dexterity saving throw. A creature
+      takes {@damage 3d6} fire damage on a failed save, or half as much damage
+      on a successful one.
+  - ==: StringSpellEntry
+    value: The fire ignites any flammable objects in the area that aren't being worn
+      or carried.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 2nd level or higher, the
+        damage increases by {@scaledamage 3d6|1-9|1d6} for each slot level above
+        1st.
+damage-inflict:
+  - FIRE
+saving-throw:
+  - DEXTERITY
+misc-tags:
+  - AFFECTS_OBJECTS
+area-tags:
+  - CONE

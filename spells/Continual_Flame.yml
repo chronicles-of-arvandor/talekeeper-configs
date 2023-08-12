@@ -1,0 +1,37 @@
+==: Spell
+id: 8822cc81-cc26-4400-93f6-35c741966bf1
+name: Continual Flame
+source: PHB
+page: 227
+srd: true
+level: 2
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: ruby dust worth 50 gp, which the spell consumes
+    cost: 5000
+    consume: true
+duration:
+  - ==: PermanentSpellDuration
+    ends:
+      - DISPEL
+entries:
+  - ==: StringSpellEntry
+    value: A flame, equivalent in brightness to a torch, springs forth from an
+      object that you touch. The effect looks like a regular flame, but it
+      creates no heat and doesn't use oxygen. A continual flame can be covered
+      or hidden but not smothered or quenched.
+misc-tags:
+  - AFFECTS_OBJECTS

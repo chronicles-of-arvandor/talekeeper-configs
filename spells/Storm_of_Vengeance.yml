@@ -1,0 +1,82 @@
+==: Spell
+id: a8f313a2-4e05-41b1-b7e8-98fb47583fa7
+name: Storm of Vengeance
+source: PHB
+page: 279
+srd: true
+level: 9
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSight
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: A churning storm cloud forms, centered on a point you can see and
+      spreading to a radius of 360 feet. Lightning flashes in the area, thunder
+      booms, and strong winds roar. Each creature under the cloud (no more than
+      5,000 feet beneath the cloud) when it appears must make a Constitution
+      saving throw. On a failed save, a creature takes {@damage 2d6} thunder
+      damage and becomes {@condition deafened} for 5 minutes.
+  - ==: StringSpellEntry
+    value: Each round you maintain {@status concentration} on this spell, the storm
+      produces different effects on your turn.
+  - ==: EntriesSpellEntry
+    name: Round 2
+    entries:
+      - Acidic rain falls from the cloud. Each creature and object under the
+        cloud takes {@damage 1d6} acid damage.
+  - ==: EntriesSpellEntry
+    name: Round 3
+    entries:
+      - You call six bolts of lightning from the cloud to strike six creatures
+        or objects of your choice beneath the cloud. A given creature or object
+        can't be struck by more than one bolt. A struck creature must make a
+        Dexterity saving throw. The creature takes {@damage 10d6} lightning
+        damage on a failed save, or half as much damage on a successful one.
+  - ==: EntriesSpellEntry
+    name: Round 4
+    entries:
+      - Hailstones rain down from the cloud. Each creature under the cloud takes
+        {@damage 2d6} bludgeoning damage.
+  - ==: EntriesSpellEntry
+    name: Round 5–10
+    entries:
+      - Gusts and freezing rain assail the area under the cloud. The area
+        becomes {@quickref difficult terrain||3} and is {@quickref Vision and
+        Light|PHB|2||heavily obscured}. Each creature there takes {@damage 1d6}
+        cold damage. Ranged weapon attacks in the area are impossible. The wind
+        and rain count as a severe distraction for the purposes of maintaining
+        {@status concentration} on spells. Finally, gusts of strong wind
+        (ranging from 20 to 50 miles per hour) automatically disperse fog,
+        mists, and similar phenomena in the area, whether mundane or magical.
+damage-inflict:
+  - ACID
+  - BLUDGEONING
+  - COLD
+  - LIGHTNING
+  - THUNDER
+condition-inflict:
+  - DEAFENED
+saving-throw:
+  - CONSTITUTION
+  - DEXTERITY
+misc-tags:
+  - AFFECTS_OBJECTS
+  - OBSCURES_VISION
+  - REQUIRES_SIGHT
+area-tags:
+  - CYLINDER

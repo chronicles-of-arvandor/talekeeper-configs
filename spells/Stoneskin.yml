@@ -1,0 +1,38 @@
+==: Spell
+id: 532f955e-145f-41ed-8bf0-f1354bc60c71
+name: Stoneskin
+source: PHB
+page: 278
+srd: true
+basic-rules: true
+level: 4
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithObjectMaterial
+  somatic: true
+  verbal: true
+  material:
+    ==: MaterialSpellComponent
+    text: diamond dust worth 100 gp, which the spell consumes
+    cost: 10000
+    consume: true
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: This spell turns the flesh of a willing creature you touch as hard as
+      stone. Until the spell ends, the target has resistance to nonmagical
+      bludgeoning, piercing, and slashing damage.
+area-tags:
+  - SINGLE_TARGET

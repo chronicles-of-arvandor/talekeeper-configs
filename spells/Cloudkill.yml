@@ -1,0 +1,58 @@
+==: Spell
+id: a8eb2ae3-3a78-4b42-a263-6e17def18ad3
+name: Cloudkill
+source: PHB
+page: 222
+srd: true
+level: 5
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 120
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You create a 20-foot-radius sphere of poisonous, yellow-green fog
+      centered on a point you choose within range. The fog spreads around
+      corners. It lasts for the duration or until strong wind disperses the fog,
+      ending the spell. Its area is {@quickref Vision and Light|PHB|2||heavily
+      obscured}.
+  - ==: StringSpellEntry
+    value: When a creature enters the spell's area for the first time on a turn or
+      starts its turn there, that creature must make a Constitution saving
+      throw. The creature takes {@damage 5d8} poison damage on a failed save, or
+      half as much damage on a successful one. Creatures are affected even if
+      they hold their breath or don't need to breathe.
+  - ==: StringSpellEntry
+    value: The fog moves 10 feet away from you at the start of each of your turns,
+      rolling along the surface of the ground. The vapors, being heavier than
+      air, sink to the lowest level of the land, even pouring down openings.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 6th level or higher, the
+        damage increases by {@scaledamage 5d8|5-9|1d8} for each slot level above
+        5th.
+damage-inflict:
+  - POISON
+saving-throw:
+  - CONSTITUTION
+misc-tags:
+  - OBSCURES_VISION
+area-tags:
+  - SPHERE

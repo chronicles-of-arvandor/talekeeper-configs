@@ -1,0 +1,35 @@
+==: Spell
+id: a396b60a-89ab-4f13-97f3-35b71c8b87de
+name: Aura of Vitality
+source: PHB
+page: 216
+level: 3
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: RadiusSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: Healing energy radiates from you in an aura with a 30-foot radius. Until
+      the spell ends, the aura moves with you, centered on you. You can use a
+      bonus action to cause one creature in the aura (including you) to regain
+      {@dice 2d6} hit points.
+misc-tags:
+  - HEALING
+  - USES_BONUS_ACTION
+area-tags:
+  - SPHERE

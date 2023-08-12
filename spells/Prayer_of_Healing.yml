@@ -1,0 +1,53 @@
+==: Spell
+id: f6d3e2c6-ed39-4ef7-8954-a7b41e9b9adb
+name: Prayer of Healing
+source: PHB
+page: 267
+srd: true
+basic-rules: true
+level: 2
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 10
+    unit: MINUTE
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: Up to six creatures of your choice that you can see within range each
+      regain hit points equal to {@dice 2d8} + your spellcasting ability
+      modifier. This spell has no effect on undead or constructs.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 3rd level or higher, the
+        healing increases by {@scaledice 2d8|2-9|1d8} for each slot level above
+        2nd.
+affects-creature-type:
+  - ABERRATION
+  - BEAST
+  - CELESTIAL
+  - DRAGON
+  - ELEMENTAL
+  - FEY
+  - FIEND
+  - GIANT
+  - HUMANOID
+  - MONSTROSITY
+  - OOZE
+  - PLANT
+misc-tags:
+  - HEALING
+  - REQUIRES_SIGHT
+area-tags:
+  - MULTIPLE_TARGETS

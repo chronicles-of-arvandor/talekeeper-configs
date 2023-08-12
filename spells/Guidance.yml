@@ -1,0 +1,34 @@
+==: Spell
+id: 7d2ebe9f-638a-45fe-b44d-afbb3b4cd209
+name: Guidance
+source: PHB
+page: 248
+srd: true
+basic-rules: true
+level: 0
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You touch one willing creature. Once before the spell ends, the target
+      can roll a {@dice d4} and add the number rolled to one ability check of
+      its choice. It can roll the die before or after making the ability check.
+      The spell then ends.
+area-tags:
+  - SINGLE_TARGET

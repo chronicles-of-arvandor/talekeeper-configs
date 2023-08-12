@@ -1,0 +1,42 @@
+==: Spell
+id: b820d0b8-9e9c-4ed1-bd20-baa9b0861d63
+name: Detect Evil and Good
+source: PHB
+page: 231
+srd: true
+level: 1
+school: DIVINATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: For the duration, you know if there is an aberration, celestial,
+      elemental, fey, fiend, or undead within 30 feet of you, as well as where
+      the creature is located. Similarly, you know if there is a place or object
+      within 30 feet of you that has been magically consecrated or desecrated.
+  - ==: StringSpellEntry
+    value: The spell can penetrate most barriers, but it is blocked by 1 foot of
+      stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or
+      dirt.
+affects-creature-type:
+  - ABERRATION
+  - CELESTIAL
+  - ELEMENTAL
+  - FEY
+  - FIEND
+  - UNDEAD

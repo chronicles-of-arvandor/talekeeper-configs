@@ -1,0 +1,45 @@
+==: Spell
+id: 49c2efec-4927-49f5-bc44-527a41a1ad40
+name: Plant Growth
+source: PHB
+page: 266
+srd: true
+level: 3
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+  - ==: SpellTime
+    number: 8
+    unit: HOUR
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 150
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: This spell channels vitality into plants within a specific area. There
+      are two possible uses for the spell, granting either immediate or
+      long-term benefits.
+  - ==: StringSpellEntry
+    value: If you cast this spell using 1 action, choose a point within range. All
+      normal plants in a 100-foot radius centered on that point become thick and
+      overgrown. A creature moving through the area must spend 4 feet of
+      movement for every 1 foot it moves.
+  - ==: StringSpellEntry
+    value: You can exclude one or more areas of any size within the spell's area
+      from being affected.
+  - ==: StringSpellEntry
+    value: If you cast this spell over 8 hours, you enrich the land. All plants in a
+      half-mile radius centered on a point within range become enriched for 1
+      year. The plants yield twice the normal amount of food when harvested.
+misc-tags:
+  - DIFFICULT_TERRAIN

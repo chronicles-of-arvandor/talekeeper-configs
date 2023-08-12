@@ -1,0 +1,50 @@
+==: Spell
+id: 6f317c18-3e2d-41a2-b271-6808d939f5c0
+name: Mass Heal
+source: PHB
+page: 258
+srd: true
+basic-rules: true
+level: 9
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 60
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: A flood of healing energy flows from you into injured creatures around
+      you. You restore up to 700 hit points, divided as you choose among any
+      number of creatures that you can see within range. Creatures healed by
+      this spell are also cured of all diseases and any effect making them
+      {@condition blinded} or {@condition deafened}. This spell has no effect on
+      undead or constructs.
+affects-creature-type:
+  - ABERRATION
+  - BEAST
+  - CELESTIAL
+  - DRAGON
+  - ELEMENTAL
+  - FEY
+  - FIEND
+  - GIANT
+  - HUMANOID
+  - MONSTROSITY
+  - OOZE
+  - PLANT
+misc-tags:
+  - HEALING
+  - REQUIRES_SIGHT
+area-tags:
+  - MULTIPLE_TARGETS

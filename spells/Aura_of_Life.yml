@@ -1,0 +1,36 @@
+==: Spell
+id: 15381d31-c9ca-41d3-9671-9736d6028753
+name: Aura of Life
+source: PHB
+page: 216
+level: 4
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: RadiusSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: Life-preserving energy radiates from you in an aura with a 30-foot
+      radius. Until the spell ends, the aura moves with you, centered on you.
+      Each nonhostile creature in the aura (including you) has resistance to
+      necrotic damage, and its hit point maximum can't be reduced. In addition,
+      a nonhostile, living creature regains 1 hit point when it starts its turn
+      in the aura with 0 hit points.
+misc-tags:
+  - HEALING
+area-tags:
+  - SPHERE

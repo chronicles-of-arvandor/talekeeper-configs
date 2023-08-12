@@ -1,0 +1,50 @@
+==: Spell
+id: ee52c18f-fc9a-4aae-b0d5-9b9aaaaa2812
+name: Poison Spray
+source: PHB
+page: 266
+srd: true
+basic-rules: true
+level: 0
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 10
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You extend your hand toward a creature you can see within range and
+      project a puff of noxious gas from your palm. The creature must succeed on
+      a Constitution saving throw or take {@damage 1d12} poison damage.
+  - ==: StringSpellEntry
+    value: This spell's damage increases by {@dice 1d12} when you reach 5th level
+      ({@damage 2d12}), 11th level ({@damage 3d12}), and 17th level ({@damage
+      4d12}).
+scaling-level-dice:
+  - ==: SpellScalingLevelDice
+    label: poison damage
+    scaling:
+      "1": 1d12
+      "5": 2d12
+      "11": 3d12
+      "17": 4d12
+damage-inflict:
+  - POISON
+saving-throw:
+  - CONSTITUTION
+misc-tags:
+  - SCALING_EFFECTS
+  - REQUIRES_SIGHT
+area-tags:
+  - SINGLE_TARGET

@@ -1,0 +1,36 @@
+==: Spell
+id: 9ecdb090-1452-4f46-aadd-3f75c7cfb251
+name: Mage Armor
+source: PHB
+page: 256
+srd: true
+basic-rules: true
+level: 1
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a piece of cured leather
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 8
+entries:
+  - ==: StringSpellEntry
+    value: You touch a willing creature who isn't wearing armor, and a protective
+      magical force surrounds it until the spell ends. The target's base AC
+      becomes 13 + its Dexterity modifier. The spell ends if the target dons
+      armor or if you dismiss the spell as an action.
+misc-tags:
+  - MODIFIES_AC
+area-tags:
+  - SINGLE_TARGET

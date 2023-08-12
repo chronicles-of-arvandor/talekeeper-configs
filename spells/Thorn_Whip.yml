@@ -1,0 +1,51 @@
+==: Spell
+id: cef56568-b8d2-401c-8d50-e3ac2fe25849
+name: Thorn Whip
+source: PHB
+page: 282
+level: 0
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 30
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: the stem of a plant with thorns
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: You create a long, vine-like whip covered in thorns that lashes out at
+      your command toward a creature in range. Make a melee spell attack against
+      the target. If the attack hits, the creature takes {@damage 1d6} piercing
+      damage, and if the creature is Large or smaller, you pull the creature up
+      to 10 feet closer to you.
+  - ==: StringSpellEntry
+    value: This spell's damage increases by {@dice 1d6} when you reach 5th level
+      ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage
+      4d6}).
+scaling-level-dice:
+  - ==: SpellScalingLevelDice
+    label: piercing damage
+    scaling:
+      "1": 1d6
+      "5": 2d6
+      "11": 3d6
+      "17": 4d6
+damage-inflict:
+  - PIERCING
+spell-attack:
+  - MELEE
+misc-tags:
+  - FORCED_MOVEMENT
+  - SCALING_EFFECTS
+area-tags:
+  - SINGLE_TARGET

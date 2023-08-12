@@ -1,0 +1,50 @@
+==: Spell
+id: 871d3ee2-60bd-4da6-b80d-e0189bfca8e4
+name: Incendiary Cloud
+source: PHB
+page: 253
+srd: true
+level: 8
+school: CONJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 150
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: A swirling cloud of smoke shot through with white-hot embers appears in a
+      20-foot-radius sphere centered on a point within range. The cloud spreads
+      around corners and is {@quickref Vision and Light|PHB|2||heavily
+      obscured}. It lasts for the duration or until a wind of moderate or
+      greater speed (at least 10 miles per hour) disperses it.
+  - ==: StringSpellEntry
+    value: When the cloud appears, each creature in it must make a Dexterity saving
+      throw. A creature takes {@damage 10d8} fire damage on a failed save, or
+      half as much damage on a successful one. A creature must also make this
+      saving throw when it enters the spell's area for the first time on a turn
+      or ends its turn there.
+  - ==: StringSpellEntry
+    value: The cloud moves 10 feet directly away from you in a direction that you
+      choose at the start of each of your turns.
+damage-inflict:
+  - FIRE
+saving-throw:
+  - DEXTERITY
+misc-tags:
+  - OBSCURES_VISION
+area-tags:
+  - SPHERE

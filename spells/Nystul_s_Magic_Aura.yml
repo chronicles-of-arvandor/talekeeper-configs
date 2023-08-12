@@ -1,0 +1,59 @@
+==: Spell
+id: 45721f96-1662-4fe7-ac36-5e287c1bd42e
+name: Nystul's Magic Aura
+source: PHB
+page: 263
+srd: Arcanist's Magic Aura
+level: 2
+school: ILLUSION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a small square of silk
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 24
+entries:
+  - ==: StringSpellEntry
+    value: You place an illusion on a creature or an object you touch so that
+      divination spells reveal false information about it. The target can be a
+      willing creature or an object that isn't being carried or worn by another
+      creature.
+  - ==: StringSpellEntry
+    value: When you cast the spell, choose one or both of the following effects. The
+      effect lasts for the duration. If you cast this spell on the same creature
+      or object every day for 30 days, placing the same effect on it each time,
+      the illusion lasts until it is dispelled.
+  - ==: EntriesSpellEntry
+    name: False Aura
+    entries:
+      - You change the way the target appears to spells and magical effects,
+        such as {@spell detect magic}, that detect magical auras. You can make a
+        nonmagical object appear magical, a magical object appear nonmagical, or
+        change the object's magical aura so that it appears to belong to a
+        specific school of magic that you choose. When you use this effect on an
+        object, you can make the false magic apparent to any creature that
+        handles the item.
+  - ==: EntriesSpellEntry
+    name: Mask
+    entries:
+      - You change the way the target appears to spells and magical effects that
+        detect creature types, such as a paladin's {@classFeature Divine
+        Sense|Paladin|PHB|1} or the trigger of a {@spell symbol} spell. You
+        choose a creature type and other spells and magical effects treat the
+        target as if it were a creature of that type or of that alignment.
+misc-tags:
+  - AFFECTS_OBJECTS
+  - PERMANENT_EFFECTS
+area-tags:
+  - SINGLE_TARGET

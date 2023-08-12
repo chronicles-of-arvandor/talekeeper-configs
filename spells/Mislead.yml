@@ -1,0 +1,45 @@
+==: Spell
+id: ae9e040e-bd3e-40d2-8c8e-7ddde715f50e
+name: Mislead
+source: PHB
+page: 260
+srd: true
+level: 5
+school: ILLUSION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: HOUR
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You become {@condition invisible} at the same time that an illusory
+      double of you appears where you are standing. The double lasts for the
+      duration, but the invisibility ends if you attack or cast a spell.
+  - ==: StringSpellEntry
+    value: You can use your action to move your illusory double up to twice your
+      speed and make it gesture, speak, and behave in whatever way you choose.
+  - ==: StringSpellEntry
+    value: You can see through its eyes and hear through its ears as if you were
+      located where it is. On each of your turns as a bonus action, you can
+      switch from using its senses to using your own, or back again. While you
+      are using its senses, you are {@condition blinded} and {@condition
+      deafened} in regard to your own surroundings.
+condition-inflict:
+  - BLINDED
+  - DEAFENED
+  - INVISIBLE
+misc-tags:
+  - REQUIRES_SIGHT
+  - USES_BONUS_ACTION

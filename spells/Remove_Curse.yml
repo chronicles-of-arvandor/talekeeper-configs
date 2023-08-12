@@ -1,0 +1,32 @@
+==: Spell
+id: 49965bda-f8d5-45df-a6c2-f9754f41740b
+name: Remove Curse
+source: PHB
+page: 271
+srd: true
+basic-rules: true
+level: 3
+school: ABJURATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: InstantSpellDuration
+entries:
+  - ==: StringSpellEntry
+    value: At your touch, all curses affecting one creature or object end. If the
+      object is a cursed magic item, its curse remains, but the spell breaks its
+      owner's attunement to the object so it can be removed or discarded.
+misc-tags:
+  - AFFECTS_OBJECTS
+area-tags:
+  - SINGLE_TARGET

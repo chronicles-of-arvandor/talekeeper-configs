@@ -1,0 +1,37 @@
+==: Spell
+id: c999254e-265a-41c4-9f7b-858fb4ae1de4
+name: Staggering Smite
+source: PHB
+page: 278
+level: 4
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: BONUS
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceSelf
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 1
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: The next time you hit a creature with a melee weapon attack during this
+      spell's duration, your weapon pierces both body and mind, and the attack
+      deals an extra {@damage 4d6} psychic damage to the target. The target must
+      make a Wisdom saving throw. On a failed save, it has disadvantage on
+      attack rolls and ability checks, and can't take reactions, until the end
+      of its next turn.
+damage-inflict:
+  - PSYCHIC
+saving-throw:
+  - WISDOM
+misc-tags:
+  - ADDITIONAL_ATTACK_DAMAGE

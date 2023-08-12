@@ -1,0 +1,40 @@
+==: Spell
+id: c3a736f7-df60-4ee7-8aa1-8f9dd4723934
+name: Fly
+source: PHB
+page: 243
+srd: true
+basic-rules: true
+level: 3
+school: TRANSMUTATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceTouch
+components:
+  ==: SpellComponentsWithStringMaterial
+  somatic: true
+  verbal: true
+  material: a wing feather from any bird
+duration:
+  - ==: TimedSpellDuration
+    type: MINUTE
+    amount: 10
+    concentration: true
+entries:
+  - ==: StringSpellEntry
+    value: You touch a willing creature. The target gains a flying speed of 60 feet
+      for the duration. When the spell ends, the target falls if it is still
+      aloft, unless it can stop the fall.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 4th level or higher, you
+        can target one additional creature for each slot level above 3rd.
+area-tags:
+  - SINGLE_TARGET

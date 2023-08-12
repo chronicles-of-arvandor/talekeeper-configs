@@ -1,0 +1,46 @@
+==: Spell
+id: 34f64241-0364-4287-b603-835a269235ff
+name: Guiding Bolt
+source: PHB
+page: 248
+srd: true
+basic-rules: true
+level: 1
+school: EVOCATION
+time:
+  - ==: SpellTime
+    number: 1
+    unit: ACTION
+range:
+  ==: PointSpellRange
+  distance:
+    ==: SpellRangeDistanceFeet
+    amount: 120
+components:
+  ==: SpellComponentsWithNoMaterial
+  somatic: true
+  verbal: true
+duration:
+  - ==: TimedSpellDuration
+    type: ROUND
+    amount: 1
+entries:
+  - ==: StringSpellEntry
+    value: A flash of light streaks toward a creature of your choice within range.
+      Make a ranged spell attack against the target. On a hit, the target takes
+      {@damage 4d6} radiant damage, and the next attack roll made against this
+      target before the end of your next turn has advantage, thanks to the
+      mystical dim light glittering on the target until then.
+entries-higher-level:
+  - ==: EntriesSpellEntry
+    name: At Higher Levels
+    entries:
+      - When you cast this spell using a spell slot of 2nd level or higher, the
+        damage increases by {@scaledamage 4d6|1-9|1d6} for each slot level above
+        1st.
+damage-inflict:
+  - RADIANT
+spell-attack:
+  - RANGED
+area-tags:
+  - SINGLE_TARGET
