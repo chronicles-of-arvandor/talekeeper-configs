@@ -1,53 +1,54 @@
-==: Spell
-id: 6e16b85f-8864-4529-85a5-16a7695e2d97
-name: Chromatic Orb
-source: PHB
-page: 221
-level: 1
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 90
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: a diamond worth at least 50 gp
-    cost: 5000
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You hurl a 4-inch-diameter sphere of energy at a creature that you can
-      see within range. You choose acid, cold, fire, lightning, poison, or
-      thunder for the type of orb you create, and then make a ranged spell
-      attack against the target. If the attack hits, the creature takes {@damage
-      3d8} damage of the type you chose.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, the
-        damage increases by {@scaledamage 3d8|1-9|1d8} for each slot level above
-        1st.
-damage-inflict:
-  - ACID
-  - COLD
-  - FIRE
-  - LIGHTNING
-  - POISON
-  - THUNDER
-spell-attack:
-  - RANGED
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 8226d46a-2eeb-40cb-88d5-87881ae81928
+  name: Chromatic Orb
+  source: PHB
+  page: 221
+  level: 1
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 90
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: a diamond worth at least 50 gp
+      cost: 5000
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You hurl a 4-inch-diameter sphere of energy at a creature that you can
+        see within range. You choose acid, cold, fire, lightning, poison, or
+        thunder for the type of orb you create, and then make a ranged spell
+        attack against the target. If the attack hits, the creature takes
+        {@damage 3d8} damage of the type you chose.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          the damage increases by {@scaledamage 3d8|1-9|1d8} for each slot level
+          above 1st.
+  damage-inflict:
+    - ACID
+    - COLD
+    - FIRE
+    - LIGHTNING
+    - POISON
+    - THUNDER
+  spell-attack:
+    - RANGED
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

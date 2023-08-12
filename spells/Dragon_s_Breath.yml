@@ -1,52 +1,53 @@
-==: Spell
-id: 6454661f-7641-4388-894e-cc3e2fbe433b
-name: Dragon's Breath
-source: XGE
-page: 154
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a hot pepper
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You touch one willing creature and imbue it with the power to spew
-      magical energy from its mouth, provided it has one. Choose acid, cold,
-      fire, lightning, or poison. Until the spell ends, the creature can use an
-      action to exhale energy of the chosen type in a 15-foot cone. Each
-      creature in that area must make a Dexterity saving throw, taking {@damage
-      3d6} damage of the chosen type on a failed save, or half as much damage on
-      a successful one.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above
-        2nd.
-damage-inflict:
-  - ACID
-  - COLD
-  - FIRE
-  - LIGHTNING
-  - POISON
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - SINGLE_TARGET
-  - CONE
+spell:
+  ==: Spell
+  id: 8c86dcd8-b098-4432-8380-62afe7d7fa2f
+  name: Dragon's Breath
+  source: XGE
+  page: 154
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a hot pepper
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You touch one willing creature and imbue it with the power to spew
+        magical energy from its mouth, provided it has one. Choose acid, cold,
+        fire, lightning, or poison. Until the spell ends, the creature can use
+        an action to exhale energy of the chosen type in a 15-foot cone. Each
+        creature in that area must make a Dexterity saving throw, taking
+        {@damage 3d6} damage of the chosen type on a failed save, or half as
+        much damage on a successful one.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level
+          above 2nd.
+  damage-inflict:
+    - ACID
+    - COLD
+    - FIRE
+    - LIGHTNING
+    - POISON
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - SINGLE_TARGET
+    - CONE

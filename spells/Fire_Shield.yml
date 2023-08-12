@@ -1,44 +1,45 @@
-==: Spell
-id: d37c91c4-59f7-44e7-8e30-8cd1cfc1db72
-name: Fire Shield
-source: PHB
-page: 242
-srd: true
-level: 4
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a bit of phosphorus or a firefly
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-entries:
-  - ==: StringSpellEntry
-    value: Thin and wispy flames wreathe your body for the duration, shedding bright
-      light in a 10-foot radius and dim light for an additional 10 feet. You can
-      end the spell early by using an action to dismiss it.
-  - ==: StringSpellEntry
-    value: The flames provide you with a warm shield or a chill shield, as you
-      choose. The warm shield grants you resistance to cold damage, and the
-      chill shield grants you resistance to fire damage.
-  - ==: StringSpellEntry
-    value: In addition, whenever a creature within 5 feet of you hits you with a
-      melee attack, the shield erupts with flame. The attacker takes {@damage
-      2d8} fire damage from a warm shield, or {@damage 2d8} cold damage from a
-      cold shield.
-damage-inflict:
-  - COLD
-  - FIRE
-misc-tags:
-  - CREATES_LIGHT
+spell:
+  ==: Spell
+  id: c486cd7e-2bec-4ee6-b8cb-7e57ed734029
+  name: Fire Shield
+  source: PHB
+  page: 242
+  srd: true
+  level: 4
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a bit of phosphorus or a firefly
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+  entries:
+    - ==: StringSpellEntry
+      value: Thin and wispy flames wreathe your body for the duration, shedding bright
+        light in a 10-foot radius and dim light for an additional 10 feet. You
+        can end the spell early by using an action to dismiss it.
+    - ==: StringSpellEntry
+      value: The flames provide you with a warm shield or a chill shield, as you
+        choose. The warm shield grants you resistance to cold damage, and the
+        chill shield grants you resistance to fire damage.
+    - ==: StringSpellEntry
+      value: In addition, whenever a creature within 5 feet of you hits you with a
+        melee attack, the shield erupts with flame. The attacker takes {@damage
+        2d8} fire damage from a warm shield, or {@damage 2d8} cold damage from a
+        cold shield.
+  damage-inflict:
+    - COLD
+    - FIRE
+  misc-tags:
+    - CREATES_LIGHT

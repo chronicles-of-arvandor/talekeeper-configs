@@ -1,48 +1,49 @@
-==: Spell
-id: f0d2fa63-c39f-4b64-9651-4fe40bc67dd8
-name: Gaseous Form
-source: PHB
-page: 244
-srd: true
-level: 3
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a bit of gauze and a wisp of smoke
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You transform a willing creature you touch, along with everything it's
-      wearing and carrying, into a misty cloud for the duration. The spell ends
-      if the creature drops to 0 hit points. An incorporeal creature isn't
-      affected.
-  - ==: StringSpellEntry
-    value: While in this form, the target's only method of movement is a flying
-      speed of 10 feet. The target can enter and occupy the space of another
-      creature. The target has resistance to nonmagical damage, and it has
-      advantage on Strength, Dexterity, and Constitution saving throws. The
-      target can pass through small holes, narrow openings, and even mere
-      cracks, though it treats liquids as though they were solid surfaces. The
-      target can't fall and remains hovering in the air even when {@condition
-      stunned} or otherwise {@condition incapacitated}.
-  - ==: StringSpellEntry
-    value: While in the form of a misty cloud, the target can't talk or manipulate
-      objects, and any objects it was carrying or holding can't be dropped,
-      used, or otherwise interacted with. The target can't attack or cast
-      spells.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 9c1ae274-8b46-43e1-8be0-b52cd0e15ca0
+  name: Gaseous Form
+  source: PHB
+  page: 244
+  srd: true
+  level: 3
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a bit of gauze and a wisp of smoke
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You transform a willing creature you touch, along with everything it's
+        wearing and carrying, into a misty cloud for the duration. The spell
+        ends if the creature drops to 0 hit points. An incorporeal creature
+        isn't affected.
+    - ==: StringSpellEntry
+      value: While in this form, the target's only method of movement is a flying
+        speed of 10 feet. The target can enter and occupy the space of another
+        creature. The target has resistance to nonmagical damage, and it has
+        advantage on Strength, Dexterity, and Constitution saving throws. The
+        target can pass through small holes, narrow openings, and even mere
+        cracks, though it treats liquids as though they were solid surfaces. The
+        target can't fall and remains hovering in the air even when {@condition
+        stunned} or otherwise {@condition incapacitated}.
+    - ==: StringSpellEntry
+      value: While in the form of a misty cloud, the target can't talk or manipulate
+        objects, and any objects it was carrying or holding can't be dropped,
+        used, or otherwise interacted with. The target can't attack or cast
+        spells.
+  area-tags:
+    - SINGLE_TARGET

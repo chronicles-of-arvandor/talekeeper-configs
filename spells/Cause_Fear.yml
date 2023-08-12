@@ -1,60 +1,62 @@
-==: Spell
-id: cda27bfa-6f4d-4814-85b4-aa088d2e17c5
-name: Cause Fear
-source: XGE
-page: 151
-level: 1
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You awaken the sense of mortality in one creature you can see within
-      range. A construct or an undead is immune to this effect. The target must
-      succeed on a Wisdom saving throw or become {@condition frightened} of you
-      until the spell ends. The {@condition frightened} target can repeat the
-      saving throw at the end of each of its turns, ending the effect on itself
-      on a success.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, you
-        can target one additional creature for each slot level above 1st. The
-        creatures must be within 30 feet of each other when you target them.
-condition-inflict:
-  - FRIGHTENED
-saving-throw:
-  - WISDOM
-affects-creature-type:
-  - ABERRATION
-  - BEAST
-  - CELESTIAL
-  - DRAGON
-  - ELEMENTAL
-  - FEY
-  - FIEND
-  - GIANT
-  - HUMANOID
-  - MONSTROSITY
-  - OOZE
-  - PLANT
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 5bb61c30-9424-40f5-8fff-39abdb84e163
+  name: Cause Fear
+  source: XGE
+  page: 151
+  level: 1
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You awaken the sense of mortality in one creature you can see within
+        range. A construct or an undead is immune to this effect. The target
+        must succeed on a Wisdom saving throw or become {@condition frightened}
+        of you until the spell ends. The {@condition frightened} target can
+        repeat the saving throw at the end of each of its turns, ending the
+        effect on itself on a success.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          you can target one additional creature for each slot level above 1st.
+          The creatures must be within 30 feet of each other when you target
+          them.
+  condition-inflict:
+    - FRIGHTENED
+  saving-throw:
+    - WISDOM
+  affects-creature-type:
+    - ABERRATION
+    - BEAST
+    - CELESTIAL
+    - DRAGON
+    - ELEMENTAL
+    - FEY
+    - FIEND
+    - GIANT
+    - HUMANOID
+    - MONSTROSITY
+    - OOZE
+    - PLANT
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

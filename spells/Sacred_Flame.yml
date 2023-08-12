@@ -1,51 +1,52 @@
-==: Spell
-id: 242c94e8-3dc2-44fb-9486-14fdebe2ace8
-name: Sacred Flame
-source: PHB
-page: 272
-srd: true
-basic-rules: true
-level: 0
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: Flame-like radiance descends on a creature that you can see within range.
-      The target must succeed on a Dexterity saving throw or take {@damage 1d8}
-      radiant damage. The target gains no benefit from cover for this saving
-      throw.
-  - ==: StringSpellEntry
-    value: The spell's damage increases by {@dice 1d8} when you reach 5th level
-      ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage
-      4d8}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: radiant damage
-    scaling:
-      "1": 1d8
-      "5": 2d8
-      "11": 3d8
-      "17": 4d8
-damage-inflict:
-  - RADIANT
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - SCALING_EFFECTS
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 4d95c6f1-0610-4bac-a068-278fbdada345
+  name: Sacred Flame
+  source: PHB
+  page: 272
+  srd: true
+  basic-rules: true
+  level: 0
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: Flame-like radiance descends on a creature that you can see within range.
+        The target must succeed on a Dexterity saving throw or take {@damage
+        1d8} radiant damage. The target gains no benefit from cover for this
+        saving throw.
+    - ==: StringSpellEntry
+      value: The spell's damage increases by {@dice 1d8} when you reach 5th level
+        ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage
+        4d8}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: radiant damage
+      scaling:
+        "1": 1d8
+        "5": 2d8
+        "11": 3d8
+        "17": 4d8
+  damage-inflict:
+    - RADIANT
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - SCALING_EFFECTS
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

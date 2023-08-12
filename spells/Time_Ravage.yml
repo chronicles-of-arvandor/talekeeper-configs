@@ -1,48 +1,49 @@
-==: Spell
-id: f8ab689b-f68b-44ea-9558-e012007e7493
-name: Time Ravage
-source: EGW
-page: 189
-level: 9
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 90
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: an hourglass filled with diamond dust worth at least 5,000 gp, which the
-      spell consumes
-    cost: 500000
-    consume: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You target a creature you can see within range, putting its physical form
-      through the devastation of rapid aging. The target must make a
-      Constitution saving throw, taking {@damage 10d12} necrotic damage on a
-      failed save, or half as much damage on a successful one. If the save
-      fails, the target also ages to the point where it has only 30 days left
-      before it dies of old age. In this aged state, the target has disadvantage
-      on attack rolls, ability checks, and saving throws, and its walking speed
-      is halved. Only the {@spell wish} spell or the {@spell greater
-      restoration} cast with a 9th-level spell slot can end these effects and
-      restore the target to its previous age.
-damage-inflict:
-  - NECROTIC
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 7ce97ded-77a9-40c4-8ace-e6c842511bc0
+  name: Time Ravage
+  source: EGW
+  page: 189
+  level: 9
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 90
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: an hourglass filled with diamond dust worth at least 5,000 gp, which the
+        spell consumes
+      cost: 500000
+      consume: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You target a creature you can see within range, putting its physical form
+        through the devastation of rapid aging. The target must make a
+        Constitution saving throw, taking {@damage 10d12} necrotic damage on a
+        failed save, or half as much damage on a successful one. If the save
+        fails, the target also ages to the point where it has only 30 days left
+        before it dies of old age. In this aged state, the target has
+        disadvantage on attack rolls, ability checks, and saving throws, and its
+        walking speed is halved. Only the {@spell wish} spell or the {@spell
+        greater restoration} cast with a 9th-level spell slot can end these
+        effects and restore the target to its previous age.
+  damage-inflict:
+    - NECROTIC
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

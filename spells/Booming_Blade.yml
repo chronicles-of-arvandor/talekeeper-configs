@@ -1,63 +1,64 @@
-==: Spell
-id: 5871adf0-75e5-47d2-8abf-7d5eba69f733
-name: Booming Blade
-source: TCE
-page: 106
-level: 0
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: RadiusSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 5
-components:
-  ==: SpellComponentsWithObjectMaterial
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: a melee weapon worth at least 1 sp
-    cost: 10
-duration:
-  - ==: TimedSpellDuration
-    type: ROUND
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You brandish the weapon used in the spell's casting and make a melee
-      attack with it against one creature within 5 feet of you. On a hit, the
-      target suffers the weapon attack's normal effects and then becomes
-      sheathed in booming energy until the start of your next turn. If the
-      target willingly moves 5 feet or more before then, the target takes
-      {@damage 1d8} thunder damage, and the spell ends.
-  - ==: StringSpellEntry
-    value: This spell's damage increases when you reach certain levels. At 5th
-      level, the melee attack deals an extra {@damage 1d8} thunder damage to the
-      target on a hit, and the damage the target takes for moving increases to
-      {@damage 2d8}. Both damage rolls increase by 1d8 at 11th level ({@damage
-      2d8} and {@damage 3d8}) and again at 17th level ({@damage 3d8} and
-      {@damage 4d8}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: thunder damage on moving
-    scaling:
-      "1": 1d8
-      "5": 2d8
-      "11": 3d8
-      "17": 4d8
-  - ==: SpellScalingLevelDice
-    label: thunder damage on hit
-    scaling:
-      "5": 1d8
-      "11": 2d8
-      "17": 3d8
-damage-inflict:
-  - THUNDER
-misc-tags:
-  - ADDITIONAL_ATTACK_DAMAGE
-  - SCALING_EFFECTS
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: ad1f922e-c669-4d31-be04-5872205509ea
+  name: Booming Blade
+  source: TCE
+  page: 106
+  level: 0
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: RadiusSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 5
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: a melee weapon worth at least 1 sp
+      cost: 10
+  duration:
+    - ==: TimedSpellDuration
+      type: ROUND
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You brandish the weapon used in the spell's casting and make a melee
+        attack with it against one creature within 5 feet of you. On a hit, the
+        target suffers the weapon attack's normal effects and then becomes
+        sheathed in booming energy until the start of your next turn. If the
+        target willingly moves 5 feet or more before then, the target takes
+        {@damage 1d8} thunder damage, and the spell ends.
+    - ==: StringSpellEntry
+      value: This spell's damage increases when you reach certain levels. At 5th
+        level, the melee attack deals an extra {@damage 1d8} thunder damage to
+        the target on a hit, and the damage the target takes for moving
+        increases to {@damage 2d8}. Both damage rolls increase by 1d8 at 11th
+        level ({@damage 2d8} and {@damage 3d8}) and again at 17th level
+        ({@damage 3d8} and {@damage 4d8}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: thunder damage on moving
+      scaling:
+        "1": 1d8
+        "5": 2d8
+        "11": 3d8
+        "17": 4d8
+    - ==: SpellScalingLevelDice
+      label: thunder damage on hit
+      scaling:
+        "5": 1d8
+        "11": 2d8
+        "17": 3d8
+  damage-inflict:
+    - THUNDER
+  misc-tags:
+    - ADDITIONAL_ATTACK_DAMAGE
+    - SCALING_EFFECTS
+  area-tags:
+    - SINGLE_TARGET

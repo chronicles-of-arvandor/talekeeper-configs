@@ -1,38 +1,39 @@
-==: Spell
-id: 3aceda4a-8e1a-4b45-a570-0dbb168a2a39
-name: Water Breathing
-source: PHB
-page: 287
-srd: true
-level: 3
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a short reed or piece of straw
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 24
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: This spell grants up to ten willing creatures you can see within range
-      the ability to breathe underwater until the spell ends. Affected creatures
-      also retain their normal mode of respiration.
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - MULTIPLE_TARGETS
+spell:
+  ==: Spell
+  id: 28d8a11d-eb6a-4eeb-b0dd-a3207ffe9643
+  name: Water Breathing
+  source: PHB
+  page: 287
+  srd: true
+  level: 3
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a short reed or piece of straw
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 24
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: This spell grants up to ten willing creatures you can see within range
+        the ability to breathe underwater until the spell ends. Affected
+        creatures also retain their normal mode of respiration.
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - MULTIPLE_TARGETS

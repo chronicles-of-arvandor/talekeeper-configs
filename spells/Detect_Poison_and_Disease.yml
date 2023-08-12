@@ -1,38 +1,40 @@
-==: Spell
-id: 6b1ccd4d-2a7b-4ae3-b029-f640de7cb133
-name: Detect Poison and Disease
-source: PHB
-page: 231
-srd: true
-level: 1
-school: DIVINATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a yew leaf
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: For the duration, you can sense the presence and location of poisons,
-      poisonous creatures, and diseases within 30 feet of you. You also identify
-      the kind of poison, poisonous creature, or disease in each case.
-  - ==: StringSpellEntry
-    value: The spell can penetrate most barriers, but it is blocked by 1 foot of
-      stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or
-      dirt.
+spell:
+  ==: Spell
+  id: 742808f5-27de-4a43-87a1-b7c9bf1b7379
+  name: Detect Poison and Disease
+  source: PHB
+  page: 231
+  srd: true
+  level: 1
+  school: DIVINATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a yew leaf
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: For the duration, you can sense the presence and location of poisons,
+        poisonous creatures, and diseases within 30 feet of you. You also
+        identify the kind of poison, poisonous creature, or disease in each
+        case.
+    - ==: StringSpellEntry
+      value: The spell can penetrate most barriers, but it is blocked by 1 foot of
+        stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood
+        or dirt.

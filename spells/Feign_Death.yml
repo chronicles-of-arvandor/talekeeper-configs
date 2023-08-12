@@ -1,45 +1,46 @@
-==: Spell
-id: f0b3a7a5-8935-4aec-a3c9-9960968859ba
-name: Feign Death
-source: PHB
-page: 240
-level: 3
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a pinch of graveyard dirt
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: You touch a willing creature and put it into a cataleptic state that is
-      indistinguishable from death.
-  - ==: StringSpellEntry
-    value: For the spell's duration, or until you use an action to touch the target
-      and dismiss the spell, the target appears dead to all outward inspection
-      and to spells used to determine the target's status. The target is
-      {@condition blinded} and {@condition incapacitated}, and its speed drops
-      to 0. The target has resistance to all damage except psychic damage. If
-      the target is diseased or {@condition poisoned} when you cast the spell,
-      or becomes diseased or {@condition poisoned} while under the spell's
-      effect, the disease and poison have no effect until the spell ends.
-condition-inflict:
-  - BLINDED
-  - INCAPACITATED
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 590edc63-e101-41c0-ab3f-aced1b56db2d
+  name: Feign Death
+  source: PHB
+  page: 240
+  level: 3
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a pinch of graveyard dirt
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a willing creature and put it into a cataleptic state that is
+        indistinguishable from death.
+    - ==: StringSpellEntry
+      value: For the spell's duration, or until you use an action to touch the target
+        and dismiss the spell, the target appears dead to all outward inspection
+        and to spells used to determine the target's status. The target is
+        {@condition blinded} and {@condition incapacitated}, and its speed drops
+        to 0. The target has resistance to all damage except psychic damage. If
+        the target is diseased or {@condition poisoned} when you cast the spell,
+        or becomes diseased or {@condition poisoned} while under the spell's
+        effect, the disease and poison have no effect until the spell ends.
+  condition-inflict:
+    - BLINDED
+    - INCAPACITATED
+  area-tags:
+    - SINGLE_TARGET

@@ -1,60 +1,61 @@
-==: Spell
-id: dc5e0579-e7fe-4c72-ae78-d17f28aea44f
-name: Web
-source: PHB
-page: 287
-srd: true
-basic-rules: true
-level: 2
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a bit of spiderweb
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You conjure a mass of thick, sticky webbing at a point of your choice
-      within range. The webs fill a 20-foot cube from that point for the
-      duration. The webs are {@quickref difficult terrain||3} and lightly
-      obscure their area.
-  - ==: StringSpellEntry
-    value: If the webs aren't anchored between two solid masses (such as walls or
-      trees) or layered across a floor, wall, or ceiling, the conjured web
-      collapses on itself, and the spell ends at the start of your next turn.
-      Webs layered over a flat surface have a depth of 5 feet.
-  - ==: StringSpellEntry
-    value: Each creature that starts its turn in the webs or that enters them during
-      its turn must make a Dexterity saving throw. On a failed save, the
-      creature is {@condition restrained} as long as it remains in the webs or
-      until it breaks free.
-  - ==: StringSpellEntry
-    value: A creature {@condition restrained} by the webs can use its action to make
-      a Strength check against your spell save DC. If it succeeds, it is no
-      longer {@condition restrained}.
-  - ==: StringSpellEntry
-    value: The webs are flammable. Any 5-foot cube of webs exposed to fire burns
-      away in 1 round, dealing {@damage 2d4} fire damage to any creature that
-      starts its turn in the fire.
-damage-inflict:
-  - FIRE
-condition-inflict:
-  - RESTRAINED
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - CUBE
+spell:
+  ==: Spell
+  id: c8719534-aa13-41d5-96d4-6ebaf93031a1
+  name: Web
+  source: PHB
+  page: 287
+  srd: true
+  basic-rules: true
+  level: 2
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a bit of spiderweb
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You conjure a mass of thick, sticky webbing at a point of your choice
+        within range. The webs fill a 20-foot cube from that point for the
+        duration. The webs are {@quickref difficult terrain||3} and lightly
+        obscure their area.
+    - ==: StringSpellEntry
+      value: If the webs aren't anchored between two solid masses (such as walls or
+        trees) or layered across a floor, wall, or ceiling, the conjured web
+        collapses on itself, and the spell ends at the start of your next turn.
+        Webs layered over a flat surface have a depth of 5 feet.
+    - ==: StringSpellEntry
+      value: Each creature that starts its turn in the webs or that enters them during
+        its turn must make a Dexterity saving throw. On a failed save, the
+        creature is {@condition restrained} as long as it remains in the webs or
+        until it breaks free.
+    - ==: StringSpellEntry
+      value: A creature {@condition restrained} by the webs can use its action to make
+        a Strength check against your spell save DC. If it succeeds, it is no
+        longer {@condition restrained}.
+    - ==: StringSpellEntry
+      value: The webs are flammable. Any 5-foot cube of webs exposed to fire burns
+        away in 1 round, dealing {@damage 2d4} fire damage to any creature that
+        starts its turn in the fire.
+  damage-inflict:
+    - FIRE
+  condition-inflict:
+    - RESTRAINED
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - CUBE

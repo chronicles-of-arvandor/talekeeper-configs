@@ -1,50 +1,51 @@
-==: Spell
-id: 6523a1c4-c67d-4d45-bed3-9b28b4afd37c
-name: Shocking Grasp
-source: PHB
-page: 275
-srd: true
-basic-rules: true
-level: 0
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: Lightning springs from your hand to deliver a shock to a creature you try
-      to touch. Make a melee spell attack against the target. You have advantage
-      on the attack roll if the target is wearing armor made of metal. On a hit,
-      the target takes {@damage 1d8} lightning damage, and it can't take
-      reactions until the start of its next turn.
-  - ==: StringSpellEntry
-    value: The spell's damage increases by {@dice 1d8} when you reach 5th level
-      ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage
-      4d8}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: lightning damage
-    scaling:
-      "1": 1d8
-      "5": 2d8
-      "11": 3d8
-      "17": 4d8
-damage-inflict:
-  - LIGHTNING
-spell-attack:
-  - MELEE
-misc-tags:
-  - SCALING_EFFECTS
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 9f0f287f-b336-4cbb-8d1d-68257a3af55d
+  name: Shocking Grasp
+  source: PHB
+  page: 275
+  srd: true
+  basic-rules: true
+  level: 0
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: Lightning springs from your hand to deliver a shock to a creature you try
+        to touch. Make a melee spell attack against the target. You have
+        advantage on the attack roll if the target is wearing armor made of
+        metal. On a hit, the target takes {@damage 1d8} lightning damage, and it
+        can't take reactions until the start of its next turn.
+    - ==: StringSpellEntry
+      value: The spell's damage increases by {@dice 1d8} when you reach 5th level
+        ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage
+        4d8}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: lightning damage
+      scaling:
+        "1": 1d8
+        "5": 2d8
+        "11": 3d8
+        "17": 4d8
+  damage-inflict:
+    - LIGHTNING
+  spell-attack:
+    - MELEE
+  misc-tags:
+    - SCALING_EFFECTS
+  area-tags:
+    - SINGLE_TARGET

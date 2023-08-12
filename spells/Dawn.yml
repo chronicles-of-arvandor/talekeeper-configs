@@ -1,51 +1,52 @@
-==: Spell
-id: da828551-9614-4fcd-8ab5-0d50203fa385
-name: Dawn
-source: XGE
-page: 153
-level: 5
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: a sunburst pendant worth at least 100 gp
-    cost: 10000
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: The light of dawn shines down on a location you specify within range.
-      Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright
-      light glimmers there. This light is sunlight.
-  - ==: StringSpellEntry
-    value: When the cylinder appears, each creature in it must make a Constitution
-      saving throw, taking {@damage 4d10} radiant damage on a failed save, or
-      half as much damage on a successful one. A creature must also make this
-      saving throw whenever it ends its turn in the cylinder.
-  - ==: StringSpellEntry
-    value: If you're within 60 feet of the cylinder, you can move it up to 60 feet
-      as a bonus action on your turn.
-damage-inflict:
-  - RADIANT
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - CREATES_SUNLIGHT
-  - USES_BONUS_ACTION
-area-tags:
-  - CYLINDER
+spell:
+  ==: Spell
+  id: 5859a2f6-3b3d-4579-8634-6d8955b149b6
+  name: Dawn
+  source: XGE
+  page: 153
+  level: 5
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: a sunburst pendant worth at least 100 gp
+      cost: 10000
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: The light of dawn shines down on a location you specify within range.
+        Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright
+        light glimmers there. This light is sunlight.
+    - ==: StringSpellEntry
+      value: When the cylinder appears, each creature in it must make a Constitution
+        saving throw, taking {@damage 4d10} radiant damage on a failed save, or
+        half as much damage on a successful one. A creature must also make this
+        saving throw whenever it ends its turn in the cylinder.
+    - ==: StringSpellEntry
+      value: If you're within 60 feet of the cylinder, you can move it up to 60 feet
+        as a bonus action on your turn.
+  damage-inflict:
+    - RADIANT
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - CREATES_SUNLIGHT
+    - USES_BONUS_ACTION
+  area-tags:
+    - CYLINDER

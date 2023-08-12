@@ -1,52 +1,53 @@
-==: Spell
-id: dd9cae1c-6d4e-4cb6-8711-aed88dcbb8aa
-name: Drawmij's Instant Summons
-source: PHB
-page: 235
-srd: Instant Summons
-level: 6
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: MINUTE
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: a sapphire worth 1,000 gp
-    cost: 100000
-duration:
-  - ==: PermanentSpellDuration
-    ends:
-      - DISPEL
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: You touch an object weighing 10 pounds or less whose longest dimension is
-      6 feet or less. The spell leaves an invisible mark on its surface and
-      invisibly inscribes the name of the item on the sapphire you use as the
-      material component. Each time you cast this spell, you must use a
-      different sapphire.
-  - ==: StringSpellEntry
-    value: At any time thereafter, you can use your action to speak the item's name
-      and crush the sapphire. The item instantly appears in your hand regardless
-      of physical or planar distances, and the spell ends.
-  - ==: StringSpellEntry
-    value: If another creature is holding or carrying the item, crushing the
-      sapphire doesn't transport the item to you, but instead you learn who the
-      creature possessing the object is and roughly where that creature is
-      located at that moment.
-  - ==: StringSpellEntry
-    value: "{@spell Dispel magic} or a similar effect successfully applied to the
-      sapphire ends this spell's effect."
-misc-tags:
-  - AFFECTS_OBJECTS
+spell:
+  ==: Spell
+  id: 569810f8-8a42-4f67-9ca8-a73c2a22d425
+  name: Drawmij's Instant Summons
+  source: PHB
+  page: 235
+  srd: Instant Summons
+  level: 6
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: MINUTE
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: a sapphire worth 1,000 gp
+      cost: 100000
+  duration:
+    - ==: PermanentSpellDuration
+      ends:
+        - DISPEL
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: You touch an object weighing 10 pounds or less whose longest dimension is
+        6 feet or less. The spell leaves an invisible mark on its surface and
+        invisibly inscribes the name of the item on the sapphire you use as the
+        material component. Each time you cast this spell, you must use a
+        different sapphire.
+    - ==: StringSpellEntry
+      value: At any time thereafter, you can use your action to speak the item's name
+        and crush the sapphire. The item instantly appears in your hand
+        regardless of physical or planar distances, and the spell ends.
+    - ==: StringSpellEntry
+      value: If another creature is holding or carrying the item, crushing the
+        sapphire doesn't transport the item to you, but instead you learn who
+        the creature possessing the object is and roughly where that creature is
+        located at that moment.
+    - ==: StringSpellEntry
+      value: "{@spell Dispel magic} or a similar effect successfully applied to the
+        sapphire ends this spell's effect."
+  misc-tags:
+    - AFFECTS_OBJECTS

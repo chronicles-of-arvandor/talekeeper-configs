@@ -1,48 +1,49 @@
-==: Spell
-id: f600c0dd-3cf9-4550-bee3-c90c75f9bfad
-name: Leomund's Tiny Hut
-source: PHB
-page: 255
-srd: Tiny Hut
-level: 3
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: MINUTE
-range:
-  ==: HemisphereSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 10
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a small crystal bead
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 8
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: A 10-foot-radius immobile dome of force springs into existence around and
-      above you and remains stationary for the duration. The spell ends if you
-      leave its area.
-  - ==: StringSpellEntry
-    value: Nine creatures of Medium size or smaller can fit inside the dome with
-      you. The spell fails if its area includes a larger creature or more than
-      nine creatures. Creatures and objects within the dome when you cast this
-      spell can move through it freely. All other creatures and objects are
-      barred from passing through it. Spells and other magical effects can't
-      extend through the dome or be cast through it. The atmosphere inside the
-      space is comfortable and dry, regardless of the weather outside.
-  - ==: StringSpellEntry
-    value: Until the spell ends, you can command the interior to become dimly lit or
-      dark. The dome is opaque from the outside, of any color you choose, but it
-      is transparent from the inside.
-area-tags:
-  - HEMISPHERE
+spell:
+  ==: Spell
+  id: 3e519587-4b73-4f95-ba12-e9f319eecb57
+  name: Leomund's Tiny Hut
+  source: PHB
+  page: 255
+  srd: Tiny Hut
+  level: 3
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: MINUTE
+  range:
+    ==: HemisphereSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 10
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a small crystal bead
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 8
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: A 10-foot-radius immobile dome of force springs into existence around and
+        above you and remains stationary for the duration. The spell ends if you
+        leave its area.
+    - ==: StringSpellEntry
+      value: Nine creatures of Medium size or smaller can fit inside the dome with
+        you. The spell fails if its area includes a larger creature or more than
+        nine creatures. Creatures and objects within the dome when you cast this
+        spell can move through it freely. All other creatures and objects are
+        barred from passing through it. Spells and other magical effects can't
+        extend through the dome or be cast through it. The atmosphere inside the
+        space is comfortable and dry, regardless of the weather outside.
+    - ==: StringSpellEntry
+      value: Until the spell ends, you can command the interior to become dimly lit or
+        dark. The dome is opaque from the outside, of any color you choose, but
+        it is transparent from the inside.
+  area-tags:
+    - HEMISPHERE

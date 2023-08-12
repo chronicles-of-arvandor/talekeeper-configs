@@ -1,36 +1,37 @@
-==: Spell
-id: e970f0f9-0b44-4879-a485-ff344c3107fe
-name: Circle of Power
-source: PHB
-page: 221
-level: 5
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: RadiusSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: Divine energy radiates from you, distorting and diffusing magical energy
-      within 30 feet of you. Until the spell ends, the sphere moves with you,
-      centered on you. For the duration, each friendly creature in the area
-      (including you) has advantage on saving throws against spells and other
-      magical effects. Additionally, when an affected creature succeeds on a
-      saving throw made against a spell or magical effect that allows it to make
-      a saving throw to take only half damage, it instead takes no damage if it
-      succeeds on the saving throw.
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 834e2ead-be35-490a-9fda-dee8c8b1ec85
+  name: Circle of Power
+  source: PHB
+  page: 221
+  level: 5
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: RadiusSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: Divine energy radiates from you, distorting and diffusing magical energy
+        within 30 feet of you. Until the spell ends, the sphere moves with you,
+        centered on you. For the duration, each friendly creature in the area
+        (including you) has advantage on saving throws against spells and other
+        magical effects. Additionally, when an affected creature succeeds on a
+        saving throw made against a spell or magical effect that allows it to
+        make a saving throw to take only half damage, it instead takes no damage
+        if it succeeds on the saving throw.
+  area-tags:
+    - SPHERE

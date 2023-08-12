@@ -1,55 +1,56 @@
-==: Spell
-id: 1b2cb4c0-7688-4c9e-be22-e98c6548f48b
-name: Heal
-source: PHB
-page: 250
-srd: true
-basic-rules: true
-level: 6
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: Choose a creature that you can see within range. A surge of positive
-      energy washes through the creature, causing it to regain 70 hit points.
-      This spell also ends {@condition blinded||blindness}, {@condition
-      deafened||deafness}, and any diseases affecting the target. This spell has
-      no effect on constructs or undead.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 7th level or higher, the
-        amount of healing increases by 10 for each slot level above 6th.
-affects-creature-type:
-  - ABERRATION
-  - BEAST
-  - CELESTIAL
-  - DRAGON
-  - ELEMENTAL
-  - FEY
-  - FIEND
-  - GIANT
-  - HUMANOID
-  - MONSTROSITY
-  - OOZE
-  - PLANT
-misc-tags:
-  - HEALING
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 98ea540e-d9f4-4727-bde9-e84bbd11c88a
+  name: Heal
+  source: PHB
+  page: 250
+  srd: true
+  basic-rules: true
+  level: 6
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: Choose a creature that you can see within range. A surge of positive
+        energy washes through the creature, causing it to regain 70 hit points.
+        This spell also ends {@condition blinded||blindness}, {@condition
+        deafened||deafness}, and any diseases affecting the target. This spell
+        has no effect on constructs or undead.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 7th level or higher,
+          the amount of healing increases by 10 for each slot level above 6th.
+  affects-creature-type:
+    - ABERRATION
+    - BEAST
+    - CELESTIAL
+    - DRAGON
+    - ELEMENTAL
+    - FEY
+    - FIEND
+    - GIANT
+    - HUMANOID
+    - MONSTROSITY
+    - OOZE
+    - PLANT
+  misc-tags:
+    - HEALING
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

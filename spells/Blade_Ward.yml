@@ -1,28 +1,29 @@
-==: Spell
-id: 2cb48973-8bdf-40cb-b31c-bdf23bd68fd5
-name: Blade Ward
-source: PHB
-page: 218
-level: 0
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: ROUND
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You extend your hand and trace a sigil of warding in the air. Until the
-      end of your next turn, you have resistance against bludgeoning, piercing,
-      and slashing damage dealt by weapon attacks.
+spell:
+  ==: Spell
+  id: 733e257a-475e-4fb2-acfe-0a884d33efcb
+  name: Blade Ward
+  source: PHB
+  page: 218
+  level: 0
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: ROUND
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You extend your hand and trace a sigil of warding in the air. Until the
+        end of your next turn, you have resistance against bludgeoning,
+        piercing, and slashing damage dealt by weapon attacks.

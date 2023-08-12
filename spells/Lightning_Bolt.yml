@@ -1,49 +1,50 @@
-==: Spell
-id: ab8497bd-795e-4745-98b7-a7e2fc96f443
-name: Lightning Bolt
-source: PHB
-page: 255
-srd: true
-basic-rules: true
-level: 3
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: LineSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 100
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a bit of fur and a rod of amber, crystal, or glass
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A stroke of lightning forming a line 100 feet long and 5 feet wide blasts
-      out from you in a direction you choose. Each creature in the line must
-      make a Dexterity saving throw. A creature takes {@damage 8d6} lightning
-      damage on a failed save, or half as much damage on a successful one.
-  - ==: StringSpellEntry
-    value: The lightning ignites flammable objects in the area that aren't being
-      worn or carried.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 4th level or higher, the
-        damage increases by {@scaledamage 8d6|3-9|1d6} for each slot level above
-        3rd.
-damage-inflict:
-  - LIGHTNING
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - AFFECTS_OBJECTS
-area-tags:
-  - LINE
+spell:
+  ==: Spell
+  id: d8d283a0-d1a0-4858-a865-85b2541c03e8
+  name: Lightning Bolt
+  source: PHB
+  page: 255
+  srd: true
+  basic-rules: true
+  level: 3
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: LineSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 100
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a bit of fur and a rod of amber, crystal, or glass
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A stroke of lightning forming a line 100 feet long and 5 feet wide blasts
+        out from you in a direction you choose. Each creature in the line must
+        make a Dexterity saving throw. A creature takes {@damage 8d6} lightning
+        damage on a failed save, or half as much damage on a successful one.
+    - ==: StringSpellEntry
+      value: The lightning ignites flammable objects in the area that aren't being
+        worn or carried.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 4th level or higher,
+          the damage increases by {@scaledamage 8d6|3-9|1d6} for each slot level
+          above 3rd.
+  damage-inflict:
+    - LIGHTNING
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - AFFECTS_OBJECTS
+  area-tags:
+    - LINE

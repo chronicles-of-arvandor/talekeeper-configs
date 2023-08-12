@@ -1,46 +1,47 @@
-==: Spell
-id: 79702fa7-1128-41e6-92e2-da5ba17d1799
-name: Catnap
-source: XGE
-page: 151
-level: 3
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithStringMaterial
-  verbal: true
-  material: a pinch of sand
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-entries:
-  - ==: StringSpellEntry
-    value: You make a calming gesture, and up to three willing creatures of your
-      choice that you can see within range fall {@condition unconscious} for the
-      spell's duration. The spell ends on a target early if it takes damage or
-      someone uses an action to shake or slap it awake. If a target remains
-      {@condition unconscious} for the full duration, that target gains the
-      benefit of a short rest, and it can't be affected by this spell again
-      until it finishes a long rest.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 4th level or higher, you
-        can target one additional willing creature for each slot level above
-        3rd.
-condition-inflict:
-  - UNCONSCIOUS
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - MULTIPLE_TARGETS
+spell:
+  ==: Spell
+  id: 3d595a82-c5be-4881-80de-89cf6940086d
+  name: Catnap
+  source: XGE
+  page: 151
+  level: 3
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithStringMaterial
+    verbal: true
+    material: a pinch of sand
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+  entries:
+    - ==: StringSpellEntry
+      value: You make a calming gesture, and up to three willing creatures of your
+        choice that you can see within range fall {@condition unconscious} for
+        the spell's duration. The spell ends on a target early if it takes
+        damage or someone uses an action to shake or slap it awake. If a target
+        remains {@condition unconscious} for the full duration, that target
+        gains the benefit of a short rest, and it can't be affected by this
+        spell again until it finishes a long rest.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 4th level or higher,
+          you can target one additional willing creature for each slot level
+          above 3rd.
+  condition-inflict:
+    - UNCONSCIOUS
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - MULTIPLE_TARGETS

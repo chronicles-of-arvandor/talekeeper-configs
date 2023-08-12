@@ -1,43 +1,44 @@
-==: Spell
-id: 712c58d2-0952-42a7-9025-3aa927c08ce0
-name: Zone of Truth
-source: PHB
-page: 289
-srd: true
-level: 2
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-entries:
-  - ==: StringSpellEntry
-    value: You create a magical zone that guards against deception in a
-      15-foot-radius sphere centered on a point of your choice within range.
-      Until the spell ends, a creature that enters the spell's area for the
-      first time on a turn or starts its turn there must make a Charisma saving
-      throw. On a failed save, a creature can't speak a deliberate lie while in
-      the radius. You know whether each creature succeeds or fails on its saving
-      throw.
-  - ==: StringSpellEntry
-    value: An affected creature is aware of the spell and can thus avoid answering
-      questions to which it would normally respond with a lie. Such creatures
-      can be evasive in its answers as long as it remains within the boundaries
-      of the truth.
-saving-throw:
-  - CHARISMA
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 3f16f27d-6c36-40e5-8305-4b6b3f67a955
+  name: Zone of Truth
+  source: PHB
+  page: 289
+  srd: true
+  level: 2
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+  entries:
+    - ==: StringSpellEntry
+      value: You create a magical zone that guards against deception in a
+        15-foot-radius sphere centered on a point of your choice within range.
+        Until the spell ends, a creature that enters the spell's area for the
+        first time on a turn or starts its turn there must make a Charisma
+        saving throw. On a failed save, a creature can't speak a deliberate lie
+        while in the radius. You know whether each creature succeeds or fails on
+        its saving throw.
+    - ==: StringSpellEntry
+      value: An affected creature is aware of the spell and can thus avoid answering
+        questions to which it would normally respond with a lie. Such creatures
+        can be evasive in its answers as long as it remains within the
+        boundaries of the truth.
+  saving-throw:
+    - CHARISMA
+  area-tags:
+    - SPHERE

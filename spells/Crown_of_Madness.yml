@@ -1,51 +1,53 @@
-==: Spell
-id: e9ef2b9b-e9f6-4c35-8f2a-345e4e75cb2e
-name: Crown of Madness
-source: PHB
-page: 229
-level: 2
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: One humanoid of your choice that you can see within range must succeed on
-      a Wisdom saving throw or become {@condition charmed} by you for the
-      duration. While the target is {@condition charmed} in this way, a twisted
-      crown of jagged iron appears on its head, and a madness glows in its eyes.
-  - ==: StringSpellEntry
-    value: The {@condition charmed} target must use its action before moving on each
-      of its turns to make a melee attack against a creature other than itself
-      that you mentally choose. The target can act normally on its turn if you
-      choose no creature or if none are within its reach.
-  - ==: StringSpellEntry
-    value: On your subsequent turns, you must use your action to maintain control
-      over the target, or the spell ends. Also, the target can make a Wisdom
-      saving throw at the end of each of its turns. On a success, the spell
-      ends.
-condition-inflict:
-  - CHARMED
-saving-throw:
-  - WISDOM
-affects-creature-type:
-  - HUMANOID
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 8ba79089-9ac5-403c-a3c3-66cc0d23c155
+  name: Crown of Madness
+  source: PHB
+  page: 229
+  level: 2
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: One humanoid of your choice that you can see within range must succeed on
+        a Wisdom saving throw or become {@condition charmed} by you for the
+        duration. While the target is {@condition charmed} in this way, a
+        twisted crown of jagged iron appears on its head, and a madness glows in
+        its eyes.
+    - ==: StringSpellEntry
+      value: The {@condition charmed} target must use its action before moving on each
+        of its turns to make a melee attack against a creature other than itself
+        that you mentally choose. The target can act normally on its turn if you
+        choose no creature or if none are within its reach.
+    - ==: StringSpellEntry
+      value: On your subsequent turns, you must use your action to maintain control
+        over the target, or the spell ends. Also, the target can make a Wisdom
+        saving throw at the end of each of its turns. On a success, the spell
+        ends.
+  condition-inflict:
+    - CHARMED
+  saving-throw:
+    - WISDOM
+  affects-creature-type:
+    - HUMANOID
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

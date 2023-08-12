@@ -1,35 +1,37 @@
-==: Spell
-id: b7433c5e-b0d9-4b1b-9fea-841980e863bf
-name: Aura of Purity
-source: PHB
-page: 216
-level: 4
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: RadiusSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: "Purifying energy radiates from you in an aura with a 30-foot radius.
-      Until the spell ends, the aura moves with you, centered on you. Each
-      nonhostile creature in the aura (including you) can't become diseased, has
-      resistance to poison damage, and has advantage on saving throws against
-      effects that cause any of the following conditions: {@condition blinded},
-      {@condition charmed}, {@condition deafened}, {@condition frightened},
-      {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}."
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: db1415ff-f060-4101-bcb8-60c36e7d06d6
+  name: Aura of Purity
+  source: PHB
+  page: 216
+  level: 4
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: RadiusSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: "Purifying energy radiates from you in an aura with a 30-foot radius.
+        Until the spell ends, the aura moves with you, centered on you. Each
+        nonhostile creature in the aura (including you) can't become diseased,
+        has resistance to poison damage, and has advantage on saving throws
+        against effects that cause any of the following conditions: {@condition
+        blinded}, {@condition charmed}, {@condition deafened}, {@condition
+        frightened}, {@condition paralyzed}, {@condition poisoned}, and
+        {@condition stunned}."
+  area-tags:
+    - SPHERE

@@ -1,46 +1,47 @@
-==: Spell
-id: 2d649c7b-f83e-4743-9913-eb9db00517b6
-name: Sword Burst
-source: TCE
-page: 115
-level: 0
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: RadiusSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 5
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You create a momentary circle of spectral blades that sweep around you.
-      All other creatures within 5 feet of you must succeed on a Dexterity
-      saving throw or take {@damage 1d6} force damage.
-  - ==: StringSpellEntry
-    value: This spell's damage increases by {@dice 1d6} when you reach 5th level
-      ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage
-      4d6}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: force damage
-    scaling:
-      "1": 1d6
-      "5": 2d6
-      "11": 3d6
-      "17": 4d6
-damage-inflict:
-  - FORCE
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - SCALING_EFFECTS
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 9b1cc26c-8c60-4748-bb6a-8593a78bbf02
+  name: Sword Burst
+  source: TCE
+  page: 115
+  level: 0
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: RadiusSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 5
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You create a momentary circle of spectral blades that sweep around you.
+        All other creatures within 5 feet of you must succeed on a Dexterity
+        saving throw or take {@damage 1d6} force damage.
+    - ==: StringSpellEntry
+      value: This spell's damage increases by {@dice 1d6} when you reach 5th level
+        ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage
+        4d6}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: force damage
+      scaling:
+        "1": 1d6
+        "5": 2d6
+        "11": 3d6
+        "17": 4d6
+  damage-inflict:
+    - FORCE
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - SCALING_EFFECTS
+  area-tags:
+    - SPHERE

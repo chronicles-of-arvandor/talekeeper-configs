@@ -1,46 +1,47 @@
-==: Spell
-id: f1ca02aa-a083-4d54-ba36-1928a63261d0
-name: Meteor Swarm
-source: PHB
-page: 259
-srd: true
-basic-rules: true
-level: 9
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceMile
-    amount: 1
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: Blazing orbs of fire plummet to the ground at four different points you
-      can see within range. Each creature in a 40-foot-radius sphere centered on
-      each point you choose must make a Dexterity saving throw. The sphere
-      spreads around corners. A creature takes {@damage 20d6} fire damage and
-      {@damage 20d6} bludgeoning damage on a failed save, or half as much damage
-      on a successful one. A creature in the area of more than one fiery burst
-      is affected only once.
-  - ==: StringSpellEntry
-    value: The spell damages objects in the area and ignites flammable objects that
-      aren't being worn or carried.
-damage-inflict:
-  - BLUDGEONING
-  - FIRE
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - AFFECTS_OBJECTS
-  - REQUIRES_SIGHT
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 73fa7005-b1ad-4220-b6a7-ed63845816e9
+  name: Meteor Swarm
+  source: PHB
+  page: 259
+  srd: true
+  basic-rules: true
+  level: 9
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceMile
+      amount: 1
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: Blazing orbs of fire plummet to the ground at four different points you
+        can see within range. Each creature in a 40-foot-radius sphere centered
+        on each point you choose must make a Dexterity saving throw. The sphere
+        spreads around corners. A creature takes {@damage 20d6} fire damage and
+        {@damage 20d6} bludgeoning damage on a failed save, or half as much
+        damage on a successful one. A creature in the area of more than one
+        fiery burst is affected only once.
+    - ==: StringSpellEntry
+      value: The spell damages objects in the area and ignites flammable objects that
+        aren't being worn or carried.
+  damage-inflict:
+    - BLUDGEONING
+    - FIRE
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - AFFECTS_OBJECTS
+    - REQUIRES_SIGHT
+  area-tags:
+    - SPHERE

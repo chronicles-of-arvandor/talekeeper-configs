@@ -1,64 +1,65 @@
-==: Spell
-id: ee07f1c0-2132-4933-81ee-34b0313e7eec
-name: Dispel Evil and Good
-source: PHB
-page: 233
-srd: true
-level: 5
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: holy water or powdered silver and iron
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: Shimmering energy surrounds and protects you from fey, undead, and
-      creatures originating from beyond the Material Plane. For the duration,
-      celestials, elementals, fey, fiends, and undead have disadvantage on
-      attack rolls against you.
-  - ==: StringSpellEntry
-    value: You can end the spell early by using either of the following special
-      functions.
-  - ==: EntriesSpellEntry
-    name: Break Enchantment
-    entries:
-      - As your action, you touch a creature you can reach that is {@condition
-        charmed}, {@condition frightened}, or possessed by a celestial, an
-        elemental, a fey, a fiend, or an undead. The creature you touch is no
-        longer {@condition charmed}, {@condition frightened}, or possessed by
-        such creatures.
-  - ==: EntriesSpellEntry
-    name: Dismissal
-    entries:
-      - As your action, make a melee spell attack against a celestial, an
-        elemental, a fey, a fiend, or an undead you can reach. On a hit, you
-        attempt to drive the creature back to its home plane. The creature must
-        succeed on a Charisma saving throw or be sent back to its home plane (if
-        it isn't there already). If they aren't on their home plane, undead are
-        sent to the Shadowfell, and fey are sent to the Feywild.
-spell-attack:
-  - MELEE
-saving-throw:
-  - CHARISMA
-affects-creature-type:
-  - CELESTIAL
-  - ELEMENTAL
-  - FEY
-  - FIEND
-  - UNDEAD
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 80a3ee3d-697b-4940-b31a-847768e64c18
+  name: Dispel Evil and Good
+  source: PHB
+  page: 233
+  srd: true
+  level: 5
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: holy water or powdered silver and iron
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: Shimmering energy surrounds and protects you from fey, undead, and
+        creatures originating from beyond the Material Plane. For the duration,
+        celestials, elementals, fey, fiends, and undead have disadvantage on
+        attack rolls against you.
+    - ==: StringSpellEntry
+      value: You can end the spell early by using either of the following special
+        functions.
+    - ==: EntriesSpellEntry
+      name: Break Enchantment
+      entries:
+        - As your action, you touch a creature you can reach that is {@condition
+          charmed}, {@condition frightened}, or possessed by a celestial, an
+          elemental, a fey, a fiend, or an undead. The creature you touch is no
+          longer {@condition charmed}, {@condition frightened}, or possessed by
+          such creatures.
+    - ==: EntriesSpellEntry
+      name: Dismissal
+      entries:
+        - As your action, make a melee spell attack against a celestial, an
+          elemental, a fey, a fiend, or an undead you can reach. On a hit, you
+          attempt to drive the creature back to its home plane. The creature
+          must succeed on a Charisma saving throw or be sent back to its home
+          plane (if it isn't there already). If they aren't on their home plane,
+          undead are sent to the Shadowfell, and fey are sent to the Feywild.
+  spell-attack:
+    - MELEE
+  saving-throw:
+    - CHARISMA
+  affects-creature-type:
+    - CELESTIAL
+    - ELEMENTAL
+    - FEY
+    - FIEND
+    - UNDEAD
+  area-tags:
+    - SINGLE_TARGET

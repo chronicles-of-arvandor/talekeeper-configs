@@ -1,46 +1,47 @@
-==: Spell
-id: 5c42a9a6-0a34-4388-866a-f4b4c914a8c7
-name: Ray of Sickness
-source: PHB
-page: 271
-level: 1
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A ray of sickening greenish energy lashes out toward a creature within
-      range. Make a ranged spell attack against the target. On a hit, the target
-      takes {@damage 2d8} poison damage and must make a Constitution saving
-      throw. On a failed save, it is also {@condition poisoned} until the end of
-      your next turn.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, the
-        damage increases by {@scaledamage 2d8|1-9|1d8} for each slot level above
-        1st.
-damage-inflict:
-  - POISON
-spell-attack:
-  - RANGED
-condition-inflict:
-  - POISONED
-saving-throw:
-  - CONSTITUTION
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: bbbcf050-e91b-4685-accf-8f9379e599d1
+  name: Ray of Sickness
+  source: PHB
+  page: 271
+  level: 1
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A ray of sickening greenish energy lashes out toward a creature within
+        range. Make a ranged spell attack against the target. On a hit, the
+        target takes {@damage 2d8} poison damage and must make a Constitution
+        saving throw. On a failed save, it is also {@condition poisoned} until
+        the end of your next turn.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          the damage increases by {@scaledamage 2d8|1-9|1d8} for each slot level
+          above 1st.
+  damage-inflict:
+    - POISON
+  spell-attack:
+    - RANGED
+  condition-inflict:
+    - POISONED
+  saving-throw:
+    - CONSTITUTION
+  area-tags:
+    - SINGLE_TARGET

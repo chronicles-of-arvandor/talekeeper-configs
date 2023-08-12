@@ -1,55 +1,57 @@
-==: Spell
-id: 0e7dc4a2-1ec4-4baf-94f5-4c05183a8737
-name: Spiritual Weapon
-source: PHB
-page: 278
-srd: true
-basic-rules: true
-level: 2
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You create a floating, spectral weapon within range that lasts for the
-      duration or until you cast this spell again. When you cast the spell, you
-      can make a melee spell attack against a creature within 5 feet of the
-      weapon. On a hit, the target takes force damage equal to {@damage 1d8} +
-      your spellcasting ability modifier.
-  - ==: StringSpellEntry
-    value: As a bonus action on your turn, you can move the weapon up to 20 feet and
-      repeat the attack against a creature within 5 feet of it.
-  - ==: StringSpellEntry
-    value: The weapon can take whatever form you choose. Clerics of deities who are
-      associated with a particular weapon (as St. Cuthbert is known for his mace
-      and Thor for his hammer) make this spell's effect resemble that weapon.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        damage increases by {@scaledamage 1d8|2,4,6,8|1d8} for every two slot
-        levels above 2nd.
-damage-inflict:
-  - FORCE
-spell-attack:
-  - MELEE
-misc-tags:
-  - USES_BONUS_ACTION
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 3d437b88-903d-4bed-ade7-fce0f7bf423d
+  name: Spiritual Weapon
+  source: PHB
+  page: 278
+  srd: true
+  basic-rules: true
+  level: 2
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You create a floating, spectral weapon within range that lasts for the
+        duration or until you cast this spell again. When you cast the spell,
+        you can make a melee spell attack against a creature within 5 feet of
+        the weapon. On a hit, the target takes force damage equal to {@damage
+        1d8} + your spellcasting ability modifier.
+    - ==: StringSpellEntry
+      value: As a bonus action on your turn, you can move the weapon up to 20 feet and
+        repeat the attack against a creature within 5 feet of it.
+    - ==: StringSpellEntry
+      value: The weapon can take whatever form you choose. Clerics of deities who are
+        associated with a particular weapon (as St. Cuthbert is known for his
+        mace and Thor for his hammer) make this spell's effect resemble that
+        weapon.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the damage increases by {@scaledamage 1d8|2,4,6,8|1d8} for every two
+          slot levels above 2nd.
+  damage-inflict:
+    - FORCE
+  spell-attack:
+    - MELEE
+  misc-tags:
+    - USES_BONUS_ACTION
+  area-tags:
+    - SINGLE_TARGET

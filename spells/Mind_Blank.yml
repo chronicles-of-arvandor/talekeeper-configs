@@ -1,33 +1,35 @@
-==: Spell
-id: 992e2a0b-7195-43c1-bd7c-f9fde4c6922b
-name: Mind Blank
-source: PHB
-page: 259
-srd: true
-level: 8
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 24
-entries:
-  - ==: StringSpellEntry
-    value: Until the spell ends, one willing creature you touch is immune to psychic
-      damage, any effect that would sense its emotions or read its thoughts,
-      divination spells, and the {@condition charmed} condition. The spell even
-      foils {@spell wish} spells and spells or effects of similar power used to
-      affect the target's mind or to gain information about the target.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: b1708f1b-a42d-4bef-a674-c92941e66725
+  name: Mind Blank
+  source: PHB
+  page: 259
+  srd: true
+  level: 8
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 24
+  entries:
+    - ==: StringSpellEntry
+      value: Until the spell ends, one willing creature you touch is immune to psychic
+        damage, any effect that would sense its emotions or read its thoughts,
+        divination spells, and the {@condition charmed} condition. The spell
+        even foils {@spell wish} spells and spells or effects of similar power
+        used to affect the target's mind or to gain information about the
+        target.
+  area-tags:
+    - SINGLE_TARGET

@@ -1,51 +1,52 @@
-==: Spell
-id: 6c405193-3565-4bb6-8e79-c140182f9016
-name: Dream of the Blue Veil
-source: TCE
-page: 106
-level: 7
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 10
-    unit: MINUTE
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 20
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a magic item or a willing creature from the destination world
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 6
-entries:
-  - ==: StringSpellEntry
-    value: You and up to eight willing creatures within range fall {@condition
-      unconscious} for the spell's duration and experience visions of another
-      world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If
-      the spell reaches its full duration, the visions conclude with each of you
-      encountering and pulling back a mysterious blue curtain. The spell then
-      ends with you mentally and physically transported to the world that was in
-      the visions.
-  - ==: StringSpellEntry
-    value: To cast this spell, you must have a magic item that originated on the
-      world you wish to reach, and you must be aware of the world's existence,
-      even if you don't know the world's name. Your destination in the other
-      world is a safe location within 1 mile of where the magic item was
-      created. Alternatively, you can cast the spell if one of the affected
-      creatures was born on the other world, which causes your destination to be
-      a safe location within 1 mile of where that creature was born.
-  - ==: StringSpellEntry
-    value: The spell ends early on a creature if that creature takes any damage, and
-      the creature isn't transported. If you take any damage, the spell ends for
-      you and all the other creatures, with none of you being transported.
-condition-inflict:
-  - UNCONSCIOUS
-misc-tags:
-  - PLANE_SHIFTING
-  - TELEPORTATION
+spell:
+  ==: Spell
+  id: 761e4371-49bc-4e1e-a0be-ee7c016d1fe8
+  name: Dream of the Blue Veil
+  source: TCE
+  page: 106
+  level: 7
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 10
+      unit: MINUTE
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 20
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a magic item or a willing creature from the destination world
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 6
+  entries:
+    - ==: StringSpellEntry
+      value: You and up to eight willing creatures within range fall {@condition
+        unconscious} for the spell's duration and experience visions of another
+        world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If
+        the spell reaches its full duration, the visions conclude with each of
+        you encountering and pulling back a mysterious blue curtain. The spell
+        then ends with you mentally and physically transported to the world that
+        was in the visions.
+    - ==: StringSpellEntry
+      value: To cast this spell, you must have a magic item that originated on the
+        world you wish to reach, and you must be aware of the world's existence,
+        even if you don't know the world's name. Your destination in the other
+        world is a safe location within 1 mile of where the magic item was
+        created. Alternatively, you can cast the spell if one of the affected
+        creatures was born on the other world, which causes your destination to
+        be a safe location within 1 mile of where that creature was born.
+    - ==: StringSpellEntry
+      value: The spell ends early on a creature if that creature takes any damage, and
+        the creature isn't transported. If you take any damage, the spell ends
+        for you and all the other creatures, with none of you being transported.
+  condition-inflict:
+    - UNCONSCIOUS
+  misc-tags:
+    - PLANE_SHIFTING
+    - TELEPORTATION

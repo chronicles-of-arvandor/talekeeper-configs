@@ -1,50 +1,51 @@
-==: Spell
-id: 326d0368-e9e1-42e4-a649-b733e12e23aa
-name: Lightning Lure
-source: TCE
-page: 107
-level: 0
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: RadiusSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 15
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You create a lash of lightning energy that strikes at one creature of
-      your choice that you can see within 15 feet of you. The target must
-      succeed on a Strength saving throw or be pulled up to 10 feet in a
-      straight line toward you and then take {@damage 1d8} lightning damage if
-      it is within 5 feet of you.
-  - ==: StringSpellEntry
-    value: This spell's damage increases by {@dice 1d8} when you reach 5th level
-      ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage
-      4d8}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: lightning damage
-    scaling:
-      "1": 1d8
-      "5": 2d8
-      "11": 3d8
-      "17": 4d8
-damage-inflict:
-  - LIGHTNING
-saving-throw:
-  - STRENGTH
-misc-tags:
-  - FORCED_MOVEMENT
-  - SCALING_EFFECTS
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 2752079e-9752-45b8-805d-4bcd42442e28
+  name: Lightning Lure
+  source: TCE
+  page: 107
+  level: 0
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: RadiusSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 15
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You create a lash of lightning energy that strikes at one creature of
+        your choice that you can see within 15 feet of you. The target must
+        succeed on a Strength saving throw or be pulled up to 10 feet in a
+        straight line toward you and then take {@damage 1d8} lightning damage if
+        it is within 5 feet of you.
+    - ==: StringSpellEntry
+      value: This spell's damage increases by {@dice 1d8} when you reach 5th level
+        ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage
+        4d8}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: lightning damage
+      scaling:
+        "1": 1d8
+        "5": 2d8
+        "11": 3d8
+        "17": 4d8
+  damage-inflict:
+    - LIGHTNING
+  saving-throw:
+    - STRENGTH
+  misc-tags:
+    - FORCED_MOVEMENT
+    - SCALING_EFFECTS
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

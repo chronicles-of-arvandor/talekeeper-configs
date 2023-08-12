@@ -1,50 +1,51 @@
-==: Spell
-id: 58f9a134-0b33-42bd-9501-0a07e36928a6
-name: Protection from Evil and Good
-source: PHB
-page: 270
-srd: true
-level: 1
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: holy water or powdered silver and iron, which the spell consumes
-    consume: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: "Until the spell ends, one willing creature you touch is protected
-      against certain types of creatures: aberrations, celestials, elementals,
-      fey, fiends, and undead."
-  - ==: StringSpellEntry
-    value: The protection grants several benefits. Creatures of those types have
-      disadvantage on attack rolls against the target. The target also can't be
-      {@condition charmed}, {@condition frightened}, or possessed by them. If
-      the target is already {@condition charmed}, {@condition frightened}, or
-      possessed by such a creature, the target has advantage on any new saving
-      throw against the relevant effect.
-affects-creature-type:
-  - ABERRATION
-  - CELESTIAL
-  - ELEMENTAL
-  - FEY
-  - FIEND
-  - UNDEAD
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: eb2ff821-7cb5-4b85-8445-be03b41373fd
+  name: Protection from Evil and Good
+  source: PHB
+  page: 270
+  srd: true
+  level: 1
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: holy water or powdered silver and iron, which the spell consumes
+      consume: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: "Until the spell ends, one willing creature you touch is protected
+        against certain types of creatures: aberrations, celestials, elementals,
+        fey, fiends, and undead."
+    - ==: StringSpellEntry
+      value: The protection grants several benefits. Creatures of those types have
+        disadvantage on attack rolls against the target. The target also can't
+        be {@condition charmed}, {@condition frightened}, or possessed by them.
+        If the target is already {@condition charmed}, {@condition frightened},
+        or possessed by such a creature, the target has advantage on any new
+        saving throw against the relevant effect.
+  affects-creature-type:
+    - ABERRATION
+    - CELESTIAL
+    - ELEMENTAL
+    - FEY
+    - FIEND
+    - UNDEAD
+  area-tags:
+    - SINGLE_TARGET

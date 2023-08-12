@@ -1,43 +1,44 @@
-==: Spell
-id: 7eced3c2-ee2c-44c0-8aba-33366a17ed22
-name: Dancing Lights
-source: PHB
-page: 230
-srd: true
-basic-rules: true
-level: 0
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a bit of phosphorus or wychwood, or a glowworm
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You create up to four torch-sized lights within range, making them appear
-      as torches, lanterns, or glowing orbs that hover in the air for the
-      duration. You can also combine the four lights into one glowing vaguely
-      humanoid form of Medium size. Whichever form you choose, each light sheds
-      dim light in a 10-foot radius.
-  - ==: StringSpellEntry
-    value: As a bonus action on your turn, you can move the lights up to 60 feet to
-      a new spot within range. A light must be within 20 feet of another light
-      created by this spell, and a light winks out if it exceeds the spell's
-      range.
-misc-tags:
-  - CREATES_LIGHT
-  - USES_BONUS_ACTION
+spell:
+  ==: Spell
+  id: 56451d67-b7b1-4a7e-a100-2d653199df5d
+  name: Dancing Lights
+  source: PHB
+  page: 230
+  srd: true
+  basic-rules: true
+  level: 0
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a bit of phosphorus or wychwood, or a glowworm
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You create up to four torch-sized lights within range, making them appear
+        as torches, lanterns, or glowing orbs that hover in the air for the
+        duration. You can also combine the four lights into one glowing vaguely
+        humanoid form of Medium size. Whichever form you choose, each light
+        sheds dim light in a 10-foot radius.
+    - ==: StringSpellEntry
+      value: As a bonus action on your turn, you can move the lights up to 60 feet to
+        a new spot within range. A light must be within 20 feet of another light
+        created by this spell, and a light winks out if it exceeds the spell's
+        range.
+  misc-tags:
+    - CREATES_LIGHT
+    - USES_BONUS_ACTION

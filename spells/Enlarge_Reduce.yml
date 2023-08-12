@@ -1,66 +1,67 @@
-==: Spell
-id: b8d86c0b-519c-4b17-baca-47b74ec6d9bb
-name: Enlarge/Reduce
-source: PHB
-page: 237
-srd: true
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a pinch of powdered iron
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You cause a creature or an object you can see within range to grow larger
-      or smaller for the duration. Choose either a creature or an object that is
-      neither worn nor carried. If the target is unwilling, it can make a
-      Constitution saving throw. On a success, the spell has no effect.
-  - ==: StringSpellEntry
-    value: If the target is a creature, everything it is wearing and carrying
-      changes size with it. Any item dropped by an affected creature returns to
-      normal size at once.
-  - ==: EntriesSpellEntry
-    name: Enlarge
-    entries:
-      - The target's size doubles in all dimensions, and its weight is
-        multiplied by eight. This growth increases its size by one category—from
-        Medium to Large, for example. If there isn't enough room for the target
-        to double its size, the creature or object attains the maximum possible
-        size in the space available. Until the spell ends, the target also has
-        advantage on Strength checks and Strength saving throws. The target's
-        weapons also grow to match its new size. While these weapons are
-        enlarged, the target's attacks with them deal {@damage 1d4} extra
-        damage.
-  - ==: EntriesSpellEntry
-    name: Reduce
-    entries:
-      - The target's size is halved in all dimensions, and its weight is reduced
-        to one-eighth of normal. This reduction decreases its size by one
-        category—from Medium to Small, for example. Until the spell ends, the
-        target also has disadvantage on Strength checks and Strength saving
-        throws. The target's weapons also shrink to match its new size. While
-        these weapons are reduced, the target's attacks with them deal {@damage
-        1d4} less damage (this can't reduce the damage below 1).
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - AFFECTS_OBJECTS
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: a892d57a-5706-44d9-817f-18deb1c0b841
+  name: Enlarge/Reduce
+  source: PHB
+  page: 237
+  srd: true
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a pinch of powdered iron
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You cause a creature or an object you can see within range to grow larger
+        or smaller for the duration. Choose either a creature or an object that
+        is neither worn nor carried. If the target is unwilling, it can make a
+        Constitution saving throw. On a success, the spell has no effect.
+    - ==: StringSpellEntry
+      value: If the target is a creature, everything it is wearing and carrying
+        changes size with it. Any item dropped by an affected creature returns
+        to normal size at once.
+    - ==: EntriesSpellEntry
+      name: Enlarge
+      entries:
+        - The target's size doubles in all dimensions, and its weight is
+          multiplied by eight. This growth increases its size by one
+          category—from Medium to Large, for example. If there isn't enough room
+          for the target to double its size, the creature or object attains the
+          maximum possible size in the space available. Until the spell ends,
+          the target also has advantage on Strength checks and Strength saving
+          throws. The target's weapons also grow to match its new size. While
+          these weapons are enlarged, the target's attacks with them deal
+          {@damage 1d4} extra damage.
+    - ==: EntriesSpellEntry
+      name: Reduce
+      entries:
+        - The target's size is halved in all dimensions, and its weight is
+          reduced to one-eighth of normal. This reduction decreases its size by
+          one category—from Medium to Small, for example. Until the spell ends,
+          the target also has disadvantage on Strength checks and Strength
+          saving throws. The target's weapons also shrink to match its new size.
+          While these weapons are reduced, the target's attacks with them deal
+          {@damage 1d4} less damage (this can't reduce the damage below 1).
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - AFFECTS_OBJECTS
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

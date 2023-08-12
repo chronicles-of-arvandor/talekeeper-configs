@@ -1,36 +1,37 @@
-==: Spell
-id: 4a19238e-e014-4b0c-ae02-ad7221bd02b5
-name: Skill Empowerment
-source: XGE
-page: 165
-level: 5
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: Your magic deepens a creature's understanding of its own talent. You
-      touch one willing creature and give it expertise in one skill of your
-      choice; until the spell ends, the creature doubles its proficiency bonus
-      for ability checks it makes that use the chosen skill.
-  - ==: StringSpellEntry
-    value: You must choose a skill in which the target is proficient and that isn't
-      already benefiting from an effect, such as Expertise, that doubles its
-      proficiency bonus.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: a8479dff-fa7e-4d58-9f9a-cf39a26b8d72
+  name: Skill Empowerment
+  source: XGE
+  page: 165
+  level: 5
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: Your magic deepens a creature's understanding of its own talent. You
+        touch one willing creature and give it expertise in one skill of your
+        choice; until the spell ends, the creature doubles its proficiency bonus
+        for ability checks it makes that use the chosen skill.
+    - ==: StringSpellEntry
+      value: You must choose a skill in which the target is proficient and that isn't
+        already benefiting from an effect, such as Expertise, that doubles its
+        proficiency bonus.
+  area-tags:
+    - SINGLE_TARGET

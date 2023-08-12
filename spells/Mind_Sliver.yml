@@ -1,51 +1,52 @@
-==: Spell
-id: 3828bce7-6b77-4a3f-89be-3ef31c92d759
-name: Mind Sliver
-source: TCE
-page: 108
-level: 0
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: ROUND
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You drive a disorienting spike of psychic energy into the mind of one
-      creature you can see within range. The target must succeed on an
-      Intelligence saving throw or take {@damage 1d6} psychic damage and
-      subtract {@dice 1d4} from the next saving throw it makes before the end of
-      your next turn.
-  - ==: StringSpellEntry
-    value: "This spell's damage increases by {@dice 1d6} when you reach certain
-      levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level
-      ({@dice 4d6})."
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: psychic damage
-    scaling:
-      "1": 1d6
-      "5": 2d6
-      "11": 3d6
-      "17": 4d6
-damage-inflict:
-  - PSYCHIC
-saving-throw:
-  - INTELLIGENCE
-misc-tags:
-  - SCALING_EFFECTS
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: cd8b723c-5127-4de0-af91-32ce6bbbdc66
+  name: Mind Sliver
+  source: TCE
+  page: 108
+  level: 0
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: ROUND
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You drive a disorienting spike of psychic energy into the mind of one
+        creature you can see within range. The target must succeed on an
+        Intelligence saving throw or take {@damage 1d6} psychic damage and
+        subtract {@dice 1d4} from the next saving throw it makes before the end
+        of your next turn.
+    - ==: StringSpellEntry
+      value: "This spell's damage increases by {@dice 1d6} when you reach certain
+        levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th
+        level ({@dice 4d6})."
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: psychic damage
+      scaling:
+        "1": 1d6
+        "5": 2d6
+        "11": 3d6
+        "17": 4d6
+  damage-inflict:
+    - PSYCHIC
+  saving-throw:
+    - INTELLIGENCE
+  misc-tags:
+    - SCALING_EFFECTS
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

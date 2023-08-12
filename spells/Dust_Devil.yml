@@ -1,58 +1,59 @@
-==: Spell
-id: 069da05b-f29b-42e2-aa13-dfb978c03e63
-name: Dust Devil
-source: XGE
-page: 154
-level: 2
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a pinch of dust
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: Choose an unoccupied 5-foot cube of air that you can see within range. An
-      elemental force that resembles a dust devil appears in the cube and lasts
-      for the spell's duration.
-  - ==: StringSpellEntry
-    value: Any creature that ends its turn within 5 feet of the dust devil must make
-      a Strength saving throw. On a failed save, the creature takes {@damage
-      1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On
-      a successful save, the creature takes half as much damage and isn't
-      pushed.
-  - ==: StringSpellEntry
-    value: As a bonus action, you can move the dust devil up to 30 feet in any
-      direction. If the dust devil moves over sand, dust, loose dirt, or light
-      gravel, it sucks up the material and forms a 10-foot-radius cloud of
-      debris around itself that lasts until the start of your next turn. The
-      cloud heavily obscures its area.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        damage increases by {@scaledamage 1d8|2-9|1d8} for each slot level above
-        2nd.
-damage-inflict:
-  - BLUDGEONING
-saving-throw:
-  - STRENGTH
-misc-tags:
-  - FORCED_MOVEMENT
-  - REQUIRES_SIGHT
-  - USES_BONUS_ACTION
+spell:
+  ==: Spell
+  id: 95455aa9-1ecb-4447-8b56-9bfb46b47d99
+  name: Dust Devil
+  source: XGE
+  page: 154
+  level: 2
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a pinch of dust
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: Choose an unoccupied 5-foot cube of air that you can see within range. An
+        elemental force that resembles a dust devil appears in the cube and
+        lasts for the spell's duration.
+    - ==: StringSpellEntry
+      value: Any creature that ends its turn within 5 feet of the dust devil must make
+        a Strength saving throw. On a failed save, the creature takes {@damage
+        1d8} bludgeoning damage and is pushed 10 feet away from the dust devil.
+        On a successful save, the creature takes half as much damage and isn't
+        pushed.
+    - ==: StringSpellEntry
+      value: As a bonus action, you can move the dust devil up to 30 feet in any
+        direction. If the dust devil moves over sand, dust, loose dirt, or light
+        gravel, it sucks up the material and forms a 10-foot-radius cloud of
+        debris around itself that lasts until the start of your next turn. The
+        cloud heavily obscures its area.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the damage increases by {@scaledamage 1d8|2-9|1d8} for each slot level
+          above 2nd.
+  damage-inflict:
+    - BLUDGEONING
+  saving-throw:
+    - STRENGTH
+  misc-tags:
+    - FORCED_MOVEMENT
+    - REQUIRES_SIGHT
+    - USES_BONUS_ACTION

@@ -1,43 +1,44 @@
-==: Spell
-id: 4d4fda0e-3a06-4084-bb63-3a7d27068538
-name: Aid
-source: PHB
-page: 211
-srd: true
-basic-rules: true
-level: 2
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a tiny strip of white cloth
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 8
-entries:
-  - ==: StringSpellEntry
-    value: Your spell bolsters your allies with toughness and resolve. Choose up to
-      three creatures within range. Each target's hit point maximum and current
-      hit points increase by 5 for the duration.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, a
-        target's hit points increase by an additional 5 for each slot level
-        above 2nd.
-misc-tags:
-  - HEALING
-area-tags:
-  - MULTIPLE_TARGETS
+spell:
+  ==: Spell
+  id: d6acae85-68ce-4982-85c7-c2b3c30a93bd
+  name: Aid
+  source: PHB
+  page: 211
+  srd: true
+  basic-rules: true
+  level: 2
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a tiny strip of white cloth
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 8
+  entries:
+    - ==: StringSpellEntry
+      value: Your spell bolsters your allies with toughness and resolve. Choose up to
+        three creatures within range. Each target's hit point maximum and
+        current hit points increase by 5 for the duration.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher, a
+          target's hit points increase by an additional 5 for each slot level
+          above 2nd.
+  misc-tags:
+    - HEALING
+  area-tags:
+    - MULTIPLE_TARGETS

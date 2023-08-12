@@ -1,42 +1,43 @@
-==: Spell
-id: 0d31a9e3-177b-4f06-9085-cbfd4e06c1d1
-name: Sanctuary
-source: PHB
-page: 272
-srd: true
-basic-rules: true
-level: 1
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a small silver mirror
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You ward a creature within range against attack. Until the spell ends,
-      any creature who targets the warded creature with an attack or a harmful
-      spell must first make a Wisdom saving throw. On a failed save, the
-      creature must choose a new target or lose the attack or spell. This spell
-      doesn't protect the warded creature from area effects, such as the
-      explosion of a {@spell fireball}.
-  - ==: StringSpellEntry
-    value: If the warded creature makes an attack, casts a spell that affects an
-      enemy, or deals damage to another creature, this spell ends.
-saving-throw:
-  - WISDOM
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 2055484b-4dbd-4613-826c-7f86e5d1fe84
+  name: Sanctuary
+  source: PHB
+  page: 272
+  srd: true
+  basic-rules: true
+  level: 1
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a small silver mirror
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You ward a creature within range against attack. Until the spell ends,
+        any creature who targets the warded creature with an attack or a harmful
+        spell must first make a Wisdom saving throw. On a failed save, the
+        creature must choose a new target or lose the attack or spell. This
+        spell doesn't protect the warded creature from area effects, such as the
+        explosion of a {@spell fireball}.
+    - ==: StringSpellEntry
+      value: If the warded creature makes an attack, casts a spell that affects an
+        enemy, or deals damage to another creature, this spell ends.
+  saving-throw:
+    - WISDOM
+  area-tags:
+    - SINGLE_TARGET

@@ -1,45 +1,46 @@
-==: Spell
-id: ba0163d0-0fe7-45e3-b74d-6a0c34efb49a
-name: Earth Tremor
-source: XGE
-page: 155
-level: 1
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 10
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You cause a tremor in the ground within range. Each creature other than
-      you in that area must make a Dexterity saving throw. On a failed save, a
-      creature takes {@damage 1d6} bludgeoning damage and is knocked {@condition
-      prone}. If the ground in that area is loose earth or stone, it becomes
-      {@quickref difficult terrain||3} until cleared, with each 5-foot-diameter
-      portion requiring at least 1 minute to clear by hand.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, the
-        damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level above
-        1st.
-damage-inflict:
-  - BLUDGEONING
-condition-inflict:
-  - PRONE
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - CIRCLE
+spell:
+  ==: Spell
+  id: 043b9a0f-f1dd-4f29-92d9-82d29e478cf3
+  name: Earth Tremor
+  source: XGE
+  page: 155
+  level: 1
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 10
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You cause a tremor in the ground within range. Each creature other than
+        you in that area must make a Dexterity saving throw. On a failed save, a
+        creature takes {@damage 1d6} bludgeoning damage and is knocked
+        {@condition prone}. If the ground in that area is loose earth or stone,
+        it becomes {@quickref difficult terrain||3} until cleared, with each
+        5-foot-diameter portion requiring at least 1 minute to clear by hand.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          the damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level
+          above 1st.
+  damage-inflict:
+    - BLUDGEONING
+  condition-inflict:
+    - PRONE
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - CIRCLE

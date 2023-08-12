@@ -1,43 +1,44 @@
-==: Spell
-id: c059d524-a570-4d23-8daa-cea943a703a7
-name: Eldritch Blast
-source: PHB
-page: 237
-srd: true
-basic-rules: true
-level: 0
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A beam of crackling energy streaks toward a creature within range. Make a
-      ranged spell attack against the target. On a hit, the target takes
-      {@damage 1d10} force damage.
-  - ==: StringSpellEntry
-    value: "The spell creates more than one beam when you reach higher levels: two
-      beams at 5th level, three beams at 11th level, and four beams at 17th
-      level. You can direct the beams at the same target or at different ones.
-      Make a separate attack roll for each beam."
-damage-inflict:
-  - FORCE
-spell-attack:
-  - RANGED
-misc-tags:
-  - SCALING_EFFECTS
-area-tags:
-  - SINGLE_TARGET
-  - MULTIPLE_TARGETS
+spell:
+  ==: Spell
+  id: bf5b90c8-ffa9-484d-950e-3772c3beec9c
+  name: Eldritch Blast
+  source: PHB
+  page: 237
+  srd: true
+  basic-rules: true
+  level: 0
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A beam of crackling energy streaks toward a creature within range. Make a
+        ranged spell attack against the target. On a hit, the target takes
+        {@damage 1d10} force damage.
+    - ==: StringSpellEntry
+      value: "The spell creates more than one beam when you reach higher levels: two
+        beams at 5th level, three beams at 11th level, and four beams at 17th
+        level. You can direct the beams at the same target or at different ones.
+        Make a separate attack roll for each beam."
+  damage-inflict:
+    - FORCE
+  spell-attack:
+    - RANGED
+  misc-tags:
+    - SCALING_EFFECTS
+  area-tags:
+    - SINGLE_TARGET
+    - MULTIPLE_TARGETS

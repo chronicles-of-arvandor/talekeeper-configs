@@ -1,39 +1,42 @@
-==: Spell
-id: b006c0a3-5dbf-411c-9e6c-42ef2bd40efd
-name: Druidcraft
-source: PHB
-page: 236
-srd: true
-level: 0
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: "Whispering to the spirits of nature, you create one of the following
-      effects within range:"
-  - ==: ListSpellEntry
-    items:
-      - You create a tiny, harmless sensory effect that predicts what the
-        weather will be at your location for the next 24 hours. The effect might
-        manifest as a golden orb for clear skies, a cloud for rain, falling
-        snowflakes for snow, and so on. This effect persists for 1 round.
-      - You instantly make a flower blossom, a seed pod open, or a leaf bud
-        bloom.
-      - You create an instantaneous, harmless sensory effect, such as falling
-        leaves, a puff of wind, the sound of a small animal, or the faint odor
-        of skunk. The effect must fit in a 5-foot cube.
-      - You instantly light or snuff out a candle, a torch, or a small campfire.
+spell:
+  ==: Spell
+  id: 3872ae13-fa62-444d-aeab-7aec4a734bea
+  name: Druidcraft
+  source: PHB
+  page: 236
+  srd: true
+  level: 0
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: "Whispering to the spirits of nature, you create one of the following
+        effects within range:"
+    - ==: ListSpellEntry
+      items:
+        - You create a tiny, harmless sensory effect that predicts what the
+          weather will be at your location for the next 24 hours. The effect
+          might manifest as a golden orb for clear skies, a cloud for rain,
+          falling snowflakes for snow, and so on. This effect persists for 1
+          round.
+        - You instantly make a flower blossom, a seed pod open, or a leaf bud
+          bloom.
+        - You create an instantaneous, harmless sensory effect, such as falling
+          leaves, a puff of wind, the sound of a small animal, or the faint odor
+          of skunk. The effect must fit in a 5-foot cube.
+        - You instantly light or snuff out a candle, a torch, or a small
+          campfire.

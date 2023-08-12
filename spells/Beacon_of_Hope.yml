@@ -1,35 +1,36 @@
-==: Spell
-id: aba048af-a07b-43ec-8503-611655747566
-name: Beacon of Hope
-source: PHB
-page: 217
-srd: true
-basic-rules: true
-level: 3
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: This spell bestows hope and vitality. Choose any number of creatures
-      within range. For the duration, each target has advantage on Wisdom saving
-      throws and death saving throws, and regains the maximum number of hit
-      points possible from any healing.
-area-tags:
-  - MULTIPLE_TARGETS
+spell:
+  ==: Spell
+  id: 49294d4a-21a4-46a2-87a3-aa325e5b3543
+  name: Beacon of Hope
+  source: PHB
+  page: 217
+  srd: true
+  basic-rules: true
+  level: 3
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: This spell bestows hope and vitality. Choose any number of creatures
+        within range. For the duration, each target has advantage on Wisdom
+        saving throws and death saving throws, and regains the maximum number of
+        hit points possible from any healing.
+  area-tags:
+    - MULTIPLE_TARGETS

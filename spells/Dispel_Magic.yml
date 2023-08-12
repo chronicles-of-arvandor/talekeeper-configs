@@ -1,42 +1,44 @@
-==: Spell
-id: d6673f98-bc47-4066-8e59-4664323214a9
-name: Dispel Magic
-source: PHB
-page: 234
-srd: true
-basic-rules: true
-level: 3
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: Choose one creature, object, or magical effect within range. Any spell of
-      3rd level or lower on the target ends. For each spell of 4th level or
-      higher on the target, make an ability check using your spellcasting
-      ability. The DC equals 10 + the spell's level. On a successful check, the
-      spell ends.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 4th level or higher, you
-        automatically end the effects of a spell on the target if the spell's
-        level is equal to or less than the level of the spell slot you used.
-misc-tags:
-  - AFFECTS_OBJECTS
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 5b9aa1a7-b9b2-4c6c-8f3d-efd723fc80fb
+  name: Dispel Magic
+  source: PHB
+  page: 234
+  srd: true
+  basic-rules: true
+  level: 3
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: Choose one creature, object, or magical effect within range. Any spell of
+        3rd level or lower on the target ends. For each spell of 4th level or
+        higher on the target, make an ability check using your spellcasting
+        ability. The DC equals 10 + the spell's level. On a successful check,
+        the spell ends.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 4th level or higher,
+          you automatically end the effects of a spell on the target if the
+          spell's level is equal to or less than the level of the spell slot you
+          used.
+  misc-tags:
+    - AFFECTS_OBJECTS
+  area-tags:
+    - SINGLE_TARGET

@@ -1,29 +1,30 @@
-==: Spell
-id: 4020c75b-19cf-405e-8f3c-24ab01e558cd
-name: Misty Step
-source: PHB
-page: 260
-srd: true
-basic-rules: true
-level: 2
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: Briefly surrounded by silvery mist, you teleport up to 30 feet to an
-      unoccupied space that you can see.
-misc-tags:
-  - REQUIRES_SIGHT
-  - TELEPORTATION
+spell:
+  ==: Spell
+  id: 6aeb8ea3-c4e4-4260-b0a9-c79d0e52567d
+  name: Misty Step
+  source: PHB
+  page: 260
+  srd: true
+  basic-rules: true
+  level: 2
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: Briefly surrounded by silvery mist, you teleport up to 30 feet to an
+        unoccupied space that you can see.
+  misc-tags:
+    - REQUIRES_SIGHT
+    - TELEPORTATION

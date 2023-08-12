@@ -1,46 +1,47 @@
-==: Spell
-id: 09a40d2c-6990-49cf-a41f-a156ce624d92
-name: Thunderclap
-source: XGE
-page: 168
-level: 0
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 5
-components:
-  ==: SpellComponentsWithNoMaterial
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You create a burst of thunderous sound that can be heard up to 100 feet
-      away. Each creature within range, other than you, must make a Constitution
-      saving throw or take {@damage 1d6} thunder damage.
-  - ==: StringSpellEntry
-    value: The spell's damage increases by {@dice 1d6} when you reach 5th level
-      ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage
-      4d6}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: thunder damage
-    scaling:
-      "1": 1d6
-      "5": 2d6
-      "11": 3d6
-      "17": 4d6
-damage-inflict:
-  - THUNDER
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - SCALING_EFFECTS
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: e0ca352c-f724-4161-844e-a17bd6a65263
+  name: Thunderclap
+  source: XGE
+  page: 168
+  level: 0
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 5
+  components:
+    ==: SpellComponentsWithNoMaterial
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You create a burst of thunderous sound that can be heard up to 100 feet
+        away. Each creature within range, other than you, must make a
+        Constitution saving throw or take {@damage 1d6} thunder damage.
+    - ==: StringSpellEntry
+      value: The spell's damage increases by {@dice 1d6} when you reach 5th level
+        ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage
+        4d6}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: thunder damage
+      scaling:
+        "1": 1d6
+        "5": 2d6
+        "11": 3d6
+        "17": 4d6
+  damage-inflict:
+    - THUNDER
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - SCALING_EFFECTS
+  area-tags:
+    - SPHERE

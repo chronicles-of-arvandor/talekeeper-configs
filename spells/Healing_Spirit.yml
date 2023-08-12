@@ -1,67 +1,68 @@
-==: Spell
-id: ae0a99f7-153b-458a-871b-36a4ee781c08
-name: Healing Spirit
-source: XGE
-page: 157
-level: 2
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You call forth a nature spirit to soothe the wounded. The intangible
-      spirit appears in a space that is a 5-foot cube you can see within range.
-      The spirit looks like a transparent beast or fey (your choice).
-  - ==: StringSpellEntry
-    value: Until the spell ends, whenever you or a creature you can see moves into
-      the spirit's space for the first time on a turn or starts its turn there,
-      you can cause the spirit to restore {@dice 1d6} hit points to that
-      creature (no action required). The spirit can't heal constructs or undead.
-      The spirit can heal a number of times equal to 1 + your spellcasting
-      ability modifier (minimum of twice). After healing that number of times,
-      the spirit disappears.
-  - ==: StringSpellEntry
-    value: As a bonus action on your turn, you can move the spirit up to 30 feet to
-      a space you can see.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        healing increases by {@scaledice 1d6|2-9|1d6} for each slot level above
-        2nd.
-affects-creature-type:
-  - ABERRATION
-  - BEAST
-  - CELESTIAL
-  - DRAGON
-  - ELEMENTAL
-  - FEY
-  - FIEND
-  - GIANT
-  - HUMANOID
-  - MONSTROSITY
-  - OOZE
-  - PLANT
-misc-tags:
-  - HEALING
-  - REQUIRES_SIGHT
-  - USES_BONUS_ACTION
-area-tags:
-  - CUBE
+spell:
+  ==: Spell
+  id: 40a65f5c-fd73-46f1-9dac-43959b296ebc
+  name: Healing Spirit
+  source: XGE
+  page: 157
+  level: 2
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You call forth a nature spirit to soothe the wounded. The intangible
+        spirit appears in a space that is a 5-foot cube you can see within
+        range. The spirit looks like a transparent beast or fey (your choice).
+    - ==: StringSpellEntry
+      value: Until the spell ends, whenever you or a creature you can see moves into
+        the spirit's space for the first time on a turn or starts its turn
+        there, you can cause the spirit to restore {@dice 1d6} hit points to
+        that creature (no action required). The spirit can't heal constructs or
+        undead. The spirit can heal a number of times equal to 1 + your
+        spellcasting ability modifier (minimum of twice). After healing that
+        number of times, the spirit disappears.
+    - ==: StringSpellEntry
+      value: As a bonus action on your turn, you can move the spirit up to 30 feet to
+        a space you can see.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the healing increases by {@scaledice 1d6|2-9|1d6} for each slot level
+          above 2nd.
+  affects-creature-type:
+    - ABERRATION
+    - BEAST
+    - CELESTIAL
+    - DRAGON
+    - ELEMENTAL
+    - FEY
+    - FIEND
+    - GIANT
+    - HUMANOID
+    - MONSTROSITY
+    - OOZE
+    - PLANT
+  misc-tags:
+    - HEALING
+    - REQUIRES_SIGHT
+    - USES_BONUS_ACTION
+  area-tags:
+    - CUBE

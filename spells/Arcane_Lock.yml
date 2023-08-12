@@ -1,44 +1,45 @@
-==: Spell
-id: c40f28b1-32e0-4c31-b74f-f0413a5ab250
-name: Arcane Lock
-source: PHB
-page: 215
-srd: true
-basic-rules: true
-level: 2
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: gold dust worth at least 25 gp, which the spell consumes
-    cost: 2500
-    consume: true
-duration:
-  - ==: PermanentSpellDuration
-    ends:
-      - DISPEL
-entries:
-  - ==: StringSpellEntry
-    value: You touch a closed door, window, gate, chest, or other entryway, and it
-      becomes locked for the duration. You and the creatures you designate when
-      you cast this spell can open the object normally. You can also set a
-      password that, when spoken within 5 feet of the object, suppresses this
-      spell for 1 minute. Otherwise, it is impassable until it is broken or the
-      spell is dispelled or suppressed. Casting {@spell knock} on the object
-      suppresses {@spell arcane lock} for 10 minutes.
-  - ==: StringSpellEntry
-    value: While affected by this spell, the object is more difficult to break or
-      force open; the DC to break it or pick any locks on it increases by 10.
-misc-tags:
-  - AFFECTS_OBJECTS
+spell:
+  ==: Spell
+  id: 9bbde878-a471-436f-bae6-df69bd8d5336
+  name: Arcane Lock
+  source: PHB
+  page: 215
+  srd: true
+  basic-rules: true
+  level: 2
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: gold dust worth at least 25 gp, which the spell consumes
+      cost: 2500
+      consume: true
+  duration:
+    - ==: PermanentSpellDuration
+      ends:
+        - DISPEL
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a closed door, window, gate, chest, or other entryway, and it
+        becomes locked for the duration. You and the creatures you designate
+        when you cast this spell can open the object normally. You can also set
+        a password that, when spoken within 5 feet of the object, suppresses
+        this spell for 1 minute. Otherwise, it is impassable until it is broken
+        or the spell is dispelled or suppressed. Casting {@spell knock} on the
+        object suppresses {@spell arcane lock} for 10 minutes.
+    - ==: StringSpellEntry
+      value: While affected by this spell, the object is more difficult to break or
+        force open; the DC to break it or pick any locks on it increases by 10.
+  misc-tags:
+    - AFFECTS_OBJECTS

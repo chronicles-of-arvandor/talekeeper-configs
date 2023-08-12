@@ -1,32 +1,33 @@
-==: Spell
-id: 5c910388-b91d-43fa-b8eb-bcc42d6b7cd3
-name: Protection from Energy
-source: PHB
-page: 270
-srd: true
-basic-rules: true
-level: 3
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: "For the duration, the willing creature you touch has resistance to one
-      damage type of your choice: acid, cold, fire, lightning, or thunder."
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 6809c203-6fa8-4373-b7e5-bda9cc810cde
+  name: Protection from Energy
+  source: PHB
+  page: 270
+  srd: true
+  basic-rules: true
+  level: 3
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: "For the duration, the willing creature you touch has resistance to one
+        damage type of your choice: acid, cold, fire, lightning, or thunder."
+  area-tags:
+    - SINGLE_TARGET

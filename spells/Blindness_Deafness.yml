@@ -1,46 +1,47 @@
-==: Spell
-id: 0476cc9a-210f-442d-ab85-4f6b61660f6d
-name: Blindness/Deafness
-source: PHB
-page: 219
-srd: true
-level: 2
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You can blind or deafen a foe. Choose one creature that you can see
-      within range to make a Constitution saving throw. If it fails, the target
-      is either {@condition blinded} or {@condition deafened} (your choice) for
-      the duration. At the end of each of its turns, the target can make a
-      Constitution saving throw. On a success, the spell ends.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, you
-        can target one additional creature for each slot level above 2nd.
-condition-inflict:
-  - BLINDED
-  - DEAFENED
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 9933f56e-8e6c-4bae-93cc-17d2ab631ef6
+  name: Blindness/Deafness
+  source: PHB
+  page: 219
+  srd: true
+  level: 2
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You can blind or deafen a foe. Choose one creature that you can see
+        within range to make a Constitution saving throw. If it fails, the
+        target is either {@condition blinded} or {@condition deafened} (your
+        choice) for the duration. At the end of each of its turns, the target
+        can make a Constitution saving throw. On a success, the spell ends.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          you can target one additional creature for each slot level above 2nd.
+  condition-inflict:
+    - BLINDED
+    - DEAFENED
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

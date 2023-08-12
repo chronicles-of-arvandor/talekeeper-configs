@@ -1,34 +1,36 @@
-==: Spell
-id: 7dfe2a11-f60b-4c29-a3be-1b1fea47c570
-name: Transport via Plants
-source: PHB
-page: 283
-srd: true
-level: 6
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 10
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: ROUND
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: This spell creates a magical link between a Large or larger inanimate
-      plant within range and another plant, at any distance, on the same plane
-      of existence. You must have seen or touched the destination plant at least
-      once before. For the duration, any creature can step into the target plant
-      and exit from the destination plant by using 5 feet of movement.
-misc-tags:
-  - TELEPORTATION
+spell:
+  ==: Spell
+  id: b33506a3-b17e-4489-900a-4623751da9b9
+  name: Transport via Plants
+  source: PHB
+  page: 283
+  srd: true
+  level: 6
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 10
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: ROUND
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: This spell creates a magical link between a Large or larger inanimate
+        plant within range and another plant, at any distance, on the same plane
+        of existence. You must have seen or touched the destination plant at
+        least once before. For the duration, any creature can step into the
+        target plant and exit from the destination plant by using 5 feet of
+        movement.
+  misc-tags:
+    - TELEPORTATION

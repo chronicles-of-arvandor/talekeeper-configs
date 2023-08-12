@@ -1,48 +1,49 @@
-==: Spell
-id: 0a92b11b-a283-4039-bf8e-5b1c56284b7c
-name: Mental Prison
-source: XGE
-page: 161
-level: 6
-school: ILLUSION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You attempt to bind a creature within an illusory cell that only it
-      perceives. One creature you can see within range must make an Intelligence
-      saving throw. The target succeeds automatically if it is immune to being
-      {@condition charmed}. On a successful save, the target takes {@damage
-      5d10} psychic damage, and the spell ends. On a failed save, the target
-      takes {@damage 5d10} psychic damage, and you make the area immediately
-      around the target's space appear dangerous to it in some way. You might
-      cause the target to perceive itself as being surrounded by fire, floating
-      razors, or hideous maws filled with dripping teeth. Whatever form the
-      illusion takes, the target can't see or hear anything beyond it and is
-      {@condition restrained} for the spell's duration. If the target is moved
-      out of the illusion, makes a melee attack through it, or reaches any part
-      of its body through it, the target takes {@damage 10d10} psychic damage,
-      and the spell ends.
-damage-inflict:
-  - PSYCHIC
-saving-throw:
-  - INTELLIGENCE
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 18a6a7de-a8d5-425c-9acf-67faac3f18bb
+  name: Mental Prison
+  source: XGE
+  page: 161
+  level: 6
+  school: ILLUSION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You attempt to bind a creature within an illusory cell that only it
+        perceives. One creature you can see within range must make an
+        Intelligence saving throw. The target succeeds automatically if it is
+        immune to being {@condition charmed}. On a successful save, the target
+        takes {@damage 5d10} psychic damage, and the spell ends. On a failed
+        save, the target takes {@damage 5d10} psychic damage, and you make the
+        area immediately around the target's space appear dangerous to it in
+        some way. You might cause the target to perceive itself as being
+        surrounded by fire, floating razors, or hideous maws filled with
+        dripping teeth. Whatever form the illusion takes, the target can't see
+        or hear anything beyond it and is {@condition restrained} for the
+        spell's duration. If the target is moved out of the illusion, makes a
+        melee attack through it, or reaches any part of its body through it, the
+        target takes {@damage 10d10} psychic damage, and the spell ends.
+  damage-inflict:
+    - PSYCHIC
+  saving-throw:
+    - INTELLIGENCE
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

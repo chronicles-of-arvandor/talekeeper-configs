@@ -1,35 +1,36 @@
-==: Spell
-id: 503d840b-f47d-4c83-a68f-ea31efbbbb31
-name: Barkskin
-source: PHB
-page: 217
-srd: true
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a handful of oak bark
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You touch a willing creature. Until the spell ends, the target's skin has
-      a rough, bark-like appearance, and the target's AC can't be less than 16,
-      regardless of what kind of armor it is wearing.
-misc-tags:
-  - MODIFIES_AC
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 1896af87-90cc-4666-8480-9ba0087ef9a3
+  name: Barkskin
+  source: PHB
+  page: 217
+  srd: true
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a handful of oak bark
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a willing creature. Until the spell ends, the target's skin has
+        a rough, bark-like appearance, and the target's AC can't be less than
+        16, regardless of what kind of armor it is wearing.
+  misc-tags:
+    - MODIFIES_AC
+  area-tags:
+    - SINGLE_TARGET

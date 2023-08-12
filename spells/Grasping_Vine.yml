@@ -1,43 +1,44 @@
-==: Spell
-id: e2b4d99c-b32f-4bb3-881c-4a8542af7b23
-name: Grasping Vine
-source: PHB
-page: 246
-level: 4
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You conjure a vine that sprouts from the ground in an unoccupied space of
-      your choice that you can see within range. When you cast this spell, you
-      can direct the vine to lash out at a creature within 30 feet of it that
-      you can see. That creature must succeed on a Dexterity saving throw or be
-      pulled 20 feet directly toward the vine.
-  - ==: StringSpellEntry
-    value: Until the spell ends, you can direct the vine to lash out at the same
-      creature or another one as a bonus action on each of your turns.
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - FORCED_MOVEMENT
-  - REQUIRES_SIGHT
-  - USES_BONUS_ACTION
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 35476565-7c11-41ed-b791-e818a2df9c73
+  name: Grasping Vine
+  source: PHB
+  page: 246
+  level: 4
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You conjure a vine that sprouts from the ground in an unoccupied space of
+        your choice that you can see within range. When you cast this spell, you
+        can direct the vine to lash out at a creature within 30 feet of it that
+        you can see. That creature must succeed on a Dexterity saving throw or
+        be pulled 20 feet directly toward the vine.
+    - ==: StringSpellEntry
+      value: Until the spell ends, you can direct the vine to lash out at the same
+        creature or another one as a bonus action on each of your turns.
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - FORCED_MOVEMENT
+    - REQUIRES_SIGHT
+    - USES_BONUS_ACTION
+  area-tags:
+    - SINGLE_TARGET

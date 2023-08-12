@@ -1,46 +1,47 @@
-==: Spell
-id: d01d1ac3-1d3c-481c-996d-f2c8d931a319
-name: Control Flames
-source: XGE
-page: 152
-level: 0
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: "You choose nonmagical flame that you can see within range and that fits
-      within a 5-foot cube. You affect it in one of the following ways:"
-  - ==: ListSpellEntry
-    items:
-      - You instantaneously expand the flame 5 feet in one direction, provided
-        that wood or other fuel is present in the new location.
-      - You instantaneously extinguish the flames within the cube.
-      - You double or halve the area of bright light and dim light cast by the
-        flame, change its color, or both. The change lasts for 1 hour.
-      - You cause simple shapes—such as the vague form of a creature, an
-        inanimate object, or a location—to appear within the flames and animate
-        as you like. The shapes last for 1 hour.
-  - ==: StringSpellEntry
-    value: If you cast this spell multiple times, you can have up to three
-      non-instantaneous effects created by it active at a time, and you can
-      dismiss such an effect as an action.
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - CUBE
+spell:
+  ==: Spell
+  id: 7a1184a4-502f-430b-be12-1478e0b792b6
+  name: Control Flames
+  source: XGE
+  page: 152
+  level: 0
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: "You choose nonmagical flame that you can see within range and that fits
+        within a 5-foot cube. You affect it in one of the following ways:"
+    - ==: ListSpellEntry
+      items:
+        - You instantaneously expand the flame 5 feet in one direction, provided
+          that wood or other fuel is present in the new location.
+        - You instantaneously extinguish the flames within the cube.
+        - You double or halve the area of bright light and dim light cast by the
+          flame, change its color, or both. The change lasts for 1 hour.
+        - You cause simple shapes—such as the vague form of a creature, an
+          inanimate object, or a location—to appear within the flames and
+          animate as you like. The shapes last for 1 hour.
+    - ==: StringSpellEntry
+      value: If you cast this spell multiple times, you can have up to three
+        non-instantaneous effects created by it active at a time, and you can
+        dismiss such an effect as an action.
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - CUBE

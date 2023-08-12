@@ -1,49 +1,50 @@
-==: Spell
-id: 35224196-cd0f-438d-a729-005a577d09d1
-name: Sapping Sting
-source: EGW
-page: 189
-level: 0
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You sap the vitality of one creature you can see in range. The target
-      must succeed on a Constitution saving throw or take {@damage 1d4} necrotic
-      damage and fall {@condition prone}.
-  - ==: StringSpellEntry
-    value: This spell's damage increases by {@dice 1d4} when you reach 5th level
-      ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: necrotic damage
-    scaling:
-      "1": 1d4
-      "5": 2d4
-      "11": 3d4
-      "17": 4d4
-damage-inflict:
-  - NECROTIC
-condition-inflict:
-  - PRONE
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - SCALING_EFFECTS
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 58839a44-ad19-445f-8fda-da4923cbf430
+  name: Sapping Sting
+  source: EGW
+  page: 189
+  level: 0
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You sap the vitality of one creature you can see in range. The target
+        must succeed on a Constitution saving throw or take {@damage 1d4}
+        necrotic damage and fall {@condition prone}.
+    - ==: StringSpellEntry
+      value: This spell's damage increases by {@dice 1d4} when you reach 5th level
+        ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: necrotic damage
+      scaling:
+        "1": 1d4
+        "5": 2d4
+        "11": 3d4
+        "17": 4d4
+  damage-inflict:
+    - NECROTIC
+  condition-inflict:
+    - PRONE
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - SCALING_EFFECTS
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

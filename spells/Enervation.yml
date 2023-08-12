@@ -1,55 +1,56 @@
-==: Spell
-id: 185ec704-2ecb-4311-b9c4-03b82b3d981c
-name: Enervation
-source: XGE
-page: 155
-level: 5
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: A tendril of inky darkness reaches out from you, touching a creature you
-      can see within range to drain life from it. The target must make a
-      Dexterity saving throw. On a successful save, the target takes {@damage
-      2d8} necrotic damage, and the spell ends. On a failed save, the target
-      takes {@damage 4d8} necrotic damage, and until the spell ends, you can use
-      your action on each of your turns to automatically deal {@damage 4d8}
-      necrotic damage to the target. The spell ends if you use your action to do
-      anything else, if the target is ever outside the spell's range, or if the
-      target has total cover from you.
-  - ==: StringSpellEntry
-    value: Whenever the spell deals damage to a target, you regain hit points equal
-      to half the amount of necrotic damage the target takes.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 6th level or higher, the
-        damage increases by {@scaledamage 4d8;2d8|5-9|1d8} for each slot level
-        above 5th.
-damage-inflict:
-  - NECROTIC
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - HEALING
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 51876211-f616-438e-aa86-13652cbc52a6
+  name: Enervation
+  source: XGE
+  page: 155
+  level: 5
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: A tendril of inky darkness reaches out from you, touching a creature you
+        can see within range to drain life from it. The target must make a
+        Dexterity saving throw. On a successful save, the target takes {@damage
+        2d8} necrotic damage, and the spell ends. On a failed save, the target
+        takes {@damage 4d8} necrotic damage, and until the spell ends, you can
+        use your action on each of your turns to automatically deal {@damage
+        4d8} necrotic damage to the target. The spell ends if you use your
+        action to do anything else, if the target is ever outside the spell's
+        range, or if the target has total cover from you.
+    - ==: StringSpellEntry
+      value: Whenever the spell deals damage to a target, you regain hit points equal
+        to half the amount of necrotic damage the target takes.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 6th level or higher,
+          the damage increases by {@scaledamage 4d8;2d8|5-9|1d8} for each slot
+          level above 5th.
+  damage-inflict:
+    - NECROTIC
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - HEALING
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

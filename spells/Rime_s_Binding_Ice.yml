@@ -1,44 +1,45 @@
-==: Spell
-id: d40bf95f-e23d-4461-9167-e09f893bbe16
-name: Rime's Binding Ice
-source: FTD
-page: 21
-level: 2
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: ConeSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithStringMaterial
-  verbal: true
-  material: a vial of meltwater
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A burst of cold energy emanates from you in a 30-foot cone. Each creature
-      in that area must make a Constitution saving throw. On a failed save, a
-      creature takes {@damage 3d8} cold damage and is hindered by ice formations
-      for 1 minute, or until it or another creature within reach of it uses an
-      action to break away the ice. A creature hindered by ice has its speed
-      reduced to 0. On a successful save, a creature takes half as much damage
-      and isn't hindered by ice.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher,
-        increase the cold damage by {@scaledamage 3d8|2-9|1d8} for each slot
-        level above 2nd.
-damage-inflict:
-  - COLD
-saving-throw:
-  - CONSTITUTION
-area-tags:
-  - CONE
+spell:
+  ==: Spell
+  id: eec07eb8-8a79-467f-be67-e690344f292a
+  name: Rime's Binding Ice
+  source: FTD
+  page: 21
+  level: 2
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: ConeSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithStringMaterial
+    verbal: true
+    material: a vial of meltwater
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A burst of cold energy emanates from you in a 30-foot cone. Each creature
+        in that area must make a Constitution saving throw. On a failed save, a
+        creature takes {@damage 3d8} cold damage and is hindered by ice
+        formations for 1 minute, or until it or another creature within reach of
+        it uses an action to break away the ice. A creature hindered by ice has
+        its speed reduced to 0. On a successful save, a creature takes half as
+        much damage and isn't hindered by ice.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          increase the cold damage by {@scaledamage 3d8|2-9|1d8} for each slot
+          level above 2nd.
+  damage-inflict:
+    - COLD
+  saving-throw:
+    - CONSTITUTION
+  area-tags:
+    - CONE

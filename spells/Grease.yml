@@ -1,42 +1,43 @@
-==: Spell
-id: 1549f928-03ea-4aed-b75c-b7d3a833086f
-name: Grease
-source: PHB
-page: 246
-srd: true
-level: 1
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a bit of pork rind or butter
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: Slick grease covers the ground in a 10-foot square centered on a point
-      within range and turns it into {@quickref difficult terrain||3} for the
-      duration.
-  - ==: StringSpellEntry
-    value: When the grease appears, each creature standing in its area must succeed
-      on a Dexterity saving throw or fall {@condition prone}. A creature that
-      enters the area or ends its turn there must also succeed on a Dexterity
-      saving throw or fall {@condition prone}.
-condition-inflict:
-  - PRONE
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - SQUARE
+spell:
+  ==: Spell
+  id: aa7893c9-576e-450b-9f5c-8f49db00c8a2
+  name: Grease
+  source: PHB
+  page: 246
+  srd: true
+  level: 1
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a bit of pork rind or butter
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: Slick grease covers the ground in a 10-foot square centered on a point
+        within range and turns it into {@quickref difficult terrain||3} for the
+        duration.
+    - ==: StringSpellEntry
+      value: When the grease appears, each creature standing in its area must succeed
+        on a Dexterity saving throw or fall {@condition prone}. A creature that
+        enters the area or ends its turn there must also succeed on a Dexterity
+        saving throw or fall {@condition prone}.
+  condition-inflict:
+    - PRONE
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - SQUARE

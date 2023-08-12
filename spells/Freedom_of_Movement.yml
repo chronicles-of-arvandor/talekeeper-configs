@@ -1,39 +1,40 @@
-==: Spell
-id: 66aaf3af-9b13-4ca0-b7c4-b8f1d696bcd7
-name: Freedom of Movement
-source: PHB
-page: 244
-srd: true
-basic-rules: true
-level: 4
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a leather strap, bound around the arm or a similar appendage
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You touch a willing creature. For the duration, the target's movement is
-      unaffected by {@quickref difficult terrain||3}, and spells and other
-      magical effects can neither reduce the target's speed nor cause the target
-      to be {@condition paralyzed} or {@condition restrained}.
-  - ==: StringSpellEntry
-    value: The target can also spend 5 feet of movement to automatically escape from
-      nonmagical restraints, such as manacles or a creature that has it
-      {@condition grappled}. Finally, being underwater imposes no penalties on
-      the target's movement or attacks.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: c191b586-772f-486a-a113-ca947a50eded
+  name: Freedom of Movement
+  source: PHB
+  page: 244
+  srd: true
+  basic-rules: true
+  level: 4
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a leather strap, bound around the arm or a similar appendage
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a willing creature. For the duration, the target's movement is
+        unaffected by {@quickref difficult terrain||3}, and spells and other
+        magical effects can neither reduce the target's speed nor cause the
+        target to be {@condition paralyzed} or {@condition restrained}.
+    - ==: StringSpellEntry
+      value: The target can also spend 5 feet of movement to automatically escape from
+        nonmagical restraints, such as manacles or a creature that has it
+        {@condition grappled}. Finally, being underwater imposes no penalties on
+        the target's movement or attacks.
+  area-tags:
+    - SINGLE_TARGET

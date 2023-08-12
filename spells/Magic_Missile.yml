@@ -1,43 +1,44 @@
-==: Spell
-id: ba7723e0-4624-4be2-bbfe-4014a2821239
-name: Magic Missile
-source: PHB
-page: 257
-srd: true
-basic-rules: true
-level: 1
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You create three glowing darts of magical force. Each dart hits a
-      creature of your choice that you can see within range. A dart deals
-      {@damage 1d4 + 1} force damage to its target. The darts all strike
-      simultaneously, and you can direct them to hit one creature or several.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, the
-        spell creates one more dart for each slot level above 1st.
-damage-inflict:
-  - FORCE
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
-  - MULTIPLE_TARGETS
+spell:
+  ==: Spell
+  id: 67cdffbf-373e-4431-9467-2f36736c1573
+  name: Magic Missile
+  source: PHB
+  page: 257
+  srd: true
+  basic-rules: true
+  level: 1
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You create three glowing darts of magical force. Each dart hits a
+        creature of your choice that you can see within range. A dart deals
+        {@damage 1d4 + 1} force damage to its target. The darts all strike
+        simultaneously, and you can direct them to hit one creature or several.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          the spell creates one more dart for each slot level above 1st.
+  damage-inflict:
+    - FORCE
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET
+    - MULTIPLE_TARGETS

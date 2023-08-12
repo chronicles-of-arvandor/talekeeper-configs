@@ -1,53 +1,54 @@
-==: Spell
-id: 9c21ff01-fff4-4bd2-b8db-83cf9b26163b
-name: Awaken
-source: PHB
-page: 216
-srd: true
-level: 5
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 8
-    unit: HOUR
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: an agate worth at least 1,000 gp, which the spell consumes
-    cost: 100000
-    consume: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: After spending the casting time tracing magical pathways within a
-      precious gemstone, you touch a Huge or smaller beast or plant. The target
-      must have either no Intelligence score or an Intelligence of 3 or less.
-      The target gains an Intelligence of 10. The target also gains the ability
-      to speak one language you know. If the target is a plant, it gains the
-      ability to move its limbs, roots, vines, creepers, and so forth, and it
-      gains senses similar to a human's. Your DM chooses statistics appropriate
-      for the awakened plant, such as the statistics for the {@creature awakened
-      shrub} or the {@creature awakened tree}.
-  - ==: StringSpellEntry
-    value: The awakened beast or plant is {@condition charmed} by you for 30 days or
-      until you or your companions do anything harmful to it. When the
-      {@condition charmed} condition ends, the awakened creature chooses whether
-      to remain friendly to you, based on how you treated it while it was
-      {@condition charmed}.
-condition-inflict:
-  - CHARMED
-affects-creature-type:
-  - BEAST
-  - PLANT
-misc-tags:
-  - PERMANENT_EFFECTS
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: f2560a26-ef98-472a-8025-cf0bac6617c4
+  name: Awaken
+  source: PHB
+  page: 216
+  srd: true
+  level: 5
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 8
+      unit: HOUR
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: an agate worth at least 1,000 gp, which the spell consumes
+      cost: 100000
+      consume: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: After spending the casting time tracing magical pathways within a
+        precious gemstone, you touch a Huge or smaller beast or plant. The
+        target must have either no Intelligence score or an Intelligence of 3 or
+        less. The target gains an Intelligence of 10. The target also gains the
+        ability to speak one language you know. If the target is a plant, it
+        gains the ability to move its limbs, roots, vines, creepers, and so
+        forth, and it gains senses similar to a human's. Your DM chooses
+        statistics appropriate for the awakened plant, such as the statistics
+        for the {@creature awakened shrub} or the {@creature awakened tree}.
+    - ==: StringSpellEntry
+      value: The awakened beast or plant is {@condition charmed} by you for 30 days or
+        until you or your companions do anything harmful to it. When the
+        {@condition charmed} condition ends, the awakened creature chooses
+        whether to remain friendly to you, based on how you treated it while it
+        was {@condition charmed}.
+  condition-inflict:
+    - CHARMED
+  affects-creature-type:
+    - BEAST
+    - PLANT
+  misc-tags:
+    - PERMANENT_EFFECTS
+  area-tags:
+    - SINGLE_TARGET

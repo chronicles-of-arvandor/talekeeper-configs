@@ -1,42 +1,43 @@
-==: Spell
-id: 5ef83c60-3a65-48a2-a888-f3880f9654e3
-name: Blinding Smite
-source: PHB
-page: 219
-level: 3
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: The next time you hit a creature with a melee weapon attack during this
-      spell's duration, your weapon flares with bright light, and the attack
-      deals an extra {@damage 3d8} radiant damage to the target. Additionally,
-      the target must succeed on a Constitution saving throw or be {@condition
-      blinded} until the spell ends.
-  - ==: StringSpellEntry
-    value: A creature {@condition blinded} by this spell makes another Constitution
-      saving throw at the end of each of its turns. On a successful save, it is
-      no longer {@condition blinded}.
-damage-inflict:
-  - RADIANT
-condition-inflict:
-  - BLINDED
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - ADDITIONAL_ATTACK_DAMAGE
+spell:
+  ==: Spell
+  id: 54a68a77-74a2-47e8-bdb2-4a5497f3e02b
+  name: Blinding Smite
+  source: PHB
+  page: 219
+  level: 3
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: The next time you hit a creature with a melee weapon attack during this
+        spell's duration, your weapon flares with bright light, and the attack
+        deals an extra {@damage 3d8} radiant damage to the target. Additionally,
+        the target must succeed on a Constitution saving throw or be {@condition
+        blinded} until the spell ends.
+    - ==: StringSpellEntry
+      value: A creature {@condition blinded} by this spell makes another Constitution
+        saving throw at the end of each of its turns. On a successful save, it
+        is no longer {@condition blinded}.
+  damage-inflict:
+    - RADIANT
+  condition-inflict:
+    - BLINDED
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - ADDITIONAL_ATTACK_DAMAGE

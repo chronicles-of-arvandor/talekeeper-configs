@@ -1,63 +1,64 @@
-==: Spell
-id: 18fd9bc3-9155-4df4-8196-ee71b1c4b10f
-name: Nathair's Mischief
-source: FTD
-page: 20
-level: 2
-school: ILLUSION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithStringMaterial
-  verbal: true
-  material: a piece of crust from an apple pie
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You fill a 20-foot cube you can see within range with fey and draconic
-      magic. Roll on the Mischievous Surge table to determine the magical effect
-      produced, and roll again at the start of each of your turns until the
-      spell ends. You can move the cube up to 10 feet before you roll.
-  - ==: TableSpellEntry
-    caption: Mischievous Surge
-    col-labels:
-      - d4
-      - Effect
-    col-styles:
-      - col-2 text-center
-      - col-10
-    rows:
-      - - "1"
-        - The smell of apple pie fills the air, and each creature in the cube
-          must succeed on a Wisdom saving throw or become {@condition charmed}
-          by you until the start of your next turn.
-      - - "2"
-        - Bouquets of flowers appear all around, and each creature in the cube
-          must succeed on a Dexterity saving throw or be {@condition blinded}
-          until the start of your next turn as the flowers spray water in their
-          faces.
-      - - "3"
-        - Each creature in the cube must succeed on a Wisdom saving throw or
-          begin giggling until the start of your next turn. A giggling creature
-          is {@condition incapacitated} and uses all its movement to move in a
-          random direction.
-      - - "4"
-        - Drops of molasses hover in the cube, making it {@quickref difficult
-          terrain||3} until the start of your next turn.
-saving-throw:
-  - DEXTERITY
-  - WISDOM
-misc-tags:
-  - ROLLABLE_EFFECTS
-  - REQUIRES_SIGHT
+spell:
+  ==: Spell
+  id: 855be666-71c6-4e15-91cf-539628151fbd
+  name: Nathair's Mischief
+  source: FTD
+  page: 20
+  level: 2
+  school: ILLUSION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithStringMaterial
+    verbal: true
+    material: a piece of crust from an apple pie
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You fill a 20-foot cube you can see within range with fey and draconic
+        magic. Roll on the Mischievous Surge table to determine the magical
+        effect produced, and roll again at the start of each of your turns until
+        the spell ends. You can move the cube up to 10 feet before you roll.
+    - ==: TableSpellEntry
+      caption: Mischievous Surge
+      col-labels:
+        - d4
+        - Effect
+      col-styles:
+        - col-2 text-center
+        - col-10
+      rows:
+        - - "1"
+          - The smell of apple pie fills the air, and each creature in the cube
+            must succeed on a Wisdom saving throw or become {@condition charmed}
+            by you until the start of your next turn.
+        - - "2"
+          - Bouquets of flowers appear all around, and each creature in the cube
+            must succeed on a Dexterity saving throw or be {@condition blinded}
+            until the start of your next turn as the flowers spray water in
+            their faces.
+        - - "3"
+          - Each creature in the cube must succeed on a Wisdom saving throw or
+            begin giggling until the start of your next turn. A giggling
+            creature is {@condition incapacitated} and uses all its movement to
+            move in a random direction.
+        - - "4"
+          - Drops of molasses hover in the cube, making it {@quickref difficult
+            terrain||3} until the start of your next turn.
+  saving-throw:
+    - DEXTERITY
+    - WISDOM
+  misc-tags:
+    - ROLLABLE_EFFECTS
+    - REQUIRES_SIGHT

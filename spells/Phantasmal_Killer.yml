@@ -1,52 +1,53 @@
-==: Spell
-id: 933712a3-04e1-49be-9a7c-5fa67dc84293
-name: Phantasmal Killer
-source: PHB
-page: 265
-srd: true
-level: 4
-school: ILLUSION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You tap into the nightmares of a creature you can see within range and
-      create an illusory manifestation of its deepest fears, visible only to
-      that creature. The target must make a Wisdom saving throw. On a failed
-      save, the target becomes {@condition frightened} for the duration. At the
-      end of each of the target's turns before the spell ends, the target must
-      succeed on a Wisdom saving throw or take {@damage 4d10} psychic damage. On
-      a successful save, the spell ends.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 5th level or higher, the
-        damage increases by {@scaledamage 4d10|4-9|1d10} for each slot level
-        above 4th.
-damage-inflict:
-  - PSYCHIC
-condition-inflict:
-  - FRIGHTENED
-saving-throw:
-  - WISDOM
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 5c884575-7bc8-4e58-a87b-972bb692063a
+  name: Phantasmal Killer
+  source: PHB
+  page: 265
+  srd: true
+  level: 4
+  school: ILLUSION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You tap into the nightmares of a creature you can see within range and
+        create an illusory manifestation of its deepest fears, visible only to
+        that creature. The target must make a Wisdom saving throw. On a failed
+        save, the target becomes {@condition frightened} for the duration. At
+        the end of each of the target's turns before the spell ends, the target
+        must succeed on a Wisdom saving throw or take {@damage 4d10} psychic
+        damage. On a successful save, the spell ends.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 5th level or higher,
+          the damage increases by {@scaledamage 4d10|4-9|1d10} for each slot
+          level above 4th.
+  damage-inflict:
+    - PSYCHIC
+  condition-inflict:
+    - FRIGHTENED
+  saving-throw:
+    - WISDOM
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

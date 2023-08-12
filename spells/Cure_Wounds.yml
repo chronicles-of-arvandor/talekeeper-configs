@@ -1,52 +1,53 @@
-==: Spell
-id: 9ae4b426-f3df-4bc6-ac72-2c520a8a8864
-name: Cure Wounds
-source: PHB
-page: 230
-srd: true
-basic-rules: true
-level: 1
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A creature you touch regains a number of hit points equal to {@dice 1d8}
-      + your spellcasting ability modifier. This spell has no effect on undead
-      or constructs.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, the
-        healing increases by {@scaledice 1d8|1-9|1d8} for each slot level above
-        1st.
-affects-creature-type:
-  - ABERRATION
-  - BEAST
-  - CELESTIAL
-  - DRAGON
-  - ELEMENTAL
-  - FEY
-  - FIEND
-  - GIANT
-  - HUMANOID
-  - MONSTROSITY
-  - OOZE
-  - PLANT
-misc-tags:
-  - HEALING
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 8533d133-cfab-4dae-84f1-bfa76a3dff13
+  name: Cure Wounds
+  source: PHB
+  page: 230
+  srd: true
+  basic-rules: true
+  level: 1
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A creature you touch regains a number of hit points equal to {@dice 1d8}
+        + your spellcasting ability modifier. This spell has no effect on undead
+        or constructs.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          the healing increases by {@scaledice 1d8|1-9|1d8} for each slot level
+          above 1st.
+  affects-creature-type:
+    - ABERRATION
+    - BEAST
+    - CELESTIAL
+    - DRAGON
+    - ELEMENTAL
+    - FEY
+    - FIEND
+    - GIANT
+    - HUMANOID
+    - MONSTROSITY
+    - OOZE
+    - PLANT
+  misc-tags:
+    - HEALING
+  area-tags:
+    - SINGLE_TARGET

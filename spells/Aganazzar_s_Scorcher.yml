@@ -1,42 +1,43 @@
-==: Spell
-id: e171f063-88d0-4ee7-94e6-6b31c3bc90c5
-name: Aganazzar's Scorcher
-source: XGE
-page: 150
-level: 2
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a red dragon's scale
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A line of roaring flame 30 feet long and 5 feet wide emanates from you in
-      a direction you choose. Each creature in the line must make a Dexterity
-      saving throw. A creature takes {@damage 3d8} fire damage on a failed save,
-      or half as much damage on a successful one.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        damage increases by {@scaledamage 3d8|2-9|1d8} for each slot level above
-        2nd.
-damage-inflict:
-  - FIRE
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - LINE
+spell:
+  ==: Spell
+  id: 8120b29f-788c-4030-b790-cbade2bd91d2
+  name: Aganazzar's Scorcher
+  source: XGE
+  page: 150
+  level: 2
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a red dragon's scale
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A line of roaring flame 30 feet long and 5 feet wide emanates from you in
+        a direction you choose. Each creature in the line must make a Dexterity
+        saving throw. A creature takes {@damage 3d8} fire damage on a failed
+        save, or half as much damage on a successful one.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the damage increases by {@scaledamage 3d8|2-9|1d8} for each slot level
+          above 2nd.
+  damage-inflict:
+    - FIRE
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - LINE

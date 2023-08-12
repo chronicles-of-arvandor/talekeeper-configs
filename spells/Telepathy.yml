@@ -1,39 +1,40 @@
-==: Spell
-id: 8f89d307-556b-4c7f-a8ea-1561617aab60
-name: Telepathy
-source: PHB
-page: 281
-level: 8
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceUnlimited
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a pair of linked silver rings
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 24
-entries:
-  - ==: StringSpellEntry
-    value: You create a telepathic link between yourself and a willing creature with
-      which you are familiar. The creature can be anywhere on the same plane of
-      existence as you. The spell ends if you or the target are no longer on the
-      same plane.
-  - ==: StringSpellEntry
-    value: Until the spell ends, you and the target can instantaneously share words,
-      images, sounds, and other sensory messages with one another through the
-      link, and the target recognizes you as the creature it is communicating
-      with. The spell enables a creature with an Intelligence score of at least
-      1 to understand the meaning of your words and take in the scope of any
-      sensory messages you send to it.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 6bc8f5ea-32f7-4303-856a-41f3d16f4b7a
+  name: Telepathy
+  source: PHB
+  page: 281
+  level: 8
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceUnlimited
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a pair of linked silver rings
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 24
+  entries:
+    - ==: StringSpellEntry
+      value: You create a telepathic link between yourself and a willing creature with
+        which you are familiar. The creature can be anywhere on the same plane
+        of existence as you. The spell ends if you or the target are no longer
+        on the same plane.
+    - ==: StringSpellEntry
+      value: Until the spell ends, you and the target can instantaneously share words,
+        images, sounds, and other sensory messages with one another through the
+        link, and the target recognizes you as the creature it is communicating
+        with. The spell enables a creature with an Intelligence score of at
+        least 1 to understand the meaning of your words and take in the scope of
+        any sensory messages you send to it.
+  area-tags:
+    - SINGLE_TARGET

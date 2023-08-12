@@ -1,56 +1,57 @@
-==: Spell
-id: bec4d42e-25fc-4f7e-8b06-dd16882e429c
-name: Insect Plague
-source: PHB
-page: 254
-srd: true
-level: 5
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 300
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a few grains of sugar, some kernels of grain, and a smear of fat
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: Swarming, biting locusts fill a 20-foot-radius sphere centered on a point
-      you choose within range. The sphere spreads around corners. The sphere
-      remains for the duration, and its area is {@quickref Vision and
-      Light|PHB|2||lightly obscured}. The sphere's area is {@quickref difficult
-      terrain||3}.
-  - ==: StringSpellEntry
-    value: When the area appears, each creature in it must make a Constitution
-      saving throw. A creature takes {@damage 4d10} piercing damage on a failed
-      save, or half as much damage on a successful one. A creature must also
-      make this saving throw when it enters the spell's area for the first time
-      on a turn or ends its turn there.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 6th level or higher, the
-        damage increases by {@scaledamage 4d10|5-9|1d10} for each slot level
-        above 5th.
-damage-inflict:
-  - PIERCING
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - DIFFICULT_TERRAIN
-  - OBSCURES_VISION
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 01afe751-e329-4185-914e-f25b22584c34
+  name: Insect Plague
+  source: PHB
+  page: 254
+  srd: true
+  level: 5
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 300
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a few grains of sugar, some kernels of grain, and a smear of fat
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: Swarming, biting locusts fill a 20-foot-radius sphere centered on a point
+        you choose within range. The sphere spreads around corners. The sphere
+        remains for the duration, and its area is {@quickref Vision and
+        Light|PHB|2||lightly obscured}. The sphere's area is {@quickref
+        difficult terrain||3}.
+    - ==: StringSpellEntry
+      value: When the area appears, each creature in it must make a Constitution
+        saving throw. A creature takes {@damage 4d10} piercing damage on a
+        failed save, or half as much damage on a successful one. A creature must
+        also make this saving throw when it enters the spell's area for the
+        first time on a turn or ends its turn there.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 6th level or higher,
+          the damage increases by {@scaledamage 4d10|5-9|1d10} for each slot
+          level above 5th.
+  damage-inflict:
+    - PIERCING
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - DIFFICULT_TERRAIN
+    - OBSCURES_VISION
+  area-tags:
+    - SPHERE

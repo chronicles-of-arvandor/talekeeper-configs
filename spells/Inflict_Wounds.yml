@@ -1,40 +1,41 @@
-==: Spell
-id: 8dc774f7-52dc-47f0-a481-243ed3e930c3
-name: Inflict Wounds
-source: PHB
-page: 253
-srd: true
-basic-rules: true
-level: 1
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: Make a melee spell attack against a creature you can reach. On a hit, the
-      target takes {@damage 3d10} necrotic damage.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, the
-        damage increases by {@scaledamage 3d10|1-9|1d10} for each slot level
-        above 1st.
-damage-inflict:
-  - NECROTIC
-spell-attack:
-  - MELEE
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: fc5ff38e-8321-42e3-8fb0-890bbc457731
+  name: Inflict Wounds
+  source: PHB
+  page: 253
+  srd: true
+  basic-rules: true
+  level: 1
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: Make a melee spell attack against a creature you can reach. On a hit, the
+        target takes {@damage 3d10} necrotic damage.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          the damage increases by {@scaledamage 3d10|1-9|1d10} for each slot
+          level above 1st.
+  damage-inflict:
+    - NECROTIC
+  spell-attack:
+    - MELEE
+  area-tags:
+    - SINGLE_TARGET

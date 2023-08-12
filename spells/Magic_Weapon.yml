@@ -1,37 +1,38 @@
-==: Spell
-id: 4cdb36ff-726d-43c2-894f-ec9a6558401d
-name: Magic Weapon
-source: PHB
-page: 257
-srd: true
-basic-rules: true
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You touch a nonmagical weapon. Until the spell ends, that weapon becomes
-      a magic weapon with a +1 bonus to attack rolls and damage rolls.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 4th level or higher, the
-        bonus increases to +2. When you use a spell slot of 6th level or higher,
-        the bonus increases to +3.
+spell:
+  ==: Spell
+  id: 3ddf2d6b-974e-41b4-9083-e0de773b0e58
+  name: Magic Weapon
+  source: PHB
+  page: 257
+  srd: true
+  basic-rules: true
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a nonmagical weapon. Until the spell ends, that weapon becomes
+        a magic weapon with a +1 bonus to attack rolls and damage rolls.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 4th level or higher,
+          the bonus increases to +2. When you use a spell slot of 6th level or
+          higher, the bonus increases to +3.

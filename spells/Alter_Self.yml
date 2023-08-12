@@ -1,62 +1,63 @@
-==: Spell
-id: 4e95f1ca-9ac1-4262-94ea-411e735f2530
-name: Alter Self
-source: PHB
-page: 211
-srd: true
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You assume a different form. When you cast the spell, choose one of the
-      following options, the effects of which last for the duration of the
-      spell. While the spell lasts, you can end one option as an action to gain
-      the benefits of a different one.
-  - ==: EntriesSpellEntry
-    name: Aquatic Adaptation
-    entries:
-      - You adapt your body to an aquatic environment, sprouting gills and
-        growing webbing between your fingers. You can breathe underwater and
-        gain a swimming speed equal to your walking speed.
-  - ==: EntriesSpellEntry
-    name: Change Appearance
-    entries:
-      - You transform your appearance. You decide what you look like, including
-        your height, weight, facial features, sound of your voice, hair length,
-        coloration, and distinguishing characteristics, if any. You can make
-        yourself appear as a member of another race, though none of your
-        statistics change. You also can't appear as a creature of a different
-        size than you, and your basic shape stays the same; if you're bipedal,
-        you can't use this spell to become quadrupedal, for instance. At any
-        time for the duration of the spell, you can use your action to change
-        your appearance in this way again.
-  - ==: EntriesSpellEntry
-    name: Natural Weapons
-    entries:
-      - You grow claws, fangs, spines, horns, or a different natural weapon of
-        your choice. Your unarmed strikes deal {@damage 1d6} bludgeoning,
-        piercing, or slashing damage, as appropriate to the natural weapon you
-        chose, and you are proficient with your unarmed strikes. Finally, the
-        natural weapon is magic and you have a +1 bonus to the attack and damage
-        rolls you make using it.
-damage-inflict:
-  - BLUDGEONING
-  - PIERCING
-  - SLASHING
+spell:
+  ==: Spell
+  id: e685e4ce-47eb-4316-bd94-3a6921e6a446
+  name: Alter Self
+  source: PHB
+  page: 211
+  srd: true
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You assume a different form. When you cast the spell, choose one of the
+        following options, the effects of which last for the duration of the
+        spell. While the spell lasts, you can end one option as an action to
+        gain the benefits of a different one.
+    - ==: EntriesSpellEntry
+      name: Aquatic Adaptation
+      entries:
+        - You adapt your body to an aquatic environment, sprouting gills and
+          growing webbing between your fingers. You can breathe underwater and
+          gain a swimming speed equal to your walking speed.
+    - ==: EntriesSpellEntry
+      name: Change Appearance
+      entries:
+        - You transform your appearance. You decide what you look like,
+          including your height, weight, facial features, sound of your voice,
+          hair length, coloration, and distinguishing characteristics, if any.
+          You can make yourself appear as a member of another race, though none
+          of your statistics change. You also can't appear as a creature of a
+          different size than you, and your basic shape stays the same; if
+          you're bipedal, you can't use this spell to become quadrupedal, for
+          instance. At any time for the duration of the spell, you can use your
+          action to change your appearance in this way again.
+    - ==: EntriesSpellEntry
+      name: Natural Weapons
+      entries:
+        - You grow claws, fangs, spines, horns, or a different natural weapon of
+          your choice. Your unarmed strikes deal {@damage 1d6} bludgeoning,
+          piercing, or slashing damage, as appropriate to the natural weapon you
+          chose, and you are proficient with your unarmed strikes. Finally, the
+          natural weapon is magic and you have a +1 bonus to the attack and
+          damage rolls you make using it.
+  damage-inflict:
+    - BLUDGEONING
+    - PIERCING
+    - SLASHING

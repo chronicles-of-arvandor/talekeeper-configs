@@ -1,41 +1,42 @@
-==: Spell
-id: b07ac68e-b7af-4819-afea-8be70c33e9bf
-name: Regenerate
-source: PHB
-page: 271
-srd: true
-basic-rules: true
-level: 7
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: MINUTE
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a prayer wheel and holy water
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You touch a creature and stimulate its natural healing ability. The
-      target regains {@dice 4d8 + 15} hit points. For the duration of the spell,
-      the target regains 1 hit point at the start of each of its turns (10 hit
-      points each minute).
-  - ==: StringSpellEntry
-    value: The target's severed body members (fingers, legs, tails, and so on), if
-      any, are restored after 2 minutes. If you have the severed part and hold
-      it to the stump, the spell instantaneously causes the limb to knit to the
-      stump.
-misc-tags:
-  - HEALING
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 6236177a-dc8f-4982-b4ab-6cdebdd22a08
+  name: Regenerate
+  source: PHB
+  page: 271
+  srd: true
+  basic-rules: true
+  level: 7
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: MINUTE
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a prayer wheel and holy water
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a creature and stimulate its natural healing ability. The
+        target regains {@dice 4d8 + 15} hit points. For the duration of the
+        spell, the target regains 1 hit point at the start of each of its turns
+        (10 hit points each minute).
+    - ==: StringSpellEntry
+      value: The target's severed body members (fingers, legs, tails, and so on), if
+        any, are restored after 2 minutes. If you have the severed part and hold
+        it to the stump, the spell instantaneously causes the limb to knit to
+        the stump.
+  misc-tags:
+    - HEALING
+  area-tags:
+    - SINGLE_TARGET

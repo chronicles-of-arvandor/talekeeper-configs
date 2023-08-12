@@ -1,35 +1,36 @@
-==: Spell
-id: 899f4a94-b714-47c7-8b6c-a2911cd704fb
-name: Conjure Barrage
-source: PHB
-page: 225
-level: 3
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: ConeSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: one piece of ammunition or a thrown weapon
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You throw a nonmagical weapon or fire a piece of nonmagical ammunition
-      into the air to create a cone of identical weapons that shoot forward and
-      then disappear. Each creature in a 60-foot cone must succeed on a
-      Dexterity saving throw. A creature takes {@damage 3d8} damage on a failed
-      save, or half as much damage on a successful one. The damage type is the
-      same as that of the weapon or ammunition used as a component.
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - CONE
+spell:
+  ==: Spell
+  id: c230b6c4-10ea-4e3f-b6e3-531366445a44
+  name: Conjure Barrage
+  source: PHB
+  page: 225
+  level: 3
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: ConeSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: one piece of ammunition or a thrown weapon
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You throw a nonmagical weapon or fire a piece of nonmagical ammunition
+        into the air to create a cone of identical weapons that shoot forward
+        and then disappear. Each creature in a 60-foot cone must succeed on a
+        Dexterity saving throw. A creature takes {@damage 3d8} damage on a
+        failed save, or half as much damage on a successful one. The damage type
+        is the same as that of the weapon or ammunition used as a component.
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - CONE

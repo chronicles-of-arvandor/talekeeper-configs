@@ -1,33 +1,34 @@
-==: Spell
-id: 8912d3cc-a767-415b-bcf5-b4d63d9bfa7d
-name: Purify Food and Drink
-source: PHB
-page: 270
-srd: true
-level: 1
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 10
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: All nonmagical food and drink within a 5-foot-radius sphere centered on a
-      point of your choice within range is purified and rendered free of poison
-      and disease.
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 94d005b0-0b41-41e8-833a-0454abc9f237
+  name: Purify Food and Drink
+  source: PHB
+  page: 270
+  srd: true
+  level: 1
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 10
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: All nonmagical food and drink within a 5-foot-radius sphere centered on a
+        point of your choice within range is purified and rendered free of
+        poison and disease.
+  area-tags:
+    - SPHERE

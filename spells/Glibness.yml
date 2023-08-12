@@ -1,29 +1,30 @@
-==: Spell
-id: 752c0419-18d9-4093-be7c-447a701defc1
-name: Glibness
-source: PHB
-page: 245
-srd: true
-level: 8
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: Until the spell ends, when you make a Charisma check, you can replace the
-      number you roll with a 15. Additionally, no matter what you say, magic
-      that would determine if you are telling the truth indicates that you are
-      being truthful.
+spell:
+  ==: Spell
+  id: 390178ee-00f0-4526-938a-23a5af611474
+  name: Glibness
+  source: PHB
+  page: 245
+  srd: true
+  level: 8
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: Until the spell ends, when you make a Charisma check, you can replace the
+        number you roll with a 15. Additionally, no matter what you say, magic
+        that would determine if you are telling the truth indicates that you are
+        being truthful.

@@ -1,47 +1,48 @@
-==: Spell
-id: 9d90a0f9-0ea4-42ac-b7cf-77ef115d44d7
-name: Primal Savagery
-source: XGE
-page: 163
-level: 0
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You channel primal magic to cause your teeth or fingernails to sharpen,
-      ready to deliver a corrosive attack. Make a melee spell attack against one
-      creature within 5 feet of you. On a hit, the target takes {@damage 1d10}
-      acid damage. After you make the attack, your teeth or fingernails return
-      to normal.
-  - ==: StringSpellEntry
-    value: The spell's damage increases by {@dice 1d10} when you reach 5th level
-      ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage
-      4d10}).
-scaling-level-dice:
-  - ==: SpellScalingLevelDice
-    label: acid damage
-    scaling:
-      "1": 1d10
-      "5": 2d10
-      "11": 3d10
-      "17": 4d10
-damage-inflict:
-  - ACID
-spell-attack:
-  - MELEE
-misc-tags:
-  - SCALING_EFFECTS
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 27677c67-bc10-4fa4-8099-09131c54b402
+  name: Primal Savagery
+  source: XGE
+  page: 163
+  level: 0
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You channel primal magic to cause your teeth or fingernails to sharpen,
+        ready to deliver a corrosive attack. Make a melee spell attack against
+        one creature within 5 feet of you. On a hit, the target takes {@damage
+        1d10} acid damage. After you make the attack, your teeth or fingernails
+        return to normal.
+    - ==: StringSpellEntry
+      value: The spell's damage increases by {@dice 1d10} when you reach 5th level
+        ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage
+        4d10}).
+  scaling-level-dice:
+    - ==: SpellScalingLevelDice
+      label: acid damage
+      scaling:
+        "1": 1d10
+        "5": 2d10
+        "11": 3d10
+        "17": 4d10
+  damage-inflict:
+    - ACID
+  spell-attack:
+    - MELEE
+  misc-tags:
+    - SCALING_EFFECTS
+  area-tags:
+    - SINGLE_TARGET

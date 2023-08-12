@@ -1,51 +1,53 @@
-==: Spell
-id: 398faf92-7d7a-461d-9f1a-a237593f4c81
-name: Cordon of Arrows
-source: PHB
-page: 228
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 5
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: four or more arrows or bolts
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 8
-entries:
-  - ==: StringSpellEntry
-    value: You plant four pieces of nonmagical ammunition—{@item arrow|phb|arrows}
-      or {@item crossbow bolt|phb|crossbow bolts}—in the ground within range and
-      lay magic upon them to protect an area. Until the spell ends, whenever a
-      creature other than you comes within 30 feet of the ammunition for the
-      first time on a turn or ends its turn there, one piece of ammunition flies
-      up to strike it. The creature must succeed on a Dexterity saving throw or
-      take {@damage 1d6} piercing damage. The piece of ammunition is then
-      destroyed. The spell ends when no ammunition remains.
-  - ==: StringSpellEntry
-    value: When you cast this spell, you can designate any creatures you choose, and
-      the spell ignores them.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        amount of ammunition that can be affected increases by two for each slot
-        level above 2nd.
-damage-inflict:
-  - PIERCING
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 3d887f4b-c7c5-4c13-9fc6-5e1827ce3f0b
+  name: Cordon of Arrows
+  source: PHB
+  page: 228
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 5
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: four or more arrows or bolts
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 8
+  entries:
+    - ==: StringSpellEntry
+      value: You plant four pieces of nonmagical ammunition—{@item arrow|phb|arrows}
+        or {@item crossbow bolt|phb|crossbow bolts}—in the ground within range
+        and lay magic upon them to protect an area. Until the spell ends,
+        whenever a creature other than you comes within 30 feet of the
+        ammunition for the first time on a turn or ends its turn there, one
+        piece of ammunition flies up to strike it. The creature must succeed on
+        a Dexterity saving throw or take {@damage 1d6} piercing damage. The
+        piece of ammunition is then destroyed. The spell ends when no ammunition
+        remains.
+    - ==: StringSpellEntry
+      value: When you cast this spell, you can designate any creatures you choose, and
+        the spell ignores them.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the amount of ammunition that can be affected increases by two for
+          each slot level above 2nd.
+  damage-inflict:
+    - PIERCING
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - SPHERE

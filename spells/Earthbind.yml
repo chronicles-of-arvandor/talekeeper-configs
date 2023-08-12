@@ -1,38 +1,39 @@
-==: Spell
-id: c9439e4e-7acb-4b77-86c3-22b8cd09d923
-name: Earthbind
-source: XGE
-page: 154
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 300
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: Choose one creature you can see within range. Yellow strips of magical
-      energy loop around the creature. The target must succeed on a Strength
-      saving throw, or its flying speed (if any) is reduced to 0 feet for the
-      spell's duration. An airborne creature affected by this spell safely
-      descends at 60 feet per round until it reaches the ground or the spell
-      ends.
-saving-throw:
-  - STRENGTH
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: cfb06fe0-1679-49d9-90b8-207d4fe968d5
+  name: Earthbind
+  source: XGE
+  page: 154
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 300
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: Choose one creature you can see within range. Yellow strips of magical
+        energy loop around the creature. The target must succeed on a Strength
+        saving throw, or its flying speed (if any) is reduced to 0 feet for the
+        spell's duration. An airborne creature affected by this spell safely
+        descends at 60 feet per round until it reaches the ground or the spell
+        ends.
+  saving-throw:
+    - STRENGTH
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

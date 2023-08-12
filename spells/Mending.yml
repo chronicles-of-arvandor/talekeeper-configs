@@ -1,34 +1,35 @@
-==: Spell
-id: e697f579-37f2-45c3-9f37-fda5047df5f4
-name: Mending
-source: PHB
-page: 259
-srd: true
-level: 0
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: MINUTE
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: two lodestones
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: This spell repairs a single break or tear in an object you touch, such as
-      broken chain link, two halves of a broken key, a torn cloak, or a leaking
-      wineskin. As long as the break or tear is no larger than 1 foot in any
-      dimension, you mend it, leaving no trace of the former damage.
-  - ==: StringSpellEntry
-    value: This spell can physically repair a magic item or construct, but the spell
-      can't restore magic to such an object.
-misc-tags:
-  - AFFECTS_OBJECTS
+spell:
+  ==: Spell
+  id: 01a38667-24df-4c6c-b1b4-b79bc0e90e48
+  name: Mending
+  source: PHB
+  page: 259
+  srd: true
+  level: 0
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: MINUTE
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: two lodestones
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: This spell repairs a single break or tear in an object you touch, such as
+        broken chain link, two halves of a broken key, a torn cloak, or a
+        leaking wineskin. As long as the break or tear is no larger than 1 foot
+        in any dimension, you mend it, leaving no trace of the former damage.
+    - ==: StringSpellEntry
+      value: This spell can physically repair a magic item or construct, but the spell
+        can't restore magic to such an object.
+  misc-tags:
+    - AFFECTS_OBJECTS

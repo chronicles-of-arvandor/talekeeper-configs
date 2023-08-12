@@ -1,42 +1,43 @@
-==: Spell
-id: 77123717-658b-42ea-bc26-bbd390cd233a
-name: Snilloc's Snowball Swarm
-source: XGE
-page: 165
-level: 2
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 90
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a piece of ice or a small white rock chip
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A flurry of magic snowballs erupts from a point you choose within range.
-      Each creature in a 5-foot-radius sphere centered on that point must make a
-      Dexterity saving throw. A creature takes {@damage 3d6} cold damage on a
-      failed save, or half as much damage on a successful one.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above
-        2nd.
-damage-inflict:
-  - COLD
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 0173af0a-7e8e-4f4c-b81e-f4529e7869bb
+  name: Snilloc's Snowball Swarm
+  source: XGE
+  page: 165
+  level: 2
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 90
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a piece of ice or a small white rock chip
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A flurry of magic snowballs erupts from a point you choose within range.
+        Each creature in a 5-foot-radius sphere centered on that point must make
+        a Dexterity saving throw. A creature takes {@damage 3d6} cold damage on
+        a failed save, or half as much damage on a successful one.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level
+          above 2nd.
+  damage-inflict:
+    - COLD
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - SPHERE

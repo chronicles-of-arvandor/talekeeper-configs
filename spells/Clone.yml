@@ -1,49 +1,51 @@
-==: Spell
-id: 3d500270-1ed0-41bb-9cc9-49110ec9a67f
-name: Clone
-source: PHB
-page: 222
-srd: true
-level: 8
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: HOUR
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of
-      the creature that is to be cloned, which the spell consumes, and a vessel
-      worth at least 2,000 gp that has a sealable lid and is large enough to
-      hold the creature being cloned, such as a huge urn, coffin, mud-filled
-      cyst in the ground, or crystal container filled with salt water
-    cost: 100000
-    consume: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: This spell grows an inert duplicate of a living creature as a safeguard
-      against death. This clone forms inside the vessel used in the spell's
-      casting and grows to full size and maturity after 120 days; you can also
-      choose to have the clone be a younger version of the same creature. It
-      remains inert and endures indefinitely, as long as its vessel remains
-      undisturbed.
-  - ==: StringSpellEntry
-    value: At any time after the clone matures, if the original creature dies, its
-      soul transfers to the clone, provided that the soul is free and willing to
-      return. The clone is physically identical to the original and has the same
-      personality, memories, and abilities, but none of the original's
-      equipment. The original creature's physical remains, if they still exist,
-      become inert and can't thereafter be restored to life, since the
-      creature's soul is elsewhere.
-misc-tags:
-  - PERMANENT_EFFECTS
+spell:
+  ==: Spell
+  id: ba64f994-080c-4f97-be12-22cf6cd86883
+  name: Clone
+  source: PHB
+  page: 222
+  srd: true
+  level: 8
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: HOUR
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of
+        the creature that is to be cloned, which the spell consumes, and a
+        vessel worth at least 2,000 gp that has a sealable lid and is large
+        enough to hold the creature being cloned, such as a huge urn, coffin,
+        mud-filled cyst in the ground, or crystal container filled with salt
+        water
+      cost: 100000
+      consume: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: This spell grows an inert duplicate of a living creature as a safeguard
+        against death. This clone forms inside the vessel used in the spell's
+        casting and grows to full size and maturity after 120 days; you can also
+        choose to have the clone be a younger version of the same creature. It
+        remains inert and endures indefinitely, as long as its vessel remains
+        undisturbed.
+    - ==: StringSpellEntry
+      value: At any time after the clone matures, if the original creature dies, its
+        soul transfers to the clone, provided that the soul is free and willing
+        to return. The clone is physically identical to the original and has the
+        same personality, memories, and abilities, but none of the original's
+        equipment. The original creature's physical remains, if they still
+        exist, become inert and can't thereafter be restored to life, since the
+        creature's soul is elsewhere.
+  misc-tags:
+    - PERMANENT_EFFECTS

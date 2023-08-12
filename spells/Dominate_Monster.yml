@@ -1,65 +1,66 @@
-==: Spell
-id: 16898277-c822-4ff1-bb38-045cafb61700
-name: Dominate Monster
-source: PHB
-page: 235
-srd: true
-basic-rules: true
-level: 8
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You attempt to beguile a creature that you can see within range. It must
-      succeed on a Wisdom saving throw or be {@condition charmed} by you for the
-      duration. If you or creatures that are friendly to you are fighting it, it
-      has advantage on the saving throw.
-  - ==: StringSpellEntry
-    value: While the creature is {@condition charmed}, you have a telepathic link
-      with it as long as the two of you are on the same plane of existence. You
-      can use this telepathic link to issue commands to the creature while you
-      are conscious (no action required), which it does its best to obey. You
-      can specify a simple and general course of action, such as "Attack that
-      creature," "Run over there," or "Fetch that object." If the creature
-      completes the order and doesn't receive further direction from you, it
-      defends and preserves itself to the best of its ability.
-  - ==: StringSpellEntry
-    value: You can use your action to take total and precise control of the target.
-      Until the end of your next turn, the creature takes only the actions you
-      choose, and doesn't do anything that you don't allow it to do. During this
-      time, you can also cause the creature to use a reaction, but this requires
-      you to use your own reaction as well.
-  - ==: StringSpellEntry
-    value: Each time the target takes damage, it makes a new Wisdom saving throw
-      against the spell. If the saving throw succeeds, the spell ends.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell with a 9th-level spell slot, the duration is
-        {@status concentration}, up to 8 hours.
-condition-inflict:
-  - CHARMED
-saving-throw:
-  - WISDOM
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 65b9be29-3fdd-4669-a350-9a89a0609954
+  name: Dominate Monster
+  source: PHB
+  page: 235
+  srd: true
+  basic-rules: true
+  level: 8
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You attempt to beguile a creature that you can see within range. It must
+        succeed on a Wisdom saving throw or be {@condition charmed} by you for
+        the duration. If you or creatures that are friendly to you are fighting
+        it, it has advantage on the saving throw.
+    - ==: StringSpellEntry
+      value: While the creature is {@condition charmed}, you have a telepathic link
+        with it as long as the two of you are on the same plane of existence.
+        You can use this telepathic link to issue commands to the creature while
+        you are conscious (no action required), which it does its best to obey.
+        You can specify a simple and general course of action, such as "Attack
+        that creature," "Run over there," or "Fetch that object." If the
+        creature completes the order and doesn't receive further direction from
+        you, it defends and preserves itself to the best of its ability.
+    - ==: StringSpellEntry
+      value: You can use your action to take total and precise control of the target.
+        Until the end of your next turn, the creature takes only the actions you
+        choose, and doesn't do anything that you don't allow it to do. During
+        this time, you can also cause the creature to use a reaction, but this
+        requires you to use your own reaction as well.
+    - ==: StringSpellEntry
+      value: Each time the target takes damage, it makes a new Wisdom saving throw
+        against the spell. If the saving throw succeeds, the spell ends.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell with a 9th-level spell slot, the duration is
+          {@status concentration}, up to 8 hours.
+  condition-inflict:
+    - CHARMED
+  saving-throw:
+    - WISDOM
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

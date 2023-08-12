@@ -1,44 +1,45 @@
-==: Spell
-id: cf23c5fc-dbcd-4f9c-a768-e45109e8c55b
-name: Hellish Rebuke
-source: PHB
-page: 250
-srd: true
-level: 1
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: REACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You point your finger, and the creature that damaged you is momentarily
-      surrounded by hellish flames. The creature must make a Dexterity saving
-      throw. It takes {@damage 2d10} fire damage on a failed save, or half as
-      much damage on a successful one.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, the
-        damage increases by {@scaledamage 2d10|1-9|1d10} for each slot level
-        above 1st.
-damage-inflict:
-  - FIRE
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 2a6df7c9-ace4-4b24-8d09-1a702ce174c8
+  name: Hellish Rebuke
+  source: PHB
+  page: 250
+  srd: true
+  level: 1
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: REACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You point your finger, and the creature that damaged you is momentarily
+        surrounded by hellish flames. The creature must make a Dexterity saving
+        throw. It takes {@damage 2d10} fire damage on a failed save, or half as
+        much damage on a successful one.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          the damage increases by {@scaledamage 2d10|1-9|1d10} for each slot
+          level above 1st.
+  damage-inflict:
+    - FIRE
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

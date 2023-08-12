@@ -1,46 +1,47 @@
-==: Spell
-id: ac2ab2c2-37e1-4db9-997e-cc15ca7eab69
-name: Circle of Death
-source: PHB
-page: 221
-srd: true
-level: 6
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 150
-components:
-  ==: SpellComponentsWithObjectMaterial
-  somatic: true
-  verbal: true
-  material:
-    ==: MaterialSpellComponent
-    text: the powder of a crushed black pearl worth at least 500 gp
-    cost: 50000
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A sphere of negative energy ripples out in a 60-foot-radius sphere from a
-      point within range. Each creature in that area must make a Constitution
-      saving throw. A target takes {@damage 8d6} necrotic damage on a failed
-      save, or half as much damage on a successful one.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 7th level or higher, the
-        damage increases by {@scaledamage 8d6|6-9|2d6} for each slot level above
-        6th.
-damage-inflict:
-  - NECROTIC
-saving-throw:
-  - CONSTITUTION
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 97e7f9a3-fc9f-4ebb-ba4e-5915f3dfa772
+  name: Circle of Death
+  source: PHB
+  page: 221
+  srd: true
+  level: 6
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 150
+  components:
+    ==: SpellComponentsWithObjectMaterial
+    somatic: true
+    verbal: true
+    material:
+      ==: MaterialSpellComponent
+      text: the powder of a crushed black pearl worth at least 500 gp
+      cost: 50000
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A sphere of negative energy ripples out in a 60-foot-radius sphere from a
+        point within range. Each creature in that area must make a Constitution
+        saving throw. A target takes {@damage 8d6} necrotic damage on a failed
+        save, or half as much damage on a successful one.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 7th level or higher,
+          the damage increases by {@scaledamage 8d6|6-9|2d6} for each slot level
+          above 6th.
+  damage-inflict:
+    - NECROTIC
+  saving-throw:
+    - CONSTITUTION
+  area-tags:
+    - SPHERE

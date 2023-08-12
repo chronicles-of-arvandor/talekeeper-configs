@@ -1,38 +1,39 @@
-==: Spell
-id: 3ad8b891-1acc-4d0f-a095-d99050c63003
-name: Death Ward
-source: PHB
-page: 230
-srd: true
-basic-rules: true
-level: 4
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 8
-entries:
-  - ==: StringSpellEntry
-    value: You touch a creature and grant it a measure of protection from death.
-  - ==: StringSpellEntry
-    value: The first time the target would drop to 0 hit points as a result of
-      taking damage, the target instead drops to 1 hit point, and the spell
-      ends.
-  - ==: StringSpellEntry
-    value: If the spell is still in effect when the target is subjected to an effect
-      that would kill it instantaneously without dealing damage, that effect is
-      instead negated against the target, and the spell ends.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 78e059c3-b2da-46f1-aa5c-61ca97dd7a48
+  name: Death Ward
+  source: PHB
+  page: 230
+  srd: true
+  basic-rules: true
+  level: 4
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 8
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a creature and grant it a measure of protection from death.
+    - ==: StringSpellEntry
+      value: The first time the target would drop to 0 hit points as a result of
+        taking damage, the target instead drops to 1 hit point, and the spell
+        ends.
+    - ==: StringSpellEntry
+      value: If the spell is still in effect when the target is subjected to an effect
+        that would kill it instantaneously without dealing damage, that effect
+        is instead negated against the target, and the spell ends.
+  area-tags:
+    - SINGLE_TARGET

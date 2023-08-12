@@ -1,37 +1,38 @@
-==: Spell
-id: cdc1fa65-5ab0-4b9f-b10f-4b5e391d1f35
-name: Longstrider
-source: PHB
-page: 256
-srd: true
-level: 1
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a pinch of dirt
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: You touch a creature. The target's speed increases by 10 feet until the
-      spell ends.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, you
-        can target one additional creature for each slot level above 1st.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: e6a1b955-6458-4b83-be56-c77bd4d8945a
+  name: Longstrider
+  source: PHB
+  page: 256
+  srd: true
+  level: 1
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a pinch of dirt
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a creature. The target's speed increases by 10 feet until the
+        spell ends.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          you can target one additional creature for each slot level above 1st.
+  area-tags:
+    - SINGLE_TARGET

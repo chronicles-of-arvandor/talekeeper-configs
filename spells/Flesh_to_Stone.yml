@@ -1,59 +1,60 @@
-==: Spell
-id: aa71eb2f-256d-4ddf-bb8d-02570e40fd1b
-name: Flesh to Stone
-source: PHB
-page: 243
-srd: true
-level: 6
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a pinch of lime, water, and earth
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You attempt to turn one creature that you can see within range into
-      stone. If the target's body is made of flesh, the creature must make a
-      Constitution saving throw. On a failed save, it is {@condition restrained}
-      as its flesh begins to harden. On a successful save, the creature isn't
-      affected.
-  - ==: StringSpellEntry
-    value: A creature {@condition restrained} by this spell must make another
-      Constitution saving throw at the end of each of its turns. If it
-      successfully saves against this spell three times, the spell ends. If it
-      fails its saves three times, it is turned to stone and subjected to the
-      {@condition petrified} condition for the duration. The successes and
-      failures don't need to be consecutive; keep track of both until the target
-      collects three of a kind.
-  - ==: StringSpellEntry
-    value: If the creature is physically broken while {@condition petrified}, it
-      suffers from similar deformities if it reverts to its original state.
-  - ==: StringSpellEntry
-    value: If you maintain your {@status concentration} on this spell for the entire
-      possible duration, the creature is turned to stone until the effect is
-      removed.
-condition-inflict:
-  - PETRIFIED
-  - RESTRAINED
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - PERMANENT_EFFECTS
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: d1cfd923-43ed-42a9-ac9d-9b1bbb41fe09
+  name: Flesh to Stone
+  source: PHB
+  page: 243
+  srd: true
+  level: 6
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a pinch of lime, water, and earth
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You attempt to turn one creature that you can see within range into
+        stone. If the target's body is made of flesh, the creature must make a
+        Constitution saving throw. On a failed save, it is {@condition
+        restrained} as its flesh begins to harden. On a successful save, the
+        creature isn't affected.
+    - ==: StringSpellEntry
+      value: A creature {@condition restrained} by this spell must make another
+        Constitution saving throw at the end of each of its turns. If it
+        successfully saves against this spell three times, the spell ends. If it
+        fails its saves three times, it is turned to stone and subjected to the
+        {@condition petrified} condition for the duration. The successes and
+        failures don't need to be consecutive; keep track of both until the
+        target collects three of a kind.
+    - ==: StringSpellEntry
+      value: If the creature is physically broken while {@condition petrified}, it
+        suffers from similar deformities if it reverts to its original state.
+    - ==: StringSpellEntry
+      value: If you maintain your {@status concentration} on this spell for the entire
+        possible duration, the creature is turned to stone until the effect is
+        removed.
+  condition-inflict:
+    - PETRIFIED
+    - RESTRAINED
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - PERMANENT_EFFECTS
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

@@ -1,29 +1,30 @@
-==: Spell
-id: f82619cc-8715-48f0-be14-5c32b155755d
-name: Create Food and Water
-source: PHB
-page: 229
-srd: true
-level: 3
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You create 45 pounds of food and 30 gallons of water on the ground or in
-      containers within range, enough to sustain up to fifteen humanoids or five
-      steeds for 24 hours. The food is bland but nourishing, and spoils if
-      uneaten after 24 hours. The water is clean and doesn't go bad.
+spell:
+  ==: Spell
+  id: 004adc3f-82b0-4087-bf17-cc3db90b10bf
+  name: Create Food and Water
+  source: PHB
+  page: 229
+  srd: true
+  level: 3
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You create 45 pounds of food and 30 gallons of water on the ground or in
+        containers within range, enough to sustain up to fifteen humanoids or
+        five steeds for 24 hours. The food is bland but nourishing, and spoils
+        if uneaten after 24 hours. The water is clean and doesn't go bad.

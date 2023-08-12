@@ -1,42 +1,43 @@
-==: Spell
-id: ea215d04-7e82-4f96-83f1-27a61a0c16af
-name: Harm
-source: PHB
-page: 249
-srd: true
-basic-rules: true
-level: 6
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You unleash a virulent disease on a creature that you can see within
-      range. The target must make a Constitution saving throw. On a failed save,
-      it takes {@damage 14d6} necrotic damage, or half as much damage on a
-      successful save. The damage can't reduce the target's hit points below 1.
-      If the target fails the saving throw, its hit point maximum is reduced for
-      1 hour by an amount equal to the necrotic damage it took. Any effect that
-      removes a disease allows a creature's hit point maximum to return to
-      normal before that time passes.
-damage-inflict:
-  - NECROTIC
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: a5cde728-0624-4bd3-a353-e3772b274f2a
+  name: Harm
+  source: PHB
+  page: 249
+  srd: true
+  basic-rules: true
+  level: 6
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You unleash a virulent disease on a creature that you can see within
+        range. The target must make a Constitution saving throw. On a failed
+        save, it takes {@damage 14d6} necrotic damage, or half as much damage on
+        a successful save. The damage can't reduce the target's hit points below
+        1. If the target fails the saving throw, its hit point maximum is
+        reduced for 1 hour by an amount equal to the necrotic damage it took.
+        Any effect that removes a disease allows a creature's hit point maximum
+        to return to normal before that time passes.
+  damage-inflict:
+    - NECROTIC
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

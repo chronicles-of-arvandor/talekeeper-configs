@@ -1,32 +1,33 @@
-==: Spell
-id: 43ec7716-c512-4ba8-b0ef-6355beadd4c2
-name: Tongues
-source: PHB
-page: 283
-srd: true
-level: 3
-school: DIVINATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  material: a small clay model of a ziggurat
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: This spell grants the creature you touch the ability to understand any
-      spoken language it hears. Moreover, when the target speaks, any creature
-      that knows at least one language and can hear the target understands what
-      it says.
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: ee81ba48-1637-4741-801e-9187fb4b7064
+  name: Tongues
+  source: PHB
+  page: 283
+  srd: true
+  level: 3
+  school: DIVINATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    material: a small clay model of a ziggurat
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: This spell grants the creature you touch the ability to understand any
+        spoken language it hears. Moreover, when the target speaks, any creature
+        that knows at least one language and can hear the target understands
+        what it says.
+  area-tags:
+    - SINGLE_TARGET

@@ -1,53 +1,54 @@
-==: Spell
-id: 144eb5f1-3971-428d-9d84-27f275915910
-name: Hex
-source: PHB
-page: 251
-level: 1
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 90
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: the petrified eye of a newt
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You place a curse on a creature that you can see within range. Until the
-      spell ends, you deal an extra {@damage 1d6} necrotic damage to the target
-      whenever you hit it with an attack. Also, choose one ability when you cast
-      the spell. The target has disadvantage on ability checks made with the
-      chosen ability.
-  - ==: StringSpellEntry
-    value: If the target drops to 0 hit points before this spell ends, you can use a
-      bonus action on a subsequent turn of yours to curse a new creature.
-  - ==: StringSpellEntry
-    value: A {@spell remove curse} cast on the target ends this spell early.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd or 4th level, you can
-        maintain your {@status concentration} on the spell for up to 8 hours.
-        When you use a spell slot of 5th level or higher, you can maintain your
-        {@status concentration} on the spell for up to 24 hours.
-damage-inflict:
-  - NECROTIC
-misc-tags:
-  - REQUIRES_SIGHT
-  - USES_BONUS_ACTION
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: ca99e64d-28cd-4c43-9e23-b0cf34c53c00
+  name: Hex
+  source: PHB
+  page: 251
+  level: 1
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 90
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: the petrified eye of a newt
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You place a curse on a creature that you can see within range. Until the
+        spell ends, you deal an extra {@damage 1d6} necrotic damage to the
+        target whenever you hit it with an attack. Also, choose one ability when
+        you cast the spell. The target has disadvantage on ability checks made
+        with the chosen ability.
+    - ==: StringSpellEntry
+      value: If the target drops to 0 hit points before this spell ends, you can use a
+        bonus action on a subsequent turn of yours to curse a new creature.
+    - ==: StringSpellEntry
+      value: A {@spell remove curse} cast on the target ends this spell early.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd or 4th level, you
+          can maintain your {@status concentration} on the spell for up to 8
+          hours. When you use a spell slot of 5th level or higher, you can
+          maintain your {@status concentration} on the spell for up to 24 hours.
+  damage-inflict:
+    - NECROTIC
+  misc-tags:
+    - REQUIRES_SIGHT
+    - USES_BONUS_ACTION
+  area-tags:
+    - SINGLE_TARGET

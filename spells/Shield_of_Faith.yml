@@ -1,36 +1,37 @@
-==: Spell
-id: f2d092cc-ae68-4344-9dd2-a6c5e0842ca5
-name: Shield of Faith
-source: PHB
-page: 275
-srd: true
-basic-rules: true
-level: 1
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a small parchment with a bit of holy text written on it
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: A shimmering field appears and surrounds a creature of your choice within
-      range, granting it a +2 bonus to AC for the duration.
-misc-tags:
-  - MODIFIES_AC
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: e2d8bf50-e33b-4b8b-a872-e8561a153ea2
+  name: Shield of Faith
+  source: PHB
+  page: 275
+  srd: true
+  basic-rules: true
+  level: 1
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a small parchment with a bit of holy text written on it
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: A shimmering field appears and surrounds a creature of your choice within
+        range, granting it a +2 bonus to AC for the duration.
+  misc-tags:
+    - MODIFIES_AC
+  area-tags:
+    - SINGLE_TARGET

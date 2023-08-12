@@ -1,43 +1,45 @@
-==: Spell
-id: a9d1e55c-95ae-4fe3-a2a7-53635b862c2d
-name: Silence
-source: PHB
-page: 275
-srd: true
-basic-rules: true
-level: 2
-school: ILLUSION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: For the duration, no sound can be created within or pass through a
-      20-foot-radius sphere centered on a point you choose within range. Any
-      creature or object entirely inside the sphere is immune to thunder damage,
-      and creatures are {@condition deafened} while entirely inside it. Casting
-      a spell that includes a verbal component is impossible there.
-condition-inflict:
-  - DEAFENED
-misc-tags:
-  - AFFECTS_OBJECTS
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 6fd9815c-5cef-4957-b794-0fb662819140
+  name: Silence
+  source: PHB
+  page: 275
+  srd: true
+  basic-rules: true
+  level: 2
+  school: ILLUSION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: For the duration, no sound can be created within or pass through a
+        20-foot-radius sphere centered on a point you choose within range. Any
+        creature or object entirely inside the sphere is immune to thunder
+        damage, and creatures are {@condition deafened} while entirely inside
+        it. Casting a spell that includes a verbal component is impossible
+        there.
+  condition-inflict:
+    - DEAFENED
+  misc-tags:
+    - AFFECTS_OBJECTS
+  area-tags:
+    - SPHERE

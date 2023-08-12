@@ -1,43 +1,44 @@
-==: Spell
-id: 26143180-703a-4207-a3af-111acd77163e
-name: Guardian of Faith
-source: PHB
-page: 246
-srd: true
-basic-rules: true
-level: 4
-school: CONJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 30
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 8
-entries:
-  - ==: StringSpellEntry
-    value: A Large spectral guardian appears and hovers for the duration in an
-      unoccupied space of your choice that you can see within range. The
-      guardian occupies that space and is indistinct except for a gleaming sword
-      and shield emblazoned with the symbol of your deity.
-  - ==: StringSpellEntry
-    value: Any creature hostile to you that moves to a space within 10 feet of the
-      guardian for the first time on a turn must succeed on a Dexterity saving
-      throw. The creature takes 20 radiant damage on a failed save, or half as
-      much damage on a successful one. The guardian vanishes when it has dealt a
-      total of 60 damage.
-damage-inflict:
-  - RADIANT
-saving-throw:
-  - DEXTERITY
-misc-tags:
-  - REQUIRES_SIGHT
+spell:
+  ==: Spell
+  id: a93b517b-f8ed-42e1-86af-2eff565b705e
+  name: Guardian of Faith
+  source: PHB
+  page: 246
+  srd: true
+  basic-rules: true
+  level: 4
+  school: CONJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 30
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 8
+  entries:
+    - ==: StringSpellEntry
+      value: A Large spectral guardian appears and hovers for the duration in an
+        unoccupied space of your choice that you can see within range. The
+        guardian occupies that space and is indistinct except for a gleaming
+        sword and shield emblazoned with the symbol of your deity.
+    - ==: StringSpellEntry
+      value: Any creature hostile to you that moves to a space within 10 feet of the
+        guardian for the first time on a turn must succeed on a Dexterity saving
+        throw. The creature takes 20 radiant damage on a failed save, or half as
+        much damage on a successful one. The guardian vanishes when it has dealt
+        a total of 60 damage.
+  damage-inflict:
+    - RADIANT
+  saving-throw:
+    - DEXTERITY
+  misc-tags:
+    - REQUIRES_SIGHT

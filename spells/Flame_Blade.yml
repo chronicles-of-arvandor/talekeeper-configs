@@ -1,54 +1,55 @@
-==: Spell
-id: 5078c343-8427-4e60-b050-9545ce1407a5
-name: Flame Blade
-source: PHB
-page: 242
-srd: true
-level: 2
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: leaf of sumac
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 10
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You evoke a fiery blade in your free hand. The blade is similar in size
-      and shape to a scimitar, and it lasts for the duration. If you let go of
-      the blade, it disappears, but you can evoke the blade again as a bonus
-      action.
-  - ==: StringSpellEntry
-    value: You can use your action to make a melee spell attack with the fiery
-      blade. On a hit, the target takes {@damage 3d6} fire damage.
-  - ==: StringSpellEntry
-    value: The flaming blade sheds bright light in a 10-foot radius and dim light
-      for an additional 10 feet.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 4th level or higher, the
-        damage increases by {@scaledamage 3d6|2,4,6,8|1d6} for every two slot
-        levels above 2nd.
-damage-inflict:
-  - FIRE
-spell-attack:
-  - MELEE
-misc-tags:
-  - CREATES_LIGHT
-  - USES_BONUS_ACTION
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 2aef9f89-1f95-4bfa-bf5f-ddcbe9d0ca5e
+  name: Flame Blade
+  source: PHB
+  page: 242
+  srd: true
+  level: 2
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: leaf of sumac
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 10
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You evoke a fiery blade in your free hand. The blade is similar in size
+        and shape to a scimitar, and it lasts for the duration. If you let go of
+        the blade, it disappears, but you can evoke the blade again as a bonus
+        action.
+    - ==: StringSpellEntry
+      value: You can use your action to make a melee spell attack with the fiery
+        blade. On a hit, the target takes {@damage 3d6} fire damage.
+    - ==: StringSpellEntry
+      value: The flaming blade sheds bright light in a 10-foot radius and dim light
+        for an additional 10 feet.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 4th level or higher,
+          the damage increases by {@scaledamage 3d6|2,4,6,8|1d6} for every two
+          slot levels above 2nd.
+  damage-inflict:
+    - FIRE
+  spell-attack:
+    - MELEE
+  misc-tags:
+    - CREATES_LIGHT
+    - USES_BONUS_ACTION
+  area-tags:
+    - SINGLE_TARGET

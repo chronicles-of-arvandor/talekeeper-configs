@@ -1,41 +1,42 @@
-==: Spell
-id: 9033a089-b66a-418d-8dbb-0bd6f01d91f0
-name: Armor of Agathys
-source: PHB
-page: 215
-level: 1
-school: ABJURATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a cup of water
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-entries:
-  - ==: StringSpellEntry
-    value: A protective magical force surrounds you, manifesting as a spectral frost
-      that covers you and your gear. You gain 5 temporary hit points for the
-      duration. If a creature hits you with a melee attack while you have these
-      hit points, the creature takes 5 cold damage.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 2nd level or higher, both
-        the temporary hit points and the cold damage increase by 5 for each slot
-        level above 1st.
-damage-inflict:
-  - COLD
-misc-tags:
-  - GRANTS_TEMPORARY_HIT_POINTS
+spell:
+  ==: Spell
+  id: 59d4cc87-1e71-4599-ac22-7cf33e8fa084
+  name: Armor of Agathys
+  source: PHB
+  page: 215
+  level: 1
+  school: ABJURATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a cup of water
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+  entries:
+    - ==: StringSpellEntry
+      value: A protective magical force surrounds you, manifesting as a spectral frost
+        that covers you and your gear. You gain 5 temporary hit points for the
+        duration. If a creature hits you with a melee attack while you have
+        these hit points, the creature takes 5 cold damage.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 2nd level or higher,
+          both the temporary hit points and the cold damage increase by 5 for
+          each slot level above 1st.
+  damage-inflict:
+    - COLD
+  misc-tags:
+    - GRANTS_TEMPORARY_HIT_POINTS

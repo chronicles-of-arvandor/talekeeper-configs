@@ -1,45 +1,46 @@
-==: Spell
-id: bc22b9b0-eb58-470d-bbe4-c50f7c42e6d1
-name: Commune
-source: PHB
-page: 223
-srd: true
-basic-rules: true
-level: 5
-school: DIVINATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: MINUTE
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: incense and a vial of holy or unholy water
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-meta:
-  ==: SpellMeta
-  ritual: true
-entries:
-  - ==: StringSpellEntry
-    value: You contact your deity or a divine proxy and ask up to three questions
-      that can be answered with a yes or no. You must ask your questions before
-      the spell ends. You receive a correct answer for each question.
-  - ==: StringSpellEntry
-    value: Divine beings aren't necessarily omniscient, so you might receive
-      "unclear" as an answer if a question pertains to information that lies
-      beyond the deity's knowledge. In a case where a one-word answer could be
-      misleading or contrary to the deity's interests, the DM might offer a
-      short phrase as an answer instead.
-  - ==: StringSpellEntry
-    value: If you cast the spell two or more times before finishing your next long
-      rest, there is a cumulative {@chance 25|||No answer!|Answer} chance for
-      each casting after the first that you get no answer. The DM makes this
-      roll in secret.
+spell:
+  ==: Spell
+  id: 9a0a38e5-cb79-43ea-b56f-1af7e822debf
+  name: Commune
+  source: PHB
+  page: 223
+  srd: true
+  basic-rules: true
+  level: 5
+  school: DIVINATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: MINUTE
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: incense and a vial of holy or unholy water
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+  meta:
+    ==: SpellMeta
+    ritual: true
+  entries:
+    - ==: StringSpellEntry
+      value: You contact your deity or a divine proxy and ask up to three questions
+        that can be answered with a yes or no. You must ask your questions
+        before the spell ends. You receive a correct answer for each question.
+    - ==: StringSpellEntry
+      value: Divine beings aren't necessarily omniscient, so you might receive
+        "unclear" as an answer if a question pertains to information that lies
+        beyond the deity's knowledge. In a case where a one-word answer could be
+        misleading or contrary to the deity's interests, the DM might offer a
+        short phrase as an answer instead.
+    - ==: StringSpellEntry
+      value: If you cast the spell two or more times before finishing your next long
+        rest, there is a cumulative {@chance 25|||No answer!|Answer} chance for
+        each casting after the first that you get no answer. The DM makes this
+        roll in secret.

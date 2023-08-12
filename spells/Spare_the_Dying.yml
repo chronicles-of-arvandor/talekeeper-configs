@@ -1,42 +1,43 @@
-==: Spell
-id: f29a32a0-246e-4653-befe-8f1cd7e890fc
-name: Spare the Dying
-source: PHB
-page: 277
-srd: true
-basic-rules: true
-level: 0
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You touch a living creature that has 0 hit points. The creature becomes
-      stable. This spell has no effect on undead or constructs.
-affects-creature-type:
-  - ABERRATION
-  - BEAST
-  - CELESTIAL
-  - DRAGON
-  - ELEMENTAL
-  - FEY
-  - FIEND
-  - GIANT
-  - HUMANOID
-  - MONSTROSITY
-  - OOZE
-  - PLANT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 42e223a7-c858-4d31-beb2-fa6e652fe70d
+  name: Spare the Dying
+  source: PHB
+  page: 277
+  srd: true
+  basic-rules: true
+  level: 0
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You touch a living creature that has 0 hit points. The creature becomes
+        stable. This spell has no effect on undead or constructs.
+  affects-creature-type:
+    - ABERRATION
+    - BEAST
+    - CELESTIAL
+    - DRAGON
+    - ELEMENTAL
+    - FEY
+    - FIEND
+    - GIANT
+    - HUMANOID
+    - MONSTROSITY
+    - OOZE
+    - PLANT
+  area-tags:
+    - SINGLE_TARGET

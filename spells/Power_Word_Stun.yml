@@ -1,41 +1,42 @@
-==: Spell
-id: cb2412b8-ee95-4aa2-95a7-53b902beac94
-name: Power Word Stun
-source: PHB
-page: 267
-srd: true
-basic-rules: true
-level: 8
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: You speak a word of power that can overwhelm the mind of one creature you
-      can see within range, leaving it dumbfounded. If the target has 150 hit
-      points or fewer, it is {@condition stunned}. Otherwise, the spell has no
-      effect.
-  - ==: StringSpellEntry
-    value: The {@condition stunned} target must make a Constitution saving throw at
-      the end of each of its turns. On a successful save, this stunning effect
-      ends.
-condition-inflict:
-  - STUNNED
-saving-throw:
-  - CONSTITUTION
-misc-tags:
-  - REQUIRES_SIGHT
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: a971e4b6-9ddf-4f03-a70e-233665171056
+  name: Power Word Stun
+  source: PHB
+  page: 267
+  srd: true
+  basic-rules: true
+  level: 8
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: You speak a word of power that can overwhelm the mind of one creature you
+        can see within range, leaving it dumbfounded. If the target has 150 hit
+        points or fewer, it is {@condition stunned}. Otherwise, the spell has no
+        effect.
+    - ==: StringSpellEntry
+      value: The {@condition stunned} target must make a Constitution saving throw at
+        the end of each of its turns. On a successful save, this stunning effect
+        ends.
+  condition-inflict:
+    - STUNNED
+  saving-throw:
+    - CONSTITUTION
+  misc-tags:
+    - REQUIRES_SIGHT
+  area-tags:
+    - SINGLE_TARGET

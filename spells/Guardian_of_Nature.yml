@@ -1,58 +1,59 @@
-==: Spell
-id: 84fcf578-25c8-4fea-b621-931e244b64df
-name: Guardian of Nature
-source: XGE
-page: 157
-level: 4
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: BONUS
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: "A nature spirit answers your call and transforms you into a powerful
-      guardian. The transformation lasts until the spell ends. You choose one of
-      the following forms to assume: Primal Beast or Great Tree."
-  - ==: EntriesSpellEntry
-    name: Primal Beast
-    entries:
-      - "Bestial fur covers your body, your facial features become feral, and
-        you gain the following benefits:"
-  - ==: ListSpellEntry
-    items:
-      - Your walking speed increases by 10 feet.
-      - You gain {@sense darkvision} with a range of 120 feet.
-      - You make Strength-based attack rolls with advantage.
-      - Your melee weapon attacks deal an extra {@damage 1d6} force damage on a
-        hit.
-  - ==: EntriesSpellEntry
-    name: Great Tree
-    entries:
-      - "Your skin appears barky, leaves sprout from your hair, and you gain the
-        following benefits:"
-  - ==: ListSpellEntry
-    items:
-      - You gain 10 temporary hit points.
-      - You make Constitution saving throws with advantage.
-      - You make Dexterity- and Wisdom-based attack rolls with advantage.
-      - While you are on the ground, the ground within 15 feet of you is
-        {@quickref difficult terrain||3} for your enemies.
-damage-inflict:
-  - FORCE
-misc-tags:
-  - ADDITIONAL_ATTACK_DAMAGE
-  - DIFFICULT_TERRAIN
-  - GRANTS_TEMPORARY_HIT_POINTS
+spell:
+  ==: Spell
+  id: c91f040b-ba71-4449-b1c0-1a0572d7d285
+  name: Guardian of Nature
+  source: XGE
+  page: 157
+  level: 4
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: BONUS
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: "A nature spirit answers your call and transforms you into a powerful
+        guardian. The transformation lasts until the spell ends. You choose one
+        of the following forms to assume: Primal Beast or Great Tree."
+    - ==: EntriesSpellEntry
+      name: Primal Beast
+      entries:
+        - "Bestial fur covers your body, your facial features become feral, and
+          you gain the following benefits:"
+    - ==: ListSpellEntry
+      items:
+        - Your walking speed increases by 10 feet.
+        - You gain {@sense darkvision} with a range of 120 feet.
+        - You make Strength-based attack rolls with advantage.
+        - Your melee weapon attacks deal an extra {@damage 1d6} force damage on
+          a hit.
+    - ==: EntriesSpellEntry
+      name: Great Tree
+      entries:
+        - "Your skin appears barky, leaves sprout from your hair, and you gain
+          the following benefits:"
+    - ==: ListSpellEntry
+      items:
+        - You gain 10 temporary hit points.
+        - You make Constitution saving throws with advantage.
+        - You make Dexterity- and Wisdom-based attack rolls with advantage.
+        - While you are on the ground, the ground within 15 feet of you is
+          {@quickref difficult terrain||3} for your enemies.
+  damage-inflict:
+    - FORCE
+  misc-tags:
+    - ADDITIONAL_ATTACK_DAMAGE
+    - DIFFICULT_TERRAIN
+    - GRANTS_TEMPORARY_HIT_POINTS

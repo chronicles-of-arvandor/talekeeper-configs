@@ -1,49 +1,50 @@
-==: Spell
-id: 4be60920-2451-43b1-b1b8-9edc4b87b488
-name: Calm Emotions
-source: PHB
-page: 221
-srd: true
-level: 2
-school: ENCHANTMENT
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 60
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You attempt to suppress strong emotions in a group of people. Each
-      humanoid in a 20-foot-radius sphere centered on a point you choose within
-      range must make a Charisma saving throw; a creature can choose to fail
-      this saving throw if it wishes. If a creature fails its saving throw,
-      choose one of the following two effects.
-  - ==: StringSpellEntry
-    value: You can suppress any effect causing a target to be {@condition charmed}
-      or {@condition frightened}. When this spell ends, any suppressed effect
-      resumes, provided that its duration has not expired in the meantime.
-  - ==: StringSpellEntry
-    value: Alternatively, you can make a target indifferent about creatures of your
-      choice that it is hostile toward. This indifference ends if the target is
-      attacked or harmed by a spell or if it witnesses any of its friends being
-      harmed. When the spell ends, the creature becomes hostile again, unless
-      the DM rules otherwise.
-saving-throw:
-  - CHARISMA
-affects-creature-type:
-  - HUMANOID
-area-tags:
-  - SPHERE
+spell:
+  ==: Spell
+  id: 94e7bea2-b626-4966-85da-8c8fde743eec
+  name: Calm Emotions
+  source: PHB
+  page: 221
+  srd: true
+  level: 2
+  school: ENCHANTMENT
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 60
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You attempt to suppress strong emotions in a group of people. Each
+        humanoid in a 20-foot-radius sphere centered on a point you choose
+        within range must make a Charisma saving throw; a creature can choose to
+        fail this saving throw if it wishes. If a creature fails its saving
+        throw, choose one of the following two effects.
+    - ==: StringSpellEntry
+      value: You can suppress any effect causing a target to be {@condition charmed}
+        or {@condition frightened}. When this spell ends, any suppressed effect
+        resumes, provided that its duration has not expired in the meantime.
+    - ==: StringSpellEntry
+      value: Alternatively, you can make a target indifferent about creatures of your
+        choice that it is hostile toward. This indifference ends if the target
+        is attacked or harmed by a spell or if it witnesses any of its friends
+        being harmed. When the spell ends, the creature becomes hostile again,
+        unless the DM rules otherwise.
+  saving-throw:
+    - CHARISMA
+  affects-creature-type:
+    - HUMANOID
+  area-tags:
+    - SPHERE

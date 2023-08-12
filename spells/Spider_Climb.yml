@@ -1,33 +1,34 @@
-==: Spell
-id: 42cd9067-4491-4c9b-a196-41dcf1e30919
-name: Spider Climb
-source: PHB
-page: 277
-srd: true
-basic-rules: true
-level: 2
-school: TRANSMUTATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceTouch
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a drop of bitumen and a spider
-duration:
-  - ==: TimedSpellDuration
-    type: HOUR
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: Until the spell ends, one willing creature you touch gains the ability to
-      move up, down, and across vertical surfaces and upside down along
-      ceilings, while leaving its hands free. The target also gains a climbing
-      speed equal to its walking speed.
+spell:
+  ==: Spell
+  id: ae0ee077-53b5-4d23-9cda-5ba2c1a7abb2
+  name: Spider Climb
+  source: PHB
+  page: 277
+  srd: true
+  basic-rules: true
+  level: 2
+  school: TRANSMUTATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceTouch
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a drop of bitumen and a spider
+  duration:
+    - ==: TimedSpellDuration
+      type: HOUR
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: Until the spell ends, one willing creature you touch gains the ability to
+        move up, down, and across vertical surfaces and upside down along
+        ceilings, while leaving its hands free. The target also gains a climbing
+        speed equal to its walking speed.

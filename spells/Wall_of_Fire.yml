@@ -1,57 +1,58 @@
-==: Spell
-id: 9e29de30-987f-45d3-b34d-f9c61a19cba0
-name: Wall of Fire
-source: PHB
-page: 285
-srd: true
-basic-rules: true
-level: 4
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 120
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: a small piece of phosphorus
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: You create a wall of fire on a solid surface within range. You can make
-      the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed
-      wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall
-      is opaque and lasts for the duration.
-  - ==: StringSpellEntry
-    value: When the wall appears, each creature within its area must make a
-      Dexterity saving throw. On a failed save, a creature takes {@damage 5d8}
-      fire damage, or half as much damage on a successful save.
-  - ==: StringSpellEntry
-    value: One side of the wall, selected by you when you cast this spell, deals
-      {@damage 5d8} fire damage to each creature that ends its turn within 10
-      feet of that side or inside the wall. A creature takes the same damage
-      when it enters the wall for the first time on a turn or ends its turn
-      there. The other side of the wall deals no damage.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 5th level or higher, the
-        damage increases by {@scaledamage 5d8|4-9|1d8} for each slot level above
-        4th.
-damage-inflict:
-  - FIRE
-saving-throw:
-  - DEXTERITY
-area-tags:
-  - WALL
+spell:
+  ==: Spell
+  id: 6dfb7349-5740-48dc-8e8e-8c180d5cc210
+  name: Wall of Fire
+  source: PHB
+  page: 285
+  srd: true
+  basic-rules: true
+  level: 4
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 120
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: a small piece of phosphorus
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: You create a wall of fire on a solid surface within range. You can make
+        the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed
+        wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall
+        is opaque and lasts for the duration.
+    - ==: StringSpellEntry
+      value: When the wall appears, each creature within its area must make a
+        Dexterity saving throw. On a failed save, a creature takes {@damage 5d8}
+        fire damage, or half as much damage on a successful save.
+    - ==: StringSpellEntry
+      value: One side of the wall, selected by you when you cast this spell, deals
+        {@damage 5d8} fire damage to each creature that ends its turn within 10
+        feet of that side or inside the wall. A creature takes the same damage
+        when it enters the wall for the first time on a turn or ends its turn
+        there. The other side of the wall deals no damage.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 5th level or higher,
+          the damage increases by {@scaledamage 5d8|4-9|1d8} for each slot level
+          above 4th.
+  damage-inflict:
+    - FIRE
+  saving-throw:
+    - DEXTERITY
+  area-tags:
+    - WALL

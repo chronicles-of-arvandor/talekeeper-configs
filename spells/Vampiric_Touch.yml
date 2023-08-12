@@ -1,48 +1,49 @@
-==: Spell
-id: 17ec3dab-3422-4c01-8261-e56ad9ada617
-name: Vampiric Touch
-source: PHB
-page: 285
-srd: true
-level: 3
-school: NECROMANCY
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceSelf
-components:
-  ==: SpellComponentsWithNoMaterial
-  somatic: true
-  verbal: true
-duration:
-  - ==: TimedSpellDuration
-    type: MINUTE
-    amount: 1
-    concentration: true
-entries:
-  - ==: StringSpellEntry
-    value: The touch of your shadow-wreathed hand can siphon life force from others
-      to heal your wounds. Make a melee spell attack against a creature within
-      your reach. On a hit, the target takes {@damage 3d6} necrotic damage, and
-      you regain hit points equal to half the amount of necrotic damage dealt.
-      Until the spell ends, you can make the attack again on each of your turns
-      as an action.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 4th level or higher, the
-        damage increases by {@scaledamage 3d6|3-9|1d6} for each slot level above
-        3rd.
-damage-inflict:
-  - NECROTIC
-spell-attack:
-  - MELEE
-misc-tags:
-  - HEALING
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 159bee9f-ca5e-45a8-84fd-412fb0a58dbd
+  name: Vampiric Touch
+  source: PHB
+  page: 285
+  srd: true
+  level: 3
+  school: NECROMANCY
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceSelf
+  components:
+    ==: SpellComponentsWithNoMaterial
+    somatic: true
+    verbal: true
+  duration:
+    - ==: TimedSpellDuration
+      type: MINUTE
+      amount: 1
+      concentration: true
+  entries:
+    - ==: StringSpellEntry
+      value: The touch of your shadow-wreathed hand can siphon life force from others
+        to heal your wounds. Make a melee spell attack against a creature within
+        your reach. On a hit, the target takes {@damage 3d6} necrotic damage,
+        and you regain hit points equal to half the amount of necrotic damage
+        dealt. Until the spell ends, you can make the attack again on each of
+        your turns as an action.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 4th level or higher,
+          the damage increases by {@scaledamage 3d6|3-9|1d6} for each slot level
+          above 3rd.
+  damage-inflict:
+    - NECROTIC
+  spell-attack:
+    - MELEE
+  misc-tags:
+    - HEALING
+  area-tags:
+    - SINGLE_TARGET

@@ -1,45 +1,46 @@
-==: Spell
-id: 9df01bfc-1652-48f9-b4e4-775dc101f74c
-name: Melf's Acid Arrow
-source: PHB
-page: 259
-srd: Acid Arrow
-level: 2
-school: EVOCATION
-time:
-  - ==: SpellTime
-    number: 1
-    unit: ACTION
-range:
-  ==: PointSpellRange
-  distance:
-    ==: SpellRangeDistanceFeet
-    amount: 90
-components:
-  ==: SpellComponentsWithStringMaterial
-  somatic: true
-  verbal: true
-  material: powdered rhubarb leaf and an adder's stomach
-duration:
-  - ==: InstantSpellDuration
-entries:
-  - ==: StringSpellEntry
-    value: A shimmering green arrow streaks toward a target within range and bursts
-      in a spray of acid. Make a ranged spell attack against the target. On a
-      hit, the target takes {@damage 4d4} acid damage immediately and {@damage
-      2d4} acid damage at the end of its next turn. On a miss, the arrow
-      splashes the target with acid for half as much of the initial damage and
-      no damage at the end of its next turn.
-entries-higher-level:
-  - ==: EntriesSpellEntry
-    name: At Higher Levels
-    entries:
-      - When you cast this spell using a spell slot of 3rd level or higher, the
-        damage (both initial and later) increases by {@scaledamage
-        4d4;2d4|2-9|1d4} for each slot level above 2nd.
-damage-inflict:
-  - ACID
-spell-attack:
-  - RANGED
-area-tags:
-  - SINGLE_TARGET
+spell:
+  ==: Spell
+  id: 7bb4e9e3-28ac-4dd6-9036-298bba5b2133
+  name: Melf's Acid Arrow
+  source: PHB
+  page: 259
+  srd: Acid Arrow
+  level: 2
+  school: EVOCATION
+  time:
+    - ==: SpellTime
+      number: 1
+      unit: ACTION
+  range:
+    ==: PointSpellRange
+    distance:
+      ==: SpellRangeDistanceFeet
+      amount: 90
+  components:
+    ==: SpellComponentsWithStringMaterial
+    somatic: true
+    verbal: true
+    material: powdered rhubarb leaf and an adder's stomach
+  duration:
+    - ==: InstantSpellDuration
+  entries:
+    - ==: StringSpellEntry
+      value: A shimmering green arrow streaks toward a target within range and bursts
+        in a spray of acid. Make a ranged spell attack against the target. On a
+        hit, the target takes {@damage 4d4} acid damage immediately and {@damage
+        2d4} acid damage at the end of its next turn. On a miss, the arrow
+        splashes the target with acid for half as much of the initial damage and
+        no damage at the end of its next turn.
+  entries-higher-level:
+    - ==: EntriesSpellEntry
+      name: At Higher Levels
+      entries:
+        - When you cast this spell using a spell slot of 3rd level or higher,
+          the damage (both initial and later) increases by {@scaledamage
+          4d4;2d4|2-9|1d4} for each slot level above 2nd.
+  damage-inflict:
+    - ACID
+  spell-attack:
+    - RANGED
+  area-tags:
+    - SINGLE_TARGET
