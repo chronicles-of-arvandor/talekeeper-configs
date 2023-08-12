@@ -28,3 +28,5 @@ spell:
         containers within range, enough to sustain up to fifteen humanoids or
         five steeds for 24 hours. The food is bland but nourishing, and spoils
         if uneaten after 24 hours. The water is clean and doesn't go bad.
+    - ==: StringSpellEntry
+      value: Can't be used to create food or water inside of creatures.

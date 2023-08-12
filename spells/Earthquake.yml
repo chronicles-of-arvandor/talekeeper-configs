@@ -43,9 +43,6 @@ spell:
         concentration||concentrating} on it, each creature on the ground in the
         area must make a Dexterity saving throw. On a failed save, the creature
         is knocked {@condition prone}.
-    - ==: StringSpellEntry
-      value: This spell can have additional effects depending on the terrain in the
-        area, as determined by the DM.
     - ==: EntriesSpellEntry
       name: Fissures
       entries:

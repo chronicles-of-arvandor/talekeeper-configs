@@ -33,6 +33,8 @@ spell:
         centered on a point you choose within range must succeed on a Wisdom
         saving throw when you cast this spell or be affected by it.
     - ==: StringSpellEntry
+      value: What the delusions are is up to the recipient.
+    - ==: StringSpellEntry
       value: An affected target can't take reactions and must roll a {@dice d10} at
         the start of each of its turns to determine its behavior for that turn.
     - ==: TableSpellEntry

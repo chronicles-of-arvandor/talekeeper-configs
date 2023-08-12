@@ -28,9 +28,9 @@ spell:
       concentration: true
   entries:
     - ==: StringSpellEntry
-      value: You project a phantasmal image of a creature's worst fears. Each creature
-        in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever
-        it is holding and become {@condition frightened} for the duration.
+      value: Each creature in a 30-foot cone must succeed on a Wisdom saving throw 
+        or drop whatever it is holding and become {@condition frightened} for the 
+        duration.
     - ==: StringSpellEntry
       value: While {@condition frightened} by this spell, a creature must take the
         {@action Dash} action and move away from you by the safest available

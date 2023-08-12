@@ -32,9 +32,6 @@ spell:
         {@damage 20d6} bludgeoning damage on a failed save, or half as much
         damage on a successful one. A creature in the area of more than one
         fiery burst is affected only once.
-    - ==: StringSpellEntry
-      value: The spell damages objects in the area and ignites flammable objects that
-        aren't being worn or carried.
   damage-inflict:
     - BLUDGEONING
     - FIRE

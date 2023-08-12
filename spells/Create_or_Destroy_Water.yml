@@ -26,6 +26,8 @@ spell:
   entries:
     - ==: StringSpellEntry
       value: You either create or destroy water.
+    - ==: StringSpellEntry
+      value: Can't be used to create water inside of creatures
     - ==: EntriesSpellEntry
       name: Create Water
       entries:
