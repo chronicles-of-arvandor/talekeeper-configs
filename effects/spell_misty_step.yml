@@ -1,0 +1,13 @@
+effect:
+  ==: SpellEffect
+  spells:
+    - 6aeb8ea3-c4e4-4260-b0a9-c79d0e52567d
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 7bb09dea-5e3e-4fc7-870a-c657d6d0d13e
+          option-id: d5090169-bf24-41b3-8391-7530e654f78d
+        - ==: ChoicePrerequisite
+          choice-id: a6466f67-10fe-432d-b7f1-32dbd4cf83f6
+          option-id: 54bd47bd-8585-4d89-8a63-6a1893c0969a
