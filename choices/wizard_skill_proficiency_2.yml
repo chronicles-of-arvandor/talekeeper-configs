@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 49b6432a-6512-4993-9306-4116c5dbb282
+  text: 'As a Wizard, choose two skill proficiencies (2)'
+  prerequisites:
+  - ==: ClassPrerequisite
+    class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+    level: 1
+  options:
+  - ==: Option
+    id: 013be2b4-34cc-4738-a14f-6f88b86919e0
+    text: Arcana
+    prerequisites:
+    - ==: NotPrerequisite
+      prerequisite:
+        ==: SkillProficiencyPrerequisite
+        skills:
+        - ARCANA
+  - ==: Option
+    id: 8677769f-ffc2-4e88-af7d-c21a0b0f73dd
+    text: History
+    prerequisites:
+    - ==: NotPrerequisite
+      prerequisite:
+        ==: SkillProficiencyPrerequisite
+        skills:
+        - HISTORY
+  - ==: Option
+    id: 62b70fc4-d67c-44df-bf67-5fa06aaacfa0
+    text: Insight
+    prerequisites:
+    - ==: NotPrerequisite
+      prerequisite:
+        ==: SkillProficiencyPrerequisite
+        skills:
+        - INSIGHT
+  - ==: Option
+    id: 0737f234-15a3-4785-bdf5-bc035f392aa1
+    text: Investigation
+    prerequisites:
+    - ==: NotPrerequisite
+      prerequisite:
+        ==: SkillProficiencyPrerequisite
+        skills:
+        - INVESTIGATION
+  - ==: Option
+    id: fa24ba62-8f15-46d0-9bab-813dfc7f7bb6
+    text: Medicine
+    prerequisites:
+    - ==: NotPrerequisite
+      prerequisite:
+        ==: SkillProficiencyPrerequisite
+        skills:
+        - MEDICINE
+  - ==: Option
+    id: 6ebca541-f359-449a-86c8-68ad4730cff0
+    text: Religion
+    prerequisites:
+    - ==: NotPrerequisite
+      prerequisite:
+        ==: SkillProficiencyPrerequisite
+        skills:
+        - RELIGION
