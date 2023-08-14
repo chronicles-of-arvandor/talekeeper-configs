@@ -1,0 +1,18 @@
+feat:
+  ==: Feat
+  id: 052f6848-8323-40f2-a37e-710efc6e7acb
+  name: Tavern Brawler
+  source: PHB
+  page: 170
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Accustomed to rough-and-tumble fighting using whatever weapons happen to
+        be at hand, you gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You are proficient with improvised weapons.
+        - Your unarmed strike uses a {@damage d4} for damage.
+        - When you hit a creature with an unarmed strike or an improvised weapon
+          on your turn, you can use a bonus action to attempt to grapple the
+          target.

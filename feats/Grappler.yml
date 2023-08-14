@@ -1,0 +1,19 @@
+feat:
+  ==: Feat
+  id: 53917a41-ed81-4e66-9e9d-19e9433906cc
+  name: Grappler
+  source: PHB
+  page: 167
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You've developed the skills necessary to hold your own in close-quarters
+        grappling. You gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You have advantage on attack rolls against a creature you are
+          grappling.
+        - You can use your action to try to pin a creature {@condition grappled}
+          by you. To do so, make another grapple check. If you succeed, you and
+          the creature are both {@condition restrained} until the grapple ends.
+  srd: true

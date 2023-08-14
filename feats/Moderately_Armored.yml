@@ -1,0 +1,14 @@
+feat:
+  ==: Feat
+  id: 7302d105-bff2-4c6f-a28b-93c2fbfd4b73
+  name: Moderately Armored
+  source: PHB
+  page: 168
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have trained to master the use of medium armor and shields, gaining
+        the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency with medium armor and shields.

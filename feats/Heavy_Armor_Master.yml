@@ -1,0 +1,15 @@
+feat:
+  ==: Feat
+  id: 6fac31df-0e01-4573-87ac-560353782841
+  name: Heavy Armor Master
+  source: PHB
+  page: 167
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You can use your armor to deflect strikes that would kill others. You
+        gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - While you are wearing heavy armor, bludgeoning, piercing, and slashing
+          damage that you take from nonmagical attacks is reduced by 3.

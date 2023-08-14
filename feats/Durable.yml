@@ -1,0 +1,15 @@
+feat:
+  ==: Feat
+  id: d1ac6c99-40d0-42e6-a864-416262b3624a
+  name: Durable
+  source: PHB
+  page: 166
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Hardy and resilient, you gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - When you roll a Hit Die to regain hit points, the minimum number of
+          hit points you regain from the roll equals twice your Constitution
+          modifier (minimum of 2).

@@ -1,0 +1,19 @@
+feat:
+  ==: Feat
+  id: 6510cdf4-ce5a-4324-9428-4572381d285f
+  name: Piercer
+  source: TCE
+  page: 80
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have achieved a penetrating precision in combat, granting you the
+        following benefits:"
+    - ==: FeatListEntry
+      items:
+        - Once per turn, when you hit a creature with an attack that deals
+          piercing damage, you can reroll one of the attack's damage dice, and
+          you must use the new roll.
+        - When you score a critical hit that deals piercing damage to a
+          creature, you can roll one additional damage die when determining the
+          extra piercing damage the target takes.

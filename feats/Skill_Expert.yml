@@ -1,0 +1,19 @@
+feat:
+  ==: Feat
+  id: 89b81527-02c7-4b89-834c-9015127d2907
+  name: Skill Expert
+  source: TCE
+  page: 80
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have honed your proficiency with particular skills, granting you the
+        following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in one {@table skills|phb|skill} of your choice.
+        - Choose one skill in which you have proficiency. You gain expertise
+          with that skill, which means your proficiency bonus is doubled for any
+          ability check you make with it. The skill you choose must be one that
+          isn't already benefiting from a feature, such as Expertise, that
+          doubles your proficiency bonus.

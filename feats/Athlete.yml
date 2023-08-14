@@ -1,0 +1,18 @@
+feat:
+  ==: Feat
+  id: b7afb0b0-2abd-4021-88d4-5bd27578a1b3
+  name: Athlete
+  source: PHB
+  page: 165
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have undergone extensive physical training to gain the following
+        benefits:"
+    - ==: FeatListEntry
+      items:
+        - When you are {@condition prone}, standing up uses only 5 feet of your
+          movement.
+        - Climbing doesn't cost you extra movement.
+        - You can make a running long jump or a running high jump after moving
+          only 5 feet on foot, rather than 10 feet.

@@ -1,0 +1,14 @@
+feat:
+  ==: Feat
+  id: 085a10b9-062b-4fa4-abdc-677130918e10
+  name: Lightly Armored
+  source: PHB
+  page: 167
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have trained to master the use of light armor, gaining the following
+        benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency with light armor.

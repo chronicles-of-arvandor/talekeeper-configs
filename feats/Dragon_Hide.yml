@@ -1,0 +1,22 @@
+feat:
+  ==: Feat
+  id: 9a291d8d-7328-4330-b45d-b5bb73d54aa0
+  name: Dragon Hide
+  source: XGE
+  page: 74
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You manifest scales and claws reminiscent of your draconic ancestors.
+        You gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - Your scales harden. While you aren't wearing armor, you can calculate
+          your AC as 13 + your Dexterity modifier. You can use a shield and
+          still gain this benefit.
+        - You grow retractable claws from the tips of your fingers. Extending or
+          retracting the claws requires no action. The claws are natural
+          weapons, which you can use to make unarmed strikes. If you hit with
+          them, you deal slashing damage equal to {@dice 1d4} + your Strength
+          modifier, instead of the normal bludgeoning damage for an unarmed
+          strike.

@@ -1,0 +1,13 @@
+feat:
+  ==: Feat
+  id: d302588a-53d4-488c-b41a-c087db75cf62
+  name: Resilient
+  source: PHB
+  page: 168
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Choose one ability score. You gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in saving throws using the chosen ability.

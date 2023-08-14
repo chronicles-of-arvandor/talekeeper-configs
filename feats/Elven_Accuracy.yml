@@ -1,0 +1,17 @@
+feat:
+  ==: Feat
+  id: 7998ac13-4883-4b07-b3e6-7ae16c156ae4
+  name: Elven Accuracy
+  source: XGE
+  page: 74
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "The accuracy of elves is legendary, especially that of elf archers and
+        spellcasters. You have uncanny aim with attacks that rely on precision
+        rather than brute force. You gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - Whenever you have advantage on an attack roll using Dexterity,
+          Intelligence, Wisdom, or Charisma, you can reroll one of the dice
+          once.

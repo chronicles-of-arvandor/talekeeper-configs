@@ -1,0 +1,18 @@
+feat:
+  ==: Feat
+  id: 410292cb-7d94-409c-9540-c95b43b3a64f
+  name: Eldritch Adept
+  source: TCE
+  page: 79
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: Studying occult lore, you learn one {@filter Eldritch
+        Invocation|optionalfeatures|Feature Type=EI} option of your choice from
+        the warlock class. Your spellcasting ability for the invocation is
+        Intelligence, Wisdom, or Charisma (choose when you select this feat). If
+        the invocation has a prerequisite of any kind, you can choose that
+        invocation only if you're a warlock who meets the prerequisite.
+    - ==: FeatStringEntry
+      value: Whenever you gain a level, you can replace the invocation with another
+        one from the warlock class.

@@ -1,0 +1,17 @@
+feat:
+  ==: Feat
+  id: 36ffc58c-46f9-452e-a73b-2a6e392d01dd
+  name: Alert
+  source: PHB
+  page: 165
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Always on the lookout for danger, you gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain a +5 bonus to initiative.
+        - You can't be {@quickref Surprise|PHB|3|0|surprised} while you are
+          conscious.
+        - Other creatures don't gain advantage on attack rolls against you as a
+          result of being unseen by you.

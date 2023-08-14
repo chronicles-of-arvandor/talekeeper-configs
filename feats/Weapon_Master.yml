@@ -1,0 +1,15 @@
+feat:
+  ==: Feat
+  id: 2e691ae5-fc92-4e84-bfc5-46b6e9ce6d5a
+  name: Weapon Master
+  source: PHB
+  page: 170
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have practiced extensively with a variety of weapons, gaining the
+        following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency with four weapons of your choice. Each one must
+          be a simple or a martial weapon.

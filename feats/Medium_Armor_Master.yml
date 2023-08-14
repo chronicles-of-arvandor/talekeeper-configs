@@ -1,0 +1,17 @@
+feat:
+  ==: Feat
+  id: 75b8077d-7f0b-4dd7-b8d3-4a1d1cc2539e
+  name: Medium Armor Master
+  source: PHB
+  page: 168
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have practiced moving in medium armor to gain the following
+        benefits:"
+    - ==: FeatListEntry
+      items:
+        - Wearing medium armor doesn't impose disadvantage on your Dexterity
+          ({@skill Stealth}) checks.
+        - When you wear medium armor, you can add 3, rather than 2, to your AC
+          if you have a Dexterity of 16 or higher.

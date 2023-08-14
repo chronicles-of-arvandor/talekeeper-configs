@@ -1,0 +1,18 @@
+feat:
+  ==: Feat
+  id: c8d2fba7-ac16-480d-8ff5-1e4290f59d2c
+  name: Elemental Adept
+  source: PHB
+  page: 166
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "When you gain this feat, choose one of the following damage types: acid,
+        cold, fire, lightning, or thunder."
+    - ==: FeatStringEntry
+      value: Spells you cast ignore resistance to damage of the chosen type. In
+        addition, when you roll damage for a spell you cast that deals damage of
+        that type, you can treat any 1 on a damage die as a 2.
+    - ==: FeatStringEntry
+      value: You can select this feat multiple times. Each time you do so, you must
+        choose a different damage type.

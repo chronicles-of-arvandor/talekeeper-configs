@@ -1,0 +1,14 @@
+feat:
+  ==: Feat
+  id: be007939-836f-4422-9829-263d8203fb4e
+  name: Heavily Armored
+  source: PHB
+  page: 167
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have trained to master the use of heavy armor, gaining the following
+        benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency with heavy armor.

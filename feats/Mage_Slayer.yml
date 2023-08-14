@@ -1,0 +1,21 @@
+feat:
+  ==: Feat
+  id: 6f909ade-4a83-4bea-80ea-9abd16338c6f
+  name: Mage Slayer
+  source: PHB
+  page: 168
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have practiced techniques useful in melee combat against
+        spellcasters, gaining the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - When a creature within 5 feet of you casts a spell, you can use your
+          reaction to make a melee weapon attack against that creature.
+        - When you damage a creature that is {@status
+          concentration||concentrating} on a spell, that creature has
+          disadvantage on the saving throw it makes to maintain its {@status
+          concentration}.
+        - You have advantage on saving throws against spells cast by creatures
+          within 5 feet of you.

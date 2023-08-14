@@ -1,0 +1,17 @@
+feat:
+  ==: Feat
+  id: 7b2b1ce4-73c1-4ac8-8100-a88362239c34
+  name: Observant
+  source: PHB
+  page: 168
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Quick to notice details of your environment, you gain the following
+        benefits:"
+    - ==: FeatListEntry
+      items:
+        - If you can see a creature's mouth while it is speaking a language you
+          understand, you can interpret what it's saying by reading its lips.
+        - You have a +5 bonus to your passive Wisdom ({@skill Perception}) and
+          passive Intelligence ({@skill Investigation}) scores.

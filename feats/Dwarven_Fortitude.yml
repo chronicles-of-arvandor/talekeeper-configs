@@ -1,0 +1,17 @@
+feat:
+  ==: Feat
+  id: d43c4e3a-f6d9-4341-8b86-1af1736370a4
+  name: Dwarven Fortitude
+  source: XGE
+  page: 74
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have the blood of dwarf heroes flowing through your veins. You gain
+        the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - Whenever you take the {@action Dodge} action in combat, you can spend
+          one Hit Die to heal yourself. Roll the die, add your Constitution
+          modifier, and regain a number of hit points equal to the total
+          (minimum of 1).

@@ -1,0 +1,19 @@
+feat:
+  ==: Feat
+  id: 4ec89184-c137-4b0d-a33c-fe294651bc45
+  name: Squat Nimbleness
+  source: XGE
+  page: 75
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You are uncommonly nimble for your race. You gain the following
+        benefits:"
+    - ==: FeatListEntry
+      items:
+        - Increase your walking speed by 5 feet.
+        - You gain proficiency in the {@skill Acrobatics} or {@skill Athletics}
+          skill (your choice).
+        - You have advantage on any Strength ({@skill Athletics}) or Dexterity
+          ({@skill Acrobatics}) check you make to escape from being {@condition
+          grappled}.
