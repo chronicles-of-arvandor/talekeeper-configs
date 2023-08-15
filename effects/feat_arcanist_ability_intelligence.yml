@@ -1,0 +1,12 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    INTELLIGENCE: 1
+  prerequisites:
+  - ==: FeatPrerequisite
+    feat-id: 5e1a5052-9a09-4a46-8bbf-aaa7974ee14c
+  - ==: NotPrerequisite
+    prerequisite:
+      ==: AbilityPrerequisite
+      ability: INTELLIGENCE
+      score: 20

@@ -17,3 +17,5 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 1df5c5d1-554c-40f1-87d8-1b135cc37d98
           option-id: 2cb10777-7261-4aa1-8693-d594669606fe
+        - ==: FeatPrerequisite
+          feat-id: 5e1a5052-9a09-4a46-8bbf-aaa7974ee14c
