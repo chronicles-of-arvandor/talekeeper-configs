@@ -1,0 +1,12 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    CHARISMA: 1
+  prerequisites:
+  - ==: FeatPrerequisite
+    feat-id: 3a9b0bbc-9fca-4bec-854b-ac8680d099f7
+  - ==: NotPrerequisite
+    prerequisite:
+      ==: AbilityPrerequisite
+      ability: CHARISMA
+      score: 20
