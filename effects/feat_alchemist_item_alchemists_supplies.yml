@@ -1,0 +1,7 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+  - alchemists_supplies
+  prerequisites:
+  - ==: FeatPrerequisite
+    feat-id: 13aac162-2945-4161-b2bc-fbde90170b40
