@@ -1,0 +1,16 @@
+feat:
+  ==: Feat
+  id: 80fe7923-dc39-4df9-9656-414fc701a107
+  name: Burglar
+  source: UAFeats
+  page: 4
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You pride yourself on your quickness and your close study of certain
+        clandestine activities. You gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency with {@item thieves' tools|phb}. If you are
+          already proficient with them, you add double your proficiency bonus to
+          checks you make with them.

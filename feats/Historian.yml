@@ -1,0 +1,21 @@
+feat:
+  ==: Feat
+  id: e5b62631-0db5-40c6-9371-0711bb9dc1b6
+  name: Historian
+  source: UAFeatsForSkills
+  page: 2
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Your study of history rewards you with the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill History} skill. If you are already
+          proficient in the skill, you add double your proficiency bonus to
+          checks you make with it.
+        - When you take the {@action Help} action to aid another creature's
+          ability check, you can make a DC 15 Intelligence ({@skill History})
+          check. On a success, that creature's check gains a bonus equal to your
+          proficiency bonus, as you share pertinent advice and historical
+          examples. To receive this bonus, the creature must be able to
+          understand what you're saying.

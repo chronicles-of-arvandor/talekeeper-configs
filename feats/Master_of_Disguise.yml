@@ -1,0 +1,21 @@
+feat:
+  ==: Feat
+  id: 5ae1df73-c07b-49c3-bce6-e02118bd42ba
+  name: Master of Disguise
+  source: UAFeats
+  page: 4
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have honed your ability to shape your personality and to read the
+        personalities of others. You gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency with the {@item disguise kit|phb}. If you are
+          already proficient with it, you add double your proficiency bonus to
+          checks you make with it.
+        - If you spend 1 hour observing a creature, you can then spend 8 hours
+          crafting a disguise you can quickly don to mimic that creature. Making
+          the disguise requires a {@item disguise kit|PHB}. You must make checks
+          as normal to disguise yourself, but you can assume the disguise as an
+          action.

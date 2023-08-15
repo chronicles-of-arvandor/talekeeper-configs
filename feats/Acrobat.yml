@@ -1,0 +1,18 @@
+feat:
+  ==: Feat
+  id: def7103b-f943-44c1-91e0-ff620f087a1e
+  name: Acrobat
+  source: UAFeatsForSkills
+  page: 1
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You become more nimble, gaining the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Acrobatics} skill. If you are
+          already proficient in the skill, you add double your proficiency bonus
+          to checks you make with it.
+        - As a bonus action, you can make a DC 15 Dexterity ({@skill
+          Acrobatics}) check. If you succeed, {@quickref difficult terrain||3}
+          doesn't cost you extra movement until the end of the current turn.

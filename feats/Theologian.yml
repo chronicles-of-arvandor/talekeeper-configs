@@ -1,0 +1,20 @@
+feat:
+  ==: Feat
+  id: 81cfea62-3f9f-4b9b-adbf-b4517bf71758
+  name: Theologian
+  source: UAFeatsForSkills
+  page: 4
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Your extensive study of religion rewards you with the following
+        benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Religion} skill. If you are
+          already proficient in the skill, you add double your proficiency bonus
+          to checks you make with it.
+        - You learn the {@spell thaumaturgy} and {@spell detect evil and good}
+          spells. You can cast {@spell detect evil and good} once without
+          expending a spell slot, and you regain the ability to do so when you
+          finish a long rest.

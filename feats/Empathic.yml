@@ -1,0 +1,22 @@
+feat:
+  ==: Feat
+  id: 2fce0ad2-ec2c-48ef-b573-cf4e274280c1
+  name: Empathic
+  source: UAFeatsForSkills
+  page: 2
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You possess keen insight into how other people think and feel. You gain
+        the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Insight} skill. If you are already
+          proficient in the skill, you add double your proficiency bonus to
+          checks you make with it.
+        - You can use your action to try to get uncanny insight about one
+          humanoid you can see within 30 feet of you. Make a Wisdom ({@skill
+          Insight}) check contested by the target's Charisma ({@skill
+          Deception}) check. If your check succeeds, you have advantage on
+          attack rolls and ability checks against the target until the end of
+          your next turn.

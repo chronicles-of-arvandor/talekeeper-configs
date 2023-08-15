@@ -1,0 +1,19 @@
+feat:
+  ==: Feat
+  id: 61d9f675-cffc-464e-834a-d2d9006a1aca
+  name: Quick-Fingered
+  source: UAFeatsForSkills
+  page: 3
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "Your nimble fingers and agility let you perform sleight of hand. You
+        gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Sleight of Hand} skill. If you are
+          already proficient in the skill, you add double your proficiency bonus
+          to checks you make with it.
+        - As a bonus action, you can make a Dexterity ({@skill Sleight of Hand})
+          check to plant something on someone else, conceal an object on a
+          creature, lift a purse, or take something from a pocket.

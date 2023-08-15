@@ -1,0 +1,19 @@
+feat:
+  ==: Feat
+  id: 5e1a5052-9a09-4a46-8bbf-aaa7974ee14c
+  name: Arcanist
+  source: UAFeatsForSkills
+  page: 1
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You study the arcane arts, gaining the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Arcana} skill. If you are already
+          proficient in the skill, you add double your proficiency bonus to
+          checks you make with it.
+        - You learn the {@spell prestidigitation} and {@spell detect magic}
+          spells. You can cast {@spell detect magic} once without expending a
+          spell slot, and you regain the ability to do so when you finish a long
+          rest.

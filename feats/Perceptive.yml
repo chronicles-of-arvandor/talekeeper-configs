@@ -1,0 +1,18 @@
+feat:
+  ==: Feat
+  id: 14554e5c-a2ef-4f25-8ee2-ae2a5d3aa6c8
+  name: Perceptive
+  source: UAFeatsForSkills
+  page: 3
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You hone your senses until they become razor sharp. You gain the
+        following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Perception} skill. If you are
+          already proficient in the skill, you add double your proficiency bonus
+          to checks you make with it.
+        - Being in a lightly obscured area doesn't impose disadvantage on your
+          Wisdom ({@skill Perception}) checks if you can both see and hear.

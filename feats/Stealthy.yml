@@ -1,0 +1,18 @@
+feat:
+  ==: Feat
+  id: 343eb676-ab59-4ccf-9188-aaceb30681a9
+  name: Stealthy
+  source: UAFeatsForSkills
+  page: 4
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You know how best to hide. You gain the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Stealth} skill. If you are already
+          proficient in the skill, you add double your proficiency bonus to
+          checks you make with it.
+        - If you are hidden, you can move up to 10 feet in the open without
+          revealing yourself if you end the move in a position where you're not
+          clearly visible.

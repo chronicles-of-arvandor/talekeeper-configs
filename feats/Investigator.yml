@@ -1,0 +1,17 @@
+feat:
+  ==: Feat
+  id: 9ec72d43-77ee-4b9e-aa92-5eeebdd1276d
+  name: Investigator
+  source: UAFeatsForSkills
+  page: 2
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You have an eye for detail and can pick out the smallest clues. You gain
+        the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Investigation} skill. If you are
+          already proficient in the skill, you add double your proficiency bonus
+          to checks you make with it.
+        - You can take the {@action Search} action as a bonus action.

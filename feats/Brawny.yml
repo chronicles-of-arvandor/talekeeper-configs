@@ -1,0 +1,17 @@
+feat:
+  ==: Feat
+  id: 4da2fc8b-3e8a-4922-bf37-f203277551f2
+  name: Brawny
+  source: UAFeatsForSkills
+  page: 1
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You become stronger, gaining the following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Athletics} skill. If you are
+          already proficient in the skill, you add double your proficiency bonus
+          to checks you make with it.
+        - You count as if you were one size larger for the purpose of
+          determining your carrying capacity.

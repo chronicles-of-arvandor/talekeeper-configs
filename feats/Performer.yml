@@ -1,0 +1,22 @@
+feat:
+  ==: Feat
+  id: aa079e8e-640b-48a0-9d70-07ee07febe61
+  name: Performer
+  source: UAFeatsForSkills
+  page: 3
+  other-sources: []
+  entries:
+    - ==: FeatStringEntry
+      value: "You master performance so that you can command any stage. You gain the
+        following benefits:"
+    - ==: FeatListEntry
+      items:
+        - You gain proficiency in the {@skill Performance} skill. If you are
+          already proficient in the skill, you add double your proficiency bonus
+          to checks you make with it.
+        - While performing, you can try to distract one humanoid you can see who
+          can see and hear you. Make a Charisma ({@skill Performance}) check
+          contested by the humanoid's Wisdom ({@skill Insight}) check. If your
+          check succeeds, you grab the humanoid's attention enough that it makes
+          Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation})
+          checks with disadvantage until you stop performing.
