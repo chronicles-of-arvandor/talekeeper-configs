@@ -1,0 +1,756 @@
+choice:
+  ==: Choice
+  id: cb2303d5-c7a8-4ee7-851f-da583ce0df85
+  text: Wizard 4th level spellbook spells (1)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+      level: 4
+  options:
+    - ==: Option
+      id: a130eba9-6a13-44a8-bd52-e082bc097ba1
+      text: Aganazzar's Scorcher
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8120b29f-788c-4030-b790-cbade2bd91d2
+    - ==: Option
+      id: 8bae8162-9a18-4ce6-b37b-5091c1770981
+      text: Alter Self
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e685e4ce-47eb-4316-bd94-3a6921e6a446
+    - ==: Option
+      id: 6548d9e6-97b9-47c7-aad3-e5f7e017655b
+      text: Augury
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ca3153f0-1a91-42be-85aa-3fa73b292971
+    - ==: Option
+      id: a917183c-6cf2-4f8b-9ff1-9c2c903d8804
+      text: Blindness/Deafness
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 9933f56e-8e6c-4bae-93cc-17d2ab631ef6
+    - ==: Option
+      id: df8055fd-ef24-424a-96ba-25357669459c
+      text: Blur
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 54b7a938-8dec-43de-ac35-313bfa0ea600
+    - ==: Option
+      id: ef8925ce-ef0b-433f-a8f5-5bf544ea2f65
+      text: Cloud of Daggers
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 51763d7e-5b34-4a35-963d-3b711963a852
+    - ==: Option
+      id: f0fe1f3b-d229-422a-8e8f-20f39dfc1c63
+      text: Continual Flame
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 59cc1a01-9bc5-40ce-96dd-33f81fb0e3eb
+    - ==: Option
+      id: 7d071504-9a65-4926-8adf-9bb669ec422d
+      text: Crown of Madness
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8ba79089-9ac5-403c-a3c3-66cc0d23c155
+    - ==: Option
+      id: 1b56af6d-08dc-49a7-90f1-7c0788976370
+      text: Darkness
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 22a26c31-8b44-44a3-875c-9d1ab178b435
+    - ==: Option
+      id: 63623734-d013-40f6-a6ee-c955ac9b2f04
+      text: Darkvision
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6aa27455-ed56-457a-a7a9-92aa5821d867
+    - ==: Option
+      id: fca765ee-35f6-45cf-9fc1-c9976c41e104
+      text: Detect Thoughts
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - bea2c8ae-a038-4517-9d55-f43c86d6324d
+    - ==: Option
+      id: 4ab5ab23-3761-4f83-b942-dcebd9c7a64e
+      text: Dragon's Breath
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8c86dcd8-b098-4432-8380-62afe7d7fa2f
+    - ==: Option
+      id: cceb4b69-0b94-4e3a-ab9d-eb94bffb3863
+      text: Dust Devil
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 95455aa9-1ecb-4447-8b56-9bfb46b47d99
+    - ==: Option
+      id: e04c4c95-2f17-4ecb-bfb3-c719ddebf165
+      text: Earthbind
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cfb06fe0-1679-49d9-90b8-207d4fe968d5
+    - ==: Option
+      id: ac7676f6-107d-4c24-8b7d-6e4991e6f898
+      text: Enhance Ability
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 26ebaf76-485d-4eee-8242-4fc2699403ec
+    - ==: Option
+      id: c8167af6-293e-4536-a6bd-04b0bcc6d2a0
+      text: Enlarge/Reduce
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a892d57a-5706-44d9-817f-18deb1c0b841
+    - ==: Option
+      id: a5baf393-ce9c-4e15-8c0e-dceac3649a04
+      text: Flaming Sphere
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d0d779ad-50a0-44a3-a279-8613bdccf865
+    - ==: Option
+      id: bcc25edd-54be-4f57-9251-b5efdc5b4cbe
+      text: Gentle Repose
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - fc72c6dc-cda0-4938-9bd2-087eefebffd9
+    - ==: Option
+      id: 5de24481-786e-4d4d-940e-8a809db10b1a
+      text: Gust of Wind
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 0100ea26-27eb-4429-84a8-4716bb3e3e86
+    - ==: Option
+      id: b077bfd1-978d-417c-bdf3-964a552e4b55
+      text: Hold Person
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 24b4e7c7-ae96-4d1a-980b-992c9f9572ce
+    - ==: Option
+      id: 0cbd6f19-caff-492b-89d0-d012fe45b8f1
+      text: Invisibility
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 0f4831cd-dcd0-42d8-8bc3-f07548d33124
+    - ==: Option
+      id: c2be77f6-3794-40da-b94b-23579429f7e1
+      text: Levitate
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c5188239-3ccf-450f-a65b-79f24ee2bbfe
+    - ==: Option
+      id: f01be28c-03c8-428d-bcb4-3a7c4336356a
+      text: Locate Object
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - bf4ae273-fad8-4dbf-b0a1-2ff639e9a7c1
+    - ==: Option
+      id: 7922b252-3ce6-48f1-80a1-ad62bc4b5231
+      text: Magic Mouth
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - eb317714-0d5a-4e2b-9f7a-4ccc22ee922d
+    - ==: Option
+      id: ede1c9d3-c92a-4f60-ac95-8b5417c34f13
+      text: Magic Weapon
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3ddf2d6b-974e-41b4-9083-e0de773b0e58
+    - ==: Option
+      id: b538c3a1-0bba-475c-bc2d-4f480676a12b
+      text: Maximilian's Earthen Grasp
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e16a9c43-5b8f-4d39-b913-126abd1de336
+    - ==: Option
+      id: e77fcf86-996e-465f-aaaf-7414cbb10676
+      text: Melf's Acid Arrow
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 7bb4e9e3-28ac-4dd6-9036-298bba5b2133
+    - ==: Option
+      id: a28d7187-7fc7-46ee-be55-6b252542b370
+      text: Mind Spike
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d70f3835-f6dd-45a8-bdb7-c4d35e801d69
+    - ==: Option
+      id: ff76ff68-5e3f-4222-be3f-cef57202a35a
+      text: Mirror Image
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 84172b37-7252-47b2-b8f4-7967780743be
+    - ==: Option
+      id: 3adc2eb4-ec24-41c7-8b33-1aca08491152
+      text: Misty Step
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6aeb8ea3-c4e4-4260-b0a9-c79d0e52567d
+    - ==: Option
+      id: 864f64ab-2595-4370-8f39-2c0c649c130e
+      text: Nathair's Mischief
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 855be666-71c6-4e15-91cf-539628151fbd
+    - ==: Option
+      id: 81548443-405a-4b54-9f34-d26972d9cfa6
+      text: Nystul's Magic Aura
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cfeddcbf-8682-4edb-b2bf-64ea3a93e7fe
+    - ==: Option
+      id: f80cdef3-9ab1-4f52-bb33-06d579f207e7
+      text: Phantasmal Force
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e8a9b74b-db6e-4ddf-bacc-d35c07e067ba
+    - ==: Option
+      id: 79b4e72b-675c-46b2-86f4-9d61c263fc71
+      text: Pyrotechnics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cbb2b488-76ba-49a4-aeba-80bc400891ac
+    - ==: Option
+      id: 00c24433-6ed0-4a4b-ba94-577d77fddf05
+      text: Ray of Enfeeblement
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 5f0cd983-d356-4043-bb98-4947e1942bff
+    - ==: Option
+      id: 8494d558-c657-4d06-abcd-ca565b5bbbda
+      text: Rime's Binding Ice
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - eec07eb8-8a79-467f-be67-e690344f292a
+    - ==: Option
+      id: 062a51c3-0420-4e2f-9e09-af7af28371ad
+      text: Rope Trick
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 64b24d62-8843-4421-ba45-5744a0fd0397
+    - ==: Option
+      id: be3b2e60-eb99-4e89-8201-ed217f73db64
+      text: Scorching Ray
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 15c6128a-ff38-4f1b-b63e-552d08cb5d14
+    - ==: Option
+      id: bdd025ce-ff22-4319-9619-712f1b72d79b
+      text: See Invisibility
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 990f73af-1bb3-4337-a16f-79b7be976a2b
+    - ==: Option
+      id: 8a73bded-aca6-42f4-b417-a0096b1b33f4
+      text: Shadow Blade
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1a557463-40bc-4e1e-a9ac-2a42ad859ffd
+    - ==: Option
+      id: b9985b73-b505-4470-989f-d5b642251fa3
+      text: Shatter
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - f8d53f36-e6bc-4d3e-b421-9e9a13338dbf
+    - ==: Option
+      id: 539d56ae-21bb-4998-8788-b8ba39e766ff
+      text: Skywrite
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 14d4db26-c21c-42ae-8ca3-8750cca00e08
+    - ==: Option
+      id: 8d423b7e-ead9-4339-85c7-f8f85886f30a
+      text: Snilloc's Snowball Swarm
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 0173af0a-7e8e-4f4c-b81e-f4529e7869bb
+    - ==: Option
+      id: 768e5f4f-1b5d-4e29-b5c0-b65abe50c170
+      text: Spider Climb
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ae0ee077-53b5-4d23-9cda-5ba2c1a7abb2
+    - ==: Option
+      id: 77f0e71d-3e23-47ba-8f4a-bf1d331df4fe
+      text: Suggestion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8b1e4ec4-9b9c-469c-80ab-3b659e7ae4fc
+    - ==: Option
+      id: 753d6733-5f8a-4ae2-aabb-6ddba8c4b15a
+      text: Warding Wind
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 02d23743-50dc-4263-91ff-541afeea276d
+    - ==: Option
+      id: 5a8d128e-52c4-437d-be8d-12854beedf96
+      text: Web
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c8719534-aa13-41d5-96d4-6ebaf93031a1
+    - ==: Option
+      id: 8f728d00-b66f-47c6-b0a9-0b6eb591a09b
+      text: Absorb Elements
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2fe0913a-66f5-45a1-bc13-8c081bcb3f7a
+    - ==: Option
+      id: 05c04df8-e14a-4f2d-91f0-7d32c7c9f5e9
+      text: Alarm
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - f770d723-21a1-4f1c-8891-7222b8f68987
+    - ==: Option
+      id: fbc56273-39a4-470d-913a-fa8c519afa6d
+      text: Burning Hands
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 79acabc1-c85f-4614-9468-3b97a9b10fe0
+    - ==: Option
+      id: 89960e10-7df4-456f-acd4-0e308547d871
+      text: Catapult
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 81e8de10-312a-4ec7-9c7a-e0c6d88f1bbe
+    - ==: Option
+      id: 46a29c4b-b65f-482c-92b7-27f7517d9541
+      text: Cause Fear
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 5bb61c30-9424-40f5-8fff-39abdb84e163
+    - ==: Option
+      id: 893c2f14-7aec-425c-b7b3-f60e6372514b
+      text: Charm Person
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 51646f5d-a8e0-4d35-b7bf-3921acdcec53
+    - ==: Option
+      id: 5d7164b3-aba7-4690-89c9-400636d5b6e4
+      text: Chromatic Orb
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8226d46a-2eeb-40cb-88d5-87881ae81928
+    - ==: Option
+      id: d7a39b49-a7ab-4790-90f3-ebb87c53cb46
+      text: Color Spray
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - b97fb6cf-0e4f-43b8-abee-08e516ef0d61
+    - ==: Option
+      id: a44f1f47-0748-4689-8bdd-bf732e293b56
+      text: Comprehend Languages
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0d2fec2-a0c7-4dec-a569-26d0af264291
+    - ==: Option
+      id: a427eda1-de6c-4112-953a-7e16279eacda
+      text: Detect Magic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1357e1dd-30a8-48b4-a8ae-264789343338
+    - ==: Option
+      id: 02b0be27-a954-4305-ac67-06920285bd6c
+      text: Disguise Self
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 12071801-2f50-4588-9e6d-95a33493d789
+    - ==: Option
+      id: ce16aeeb-3270-42f5-8106-cecf7a81b743
+      text: Earth Tremor
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 043b9a0f-f1dd-4f29-92d9-82d29e478cf3
+    - ==: Option
+      id: 76ba28ba-66b4-499f-874b-9bc3f8b16d0d
+      text: Expeditious Retreat
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1a623eab-bb65-4cc4-9ae9-54c159464033
+    - ==: Option
+      id: 2ec9cdc0-3b62-4643-8f64-56bee00f352c
+      text: False Life
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - aa0bdf0a-2d05-483e-9663-f1822f748466
+    - ==: Option
+      id: fe36fd17-e52d-47c4-ae7a-17936712ebe3
+      text: Feather Fall
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0c7f047-a5f8-4677-bd09-c80e0da38314
+    - ==: Option
+      id: 90b95c2c-9687-4727-a67e-0ecdd0ae5981
+      text: Find Familiar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 9b8d54fc-71f1-4209-a439-b8067b32b4ea
+    - ==: Option
+      id: 126bc168-7198-4f64-8fcc-a055e4686d9b
+      text: Fog Cloud
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c34b2565-f909-4376-9451-8aa7a8290bfb
+    - ==: Option
+      id: bff48f8c-7173-4866-aeb8-65fb3cadc79c
+      text: Grease
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - aa7893c9-576e-450b-9f5c-8f49db00c8a2
+    - ==: Option
+      id: 839d2045-96b6-41cb-92bf-0937c5b2c558
+      text: Ice Knife
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3ff5f1d6-4397-4b90-b67e-df803ab50437
+    - ==: Option
+      id: ed9ce65e-7dce-4ebc-b629-b1a2c8c6dd12
+      text: Identify
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1e6f1f85-878d-4f56-8814-39db70d22e61
+    - ==: Option
+      id: 7cd2958d-e8f9-42ee-933a-f69e061e0b74
+      text: Illusory Script
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2092af07-feac-4255-af5f-846c7dd40bb3
+    - ==: Option
+      id: aeaa8236-af51-4d93-92c3-6f4019ddb877
+      text: Jump
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8cba7ae0-5448-423f-92ad-a9cd8339997d
+    - ==: Option
+      id: c9e665c1-2d24-45cc-b04b-4788a3a9e4d3
+      text: Longstrider
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e6a1b955-6458-4b83-be56-c77bd4d8945a
+    - ==: Option
+      id: 9b4126d8-5171-444f-826c-8d1b2a065f19
+      text: Mage Armor
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e63b5c18-5610-4bbc-bf86-1adac054f022
+    - ==: Option
+      id: 29b1b27c-fd08-4644-a737-6d73ccf71252
+      text: Magic Missile
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 67cdffbf-373e-4431-9467-2f36736c1573
+    - ==: Option
+      id: 03574bd2-5fbe-40ac-96d2-d173ccd96630
+      text: Protection from Evil and Good
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - eb2ff821-7cb5-4b85-8445-be03b41373fd
+    - ==: Option
+      id: c22238f0-1e65-4662-9f73-688a17df187f
+      text: Ray of Sickness
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - bbbcf050-e91b-4685-accf-8f9379e599d1
+    - ==: Option
+      id: a42cd6b4-d011-4b38-bd9f-fe532e8ce3eb
+      text: Shield
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - bba84557-5ef5-4acb-8d11-828f2ed7f12d
+    - ==: Option
+      id: e2e137f5-5ef9-454c-bc66-2ff0212b7de1
+      text: Silent Image
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 63febc12-690a-4aff-9eac-a9ae9ca18551
+    - ==: Option
+      id: 0939be71-709b-4fd3-812e-5a03e4491f27
+      text: Sleep
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3cab387f-d0f6-47a9-9b93-addf11fbfbac
+    - ==: Option
+      id: 1b04326b-e06b-481f-a108-f68b7ed0db99
+      text: Snare
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2f73a357-3d09-47b5-9d96-1ffbb322c602
+    - ==: Option
+      id: 3adeb749-1c0c-4d8c-ab8b-8de735be9202
+      text: Tasha's Hideous Laughter
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e8a33bc9-d2ab-42d0-928b-b30b3586b619
+    - ==: Option
+      id: bfc51347-eedb-43b9-b1f8-ab30f2a81ea2
+      text: Tenser's Floating Disk
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1297b8ea-ee7f-4b84-b1f5-d76ebf100e7b
+    - ==: Option
+      id: 86e49440-32b2-4b0d-804e-1eded146c406
+      text: Thunderwave
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ae7d8000-b14b-416f-9cdd-6a2cec78b39e
+    - ==: Option
+      id: 7914ad31-16b7-4f29-8607-03182a103d13
+      text: Unseen Servant
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c9d53670-161b-4de0-99c7-17fb094209e7
+    - ==: Option
+      id: f725b324-503a-406c-8f58-385981d669de
+      text: Witch Bolt
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 5c86e718-3849-4841-aa32-ba70ca0eaf7f

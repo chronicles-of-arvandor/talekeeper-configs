@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 2bf55f5c-f65a-49dc-baba-06b1862813b5
+  text: Wizard 4th level ASI (2)
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: a80201f2-5fdc-4fce-b7b5-6cb492109210
+      option-id: 8fd9b09e-867c-488f-9760-6dd3ac57c72c
+  options:
+    - ==: Option
+      id: 93bf1b8a-31be-4b67-af5f-46fc6104ebe7
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: Option
+      id: c6d17355-fd8d-4b4e-9bd6-c25261e2d479
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: Option
+      id: 4622701a-9605-4dc5-8f94-489df993aec1
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: Option
+      id: aa13b6c2-d218-463a-8275-a121660f6e21
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: Option
+      id: 22504ed0-5465-48c2-9611-0ed30b3b7d03
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: Option
+      id: 140ff983-8bca-44ab-a4b1-f60656908308
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

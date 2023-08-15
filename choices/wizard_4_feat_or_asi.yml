@@ -1,0 +1,16 @@
+choice:
+  ==: Choice
+  id: a80201f2-5fdc-4fce-b7b5-6cb492109210
+  text: 'Wizard 4th level: ASI or feat'
+  prerequisites:
+  - ==: ClassPrerequisite
+    class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+    level: 4
+  options:
+  - ==: Option
+    id: 8fd9b09e-867c-488f-9760-6dd3ac57c72c
+    text: ASI
+  - ==: Option
+    id: 9e15b967-22b5-4a74-84fe-23e666e7e8b4
+    text: Feat
+    

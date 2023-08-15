@@ -431,6 +431,15 @@ choice:
             spell-ids:
               - c8719534-aa13-41d5-96d4-6ebaf93031a1
     - ==: Option
+      id: c8783599-5afc-4a57-a956-e4fc4ff9e704
+      text: Absorb Elements
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2fe0913a-66f5-45a1-bc13-8c081bcb3f7a
+    - ==: Option
       id: 44dd4549-0ca5-49a7-bb36-fd523541f346
       text: Alarm
       prerequisites:
