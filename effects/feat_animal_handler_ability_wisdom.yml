@@ -1,0 +1,12 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    WISDOM: 1
+  prerequisites:
+  - ==: FeatPrerequisite
+    feat-id: f3698e42-b804-4774-addf-4723f9511630
+  - ==: NotPrerequisite
+    prerequisite:
+      ==: AbilityPrerequisite
+      ability: WISDOM
+      score: 20

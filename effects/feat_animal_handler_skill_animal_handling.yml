@@ -1,0 +1,7 @@
+effect:
+  ==: SkillProficiencyEffect
+  skills:
+  - ANIMAL_HANDLING
+  prerequisites:
+  - ==: FeatPrerequisite
+    feat-id: f3698e42-b804-4774-addf-4723f9511630
