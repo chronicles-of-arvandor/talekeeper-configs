@@ -1,0 +1,12 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    DEXTERITY: 1
+  prerequisites:
+  - ==: FeatPrerequisite
+    feat-id: def7103b-f943-44c1-91e0-ff620f087a1e
+  - ==: NotPrerequisite
+    prerequisite:
+      ==: AbilityPrerequisite
+      ability: DEXTERITY
+      score: 20

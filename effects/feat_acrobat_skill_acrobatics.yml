@@ -1,0 +1,7 @@
+effect:
+  ==: SkillProficiencyEffect
+  skills:
+  - ACROBATICS
+  prerequisites:
+  - ==: FeatPrerequisite
+    feat-id: def7103b-f943-44c1-91e0-ff620f087a1e
