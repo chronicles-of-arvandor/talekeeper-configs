@@ -1,0 +1,12 @@
+==: AbilityEffect
+  abilities:
+    DEXTERITY: 1
+  prerequisites:
+  - ==: ChoicePrerequisite
+    choice-id: 9a559680-f3b1-4229-83af-05481b86eedd
+    option-id: fd5b24af-1f4d-4939-a608-c7b19c79c3c5
+  - ==: NotPrerequisite
+    prerequisite:
+      ==: AbilityPrerequisite
+      ability: DEXTERITY
+      score: 20
