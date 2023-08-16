@@ -1,0 +1,113 @@
+ancestry:
+  ==: Ancestry
+  id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
+  name: Elf
+  name-plural: Elves
+  sub-ancestries:
+  - ==: SubAncestry
+    id: 55dc16f9-514a-4c00-9e11-ef3978b24a4d
+    name: Dark
+    dark-vision:
+      ==: Distance
+      value: 120
+      unit: FEET
+    minimum-age: 100
+    maximum-age: 750
+    minimum-height: 5'1"
+    maximum-height: 6'2"
+    minimum-weight: 100lb
+    maximum-weight: 180lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Charisma score increases by 1.
+    - ==: AncestryTrait
+      name: Superior Darkvision
+      description: Your darkvision has a range of 120 feet, instead of 60.
+    - ==: AncestryTrait
+      name: Sunlight Sensitivity
+      description: You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of the attack, or whatever you are trying to perceive is in direct sunlight.
+    - ==: AncestryTrait
+      name: Dark Elf Magic
+      description: You know the Dancing Lights cantrip. When you reach 3rd level, you can cast the Faerie Fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
+    - ==: AncestryTrait
+      name: Dark Elf Weapon Training
+      description: You have proficiency with rapiers, shortswords, and hand crossbows.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5MTRhYTNkM2YyMWZlZWE5OTQ5ZmIxM2E5ODY2MjlhYTdhNDk1N2EyNTg1MGRlODA5NWVkYmJmMmFmMzZhYSJ9fX0=
+  - ==: SubAncestry
+    id: 365d9a17-1dba-4efb-9593-552c86b6c82c
+    name: High
+    dark-vision: null
+    minimum-age: 100
+    maximum-age: 750
+    minimum-height: 5'1"
+    maximum-height: 6'2"
+    minimum-weight: 100lb
+    maximum-weight: 180lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Intelligence score increases by 1.
+    - ==: AncestryTrait
+      name: Cantrip
+      description: You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.
+    - ==: AncestryTrait
+      name: Elf Weapon Training
+      description: You have proficiency with the longsword, shortsword, shortbow, and longbow.
+    - ==: AncestryTrait
+      name: Extra Language
+      description: You can read, speak, and write one additional language of your choice.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5MTRhYTNkM2YyMWZlZWE5OTQ5ZmIxM2E5ODY2MjlhYTdhNDk1N2EyNTg1MGRlODA5NWVkYmJmMmFmMzZhYSJ9fX0=
+  - ==: SubAncestry
+    id: 42770f93-a31c-4f96-91a7-5220e0a32616
+    name: Wood
+    dark-vision: null
+    minimum-age: 100
+    maximum-age: 750
+    minimum-height: 5'1"
+    maximum-height: 6'2"
+    minimum-weight: 100lb
+    maximum-weight: 180lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Wisdom score increases by 1.
+    - ==: AncestryTrait
+      name: Elf Weapon Training
+      description: You have proficiency with the longsword, shortsword, shortbow, and longbow.
+    - ==: AncestryTrait
+      name: Fleet of Foot
+      description: Your base walking speed increases to 35 feet.
+    - ==: AncestryTrait
+      name: Mask of the Wild
+      description: You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5MTRhYTNkM2YyMWZlZWE5OTQ5ZmIxM2E5ODY2MjlhYTdhNDk1N2EyNTg1MGRlODA5NWVkYmJmMmFmMzZhYSJ9fX0=
+  minimum-age: 100
+  maximum-age: 750
+  minimum-height: 5'1"
+  maximum-height: 6'2"
+  minimum-weight: 100lb
+  maximum-weight: 180lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: Your Dexterity score increases by 2.
+  - ==: AncestryTrait
+    name: Darkvision
+    description: Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - ==: AncestryTrait
+    name: Fey Ancestry
+    description: You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+  - ==: AncestryTrait
+    name: Trance
+    description: Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is "trance." While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep.
+  - ==: AncestryTrait
+    name: Keen Senses
+    description: You have proficiency in the Perception skill.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your base walking speed is 30 feet.
+  - ==: AncestryTrait
+    name: Languages
+    description: You can speak, read, and write Common and Elven.
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5MTRhYTNkM2YyMWZlZWE5OTQ5ZmIxM2E5ODY2MjlhYTdhNDk1N2EyNTg1MGRlODA5NWVkYmJmMmFmMzZhYSJ9fX0=
