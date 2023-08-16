@@ -1,0 +1,195 @@
+ancestry:
+  ==: Ancestry
+  id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+  name: Tiefling
+  name-plural: Tieflings
+  sub-ancestries:
+  - ==: SubAncestry
+    id: 4d3f1011-57f8-48ff-b34a-bb4b2ba0ef7c
+    name: Bloodline of Asmodeus
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Intelligence score increases by 1.
+    - ==: AncestryTrait
+      name: Infernal Legacy
+      description: You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Hellish Rebuke spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: 580f994b-8a5d-4822-901d-69eb75601020
+    name: Bloodline of Baalzebub
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Intelligence score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Maladomini
+      description: You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Ray of Sickness spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Crown of Madness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: d4434cb9-da7c-4be2-aed5-47fb8e0da872
+    name: Bloodline of Dispater
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Dexterity score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Dis
+      description: You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Disguise Self spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Detect Thoughts spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: a0ad993d-5578-411e-8dd5-02b02b755f38
+    name: Bloodline of Fierna
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Wisdom score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Phlegethos
+      description: You know the Friends cantrip. Once you reach 3rd level, you can cast the Charm Person spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Suggestion spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: 0e529c9e-7c9a-4a39-bf76-57ee643981f6
+    name: Bloodline of Glasya
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Dexterity score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Malbolge
+      description: You know the Minor Illusion cantrip. Once you reach 3rd level, you can cast the Disguise Self spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Invisibility spell once as a 2nd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: 7760c61b-83ef-4d96-b549-483948725c68
+    name: Bloodline of Levistus
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Constitution score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Stygia
+      description: You know the Ray of Frost cantrip. Once you reach 3rd level, you can cast the Armor of Agathys spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: 331bba1e-4744-4eee-ab12-c6705b0f1275
+    name: Bloodline of Mammon
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Intelligence score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Minauros
+      description: You know the Mage Hand cantrip. Once you reach 3rd level, you can cast the Tenser's Floating Disk spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Arcane Lock spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: f7b3b6e5-e2fa-47e8-a082-1a8315c68596
+    name: Bloodline of Mephistopheles
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Intelligence score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Cania
+      description: You know the Mage Hand cantrip. Once you reach 3rd level, you can cast the Burning Hands spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Flame Blade spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  - ==: SubAncestry
+    id: b2ed3642-0803-413c-ae31-f8b42ca9f93b
+    name: Bloodline of Zariel
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 4'11"
+    maximum-height: 6'1"
+    minimum-weight: 114lb
+    maximum-weight: 174lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Strength score increases by 1.
+    - ==: AncestryTrait
+      name: Legacy of Avernus
+      description: You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Searing Smite spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Branding Smite spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
+  dark-vision:
+    ==: Distance
+    value: 60.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 150
+  minimum-height: 4'11"
+  maximum-height: 6'1"
+  minimum-weight: 114lb
+  maximum-weight: 174lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: Your Charisma score increases by 2.
+  - ==: AncestryTrait
+    name: Darkvision
+    description: Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - ==: AncestryTrait
+    name: Hellish Resistance
+    description: You have resistance to fire damage.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your base walking speed is 30 feet.
+  - ==: AncestryTrait
+    name: Languages
+    description: You can speak, read, and write Common and Infernal.
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyYjYyNzM0YTk5YmRhNjY2OTE3YjY3ZjllYWQ1ZWM3NjY2ZGVkZGMzOTM4ZTllYmIwOTI1YTgwOGVmNzkxIn19fQ==
