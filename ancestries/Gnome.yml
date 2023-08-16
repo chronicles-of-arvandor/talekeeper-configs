@@ -16,32 +16,14 @@ ancestry:
     maximum-weight: 43lb
     traits:
     - ==: AncestryTrait
-      name: Age
-      description: Gnomes mature at the same rate humans do, and most are expected
-        to settle down into an adult life by around age 40. They can live 350 to almost
-        500 years.
-    - ==: AncestryTrait
-      name: Size
-      description: Gnomes are between 3 and 4 feet tall and average about 40 pounds.
-        Your size is Small.
-    - ==: AncestryTrait
-      name: Gnome Cunning
-      description: You have advantage on all Intelligence, Wisdom, and Charisma saving
-        throws against magic.
-    - ==: AncestryTrait
-      name: Languages
-      description: You can speak, read, and write Common and Gnomish. The Gnomish
-        language, which uses the Dwarvish script, is renowned for its technical treatises
-        and its catalogs of knowledge about the natural world.
+      name: Ability Score Increase
+      description: Your Dexterity score increases by 1.
     - ==: AncestryTrait
       name: Natural Illusionist
-      description: You know the minor illusion cantrip. Intelligence is your spellcasting
-        ability for it.
+      description: You know the Minor Illusion cantrip. Intelligence is your spellcasting modifier for it.
     - ==: AncestryTrait
       name: Speak with Small Beasts
-      description: Through sounds and gestures, you can communicate simple ideas with
-        Small or smaller beasts. Forest gnomes love animals and often keep squirrels,
-        badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.
+      description: Through sound and gestures, you may communicate simple ideas with Small or smaller beasts.
     skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkzNmQ3OWU0ZmRhODU5ZDYwOGM4NTNjMTBlZDQyNzYxYjkzNzk5MjBiMDBiMTU1NDMzYzgyOTNmOTFiM2U2ZiJ9fX0=
   - ==: SubAncestry
     id: 46e4251d-5412-4bfd-b9fa-e2e00981061c
@@ -55,96 +37,18 @@ ancestry:
     maximum-weight: 43lb
     traits:
     - ==: AncestryTrait
-      name: Age
-      description: Gnomes mature at the same rate humans do, and most are expected
-        to settle down into an adult life by around age 40. They can live 350 to almost
-        500 years.
-    - ==: AncestryTrait
-      name: Size
-      description: Gnomes are between 3 and 4 feet tall and average about 40 pounds.
-        Your size is Small.
-    - ==: AncestryTrait
-      name: Gnome Cunning
-      description: You have advantage on all Intelligence, Wisdom, and Charisma saving
-        throws against magic.
-    - ==: AncestryTrait
-      name: Languages
-      description: You can speak, read, and write Common and Gnomish. The Gnomish
-        language, which uses the Dwarvish script, is renowned for its technical treatises
-        and its catalogs of knowledge about the natural world.
+      name: Ability Score Increase
+      description: Your Constitution score increases by 1.
     - ==: AncestryTrait
       name: Artificer's Lore
-      description: Whenever you make an Intelligence (History) check related to magic
-        items, alchemical objects, or technological devices, you can add twice your
-        proficiency bonus, instead of any proficiency bonus you normally apply.
+      description: Whenever you make an Intelligence (History) check related to magical, alchemical, or technological items, you can add twice your proficiency bonus instead of any other proficiency bonus that may apply.
     - ==: AncestryTrait
       name: Tinker
-      description: 'You have proficiency with artisan''s tools (tinker''s tools).
-        Using those tools, you can spend 1 hour and 10 gp worth of materials to construct
-        a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after
-        24 hours (unless you spend 1 hour repairing it to keep the device functioning),
-        or when you use your action to dismantle it; at that time, you can reclaim
-        the materials used to create it. You can have up to three such devices active
-        at a time. When you create a device, choose one of the following options:'
-    - ==: AncestryTrait
-      name: Clockwork Toy
-      description: This toy is a clockwork animal, monster, or person, such as a frog,
-        mouse, bird, dragon, or soldier. When placed on the ground, the toy moves
-        5 feet across the ground on each of your turns in a random direction. It makes
-        noises as appropriate to the creature it represents.
-    - ==: AncestryTrait
-      name: Fire Starter
-      description: The device produces a miniature flame, which you can use to light
-        a candle, torch, or campfire. Using the device requires your action.
-    - ==: AncestryTrait
-      name: Music Box
-      description: When opened, this music box plays a single song at a moderate volume.
-        The box stops playing when it reaches the song's end or when it is closed.
-    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkzNmQ3OWU0ZmRhODU5ZDYwOGM4NTNjMTBlZDQyNzYxYjkzNzk5MjBiMDBiMTU1NDMzYzgyOTNmOTFiM2U2ZiJ9fX0=
-  - ==: SubAncestry
-    id: 0047bd7e-378d-4cb6-bd03-8b6e8880ad93
-    name: Deep
-    dark-vision:
-      ==: Distance
-      value: 120.0
-      unit: FEET
-    minimum-age: 25
-    maximum-age: 250
-    minimum-height: 3'0"
-    maximum-height: 4'0"
-    minimum-weight: 80lb
-    maximum-weight: 120lb
-    traits:
-    - ==: AncestryTrait
-      name: Age
-      description: Deep gnomes are short-lived for gnomes. They mature at the same
-        rate humans do and are considered full-grown adults by 25. They live 200 to
-        250 years, although hard toil and the dangers of the Underdark often claim
-        them before their time.
-    - ==: AncestryTrait
-      name: Size
-      description: A typical svirfneblin stands about 3 to 3-1/2 feet tall and weighs
-        80 to 120 pounds. Your size is Small.
-    - ==: AncestryTrait
-      name: Gnome Cunning
-      description: You have advantage on all Intelligence, Wisdom and Charisma saving
-        throws against magic.
-    - ==: AncestryTrait
-      name: Languages
-      description: You can speak, read and write Common, Gnomish and Undercommon.
-        The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin
-        know only a little bit of Common, but those who deal with outsiders (and that
-        includes you as an adventurer) pick up enough Common to get by in other lands.
-    - ==: AncestryTrait
-      name: Alignment
-      description: Svirfneblin believe that survival depends on avoiding entanglements
-        with other creatures and not making enemies, so they favor neutral alignments.
-        They rarely wish others ill, and they are unlikely to take risks on behalf
-        of others.
-    - ==: AncestryTrait
-      name: Stone Camouflage
-      description: You have advantage on Dexterity (stealth) checks to hide in rocky
-        terrain.
+      description: |
+        You have proficiency with artisan tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:
+        • Clockwork Toy. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+        • Fire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
+        • Music Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
     skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkzNmQ3OWU0ZmRhODU5ZDYwOGM4NTNjMTBlZDQyNzYxYjkzNzk5MjBiMDBiMTU1NDMzYzgyOTNmOTFiM2U2ZiJ9fX0=
   dark-vision:
     ==: Distance
@@ -158,21 +62,18 @@ ancestry:
   maximum-weight: 43lb
   traits:
   - ==: AncestryTrait
-    name: Age
-    description: Gnomes mature at the same rate humans do, and most are expected to
-      settle down into an adult life by around age 40. They can live 350 to almost
-      500 years.
+    name: Ability Score Increase
+    description: Your Intelligence score increases by 2.
   - ==: AncestryTrait
-    name: Size
-    description: Gnomes are between 3 and 4 feet tall and average about 40 pounds.
-      Your size is Small.
+    name: Darkvision
+    description: Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
   - ==: AncestryTrait
     name: Gnome Cunning
-    description: You have advantage on all Intelligence, Wisdom, and Charisma saving
-      throws against magic.
+    description: You have advantage on all Intelligence, Wisdom, and Charisma saves against magic.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your base walking speed is 25 feet.
   - ==: AncestryTrait
     name: Languages
-    description: You can speak, read, and write Common and Gnomish. The Gnomish language,
-      which uses the Dwarvish script, is renowned for its technical treatises and
-      its catalogs of knowledge about the natural world.
+    description: You can read, speak, and write Common and Gnomish.
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkzNmQ3OWU0ZmRhODU5ZDYwOGM4NTNjMTBlZDQyNzYxYjkzNzk5MjBiMDBiMTU1NDMzYzgyOTNmOTFiM2U2ZiJ9fX0=
