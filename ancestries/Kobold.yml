@@ -1,0 +1,42 @@
+ancestry:
+  ==: Ancestry
+  id: 32c234c9-0785-40d4-80ce-0fd43afa0919
+  name: Kobold
+  name-plural: Kobolds
+  dark-vision:
+    ==: Distance
+    value: 60.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 60
+  minimum-height: 2'8"
+  maximum-height: 3'2"
+  minimum-weight: 23lb
+  maximum-height: 33lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1.
+  - ==: AncestryTrait
+    name: Size
+    description: You are Small.
+  - ==: AncestryTrait
+    name: Darkvision
+    description: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+  - ==: AncestryTrait
+    name: Kobold Cry
+    description: As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+  - ==: AncestryTrait
+    name: Kobold Legacy
+    description: |
+      Kobolds' connection to dragons can manifest in unpredictable ways in an individual kobold. Choose one of the following legacy options for your kobold:
+      • Craftiness. You have proficiency in one of the following skills of your choice: Arcana, Investigation, Medicine, Sleight of Hand, or Survival.
+      • Defiance. You have advantage on saving throws to avoid or end the frightened condition on yourself.
+      • Draconic Sorcery. You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this ancestry).
+  - ==: AncestryTrait
+    name: Speed
+    description: Your walking speed is 30 feet.
+  - ==: AncestryTrait
+    name: Languages
+    description: Your character can speak, read, and write Common and one other language
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk0ZGJkMTU1OTZiM2E5ZjU4NGNmYTdlNTU0N2E2YTRkYjU2MGJjMmZlZWRlNDU4YmZiMDQzODNmOGViNTk1MSJ9fX0=
