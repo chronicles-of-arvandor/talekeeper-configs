@@ -1,0 +1,72 @@
+ancestry:
+  ==: Ancestry
+  id: 5cc1578f-f250-421a-9be2-be15a313113e
+  name: Halfling
+  name-plural: Halflings
+  sub-ancestries:
+  - ==: SubAncestry
+    id: 3a2547b4-62a5-4881-998e-e13f59f06303
+    name: Lightfoot
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 2'8"
+    maximum-height: 3'4"
+    minimum-weight: 37lb
+    maximum-weight: 43lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Charisma score increases by 1.
+    - ==: AncestryTrait
+      name: Naturally Stealthy
+      description: You can attempt to hide even when you are only obscured by a creature that is at least one size larger than you.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk3YzE3MzJjYTBjY2QwOGM4NzcwNWE4NDEwNzkyN2ZiZjU5ZmFiNDVmODJhODg0MDA3MTE4OWZiNjFjZGI1NCJ9fX0=
+  - ==: SubAncestry
+    id: 3b47ca13-d883-4b02-85eb-f2aeb1009010
+    name: Stout
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 150
+    minimum-height: 2'8"
+    maximum-height: 3'4"
+    minimum-weight: 37lb
+    maximum-weight: 43lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Constitution score increases by 1.
+    - ==: AncestryTrait
+      name: Stout Resilience
+      description: You have advantage on saving throws against poison, and you have resistance to poison damage.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk3YzE3MzJjYTBjY2QwOGM4NzcwNWE4NDEwNzkyN2ZiZjU5ZmFiNDVmODJhODg0MDA3MTE4OWZiNjFjZGI1NCJ9fX0=
+  dark-vision:
+    ==: Distance
+    value: 0.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 150
+  minimum-height: 2'8"
+  maximum-height: 3'4"
+  minimum-weight: 37lb
+  maximum-weight: 43lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: Your Dexterity score increases by 2.
+  - ==: AncestryTrait
+    name: Lucky
+    description: When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.
+  - ==: AncestryTrait
+    name: Brave
+    description: You have advantage on saving throws against being frightened.
+  - ==: AncestryTrait
+    name: Nimble
+    description: You can move through the space of any creature that is of a size larger than yours.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your base walking speed is 25 feet.
+  - ==: AncestryTrait
+    name: Languages
+    description: You can speak, read, and write Common and Halfling.
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk3YzE3MzJjYTBjY2QwOGM4NzcwNWE4NDEwNzkyN2ZiZjU5ZmFiNDVmODJhODg0MDA3MTE4OWZiNjFjZGI1NCJ9fX0=
