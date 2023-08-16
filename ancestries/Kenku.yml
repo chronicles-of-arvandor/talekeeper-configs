@@ -1,0 +1,37 @@
+ancestry:
+  ==: Ancestry
+  id: 709c545d-88af-40fe-a082-be7bdbbcbb8c
+  name: Kenku
+  name-plural: Kenku
+  dark-vision:
+    ==: Distance
+    value: 0.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 60
+  minimum-height: 4'6"
+  maximum-height: 5'8"
+  minimum-weight: 52lb
+  maximum-weight: 146lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1.
+  - ==: AncestryTrait
+    name: Expert Duplication
+    description: When you copy writing or craftwork produced by yourself or someone else, you have advantage on any ability checks you make to produce an exact duplicate.
+  - ==: AncestryTrait
+    name: Kenku Recall
+    description: |
+      Thanks to your supernaturally good memory, you have proficiency in two skills of your choice.
+      Moreover, when you make an ability check using any skill in which you have proficiency, you can give yourself advantage on the check before rolling the d20. You can give yourself advantage in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+  - ==: AncestryTrait
+    name: Mimicry
+    description: You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your walking speed is 30 feet.
+  - ==: AncestryTrait
+    name: Languages
+    description: Your character can speak, read, and write Common and one other language
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQxZWIxMzkyMDkyNmEzZWI2YjY0MTEzNTM2NmQ3NWU2NDBjODBhMmY0ZmI1OWJkZTU0YzQ2OGE4YjgwYTAyYyJ9fX0=
