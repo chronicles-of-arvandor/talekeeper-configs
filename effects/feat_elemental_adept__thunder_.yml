@@ -1,0 +1,10 @@
+effect:
+  ==: FeatEffect
+  feats:
+    - b0f2bcbe-33e6-438b-ac46-02cafb72e6cd
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 3224e92c-07c0-4edc-9f07-6517d556550d
+          option-id: ef011511-1336-41be-bf72-6f81fc9213db
