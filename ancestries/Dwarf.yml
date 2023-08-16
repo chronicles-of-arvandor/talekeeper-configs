@@ -1,0 +1,78 @@
+ancestry:
+  ==: Ancestry
+  id: 70bda7fd-42a9-460e-a27f-35fd6aa53578
+  name: Dwarf
+  name-plural: Dwarves
+  sub-ancestries:
+  - ==: SubAncestry
+    id: 2ee496af-d354-47f8-a926-795bd7214aec
+    name: Hill
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 350
+    minimum-height: 3'9"
+    maximum-height: 4'5"
+    minimum-weight: 120lb
+    maximum-weight: 200lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Wisdom score increases by 1.
+    - ==: AncestryTrait
+      name: Dwarven Toughness
+      description: Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIxNmEwYTU3ZjE2NWM3ZTZkYmM3MjJmNTI5NmZhNWI5N2M1YzJjNGJjYjg3MWE3YjJjYTFjNDY0YWI4ZGY2NCJ9fX0=
+  - ==: SubAncestry
+    id: d5f5deea-ff01-4811-ab04-f67d8532b266
+    name: Mountain
+    dark-vision: null
+    minimum-age: 16
+    maximum-age: 350
+    minimum-height: 3'9"
+    maximum-height: 4'5"
+    minimum-weight: 120lb
+    maximum-weight: 200lb
+    traits:
+    - ==: AncestryTrait
+      name: Ability Score Increase
+      description: Your Strength score increases by 2.
+    - ==: AncestryTrait
+      name: Dwarven Armor Training
+      description: You have proficiency with light and medium armor.
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIxNmEwYTU3ZjE2NWM3ZTZkYmM3MjJmNTI5NmZhNWI5N2M1YzJjNGJjYjg3MWE3YjJjYTFjNDY0YWI4ZGY2NCJ9fX0=
+  dark-vision:
+    ==: Distance
+    value: 60.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 350
+  minimum-height: 3'9"
+  maximum-height: 4'5"
+  minimum-weight: 120lb
+  maximum-weight: 200lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: Your Constitution score increases by 2.
+  - ==: AncestryTrait
+    name: Darkvision
+    description: Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - ==: AncestryTrait
+    name: Dwarven Resilience
+    description: You have advantage on saving throws against poison, and you have resistance against poison damage.
+  - ==: AncestryTrait
+    name: Dwarven Combat Training
+    description: You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.
+  - ==: AncestryTrait
+    name: Tool Proficiency
+    description: 'You gain proficiency with the artisan''s tools of your choice: smith''s tools, brewer''s supplies, or mason''s tools.'
+  - ==: AncestryTrait
+    name: Stonecunning
+    description: Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.    
+  - ==: AncestryTrait
+    name: Speed
+    description: Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.
+  - ==: AncestryTrait
+    name: Languages
+    description: You can speak, read, and write Common and Dwarvish.
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIxNmEwYTU3ZjE2NWM3ZTZkYmM3MjJmNTI5NmZhNWI5N2M1YzJjNGJjYjg3MWE3YjJjYTFjNDY0YWI4ZGY2NCJ9fX0=
