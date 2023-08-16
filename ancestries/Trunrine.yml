@@ -1,0 +1,53 @@
+ancestry:
+  ==: Ancestry
+  id: 2300d5d4-2f14-4b25-ad9d-77910877fd50
+  name: Trunrine
+  name-plural: Trunrine
+  dark-vision:
+    ==: Distance
+    value: 60.0
+    unit: FEET
+  minimum-age: 17
+  maximum-age: 130
+  minimum-height: 4'6"
+  maximum-height: 6'5"
+  minimum-weight: 95lb
+  maximum-weight: 210lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1.
+  - ==: AncestryTrait
+    name: Creature Type
+    description: You are a Fey.
+  - ==: AncestryTrait
+    name: Child of the Sea
+    description: You can breathe air and water, and you have resistance to cold damage.
+  - ==: AncestryTrait
+    name: Darkvision
+    description: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+  - ==: AncestryTrait
+    name: Fey Ancestry
+    description: You have advantage on saving throws you make to avoid or end the charmed condition on yourself.
+  - ==: AncestryTrait
+    name: Friend of the Sea
+    description: Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.
+  - ==: AncestryTrait
+    name: Bipedal enigma
+    description: You are both equipped for traversing land and sea. Whilst underwater, your legs transform into a mermaid's tail. Whilst above water, your tail transforms into a set of humanoid legs.
+  - ==: AncestryTrait
+    name: Siren's Song
+    description: You know the Friends cantrip and can cast it without material components.
+  - ==: AncestryTrait
+    name: Keen senses
+    description: You have proficiency in the Perception skill.
+  - ==: AncestryTrait
+    name: Trance
+    description: You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.
+  - ==: AncestryTrait
+    name: Languages
+    description: Your character can speak, read, and write Common and one other language
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc0MTcyMWI5YmJjMzMwYmQ0MGI4ZGI2M2NjNmRjZmI3ZTFjYjFmZWM5ZmEyYjQ4YzkzZDUwY2ZkYTA3MzUzMSJ9fX0=
