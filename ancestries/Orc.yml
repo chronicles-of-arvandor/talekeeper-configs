@@ -1,0 +1,40 @@
+ancestry:
+  ==: Ancestry
+  id: c49912de-75f1-42fd-b010-f64976e2fdd7
+  name: Orc
+  name-plural: Orcs
+  dark-vision:
+    ==: Distance
+    value: 60.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 50
+  minimum-height: 5'11"
+  maximum-height: 6'2"
+  minimum-weight: 180lb
+  maximum-weight: 280lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. 
+  - ==: AncestryTrait
+    name: Adrenaline Rush
+    description: |
+      You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+      Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus.
+  - ==: AncestryTrait
+    name: Darkvision
+    description: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+  - ==: AncestryTrait
+    name: Powerful Build
+    description: You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+  - ==: AncestryTrait
+    name: Relentless Endurance
+    description: When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your walking speed is 30 feet.
+  - ==: AncestryTrait
+    name: Languages
+    description: Your character can speak, read, and write Common and one other language.
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZlMWY4MWNjNDY1NDA4ODVjNWRhODFiMjMzNDYzNDEwYjc4YzEyZWQ0MGFlMjlkNTY4M2Y4OTI3NDcwYjEyNyJ9fX0=
