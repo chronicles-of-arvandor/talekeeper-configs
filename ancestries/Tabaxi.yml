@@ -1,0 +1,38 @@
+ancestry:
+  ==: Ancestry
+  id: 0b9e1e22-edef-4c80-93e1-1a5cfae7db55
+  name: Tabaxi
+  name-plural: Tabaxi
+  dark-vision:
+    ==: Distance
+    value: 60.0
+    unit: FEET
+  minimum-age: 16
+  maximum-age: 100
+  minimum-height: 6'0"
+  maximum-height: 7'0"
+  minimum-weight: 140lb
+  maximum-weight: 250lb
+  traits:
+  - ==: AncestryTrait
+    name: Ability Score Increase
+    description: When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1.
+  - ==: AncestryTrait
+    name: Cat's Claws
+    description: You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage.
+  - ==: AncestryTrait
+    name: Cat's Talent
+    description: You have proficiency in the Perception and Stealth skills.
+  - ==: AncestryTrait
+    name: Darkvision
+    description: You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+  - ==: AncestryTrait
+    name: Feline Agility
+    description: Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.
+  - ==: AncestryTrait
+    name: Speed
+    description: Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.
+  - ==: AncestryTrait
+    name: Languages
+    description: Your character can speak, read, and write Common and one other language
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZlYzgxNjUwNzEzNjZkNzk2OTI1ZTg4MjRkNTI1ZGFmYTdmOWRjZjVmYzcxYzc3Y2U2YTA0MDYwMTY2YzBlOCJ9fX0=
