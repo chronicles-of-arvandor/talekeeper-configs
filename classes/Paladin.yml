@@ -1,0 +1,35 @@
+class:
+  ==: Class
+  id: a9b560a5-7a29-4675-a424-a624f8488db7
+  name: Paladin
+  sub-classes:
+  - ==: SubClass
+    id: ac089ce8-f2ee-4737-82b9-749ab2cf349d
+    name: Ancients
+  - ==: SubClass
+    id: de190ce7-84ee-4cd0-b3bf-42ea3742a263
+    name: Conquest
+  - ==: SubClass
+    id: 0b8456bc-5cb2-4f62-80f0-faa8ad1d4a7e
+    name: Crown
+  - ==: SubClass
+    id: e5d356b5-46b2-41c4-ba7a-7fd5fed49751
+    name: Devotion
+  - ==: SubClass
+    id: 37517112-768e-44de-b3ba-ca4e9b9bb5a6
+    name: Glory
+  - ==: SubClass
+    id: e09538f0-ca9f-405b-8db7-914e764f6871
+    name: Open Sea
+  - ==: SubClass
+    id: 9a4760c4-cbf6-4b74-b97a-f77d2c9f0f71
+    name: Redemption
+  - ==: SubClass
+    id: e9f5256e-f8e9-44a9-8076-9e76b1164133
+    name: Vengeance
+  - ==: SubClass
+    id: 600dd7a8-9706-43e2-841c-2209d9e72b5c
+    name: Watchers
+  sub-class-selection-level: 3
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBmZDJjYzkxMTZjMGY3MjRiZGNkYmYyZTk2MzNjYjBhN2Q0NTNmOGIzYTFhZDlkMTQ5M2U1ZTZmMTI4MTU1NSJ9fX0=
+  base-hp: 10
