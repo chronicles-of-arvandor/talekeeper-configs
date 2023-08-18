@@ -27,5 +27,6 @@ class:
   - ==: SubClass
     id: 6ea561d8-ea06-4b75-b565-9652c5589313
     name: School of Transmutation
+  sub-class-selection-level: 2
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JmYzE3ZWQ5MjhhZGZhZmZmYmY5ZjkxNTg5ZjBkNWI3YWIyMTZmNzRjMGQ3MjE0ZjI5ZTY5NDM4ZTYwOTdiMCJ9fX0=
   base-hp: 6
