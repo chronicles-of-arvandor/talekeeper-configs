@@ -1,0 +1,26 @@
+class:
+  ==: Class
+  id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+  name: Warlock
+  sub-classes:
+  - ==: SubClass
+    id: c51b1471-fc09-454d-bbe1-46060e0beb8a
+    name: Archfey
+  - ==: SubClass
+    id: 421b0a61-118d-4ce6-ba70-8b8d6a392c0f
+    name: Celestial
+  - ==: SubClass
+    id: 60c655e8-97e7-468e-8b1c-0650f2dda1f5
+    name: Fathomless
+  - ==: SubClass
+    id: 4d949df7-d627-4be3-b920-a76d62b72d04
+    name: Fiend
+  - ==: SubClass
+    id: abd56abd-6752-447b-91d5-5fd1b7883a52
+    name: Undead
+  - ==: SubClass
+    id: 8273c3e0-040c-4d44-906b-2eeee99a5498
+    name: Undying
+  sub-class-selection-level: 1
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4ZTRmMjAwOTc4NWFiNzE1MjYxZWEzODZhYmQxMjkyNmRlOGE3OWQ0MWI1NmIyMDUyMjUxMTNiMjYyZDNmYiJ9fX0=
+  base-hp: 8
