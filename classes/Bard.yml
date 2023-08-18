@@ -1,0 +1,32 @@
+class:
+  ==: Class
+  id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+  name: Bard
+  sub-classes:
+  - ==: SubClass
+    id: 7bba57e8-fb81-466a-973a-0a7c57b66f7e
+    name: Creation
+  - ==: SubClass
+    id: 789f6f9a-b9e0-4217-abb9-6976fee85454
+    name: Eloquence
+  - ==: SubClass
+    id: a9f801b7-0526-4616-b757-5133c167c5d3
+    name: Glamour
+  - ==: SubClass
+    id: 8d7831d7-7297-4024-8664-167078118156
+    name: Lore
+  - ==: SubClass
+    id: 79cdccd4-341e-4445-9f6c-d3ea700432e1
+    name: Spirits
+  - ==: SubClass
+    id: 03300739-47b3-4533-ba25-e6f60d093a40
+    name: Swords
+  - ==: SubClass
+    id: aa8f5a5f-d356-46d4-999a-95bcbb50798f
+    name: Valor
+  - ==: SubClass
+    id: 46ce2bd4-a6dc-4ef1-801e-eaf5477b3def
+    name: Whispers
+  sub-class-selection-level: 3
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ3ZTRhNWI3NWQxMDFhMWY5MzIwODU0M2Q2MmVlZDQzNTkxOGQyZGU0NjQ0Y2E4YTAwMDIzOGE4YzM4ZWNiOSJ9fX0=
+  base-hp: 8
