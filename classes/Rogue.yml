@@ -1,0 +1,32 @@
+class:
+  ==: Class
+  id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+  name: Rogue
+  sub-classes:
+  - ==: SubClass
+    id: fc16ade7-992a-47bb-bcb0-dd9dc3bfca70
+    name: Arcane Trickster
+  - ==: SubClass
+    id: 69c4a7ea-c383-4244-a937-e76ee499b0ff
+    name: Assassin
+  - ==: SubClass
+    id: 1599e9da-22ec-440a-a6f7-b68dcab13d91
+    name: Inquisitive
+  - ==: SubClass
+    id: d2037a60-eb97-4494-8c06-6a9dee926d56
+    name: Mastermind
+  - ==: SubClass
+    id: b398c872-65ae-48aa-ad69-42c63da69d32
+    name: Phantom
+  - ==: SubClass
+    id: 730bd84c-4758-4b2f-9c97-caabd3af320f
+    name: Scout
+  - ==: SubClass
+    id: 5965dc2f-23bf-4d02-8236-58ee8e9fd687
+    name: Swashbuckler
+  - ==: SubClass
+    id: 8f75ec0e-18fe-42a1-82bd-8d8263695d60
+    name: Thief
+  sub-class-selection-level: 3
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk0NDY5MjZlN2RjMWM5OGM0NjAyZTcxNGZlMzlmN2YyYTQyNDViYTFlMWQzMmNiYWM4Yzc2NGE2MDM5YTY1MiJ9fX0=
+  base-hp: 8
