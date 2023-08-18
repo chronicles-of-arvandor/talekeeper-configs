@@ -1,0 +1,23 @@
+class:
+  ==: Class
+  id: 8399372a-231b-4d8f-985a-d6130f6f9827
+  name: Sorcerer
+  sub-classes:
+  - ==: SubClass
+    id: 69130b22-7f74-458c-a9e2-eb7b8af3b858
+    name: Clockwork Soul
+  - ==: SubClass
+    id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+    name: Divine Soul
+  - ==: SubClass
+    id: 700b26b2-de26-4786-9fb7-7b2beb5f61a5
+    name: Storm Sorcerer
+  - ==: SubClass
+    id: d44bfeaf-f3ed-4997-bc0b-b391f4b26fde
+    name: Shadow Magic
+  - ==: SubClass
+    id: 942e66aa-1bc5-4780-aa69-bed8d545be98
+    name: Wild Magic
+  sub-class-selection-level: 1
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyODE5Mjk1YzAxZTEyYTI1YTRjYWJjNzYwYTY5MDBjODM0MDFhZWQxZTI0N2Q0NGI2YjkyOTJkYzZjMTBkYSJ9fX0=
+  base-hp: 6
