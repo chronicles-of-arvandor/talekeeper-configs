@@ -1,0 +1,29 @@
+class:
+  ==: Class
+  id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+  name: Ranger
+  sub-classes:
+  - ==: SubClass
+    id: 110dc641-91c4-4341-9e67-3511095b39ee
+    name: Beastmaster
+  - ==: SubClass
+    id: 49fcfeb4-f72d-40ea-bd6b-8f9c981a334b
+    name: Fey Wanderer
+  - ==: SubClass
+    id: 0a7fea91-7984-420b-a0bd-3fe3b9b39be8
+    name: Gloomstalker
+  - ==: SubClass
+    id: 805b8de8-9e23-4620-a152-5440a5f16924
+    name: Horizon Walker
+  - ==: SubClass
+    id: 6acb5d01-7cdb-4b21-a51b-74532606f752
+    name: Hunter
+  - ==: SubClass
+    id: ddf7f712-ef21-4e92-b197-328b602acba4
+    name: Monster Slayer
+  - ==: SubClass
+    id: a34b86f8-ab97-4be1-a4c3-7f3df9e4e74a
+    name: Swarm Keeper
+  sub-class-selection-level: 3
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTVlMmRkZGE1YzRiNjU0MzUzZmUwMjMwZmFhNGU5NjI1MGZkYzI4MDlhODQ5ZTFmZmQwMjBmYzdlM2ZhMyJ9fX0=
+  base-hp: 10
