@@ -989,7 +989,7 @@ choice:
     prerequisites:
     - ==: SubAncestryPrerequisite
       ancestry-id: 59ce9f43-f104-4eb6-af37-c7b7a56dddd8
-      sub-ancestry-id: # Deep Gnomes?
+      sub-ancestry-id: 717387e7-e65a-4ec4-93d3-1dd064546d46
     - ==: NotPrerequisite
       prerequisite:
         ==: FeatPrerequisite
