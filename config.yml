@@ -1,5 +1,5 @@
 database:
-  url: jdbc:mariadb://db.arvandor.net/arvandor_dev
+  url: jdbc:mariadb://db.arvandor.net/arvandor_dev?useAffectedRows=true
   username: arvandor_dev
   password: n2Jvub*TYwk(RBM
   dialect: MARIADB

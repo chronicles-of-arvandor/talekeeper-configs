@@ -1,7 +1,7 @@
 choice:
   ==: Choice
   id: 49b6432a-6512-4993-9306-4116c5dbb282
-  text: 'As a Wizard, choose two skill proficiencies (2)'
+  text: 'Wizard skill proficiencies (2)'
   prerequisites:
   - ==: ClassPrerequisite
     class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5

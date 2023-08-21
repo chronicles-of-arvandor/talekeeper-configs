@@ -6,7 +6,7 @@ class:
   - ==: SubClass
     id: d6a9ad00-5cc6-40a9-92f3-00bbee4f070d
     name: Banneret
-    - ==: SubClass
+  - ==: SubClass
     id: 7a80db01-256d-43ed-b27d-86354db0c06b
     name: Battlemaster
   - ==: SubClass

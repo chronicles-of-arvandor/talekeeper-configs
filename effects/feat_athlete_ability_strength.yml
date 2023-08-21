@@ -1,4 +1,5 @@
-==: AbilityEffect
+effect:
+  ==: AbilityEffect
   abilities:
     STRENGTH: 1
   prerequisites:

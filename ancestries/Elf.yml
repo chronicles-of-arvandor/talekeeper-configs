@@ -9,7 +9,7 @@ ancestry:
     name: Dark
     dark-vision:
       ==: Distance
-      value: 120
+      value: 120.0
       unit: FEET
     minimum-age: 100
     maximum-age: 750

@@ -12,7 +12,7 @@ ancestry:
   minimum-height: 2'8"
   maximum-height: 3'2"
   minimum-weight: 23lb
-  maximum-height: 33lb
+  maximum-weight: 33lb
   traits:
   - ==: AncestryTrait
     name: Ability Score Increase
