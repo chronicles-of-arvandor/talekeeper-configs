@@ -6,27 +6,220 @@ class:
   - ==: SubClass
     id: d6a9ad00-5cc6-40a9-92f3-00bbee4f070d
     name: Banneret
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: YELLOW_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: PURPLE
+          pattern: rd
   - ==: SubClass
     id: 7a80db01-256d-43ed-b27d-86354db0c06b
     name: Battlemaster
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PURPLE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: WHITE
+          pattern: flo
+        - ==: Pattern
+          color: PURPLE
+          pattern: hhb
+        - ==: Pattern
+          color: WHITE
+          pattern: cs
+        - ==: Pattern
+          color: PURPLE
+          pattern: tr
+        - ==: Pattern
+          color: PURPLE
+          pattern: tl
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: gru
   - ==: SubClass
     id: 88d0bd99-4205-470c-a23a-18ce9cbdf4e0
     name: Cavalier
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_BLUE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BROWN
+          pattern: cre
+        - ==: Pattern
+          color: BLACK
+          pattern: mc
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: rud
+        - ==: Pattern
+          color: BROWN
+          pattern: br
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: cbo
+        - ==: Pattern
+          color: LIME
+          pattern: bts
   - ==: SubClass
     id: 51588921-93b8-4fb7-83b9-431cd042bf70
     name: Champion
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: YELLOW
+          pattern: mr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mr
+        - ==: Pattern
+          color: BLACK
+          pattern: hh
+        - ==: Pattern
+          color: BLACK
+          pattern: mc
+        - ==: Pattern
+          color: YELLOW
+          pattern: bt
+        - ==: Pattern
+          color: BLACK
+          pattern: bs
   - ==: SubClass
     id: fc1ac2e9-6d61-4906-a946-a7af2f0d4925
     name: Echo Knight
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_GRAY_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mr
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: ms
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mc
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: flo
   - ==: SubClass
     id: 06f139a8-ede8-4b06-a1a5-a396664431bb
     name: Eldritch Knight
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PURPLE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: MAGENTA
+          pattern: gra
+        - ==: Pattern
+          color: BLACK
+          pattern: bl
+        - ==: Pattern
+          color: BLACK
+          pattern: tr
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
+        - ==: Pattern
+          color: BLACK
+          pattern: mr
+        - ==: Pattern
+          color: BLACK
+          pattern: sc
   - ==: SubClass
     id: 519db2c3-2e90-4f42-a51d-67708b7ab778
     name: Rune Knight
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: PURPLE
+          pattern: flo
+        - ==: Pattern
+          color: PURPLE
+          pattern: sku
+        - ==: Pattern
+          color: PURPLE
+          pattern: mr
+        - ==: Pattern
+          color: BLACK
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: tt
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
   - ==: SubClass
     id: 822b83c0-13c1-4feb-8820-79b413fe470e
     name: Samurai
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: WHITE
+          pattern: ts
+        - ==: Pattern
+          color: BLACK
+          pattern: bts
+        - ==: Pattern
+          color: BLACK
+          pattern: tt
+        - ==: Pattern
+          color: BLACK
+          pattern: mr
+        - ==: Pattern
+          color: RED
+          pattern: sku
+        - ==: Pattern
+          color: WHITE
+          pattern: flo
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
+        - ==: Pattern
+          color: BLACK
+          pattern: bt
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVhOTBiMmE1N2ExOTAzZDk5ZmRjOWFmNjhhYzJhNmI2YzUyNjVmMTMxNWRmY2ViMDM5ZDVlMWRiZTE2NmNlYSJ9fX0=
   base-hp: 10

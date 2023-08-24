@@ -6,30 +6,237 @@ class:
   - ==: SubClass
     id: ac089ce8-f2ee-4737-82b9-749ab2cf349d
     name: Ancients
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_GRAY_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: cre
+        - ==: Pattern
+          color: BLACK
+          pattern: sku
+        - ==: Pattern
+          color: BLACK
+          pattern: flo
+        - ==: Pattern
+          color: BLACK
+          pattern: gru
   - ==: SubClass
     id: de190ce7-84ee-4cd0-b3bf-42ea3742a263
     name: Conquest
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: ss
+        - ==: Pattern
+          color: WHITE
+          pattern: cbo
+        - ==: Pattern
+          color: WHITE
+          pattern: tt
+        - ==: Pattern
+          color: WHITE
+          pattern: cr
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mc
+        - ==: Pattern
+          color: WHITE
+          pattern: flo
   - ==: SubClass
     id: 0b8456bc-5cb2-4f62-80f0-faa8ad1d4a7e
     name: Crown
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: YELLOW
+          pattern: mr
+        - ==: Pattern
+          color: YELLOW
+          pattern: mr
+        - ==: Pattern
+          color: BLACK
+          pattern: hh
+        - ==: Pattern
+          color: BLACK
+          pattern: mc
+        - ==: Pattern
+          color: YELLOW
+          pattern: bt
+        - ==: Pattern
+          color: BLACK
+          pattern: bs
   - ==: SubClass
     id: e5d356b5-46b2-41c4-ba7a-7fd5fed49751
     name: Devotion
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: mc
+        - ==: Pattern
+          color: WHITE
+          pattern: tt
+        - ==: Pattern
+          color: WHITE
+          pattern: gra
   - ==: SubClass
     id: 37517112-768e-44de-b3ba-ca4e9b9bb5a6
     name: Glory
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: YELLOW
+          pattern: flo
   - ==: SubClass
     id: e09538f0-ca9f-405b-8db7-914e764f6871
     name: Open Sea
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_BLUE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GRAY
+          pattern: mr
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mc
+        - ==: Pattern
+          color: BROWN
+          pattern: sc
+        - ==: Pattern
+          color: WHITE
+          pattern: tr
+        - ==: Pattern
+          color: BROWN
+          pattern: hhb
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: cbo
+        - ==: Pattern
+          color: BLUE
+          pattern: bs
   - ==: SubClass
     id: 9a4760c4-cbf6-4b74-b97a-f77d2c9f0f71
     name: Redemption
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: RED_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: cre
+        - ==: Pattern
+          color: YELLOW
+          pattern: flo
+        - ==: Pattern
+          color: BLACK
+          pattern: cs
+        - ==: Pattern
+          color: BLACK
+          pattern: hh
+        - ==: Pattern
+          color: WHITE
+          pattern: sku
+        - ==: Pattern
+          color: BLACK
+          pattern: sku
+        - ==: Pattern
+          color: RED
+          pattern: gru
   - ==: SubClass
     id: e9f5256e-f8e9-44a9-8076-9e76b1164133
     name: Vengeance
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: sc
+        - ==: Pattern
+          color: WHITE
+          pattern: bri
+        - ==: Pattern
+          color: WHITE
+          pattern: flo
+        - ==: Pattern
+          color: RED
+          pattern: flo
+        - ==: Pattern
+          color: WHITE
+          pattern: tt
+        - ==: Pattern
+          color: RED
+          pattern: gru
   - ==: SubClass
     id: 600dd7a8-9706-43e2-841c-2209d9e72b5c
     name: Watchers
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_GRAY_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: ms
+        - ==: Pattern
+          color: WHITE
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: flo
+        - ==: Pattern
+          color: WHITE
+          pattern: cbo
+        - ==: Pattern
+          color: WHITE
+          pattern: cbo
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBmZDJjYzkxMTZjMGY3MjRiZGNkYmYyZTk2MzNjYjBhN2Q0NTNmOGIzYTFhZDlkMTQ5M2U1ZTZmMTI4MTU1NSJ9fX0=
   base-hp: 10

@@ -6,27 +6,226 @@ class:
     - ==: SubClass
       id: 4528e721-5fc5-4477-a87c-2fb25e649d52
       name: School of Abjuration
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: RED_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: WHITE
+            pattern: sc
+          - ==: Pattern
+            color: WHITE
+            pattern: ts
+          - ==: Pattern
+            color: WHITE
+            pattern: bs
     - ==: SubClass
       id: 14fad25b-3f9f-4dea-b798-0de917e62681
       name: School of Conjuration
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLUE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: BLACK
+            pattern: cs
+          - ==: Pattern
+            color: WHITE
+            pattern: bo
+          - ==: Pattern
+            color: PURPLE
+            pattern: rs
+          - ==: Pattern
+            color: PURPLE
+            pattern: ls
     - ==: SubClass
       id: f72a94ed-7c7c-4ede-922e-662e50db5312
       name: School of Divination
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: YELLOW_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: BLACK
+            pattern: cbo
+          - ==: Pattern
+            color: YELLOW
+            pattern: flo
+          - ==: Pattern
+            color: BLACK
+            pattern: bt
+          - ==: Pattern
+            color: BLACK
+            pattern: tt
+          - ==: Pattern
+            color: WHITE
+            pattern: sc
+          - ==: Pattern
+            color: WHITE
+            pattern: mc
     - ==: SubClass
       id: 52b0dc9a-2bdd-443f-bb6f-57fc0d6a6c15
       name: School of Enchantment
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BROWN_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: LIGHT_GRAY
+            pattern: cs
+          - ==: Pattern
+            color: YELLOW
+            pattern: cbo
+          - ==: Pattern
+            color: WHITE
+            pattern: sc
+          - ==: Pattern
+            color: RED
+            pattern: ms
+          - ==: Pattern
+            color: RED
+            pattern: ms
+          - ==: Pattern
+            color: BROWN
+            pattern: bo
     - ==: SubClass
       id: 4c5363ba-b530-43d5-9b38-e60071688431
       name: School of Evocation
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: BLACK
+            pattern: bl
+          - ==: Pattern
+            color: BLACK
+            pattern: tr
+          - ==: Pattern
+            color: BLACK
+            pattern: tts
+          - ==: Pattern
+            color: BLACK
+            pattern: bts
+          - ==: Pattern
+            color: BLACK
+            pattern: ls
+          - ==: Pattern
+            color: BLACK
+            pattern: rs
     - ==: SubClass
       id: 072348d9-0d6b-4859-9bfa-202ce0526bdd
       name: School of Illusion
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: LIGHT_BLUE
+            pattern: flo
+          - ==: Pattern
+            color: CYAN
+            pattern: cr
+          - ==: Pattern
+            color: BLACK
+            pattern: hh
+          - ==: Pattern
+            color: BLACK
+            pattern: mr
+          - ==: Pattern
+            color: CYAN
+            pattern: mr
+          - ==: Pattern
+            color: BLACK
+            pattern: bt
+          - ==: Pattern
+            color: BLACK
+            pattern: mc
     - ==: SubClass
       id: acde64e6-e546-40dd-a28d-307617afb936
       name: School of Necromancy
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: GREEN
+            pattern: sku
+          - ==: Pattern
+            color: CYAN
+            pattern: cre
+          - ==: Pattern
+            color: BLACK
+            pattern: ls
+          - ==: Pattern
+            color: BLACK
+            pattern: rs
     - ==: SubClass
       id: 6ea561d8-ea06-4b75-b565-9652c5589313
       name: School of Transmutation
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GRAY_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+          - ==: Pattern
+            color: WHITE
+            pattern: sc
+          - ==: Pattern
+            color: LIGHT_GRAY
+            pattern: mr
+          - ==: Pattern
+            color: RED
+            pattern: mc
+          - ==: Pattern
+            color: BLACK
+            pattern: hh
+          - ==: Pattern
+            color: BLACK
+            pattern: br
+          - ==: Pattern
+            color: BLACK
+            pattern: bl
+          - ==: Pattern
+            color: GRAY
+            pattern: bts
+          - ==: Pattern
+            color: BLACK
+            pattern: bo
+          - ==: Pattern
+            color: BLACK
+            pattern: cbo
   sub-class-selection-level: 2
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JmYzE3ZWQ5MjhhZGZhZmZmYmY5ZjkxNTg5ZjBkNWI3YWIyMTZmNzRjMGQ3MjE0ZjI5ZTY5NDM4ZTYwOTdiMCJ9fX0=
   base-hp: 6

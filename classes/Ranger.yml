@@ -6,24 +6,200 @@ class:
   - ==: SubClass
     id: 110dc641-91c4-4341-9e67-3511095b39ee
     name: Beastmaster
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BROWN
+          pattern: cre
+        - ==: Pattern
+          color: BLACK
+          pattern: mr
+        - ==: Pattern
+          color: BROWN
+          pattern: cbo
+        - ==: Pattern
+          color: BROWN
+          pattern: mc
+        - ==: Pattern
+          color: BROWN
+          pattern: cre
+        - ==: Pattern
+          color: BROWN
+          pattern: tt
   - ==: SubClass
     id: 49fcfeb4-f72d-40ea-bd6b-8f9c981a334b
     name: Fey Wanderer
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLUE
+          pattern: sku
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: cre
+        - ==: Pattern
+          color: BLACK
+          pattern: sc
+        - ==: Pattern
+          color: BLACK
+          pattern: cr
+        - ==: Pattern
+          color: WHITE
+          pattern: mc
   - ==: SubClass
     id: 0a7fea91-7984-420b-a0bd-3fe3b9b39be8
     name: Gloomstalker
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: PURPLE
+          pattern: cr
+        - ==: Pattern
+          color: PURPLE
+          pattern: mr
+        - ==: Pattern
+          color: BLACK
+          pattern: dls
+        - ==: Pattern
+          color: BLACK
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: rd
+        - ==: Pattern
+          color: BLACK
+          pattern: bo
   - ==: SubClass
     id: 805b8de8-9e23-4620-a152-5440a5f16924
     name: Horizon Walker
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PINK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: ORANGE
+          pattern: gru
+        - ==: Pattern
+          color: PURPLE
+          pattern: gra
+        - ==: Pattern
+          color: ORANGE
+          pattern: mc
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: hhb
   - ==: SubClass
     id: 6acb5d01-7cdb-4b21-a51b-74532606f752
     name: Hunter
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BROWN
+          pattern: moj
+        - ==: Pattern
+          color: GREEN
+          pattern: hhb
+        - ==: Pattern
+          color: BLACK
+          pattern: dls
+        - ==: Pattern
+          color: BROWN
+          pattern: bt
+        - ==: Pattern
+          color: GREEN
+          pattern: br
+        - ==: Pattern
+          color: GREEN
+          pattern: cbo
+        - ==: Pattern
+          color: GREEN
+          pattern: tt
   - ==: SubClass
     id: ddf7f712-ef21-4e92-b197-328b602acba4
     name: Monster Slayer
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: cr
+        - ==: Pattern
+          color: BLACK
+          pattern: lud
+        - ==: Pattern
+          color: BLACK
+          pattern: rd
+        - ==: Pattern
+          color: BLACK
+          pattern: cs
   - ==: SubClass
     id: a34b86f8-ab97-4be1-a4c3-7f3df9e4e74a
     name: Swarm Keeper
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
+        - ==: Pattern
+          color: BLACK
+          pattern: ts
+        - ==: Pattern
+          color: BLACK
+          pattern: flo
+        - ==: Pattern
+          color: BLACK
+          pattern: bs
+        - ==: Pattern
+          color: BLACK
+          pattern: drs
+        - ==: Pattern
+          color: BLACK
+          pattern: ms
+        - ==: Pattern
+          color: BLUE
+          pattern: gru
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTVlMmRkZGE1YzRiNjU0MzUzZmUwMjMwZmFhNGU5NjI1MGZkYzI4MDlhODQ5ZTFmZmQwMjBmYzdlM2ZhMyJ9fX0=
   base-hp: 10

@@ -6,24 +6,173 @@ class:
   - ==: SubClass
     id: 010eba10-525b-47bc-b0cf-691c0d141727
     name: Dreams
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: PURPLE
+          pattern: ss
+        - ==: Pattern
+          color: WHITE
+          pattern: ss
+        - ==: Pattern
+          color: PURPLE
+          pattern: cbo
+        - ==: Pattern
+          color: WHITE
+          pattern: cbo
+        - ==: Pattern
+          color: BLUE
+          pattern: flo
+        - ==: Pattern
+          color: WHITE
+          pattern: flo
   - ==: SubClass
     id: 441448d9-992a-40ac-a263-7573b7555d36
     name: Land
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_BLUE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: YELLOW
+          pattern: mc
+        - ==: Pattern
+          color: LIME
+          pattern: hhb
   - ==: SubClass
     id: 1fd82883-20e3-4037-a33a-4ebbd9d5153c
     name: Moon
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: WHITE
+          pattern: mc
+        - ==: Pattern
+          color: GRAY
+          pattern: hhb
   - ==: SubClass
     id: 68842d93-c312-4c0d-a12b-d638639b825b
     name: Sheperd
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_BLUE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: cs
+        - ==: Pattern
+          color: WHITE
+          pattern: mc
+        - ==: Pattern
+          color: LIME
+          pattern: bs
+        - ==: Pattern
+          color: BLACK
+          pattern: tt
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: ts
   - ==: SubClass
     id: 2473b65b-b1dc-4eaf-a58b-298aba28da1f
     name: Spores
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: RED_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: WHITE
+          pattern: glb
+        - ==: Pattern
+          color: BLACK
+          pattern: hhb
+        - ==: Pattern
+          color: WHITE
+          pattern: bt
+        - ==: Pattern
+          color: BLACK
+          pattern: bs
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
+        - ==: Pattern
+          color: BLACK
+          pattern: ts
   - ==: SubClass
     id: 930be92b-ae86-4e36-84d8-8d9092467f30
     name: Stars
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PURPLE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: CYAN
+          pattern: gra
+        - ==: Pattern
+          color: BLACK
+          pattern: drs
+        - ==: Pattern
+          color: BLACK
+          pattern: mr
+        - ==: Pattern
+          color: BLACK
+          pattern: dls
+        - ==: Pattern
+          color: CYAN
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
   - ==: SubClass
     id: c29ab87f-b783-4006-9210-12b0155db458
     name: Wildfire
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: mc
+        - ==: Pattern
+          color: ORANGE
+          pattern: sku
+        - ==: Pattern
+          color: BLACK
+          pattern: glb
+        - ==: Pattern
+          color: BLACK
+          pattern: gru
   sub-class-selection-level: 2
   skull-texture: e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDgwOGRkNmE5MTdiYmUyMTdjNmU1ZDI1ZDQzOTZlNGU5OGFjZjhmODgyY2RmNmI0ZjI0ZjEyOTg3YjlhNmQyIn19fQ==
   base-hp: 8

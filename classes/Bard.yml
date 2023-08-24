@@ -6,27 +6,166 @@ class:
   - ==: SubClass
     id: 7bba57e8-fb81-466a-973a-0a7c57b66f7e
     name: Creation
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIME_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GREEN
+          pattern: gru
+        - ==: Pattern
+          color: YELLOW
+          pattern: flo
   - ==: SubClass
     id: 789f6f9a-b9e0-4217-abb9-6976fee85454
     name: Eloquence
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: RED_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: hhb
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: mr
   - ==: SubClass
     id: a9f801b7-0526-4616-b757-5133c167c5d3
     name: Glamour
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: YELLOW
+          pattern: flo
+        - ==: Pattern
+          color: BLACK
+          pattern: hhb
+        - ==: Pattern
+          color: WHITE
+          pattern: bt
+        - ==: Pattern
+          color: YELLOW
+          pattern: bts
   - ==: SubClass
     id: 8d7831d7-7297-4024-8664-167078118156
     name: Lore
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: ss
+        - ==: Pattern
+          color: RED
+          pattern: vhr
+        - ==: Pattern
+          color: BROWN
+          pattern: bs
   - ==: SubClass
     id: 79cdccd4-341e-4445-9f6c-d3ea700432e1
     name: Spirits
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
+        - ==: Pattern
+          color: PURPLE
+          pattern: mr
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: mc
+        - ==: Pattern
+          color: PURPLE
+          pattern: gru
   - ==: SubClass
     id: 03300739-47b3-4533-ba25-e6f60d093a40
     name: Swords
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_BLUE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: WHITE
+          pattern: gra
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: dls
+        - ==: Pattern
+          color: GRAY
+          pattern: drs
   - ==: SubClass
     id: aa8f5a5f-d356-46d4-999a-95bcbb50798f
     name: Valor
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: rd
+        - ==: Pattern
+          color: ORANGE
+          pattern: bt
+        - ==: Pattern
+          color: YELLOW
+          pattern: bts
+        - ==: Pattern
+          color: RED
+          pattern: dls
   - ==: SubClass
     id: 46ce2bd4-a6dc-4ef1-801e-eaf5477b3def
     name: Whispers
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_GRAY_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: cre
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: hhb
+        - ==: Pattern
+          color: BLACK
+          pattern: bs
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ3ZTRhNWI3NWQxMDFhMWY5MzIwODU0M2Q2MmVlZDQzNTkxOGQyZGU0NjQ0Y2E4YTAwMDIzOGE4YzM4ZWNiOSJ9fX0=
   base-hp: 8

@@ -6,27 +6,223 @@ class:
   - ==: SubClass
     id: fc16ade7-992a-47bb-bcb0-dd9dc3bfca70
     name: Arcane Trickster
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GRAY
+          pattern: gru
+        - ==: Pattern
+          color: PURPLE
+          pattern: bs
+        - ==: Pattern
+          color: PURPLE
+          pattern: mr
+        - ==: Pattern
+          color: BLACK
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: gru
+        - ==: Pattern
+          color: BLACK
+          pattern: bo
   - ==: SubClass
     id: 69c4a7ea-c383-4244-a937-e76ee499b0ff
     name: Assassin
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: ss
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: mr
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: bs
+        - ==: Pattern
+          color: BLACK
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
   - ==: SubClass
     id: 1599e9da-22ec-440a-a6f7-b68dcab13d91
     name: Inquisitive
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PINK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: PURPLE
+          pattern: ss
+        - ==: Pattern
+          color: PURPLE
+          pattern: tt
+        - ==: Pattern
+          color: PURPLE
+          pattern: cbo
+        - ==: Pattern
+          color: PINK
+          pattern: gra
+        - ==: Pattern
+          color: PINK
+          pattern: flo
+        - ==: Pattern
+          color: PINK
+          pattern: tts
   - ==: SubClass
     id: d2037a60-eb97-4494-8c06-6a9dee926d56
     name: Mastermind
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_GRAY_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: flo
+        - ==: Pattern
+          color: PINK
+          pattern: bri
+        - ==: Pattern
+          color: BLACK
+          pattern: ts
+        - ==: Pattern
+          color: BLACK
+          pattern: bs
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
+        - ==: Pattern
+          color: BLACK
+          pattern: bo
   - ==: SubClass
     id: b398c872-65ae-48aa-ad69-42c63da69d32
     name: Phantom
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GRAY
+          pattern: cbo
+        - ==: Pattern
+          color: BLACK
+          pattern: pig
+        - ==: Pattern
+          color: GRAY
+          pattern: cr
+        - ==: Pattern
+          color: GRAY
+          pattern: ts
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: gra
+        - ==: Pattern
+          color: BLACK
+          pattern: gru
   - ==: SubClass
     id: 730bd84c-4758-4b2f-9c97-caabd3af320f
     name: Scout
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GRAY
+          pattern: gru
+        - ==: Pattern
+          color: CYAN
+          pattern: gra
+        - ==: Pattern
+          color: GRAY
+          pattern: cs
+        - ==: Pattern
+          color: BLUE
+          pattern: mc
+        - ==: Pattern
+          color: YELLOW
+          pattern: sku
   - ==: SubClass
     id: 5965dc2f-23bf-4d02-8236-58ee8e9fd687
     name: Swashbuckler
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_GRAY_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: gru
+        - ==: Pattern
+          color: BLACK
+          pattern: gra
+        - ==: Pattern
+          color: WHITE
+          pattern: sku
+        - ==: Pattern
+          color: WHITE
+          pattern: sku
   - ==: SubClass
     id: 8f75ec0e-18fe-42a1-82bd-8d8263695d60
     name: Thief
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: ORANGE
+          pattern: bt
+        - ==: Pattern
+          color: YELLOW
+          pattern: flo
+        - ==: Pattern
+          color: BLACK
+          pattern: cbo
+        - ==: Pattern
+          color: BLACK
+          pattern: ms
+        - ==: Pattern
+          color: BLACK
+          pattern: hh
+        - ==: Pattern
+          color: BLACK
+          pattern: bo
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk0NDY5MjZlN2RjMWM5OGM0NjAyZTcxNGZlMzlmN2YyYTQyNDViYTFlMWQzMmNiYWM4Yzc2NGE2MDM5YTY1MiJ9fX0=
   base-hp: 8

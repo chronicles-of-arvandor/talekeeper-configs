@@ -6,45 +6,271 @@ class:
   - ==: SubClass
     id: 74ad412d-e036-4ca0-b4f0-8f79ac426f36
     name: Arcana
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: flo
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: vh
   - ==: SubClass
     id: 76aafb6b-dc8c-4a00-9967-1a827e054f17
     name: Death
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: sku
+        - ==: Pattern
+          color: RED
+          pattern: gra
   - ==: SubClass
     id: ea7d2d3a-26f1-4ab3-9758-f95a0bf38e04
     name: Forge
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GRAY
+          pattern: bri
+        - ==: Pattern
+          color: RED
+          pattern: bt
+        - ==: Pattern
+          color: ORANGE
+          pattern: bts
+        - ==: Pattern
+          color: BLACK
+          pattern: ts
   - ==: SubClass
     id: 9cf9fce0-a077-46ba-b13c-a5e0d0da0cbb
     name: Grave
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GRAY
+          pattern: bt
+        - ==: Pattern
+          color: WHITE
+          pattern: sku
   - ==: SubClass
     id: e24fb860-4952-445f-bce8-3c568bab4908
     name: Knowledge
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: ss
+        - ==: Pattern
+          color: BLUE
+          pattern: vhr
+        - ==: Pattern
+          color: BROWN
+          pattern: bs
   - ==: SubClass
     id: 1e2ff8e3-90d2-49a7-8d79-9a5ee784da2b
     name: Life
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: YELLOW
+          pattern: hh
+        - ==: Pattern
+          color: LIME
+          pattern: mc
+        - ==: Pattern
+          color: LIME
+          pattern: gru
   - ==: SubClass
     id: 6ca47d14-446c-418f-bda3-6237f091036e
     name: Light
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: ORANGE
+          pattern: flo
+        - ==: Pattern
+          color: YELLOW
+          pattern: gru
+        - ==: Pattern
+          color: YELLOW
+          pattern: gra
   - ==: SubClass
     id: 8dd073a0-42d9-4c84-96fb-80e6080b20e7
     name: Nature
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIME_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GREEN
+          pattern: bts
+        - ==: Pattern
+          color: YELLOW
+          pattern: flo
+        - ==: Pattern
+          color: GREEN
+          pattern: gru
   - ==: SubClass
     id: 7e5aaeec-6495-4857-b669-b617a9c5e6df
     name: Peace
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mc
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: hhb
   - ==: SubClass
     id: 482e3790-732e-4342-ba2a-5b6c4a1dca5f
     name: Order
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: bri
+        - ==: Pattern
+          color: RED
+          pattern: bo
   - ==: SubClass
     id: 41abda81-661a-4404-8ab8-476845120093
     name: Tempest
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: CYAN_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: ts
+        - ==: Pattern
+          color: GREEN
+          pattern: bts
   - ==: SubClass
     id: f2800bdc-29a6-48f2-99ca-0d583e326bae
     name: Trickery
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PINK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: cre
+        - ==: Pattern
+          color: BLACK
+          pattern: hhb
+        - ==: Pattern
+          color: BLACK
+          pattern: ts
+        - ==: Pattern
+          color: GRAY
+          pattern: bs
   - ==: SubClass
     id: fdb7542c-731f-42be-a4d4-b51df77809b2
     name: Twilight
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_BLUE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: ORANGE
+          pattern: flo
+        - ==: Pattern
+          color: ORANGE
+          pattern: mc
+        - ==: Pattern
+          color: BLUE
+          pattern: hhb
+        - ==: Pattern
+          color: ORANGE
+          pattern: ms
   - ==: SubClass
     id: 849b8ecc-406d-4730-86dd-ad5b81a2bbf8
     name: War
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: RED
+          pattern: sku
+        - ==: Pattern
+          color: GRAY
+          pattern: hhb
   sub-class-selection-level: 1
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI1NTU3YmQ1YTgyYjBjMjEwNDVlMzIyMGMzMzgwYWM5ZTBlZDQ2ZGM4M2I1ZjAwYTlkZjJlM2QzZTUwNDVhMiJ9fX0=
   base-hp: 8

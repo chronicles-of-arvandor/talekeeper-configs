@@ -6,21 +6,162 @@ class:
   - ==: SubClass
     id: c51b1471-fc09-454d-bbe1-46060e0beb8a
     name: Archfey
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLUE
+          pattern: sku
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: cre
+        - ==: Pattern
+          color: BLACK
+          pattern: sc
+        - ==: Pattern
+          color: BLACK
+          pattern: cr
+        - ==: Pattern
+          color: WHITE
+          pattern: mc
   - ==: SubClass
     id: 421b0a61-118d-4ce6-ba70-8b8d6a392c0f
     name: Celestial
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: GRAY_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: PURPLE
+          pattern: gra
+        - ==: Pattern
+          color: WHITE
+          pattern: drs
+        - ==: Pattern
+          color: CYAN
+          pattern: mr
+        - ==: Pattern
+          color: WHITE
+          pattern: dls
+        - ==: Pattern
+          color: CYAN
+          pattern: mc
+        - ==: Pattern
+          color: WHITE
+          pattern: cbo
   - ==: SubClass
     id: 60c655e8-97e7-468e-8b1c-0650f2dda1f5
     name: Fathomless
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LIGHT_BLUE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GRAY
+          pattern: mr
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: mc
+        - ==: Pattern
+          color: BROWN
+          pattern: sc
+        - ==: Pattern
+          color: WHITE
+          pattern: tr
+        - ==: Pattern
+          color: BROWN
+          pattern: hhb
+        - ==: Pattern
+          color: LIGHT_BLUE
+          pattern: cbo
+        - ==: Pattern
+          color: BLUE
+          pattern: bs
   - ==: SubClass
     id: 4d949df7-d627-4be3-b920-a76d62b72d04
     name: Fiend
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: ORANGE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: YELLOW
+          pattern: gru
+        - ==: Pattern
+          color: RED
+          pattern: gra
+        - ==: Pattern
+          color: RED
+          pattern: bo
+        - ==: Pattern
+          color: RED
+          pattern: sku
+        - ==: Pattern
+          color: RED
+          pattern: cbo
   - ==: SubClass
     id: abd56abd-6752-447b-91d5-5fd1b7883a52
     name: Undead
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: BLACK_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: GREEN
+          pattern: sku
+        - ==: Pattern
+          color: CYAN
+          pattern: cre
+        - ==: Pattern
+          color: BLACK
+          pattern: ls
+        - ==: Pattern
+          color: BLACK
+          pattern: rs
   - ==: SubClass
     id: 8273c3e0-040c-4d44-906b-2eeee99a5498
     name: Undying
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: RED_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        patterns:
+        - ==: Pattern
+          color: BLACK
+          pattern: gra
+        - ==: Pattern
+          color: BLACK
+          pattern: sku
+        - ==: Pattern
+          color: BLACK
+          pattern: tts
+        - ==: Pattern
+          color: BLACK
+          pattern: bts
   sub-class-selection-level: 1
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4ZTRmMjAwOTc4NWFiNzE1MjYxZWEzODZhYmQxMjkyNmRlOGE3OWQ0MWI1NmIyMDUyMjUxMTNiMjYyZDNmYiJ9fX0=
   base-hp: 8
