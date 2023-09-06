@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - glaive
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
+          option-id: 8a6c1078-c2ac-4a26-a590-d71687188ead

@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - maul
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
+          option-id: a81e0480-b80f-4851-957d-05aefa3e9d0a

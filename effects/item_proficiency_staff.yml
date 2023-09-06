@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - staff
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
+          option-id: 24c32978-bb5f-4f43-b637-dc61382fa357

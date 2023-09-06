@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - greatclub
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
+          option-id: efad6326-3063-45c6-bf55-8eda61e00e25

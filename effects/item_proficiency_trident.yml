@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - trident
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
+          option-id: 4040761a-4a57-4aad-a2d0-3836b96f9a10

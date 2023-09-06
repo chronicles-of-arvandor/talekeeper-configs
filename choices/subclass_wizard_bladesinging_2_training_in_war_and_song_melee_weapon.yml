@@ -1,0 +1,325 @@
+choice:
+  ==: Choice
+  id: 8b934f7e-43c9-43e5-879b-9ca520716c96
+  text: 'Training in War and Song: Melee weapon'
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+      sub-class-id: c46c6b33-612a-4121-ae35-967919c0199b
+      level: 2
+  options:
+    - ==: Option
+      id: 1e14b02a-33f1-48a9-aafb-458bdfc765ad
+      text: Baba Yaga's Pestle
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - baba_yagas_pestle
+    - ==: Option
+      id: bedc22a5-9d8c-4b76-9239-fced8a2ad4b5
+      text: Battleaxe
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - battleaxe
+    - ==: Option
+      id: 91051581-74cd-4d9b-964b-9c53b2380857
+      text: Club
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - club
+    - ==: Option
+      id: 60736d2d-57e9-4ba2-8b96-0a2e7fc2f99c
+      text: Dagger
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - dagger
+    - ==: Option
+      id: 426437ec-2cfd-4c01-85c2-e617a488824d
+      text: Devotee's Censer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - devotees_censer
+    - ==: Option
+      id: 5a8fca2d-6b7e-4dc4-b152-9e8f418d4c15
+      text: Flail
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - flail
+    - ==: Option
+      id: 376d6228-11ca-44ec-9c6a-e3a376595020
+      text: Flail of Tiamat
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - flail_of_tiamat
+    - ==: Option
+      id: 8a6c1078-c2ac-4a26-a590-d71687188ead
+      text: Glaive
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - glaive
+    - ==: Option
+      id: c39a1644-d740-4267-a672-6a974c8f75d5
+      text: Greataxe
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - greataxe
+    - ==: Option
+      id: efad6326-3063-45c6-bf55-8eda61e00e25
+      text: Greatclub
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - greatclub
+    - ==: Option
+      id: f05f0797-dea3-49e9-a7b7-a02890319d6f
+      text: Greatsword
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - greatsword
+    - ==: Option
+      id: 804e3390-427d-41c5-87ea-e90b60798e8e
+      text: Halberd
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - halberd
+    - ==: Option
+      id: 315e60b5-c818-4888-b6ff-67d72061c80b
+      text: Handaxe
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - handaxe
+    - ==: Option
+      id: 602e8a98-a0b6-4282-8c5b-be6693da8a9f
+      text: Javelin
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - javelin
+    - ==: Option
+      id: d50ea664-19f1-4161-9f87-223904b4879d
+      text: Lance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - lance
+    - ==: Option
+      id: 87854c78-a136-4b4a-8cda-4517cbcabbf1
+      text: Light Hammer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - light_hammer
+    - ==: Option
+      id: c88cdd31-baed-460b-872f-c7de898c010d
+      text: Longsword
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - longsword
+    - ==: Option
+      id: 87b102b1-e15b-47de-9d0f-9262888ee962
+      text: Mace
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - mace
+    - ==: Option
+      id: a81e0480-b80f-4851-957d-05aefa3e9d0a
+      text: Maul
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - maul
+    - ==: Option
+      id: 1200c690-4b07-4b22-b206-082d28f1580d
+      text: Morningstar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - morningstar
+    - ==: Option
+      id: aff80fb2-7d08-4994-ac5c-1e2af1eb8ad0
+      text: Pike
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - pike
+    - ==: Option
+      id: 8c97e57f-13c1-450b-9492-1539d33df2a0
+      text: Quarterstaff
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - quarterstaff
+    - ==: Option
+      id: 81f5c6e0-74e5-46c7-ad4d-37707cc628dc
+      text: Rapier
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - rapier
+    - ==: Option
+      id: aa651234-2567-44cd-9295-f881cc6cfd39
+      text: Scimitar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - scimitar
+    - ==: Option
+      id: 0dc1d7e9-4fa5-4a3e-bb5b-3d0ecca5f4fa
+      text: Shortsword
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - shortsword
+    - ==: Option
+      id: 63de588f-b111-417a-be13-2705f7dd1c6f
+      text: Sickle
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - sickle
+    - ==: Option
+      id: 5a0c02ee-dd28-4642-96fd-53d514383fbc
+      text: Spear
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - spear
+    - ==: Option
+      id: 24c32978-bb5f-4f43-b637-dc61382fa357
+      text: Staff
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - staff
+    - ==: Option
+      id: b5fb07e0-ea03-4fc8-b3f9-659f0b82b86e
+      text: Staff of Adornment
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - staff_of_adornment
+    - ==: Option
+      id: 130f3215-11fb-4dc6-878c-7ebe5cce9e76
+      text: Staff of Birdcalls
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - staff_of_birdcalls
+    - ==: Option
+      id: 031ca697-c20b-42a2-8983-e0dcd3523416
+      text: Staff of Flowers
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - staff_of_flowers
+    - ==: Option
+      id: 4040761a-4a57-4aad-a2d0-3836b96f9a10
+      text: Trident
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - trident
+    - ==: Option
+      id: eeb6920d-23f0-496d-bbd9-d8e176499d56
+      text: War Pick
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - war_pick
+    - ==: Option
+      id: 1a052e2f-a3cb-4d7c-8550-2fff5777ed91
+      text: Warhammer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - warhammer
+    - ==: Option
+      id: 5ac06548-a94d-45ce-a336-68b592b8dcc4
+      text: Whip
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - whip
