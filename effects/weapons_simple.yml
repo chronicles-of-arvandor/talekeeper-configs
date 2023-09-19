@@ -1,0 +1,32 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - 1_moon_sickle
+    - 2_moon_sickle
+    - 3_moon_sickle
+    - baba_yagas_pestle
+    - club
+    - dagger
+    - dart
+    - greatclub
+    - handaxe
+    - javelin
+    - light_crossbow
+    - light_hammer
+    - mace
+    - quarterstaff
+    - shortbow
+    - sickle
+    - sling
+    - spear
+    - staff
+    - staff_of_adornment
+    - staff_of_birdcalls
+    - staff_of_flowers
+    - wooden_staff
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ClassPrerequisite
+          class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+          level: 1

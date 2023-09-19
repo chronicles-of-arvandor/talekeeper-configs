@@ -1,0 +1,801 @@
+choice:
+  ==: Choice
+  id: 23088c7d-88bb-400c-8b32-7ff8e73d75d3
+  text: Fighter 6th level feat
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 3af6c469-82f1-400c-a465-9f2317b16807
+      option-id: 9ba39c16-c165-4c13-9847-ec2f52473bf1
+  options:
+    - ==: ChoiceOption
+      id: 07316d43-7f57-484a-9f91-b43f7ef7feff
+      text: Acrobat
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: def7103b-f943-44c1-91e0-ff620f087a1e
+    - ==: ChoiceOption
+      id: 1ad84491-c7c6-44c3-b3ec-2ebff9164c8a
+      text: Actor
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 3a9b0bbc-9fca-4bec-854b-ac8680d099f7
+    - ==: ChoiceOption
+      id: 45f199a0-3ec8-4dd1-9b7c-75771af845bd
+      text: Alchemist
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 13aac162-2945-4161-b2bc-fbde90170b40
+    - ==: ChoiceOption
+      id: 4c387c84-08a9-4226-a5fd-c128eee744fc
+      text: Alert
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 36ffc58c-46f9-452e-a73b-2a6e392d01dd
+    - ==: ChoiceOption
+      id: 29c2b19a-c98e-41a9-98f9-2a71d2b35df1
+      text: Animal Handler
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: f3698e42-b804-4774-addf-4723f9511630
+    - ==: ChoiceOption
+      id: 8e1d9171-30e2-4c0f-8325-ddd475687c65
+      text: Arcanist
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 5e1a5052-9a09-4a46-8bbf-aaa7974ee14c
+    - ==: ChoiceOption
+      id: d20134e5-8e98-43a4-a578-8aaa776cac2d
+      text: Athlete
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: b7afb0b0-2abd-4021-88d4-5bd27578a1b3
+    - ==: ChoiceOption
+      id: cf8c820b-744b-4bdd-befa-56363f2cb699
+      text: Blade Mastery
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: ed8ef4d1-85ab-4ec7-a209-6afd99b54624
+    - ==: ChoiceOption
+      id: c6ba1be4-34c7-46d9-8f14-b64d7bbecfad
+      text: Bountiful Luck
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: ebe5bdb1-9852-4161-897c-c93cc6064ac3
+    - ==: ChoiceOption
+      id: c06a6952-479b-465b-9ac1-beead3881c3a
+      text: Brawny
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 4da2fc8b-3e8a-4922-bf37-f203277551f2
+    - ==: ChoiceOption
+      id: 2c30d557-2eac-461f-92f9-2d7f36754493
+      text: Burglar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 80fe7923-dc39-4df9-9656-414fc701a107
+    - ==: ChoiceOption
+      id: 1b573ef7-76e2-4c96-b45b-47fc1e204ac6
+      text: Charger
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 8a0dfc8e-99c2-4d05-b3f0-e661361b65c7
+    - ==: ChoiceOption
+      id: 2ad11467-e104-4002-a0aa-2b3004f5f994
+      text: Chef
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 86bd8ba6-c72b-4829-a393-0e3427480308
+    - ==: ChoiceOption
+      id: 1b1bc64d-69ee-460e-a5db-b741f3c0f801
+      text: Crossbow Expert
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 1489f28f-41ee-4c88-9a1f-f720b9f46305
+    - ==: ChoiceOption
+      id: 7ce64f6c-8251-4673-9179-d4affe53a777
+      text: Crusher
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 2ae437ef-e13b-437a-adbc-179537766488
+    - ==: ChoiceOption
+      id: d459542e-e874-439c-b0dd-ab524cf0d9b2
+      text: Dark Elf High Magic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 36a0bbf6-b196-4f9f-aa46-e700bf8898ed
+    - ==: ChoiceOption
+      id: e144ccc1-da26-4fd3-aa3e-e1cf649fe160
+      text: Defensive Duelist
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: f3436a7d-42bb-4db1-831f-c650c88d2bff
+    - ==: ChoiceOption
+      id: 439d5d1e-d192-41c4-969e-fed908e10fe4
+      text: Diplomat
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: c8d65d9f-e332-494b-8068-00d062cbd46a
+    - ==: ChoiceOption
+      id: c4a38ea1-98f9-4ef2-b29f-5688d95da2af
+      text: Dual Wielder
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 187a0530-caf0-41c5-affb-a1357581771a
+    - ==: ChoiceOption
+      id: 2280c026-c0fe-4ce0-9bcf-55053d4dd453
+      text: Dungeon Delver
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: f910bb4a-5050-482e-908b-291f6cabea38
+    - ==: ChoiceOption
+      id: ecfa2361-ed6d-4daa-b244-3dfec2c14708
+      text: Durable
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: d1ac6c99-40d0-42e6-a864-416262b3624a
+    - ==: ChoiceOption
+      id: 5dc43880-9025-45f4-8345-5678493cc8c0
+      text: Dwarven Fortitude
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: d43c4e3a-f6d9-4341-8b86-1af1736370a4
+    - ==: ChoiceOption
+      id: b86e7ae2-2f45-4f7e-ac4a-1741b14b19ab
+      text: Eldritch Adept
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 410292cb-7d94-409c-9540-c95b43b3a64f
+    - ==: ChoiceOption
+      id: 93371e52-61f2-48e7-a41f-c29626951cad
+      text: Elemental Adept (Acid)
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 74f3683a-f6cc-44bd-a3b2-6b392bb9dcaf
+    - ==: ChoiceOption
+      id: e6707af9-57aa-4b70-9dbb-d8ad2ca1c4d2
+      text: Elemental Adept (Cold)
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 71b93d80-f4fa-45dd-a010-8a06ddfe023d
+    - ==: ChoiceOption
+      id: f5d699b3-48be-404e-800c-041ac4a21ae1
+      text: Elemental Adept (Fire)
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 8fecc96e-152e-424e-b769-4519677a105d
+    - ==: ChoiceOption
+      id: a720ecc7-98a1-4e12-a51c-4d18eeed3584
+      text: Elemental Adept (Lightning)
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 07ee84a8-ad2d-4bb4-a06b-9c9767d2c3d1
+    - ==: ChoiceOption
+      id: 20b93bc2-b71c-46cd-b0af-9dd531a5a75c
+      text: Elemental Adept (Thunder)
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: b0f2bcbe-33e6-438b-ac46-02cafb72e6cd
+    - ==: ChoiceOption
+      id: 619706bc-27b7-4b6c-95d9-2f7495fa2a31
+      text: Elven Accuracy
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 7998ac13-4883-4b07-b3e6-7ae16c156ae4
+    - ==: ChoiceOption
+      id: 5c87ba87-7aac-4452-8b09-ca9683ecddf8
+      text: Empathic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 2fce0ad2-ec2c-48ef-b573-cf4e274280c1
+    - ==: ChoiceOption
+      id: 2ceb35ca-5dfd-4be3-85ab-a62e8ebc8e23
+      text: Fade Away
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: dbfe7bc3-0fd4-4750-be42-1b8c3fc3aea6
+    - ==: ChoiceOption
+      id: 1a9f7e78-af8d-4208-9c91-ef1f428880de
+      text: Fell Handed
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: cc819fa4-8fda-4352-9003-88a25b396f69
+    - ==: ChoiceOption
+      id: 640aa55a-8461-4bb5-aff5-c612195831f9
+      text: Fey Teleportation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 2f75e22c-d0ce-424d-ade2-ccf777b6a7a1
+    - ==: ChoiceOption
+      id: b1c9c0fb-f60a-467a-a758-9643e6ea340e
+      text: Fey Touched
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: b8a54615-5741-45a6-9f6f-3c1cb095decb
+    - ==: ChoiceOption
+      id: 24596e12-a02c-4406-9972-9136dc14e9c4
+      text: Fighting Initiate
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: ea30fe62-dd60-4e41-b0d0-d2aa2f1a77ca
+    - ==: ChoiceOption
+      id: 05d295e6-0438-464c-8151-3c2e11030639
+      text: Flail Mastery
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 5bbb109a-eca8-422f-9542-ea8cb0879922
+    - ==: ChoiceOption
+      id: 5954c51c-e60b-4a2f-8ea6-b2bbbd5248b6
+      text: Flames of Phlegethos
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: d9be67fe-c264-48b1-82e5-db3dee493656
+    - ==: ChoiceOption
+      id: 4412505a-b75f-497e-a986-b08a437a1208
+      text: Gourmand
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 31ce22b9-22cd-4dbf-9bbb-1587078a08a5
+    - ==: ChoiceOption
+      id: c26b6db3-e290-4d5b-bf8f-b7ffe880e17a
+      text: Grappler
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 53917a41-ed81-4e66-9e9d-19e9433906cc
+    - ==: ChoiceOption
+      id: c9a5fd88-18c6-460e-a60d-c3c12e147fd3
+      text: Great Weapon Master
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 00028a15-b179-41f0-b435-4b1b620f1235
+    - ==: ChoiceOption
+      id: e7d99577-278e-4973-b436-5c31577364e3
+      text: Healer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 15d5eb3e-7ab8-493e-a2ee-7892855c0de5
+    - ==: ChoiceOption
+      id: 66424ed3-a0b8-481e-a56c-0584d2071715
+      text: Heavily Armored
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: be007939-836f-4422-9829-263d8203fb4e
+    - ==: ChoiceOption
+      id: 038a2266-39fa-457f-8bba-126ac714c2bc
+      text: Heavy Armor Master
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 6fac31df-0e01-4573-87ac-560353782841
+    - ==: ChoiceOption
+      id: 28b418bb-e6bd-44da-97e0-1c696228cc88
+      text: Historian
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: e5b62631-0db5-40c6-9371-0711bb9dc1b6
+    - ==: ChoiceOption
+      id: e9cbc63a-57a2-4a6a-ac90-36c1cd219c0a
+      text: Infernal Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: aaf2141f-7ab5-4774-b84e-7d0da5b5a2dd
+    - ==: ChoiceOption
+      id: bd4198a4-985d-4956-ac31-1480810f5405
+      text: Inspiring Leader
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 2160fb52-7973-41e2-9483-edc24166596d
+    - ==: ChoiceOption
+      id: 4e77e985-3bc1-43b2-a260-48c8a95f8d3c
+      text: Investigator
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 9ec72d43-77ee-4b9e-aa92-5eeebdd1276d
+    - ==: ChoiceOption
+      id: a988c875-8cb4-4c2a-8371-5a2a9a484b88
+      text: Keen Mind
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 426a09ea-b95c-4cd1-89a7-d8300f44b773
+    - ==: ChoiceOption
+      id: 76cb75cc-1139-4188-845d-ec2095ba0e4f
+      text: Lightly Armored
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 085a10b9-062b-4fa4-abdc-677130918e10
+    - ==: ChoiceOption
+      id: 847441fa-52b7-4aca-bd10-592b32bdc49d
+      text: Linguist
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 5a08f6d2-a2b9-4d46-846b-2c125ee04675
+    - ==: ChoiceOption
+      id: 3221c8b6-deaa-492a-a3ca-264707d9b33e
+      text: Lucky
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: d2afb673-f9e3-4fc7-bf09-c593739903ba
+    - ==: ChoiceOption
+      id: 8af0292c-2af6-4c01-827e-4dda93857938
+      text: Mage Slayer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 6f909ade-4a83-4bea-80ea-9abd16338c6f
+    - ==: ChoiceOption
+      id: 15758025-ae35-483e-871c-1448b8d1f226
+      text: Magic Initiate
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: dab4c9dc-2b99-47f0-8926-c858effb8732
+    - ==: ChoiceOption
+      id: a98e7f16-0a03-434a-9064-73f69a79a0dc
+      text: Martial Adept
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 145f812b-a06e-4f37-aa50-093af94d0acd
+    - ==: ChoiceOption
+      id: 45b4d62c-c94d-4234-ac9f-7430b5f77005
+      text: Master of Disguise
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 5ae1df73-c07b-49c3-bce6-e02118bd42ba
+    - ==: ChoiceOption
+      id: e2d5ab16-464c-42aa-9b19-4f4d8f39f5b9
+      text: Medic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 36e0214a-0f4f-4bf6-afe8-4aa8f260545e
+    - ==: ChoiceOption
+      id: 122160f1-97e8-4f79-bb1a-c0f956604f73
+      text: Medium Armor Master
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 75b8077d-7f0b-4dd7-b8d3-4a1d1cc2539e
+    - ==: ChoiceOption
+      id: aef7bc4e-a583-4005-9600-fe7a24aec4a8
+      text: Menacing
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 9c50a955-bb6c-4018-8b1b-b8f7d1ccedb7
+    - ==: ChoiceOption
+      id: 5f2c36c9-77b1-47d3-8dd8-bad8ac08746d
+      text: Metamagic Adept
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 6f232f7a-388b-4bc6-a73d-d308a71caaa3
+    - ==: ChoiceOption
+      id: ed594133-cb20-4b5f-b3f3-b3befefff618
+      text: Mobile
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 52e6c60e-32cb-4dfb-b309-0515e40024af
+    - ==: ChoiceOption
+      id: 6f4c2815-d1c2-4693-b5c6-fbe689bb5a0c
+      text: Moderately Armored
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 7302d105-bff2-4c6f-a28b-93c2fbfd4b73
+    - ==: ChoiceOption
+      id: 26980c84-96f1-4815-a148-77ff4c8ae326
+      text: Mounted Combatant
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: d30ce301-81bf-48fd-b020-22a731230d33
+    - ==: ChoiceOption
+      id: 4cfcc5ea-6c20-45fb-8f53-d65f4bf64556
+      text: Naturalist
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 33fdfbd3-81fa-48a2-9904-eda0ae540ac7
+    - ==: ChoiceOption
+      id: fb9c19ac-5112-43c3-8e53-9cefd38be797
+      text: Observant
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 7b2b1ce4-73c1-4ac8-8100-a88362239c34
+    - ==: ChoiceOption
+      id: e5791d08-2e19-44d8-bccc-065c1823ccd9
+      text: Orcish Fury
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 05f47463-239e-4f11-85bd-b791ba141b17
+    - ==: ChoiceOption
+      id: 2cd40919-386f-47d5-8203-0a229ee6356a
+      text: Perceptive
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 14554e5c-a2ef-4f25-8ee2-ae2a5d3aa6c8
+    - ==: ChoiceOption
+      id: 1da737f8-6f36-4020-b832-ce3727d6d25e
+      text: Performer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: aa079e8e-640b-48a0-9d70-07ee07febe61
+    - ==: ChoiceOption
+      id: 1d03a5c3-2759-4497-89e4-8e2abf372ece
+      text: Piercer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 6510cdf4-ce5a-4324-9428-4572381d285f
+    - ==: ChoiceOption
+      id: d8aadf0d-9efe-40bc-bca5-5d47bd85172d
+      text: Poisoner
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 2804f815-c61f-4852-ad29-38855b8cce56
+    - ==: ChoiceOption
+      id: 49d07679-bb15-4b4f-9f95-251b379ed375
+      text: Polearm Master
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 3b3e3758-28b0-40ab-b28e-58295fde16ca
+    - ==: ChoiceOption
+      id: 687e20a4-baf7-4574-b3df-98d5c42c2fca
+      text: Prodigy
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: db7cd5ca-cba4-4880-879a-c7b7b79d35ca
+    - ==: ChoiceOption
+      id: 7167f811-6ac5-4a62-8aea-5268ad798a9e
+      text: Quick-Fingered
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 61d9f675-cffc-464e-834a-d2d9006a1aca
+    - ==: ChoiceOption
+      id: 85b0214f-5f72-43e4-823e-040746133bc5
+      text: Resilient
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: d302588a-53d4-488c-b41a-c087db75cf62
+    - ==: ChoiceOption
+      id: 099f2c37-db71-4c65-92e7-d3ac79cc1636
+      text: Ritual Caster
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 6d7ee08b-d5db-44e9-9ef7-51646556b32e
+    - ==: ChoiceOption
+      id: 158f05bd-8769-4d48-b3f1-7c72b5bf9a64
+      text: Savage Attacker
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: ffd340a7-77c7-45ce-a5d1-10e7bcecea5b
+    - ==: ChoiceOption
+      id: f0c16ae1-9480-41ab-a1db-a85d2c375e75
+      text: Second Chance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: cd01c27d-4474-4fb2-bd07-0f741b950330
+    - ==: ChoiceOption
+      id: b6b7efec-f553-4413-b26a-d7bf581c050d
+      text: Sentinel
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: c6354a52-fa26-4f4b-ad42-83a807147055
+    - ==: ChoiceOption
+      id: c0c691d4-d8f5-4b4c-9324-b8a5d80e5044
+      text: Shadow Touched
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: c224e885-5adb-420e-9d9c-24504a08dfc7
+    - ==: ChoiceOption
+      id: 4b2ad12f-cfe4-4837-8d85-85cc4b14dd31
+      text: Sharpshooter
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: b0e6d006-6d1b-46fb-aeae-4905ec6f103a
+    - ==: ChoiceOption
+      id: cb105eb1-3459-4eaf-914c-01949cce5932
+      text: Shield Master
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 862ea7fd-beef-45ad-b0d2-539e2e90db06
+    - ==: ChoiceOption
+      id: 1e27f34d-8cf1-43bb-a509-5aa0ca0e0219
+      text: Silver-Tongued
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 38e3bee5-c6be-4636-866d-481c9f5e8da8
+    - ==: ChoiceOption
+      id: cb81bc15-50d9-4799-a9fc-a21149e30854
+      text: Skill Expert
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 89b81527-02c7-4b89-834c-9015127d2907
+    - ==: ChoiceOption
+      id: 39efddbd-23e1-455b-bf12-309f6e0f022b
+      text: Skilled
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 85cc7a60-5810-4e93-b3d9-9dc5fb3e05c6
+    - ==: ChoiceOption
+      id: 2153cb65-d432-48a2-94fc-4f60e619b060
+      text: Skulker
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 78820623-b1ab-4d92-b9b7-9d290f3d7319
+    - ==: ChoiceOption
+      id: aff06c19-179e-47c8-9f86-27f86cec6725
+      text: Slasher
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 44cab2ef-2f1e-4763-a3e4-85910808f98d
+    - ==: ChoiceOption
+      id: 43a1a1de-f3bf-4d1d-9737-d27b69f3b02c
+      text: Spear Mastery
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: e5cb91be-be40-48d7-b880-a05b7ab71c9e
+    - ==: ChoiceOption
+      id: 2b62277e-8472-432f-a36c-196356af5911
+      text: Spell Sniper
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 43474921-ea24-4c0d-a730-75e7eae24690
+    - ==: ChoiceOption
+      id: a98d492d-ce84-439d-af49-b57dbfbe29e2
+      text: Squat Nimbleness
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 4ec89184-c137-4b0d-a33c-fe294651bc45
+    - ==: ChoiceOption
+      id: 33c5e371-283b-4b44-94b6-5a3fde49c719
+      text: Stealthy
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 343eb676-ab59-4ccf-9188-aaceb30681a9
+    - ==: ChoiceOption
+      id: 86a654a7-3ad9-4e68-9a71-b4a186c02671
+      text: Survivalist
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: a0e31736-5ac1-4811-9509-1c05b4467115
+    - ==: ChoiceOption
+      id: 84081a66-a132-42d2-b49e-34c11b0bf0c0
+      text: Svirfneblin Magic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: ac44ab69-5544-42c2-8eb3-94e28f97573d
+    - ==: ChoiceOption
+      id: 1da75946-0a14-4caa-a03b-031823920d80
+      text: Tavern Brawler
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 052f6848-8323-40f2-a37e-710efc6e7acb
+    - ==: ChoiceOption
+      id: 2dad6308-cd5a-49f4-93d5-7d8c43cb4f2e
+      text: Telekinetic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 36ff4a91-7386-43be-8ac9-61e85e8441b9
+    - ==: ChoiceOption
+      id: c2ed5796-5b3f-427d-bfdd-d83d4aed4a1e
+      text: Theologian
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 81cfea62-3f9f-4b9b-adbf-b4517bf71758
+    - ==: ChoiceOption
+      id: 510110c5-04d8-4c31-a255-f108571e5e8c
+      text: Tough
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: bb0b3b69-de9a-44ba-a44c-2128085ae5ce
+    - ==: ChoiceOption
+      id: 7f624778-5158-484d-924d-d3a4d59e26d8
+      text: War Caster
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 18baf236-4418-492d-9dd3-3439b24e780e
+    - ==: ChoiceOption
+      id: 65245b6a-ed5c-4809-84c4-e9b40cd6164d
+      text: Warhammer Master
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 1ebfe123-7339-46e4-8f41-ad34e54cb599
+    - ==: ChoiceOption
+      id: 5d6ff1e1-6ab1-4397-ae0a-4d2a79a5b6f0
+      text: Weapon Master
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 2e691ae5-fc92-4e84-bfc5-46b6e9ce6d5a
+    - ==: ChoiceOption
+      id: da026e3f-a276-4483-b117-5d9508c3aa3e
+      text: Wood Elf Magic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: FeatPrerequisite
+            feat-id: 547afca8-2334-4f7a-a6d6-11a0be5ba625

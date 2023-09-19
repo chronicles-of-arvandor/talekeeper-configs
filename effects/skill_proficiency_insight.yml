@@ -1,14 +1,19 @@
 effect:
   ==: SkillProficiencyEffect
   skills:
-  - INSIGHT
+    - INSIGHT
   prerequisites:
-  - ==: OrPrerequisite
-    prerequisites:
-    # Wizard choices
-    - ==: ChoicePrerequisite
-      choice-id: 42da86af-f234-44cc-ba51-456060f30158
-      option-id: 40be1359-3d55-4997-b273-836de907eb4c
-    - ==: ChoicePrerequisite
-      choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
-      option-id: 62b70fc4-d67c-44df-bf67-5fa06aaacfa0
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 42da86af-f234-44cc-ba51-456060f30158
+          option-id: 40be1359-3d55-4997-b273-836de907eb4c
+        - ==: ChoicePrerequisite
+          choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
+          option-id: 62b70fc4-d67c-44df-bf67-5fa06aaacfa0
+        - ==: ChoicePrerequisite
+          choice-id: 1c27d7be-97b5-4d2c-b22b-eed060638af4
+          option-id: 33b6bc1d-0ac3-4254-835a-5937c1649a46
+        - ==: ChoicePrerequisite
+          choice-id: fd58eaad-4e96-4f26-9cb3-642267375400
+          option-id: 5832a7c7-1e9d-454e-8b8a-829ceaf54f1e

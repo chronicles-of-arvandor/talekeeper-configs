@@ -1,0 +1,51 @@
+choice:
+  ==: Choice
+  id: 359d553c-079c-4db2-b032-73af108ec4c2
+  text: "Fighter: Fighting Style"
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 9934cac5-82d3-419f-ba2b-b2a92a9a99ec
+      text: Archery
+    - ==: ChoiceOption
+      id: ba4accb0-2c6d-497b-a77f-b39a1b7f763b
+      text: Blind Fighting
+    - ==: ChoiceOption
+      id: bd253c3b-27ca-4e88-b78c-b02b222b5fbf
+      text: Close Quarters Shooter
+    - ==: ChoiceOption
+      id: 03112d19-838b-47f7-bae5-99673f06347f
+      text: Defense
+    - ==: ChoiceOption
+      id: 3a5e1e46-0427-40a6-bc7c-8fb0659f8984
+      text: Dueling
+    - ==: ChoiceOption
+      id: a6baa7ec-26ec-438f-bdaa-a2c8d9836bbd
+      text: Great Weapon Fighting
+    - ==: ChoiceOption
+      id: 8e1c1bb6-6299-4549-95ba-bc180b5247fa
+      text: Interception
+    - ==: ChoiceOption
+      id: 58cb93a3-44de-4369-9ab9-841d006eb896
+      text: Mariner
+    - ==: ChoiceOption
+      id: cb101eaa-73bf-48ec-b73c-f9509331901b
+      text: Protection
+    - ==: ChoiceOption
+      id: 0f813b76-2e6b-4bf8-ba87-66e616068eff
+      text: Superior Technique
+    - ==: ChoiceOption
+      id: 6f17431c-ec86-4751-b303-3f930d830bb0
+      text: Thrown Weapon Fighting
+    - ==: ChoiceOption
+      id: 0b7d4f53-5a4e-4eab-b51a-7a6fd44ad711
+      text: Tunnel Fighter
+    - ==: ChoiceOption
+      id: 7aa63279-2a7e-4f5d-ac8f-f63e3bf76ce6
+      text: Two-Weapon Fighting
+    - ==: ChoiceOption
+      id: 376317cd-5e13-45e7-b77e-006d5be87044
+      text: Unarmed Fighting

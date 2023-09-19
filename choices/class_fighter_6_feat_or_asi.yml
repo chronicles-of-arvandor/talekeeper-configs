@@ -1,0 +1,15 @@
+choice:
+  ==: Choice
+  id: 3af6c469-82f1-400c-a465-9f2317b16807
+  text: "Fighter 6th level: ASI or feat"
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+      level: 6
+  options:
+    - ==: ChoiceOption
+      id: 2c7bb136-fc09-4d1d-9be4-ee03638a743d
+      text: ASI
+    - ==: ChoiceOption
+      id: 9ba39c16-c165-4c13-9847-ec2f52473bf1
+      text: Feat

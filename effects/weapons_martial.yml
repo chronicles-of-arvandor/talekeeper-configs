@@ -1,0 +1,34 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - battleaxe
+    - blowgun
+    - devotees_censer
+    - flail
+    - flail_of_tiamat
+    - glaive
+    - greataxe
+    - greatsword
+    - halberd
+    - hand_crossbow
+    - heavy_crossbow
+    - lance
+    - longbow
+    - longsword
+    - maul
+    - morningstar
+    - net
+    - pike
+    - rapier
+    - scimitar
+    - shortsword
+    - trident
+    - war_pick
+    - warhammer
+    - whip
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ClassPrerequisite
+          class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+          level: 1

@@ -1,0 +1,10 @@
+effect:
+  ==: SavingThrowProficiencyEffect
+  abilities:
+    - STRENGTH
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+      - ==: ClassPrerequisite
+        class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+        level: 1

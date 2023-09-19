@@ -1,0 +1,13 @@
+effect:
+  ==: SkillProficiencyEffect
+  skills:
+    - ATHLETICS
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 1c27d7be-97b5-4d2c-b22b-eed060638af4
+          option-id: 4ed0eac4-a2cb-48f5-8644-8bdcd0375018
+        - ==: ChoicePrerequisite
+          choice-id: fd58eaad-4e96-4f26-9cb3-642267375400
+          option-id: bf1dac64-c0aa-4b31-b41e-acdc643cb488

@@ -1,0 +1,16 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - leather_armor
+    - paddded_armor
+    - studded_leather_armor
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+          sub-class-id: c46c6b33-612a-4121-ae35-967919c0199b
+          level: 2
+        - ==: ClassPrerequisite
+          class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+          level: 1

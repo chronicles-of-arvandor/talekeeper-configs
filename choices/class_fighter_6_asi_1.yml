@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 67cc6b13-c8b1-41e3-93a1-e026c63a5fdc
+  text: Fighter 6th level ASI (1)
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 3af6c469-82f1-400c-a465-9f2317b16807
+      option-id: 2c7bb136-fc09-4d1d-9be4-ee03638a743d
+  options:
+    - ==: ChoiceOption
+      id: 6d9f5eb5-bd34-4ffd-ab78-4cd17847b1ac
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: f70018ae-9c48-40e3-9122-71809a392485
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: afce03df-6ce7-40f5-b36e-d6ed5be50f3f
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 5912bdb3-9bd7-442d-86b8-f0eaf90b8fd0
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 32731f37-037f-40e5-9bf4-1f3c5eb20e8f
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: 0bf248b9-4414-4ef4-afd0-52128513b2f4
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

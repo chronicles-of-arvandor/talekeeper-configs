@@ -1,14 +1,19 @@
 effect:
   ==: SkillProficiencyEffect
   skills:
-  - HISTORY
+    - HISTORY
   prerequisites:
-  - ==: OrPrerequisite
-    prerequisites:
-    # Wizard choices
-    - ==: ChoicePrerequisite
-      choice-id: 42da86af-f234-44cc-ba51-456060f30158
-      option-id: 2d35e5fe-9a9c-497c-b4a5-9a78762f6b3b
-    - ==: ChoicePrerequisite
-      choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
-      option-id: 8677769f-ffc2-4e88-af7d-c21a0b0f73dd
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 42da86af-f234-44cc-ba51-456060f30158
+          option-id: 2d35e5fe-9a9c-497c-b4a5-9a78762f6b3b
+        - ==: ChoicePrerequisite
+          choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
+          option-id: 8677769f-ffc2-4e88-af7d-c21a0b0f73dd
+        - ==: ChoicePrerequisite
+          choice-id: 1c27d7be-97b5-4d2c-b22b-eed060638af4
+          option-id: 0adaf864-ec33-4f79-b910-3a880a048789
+        - ==: ChoicePrerequisite
+          choice-id: fd58eaad-4e96-4f26-9cb3-642267375400
+          option-id: cce0561b-d32d-4197-b1f0-81ccd7c1b7b1

@@ -1,0 +1,81 @@
+choice:
+  ==: Choice
+  id: 1c27d7be-97b5-4d2c-b22b-eed060638af4
+  text: Fighter skill proficiencies (1)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 496c71a9-1e23-40d5-8c69-3cea2e838abc
+      text: Acrobatics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ACROBATICS
+    - ==: ChoiceOption
+      id: 5218571c-3d9d-40f1-a697-9bafb8ed4b5b
+      text: Animal Handling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ANIMAL_HANDLING
+    - ==: ChoiceOption
+      id: 4ed0eac4-a2cb-48f5-8644-8bdcd0375018
+      text: Athletics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ATHLETICS
+    - ==: ChoiceOption
+      id: 0adaf864-ec33-4f79-b910-3a880a048789
+      text: History
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - HISTORY
+    - ==: ChoiceOption
+      id: 33b6bc1d-0ac3-4254-835a-5937c1649a46
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: 5076290a-77d5-47cc-86b2-fefc0b07ffb3
+      text: Intimidation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INTIMIDATION
+    - ==: ChoiceOption
+      id: 0dd5da55-f78b-4840-ad2f-90e84eaf1cf2
+      text: Perception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERCEPTION
+    - ==: ChoiceOption
+      id: d47c6e7f-3e74-4290-a1bd-98188ad7157a
+      text: Survival
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SURVIVAL

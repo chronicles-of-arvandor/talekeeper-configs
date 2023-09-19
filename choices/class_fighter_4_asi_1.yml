@@ -1,0 +1,57 @@
+choice:
+  ==: Choice
+  id: fc601ae3-3f89-46b7-b721-50d416e9cea9
+  text: Fighter 4th level ASI (1)
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 0beef3fc-fe3c-4db2-942a-70ef7536a8dc
+      option-id: dd4ccfe5-7b05-4f59-a076-2c80f845ca5a
+  options:
+    - ==: ChoiceOption
+      id: 58e4ecee-3415-4740-8567-a48870b37e41
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            score: 20
+    - ==: ChoiceOption
+      id: 0c4a784f-969c-4d68-a991-8f84f862809c
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            score: 20
+    - ==: ChoiceOption
+      id: 72036452-0c68-42f6-a461-6ed68e30a7a3
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            score: 20
+    - ==: ChoiceOption
+      id: 490086e2-c4d1-46d2-9fd4-6df9313da940
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            score: 20
+    - ==: ChoiceOption
+      id: f18cd754-f862-4ff0-a6d5-83ed2ef63a5b
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            score: 20
+    - ==: ChoiceOption
+      id: 978f11bf-e480-44c9-9df6-fb4ca203f23f
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            score: 20

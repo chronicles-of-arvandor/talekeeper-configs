@@ -1,0 +1,15 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - breastplate
+    - chain_shirt
+    - half_plate_armor
+    - hide_armor
+    - scale_mail
+    - spiked_armor
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ClassPrerequisite
+          class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+          level: 1
