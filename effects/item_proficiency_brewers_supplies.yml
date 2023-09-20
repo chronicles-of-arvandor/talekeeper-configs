@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - brewers_supplies
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 31488f45-b0c8-48b5-9971-1c43ef26cc16
+          option-id: eb508a0b-8469-44a0-b3a9-9405ada2f4c2

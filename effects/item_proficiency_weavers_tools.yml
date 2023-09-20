@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - weavers_tools
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 31488f45-b0c8-48b5-9971-1c43ef26cc16
+          option-id: 17022909-73ef-471f-a48f-35cccf04cab0

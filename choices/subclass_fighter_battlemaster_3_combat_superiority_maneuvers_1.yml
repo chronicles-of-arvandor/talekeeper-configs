@@ -1,0 +1,79 @@
+choice:
+  ==: Choice
+  id: a9b87fc8-3872-44e8-8bc8-e080d5375ce0
+  text: "Battlemaster: Combat superiority: Maneuvers (1)"
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+      sub-class-id: 7a80db01-256d-43ed-b27d-86354db0c06b
+      level: 3
+  options:
+    - ==: ChoiceOption
+      id: 4f28f56a-21c8-4a8b-850a-183b0d078f81
+      text: Ambush
+    - ==: ChoiceOption
+      id: 02867e2c-077b-47c7-9215-c0b9c85716e2
+      text: Bait and Switch
+    - ==: ChoiceOption
+      id: d403217b-8ca3-4f23-a149-4223387bf0a5
+      text: Brace
+    - ==: ChoiceOption
+      id: 18fbf3b7-5980-452e-bd1c-369b4093b6fa
+      text: Commander's Strike
+    - ==: ChoiceOption
+      id: 61b02ecb-fb72-44de-9262-6b0987964b64
+      text: Commanding Presence
+    - ==: ChoiceOption
+      id: 1cb51199-6453-4da3-b52d-5233974fd82b
+      text: Disarming Attack
+    - ==: ChoiceOption
+      id: b764ead4-eb15-4936-8dd3-5b22fea1892d
+      text: Distracting Strike
+    - ==: ChoiceOption
+      id: 904b0976-c664-46bb-9f2d-40c1f58ed4b4
+      text: Evasive Footwork
+    - ==: ChoiceOption
+      id: 4a1c6f78-191d-4ad0-9196-86659e0f09e3
+      text: Feinting Attack
+    - ==: ChoiceOption
+      id: 188d47e9-3d1f-4a48-9f57-25276a93c7d7
+      text: Goading Attack
+    - ==: ChoiceOption
+      id: abeb9bda-2d6f-4988-8505-1caad355d708
+      text: Grappling Strike
+    - ==: ChoiceOption
+      id: 6d3def80-d937-40c1-b166-c8075c6182a5
+      text: Lunging Attack
+    - ==: ChoiceOption
+      id: 98eb67d0-05a1-408f-a47e-3b355b9350fe
+      text: Maneuvering Attack
+    - ==: ChoiceOption
+      id: 3e77c2c7-4b06-4cf4-9bfc-fc757ffe7ba2
+      text: Menacing Attack
+    - ==: ChoiceOption
+      id: a530c95d-7839-42bc-afd1-415581fd541b
+      text: Parry
+    - ==: ChoiceOption
+      id: 5ef7ae08-5d49-4c19-9058-4e6a43f920c5
+      text: Precision Attack
+    - ==: ChoiceOption
+      id: 5bcd7bff-764c-40f0-87ce-b4a42d37114c
+      text: Pushing Attack
+    - ==: ChoiceOption
+      id: 735f9f70-f132-46d7-956d-4a3ba9a6646d
+      text: Quick Toss
+    - ==: ChoiceOption
+      id: c848d49c-baa4-4850-b0ab-c74775ea809f
+      text: Rally
+    - ==: ChoiceOption
+      id: 610db53c-764e-4796-a1ad-d95c9a660fdd
+      text: Riposte
+    - ==: ChoiceOption
+      id: 8c7ab886-c65c-482b-8788-657137c044fa
+      text: Sweeping Attack
+    - ==: ChoiceOption
+      id: 6ab297a9-ef12-4e9c-b342-38130037ce82
+      text: Tactical Assessment
+    - ==: ChoiceOption
+      id: d53bb702-9779-46da-b46d-be0048e30c4b
+      text: Trip Attack

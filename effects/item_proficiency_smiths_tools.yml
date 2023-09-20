@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - smiths_tools
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 31488f45-b0c8-48b5-9971-1c43ef26cc16
+          option-id: e575b46b-1e0d-4fda-b893-88942acec8ec

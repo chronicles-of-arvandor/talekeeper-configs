@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - carpenters_tools
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 31488f45-b0c8-48b5-9971-1c43ef26cc16
+          option-id: 4439666d-4daf-4c9c-81a4-5ccd6b4f87f4

@@ -1,7 +1,7 @@
 choice:
   ==: Choice
   id: 8b934f7e-43c9-43e5-879b-9ca520716c96
-  text: 'Training in War and Song: Melee weapon'
+  text: 'Bladesinging: Training in War and Song: Melee weapon'
   prerequisites:
     - ==: SubClassPrerequisite
       class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
