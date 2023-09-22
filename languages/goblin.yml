@@ -1,0 +1,5 @@
+language:
+  ==: Language
+  id: 6ed810c9-3482-4e75-8cb8-8a70bd07b861
+  name: Goblin
+  cypher: {}

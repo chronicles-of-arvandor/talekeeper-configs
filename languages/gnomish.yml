@@ -1,0 +1,5 @@
+language:
+  ==: Language
+  id: dcd85141-a131-471c-9ae5-8abe19ab7267
+  name: Gnomish
+  cypher: {}
