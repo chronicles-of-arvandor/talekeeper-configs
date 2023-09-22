@@ -1,0 +1,10 @@
+effect:
+  ==: SkillProficiencyEffect
+  skills:
+    - PERSUASION
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 72e53602-7bd1-4075-b993-7ac7c4426200
+          option-id: 7d7b002e-a023-4268-82e9-4ffbe949383e

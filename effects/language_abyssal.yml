@@ -1,0 +1,10 @@
+effect:
+  ==: LanguageEffect
+  languages:
+    - e7741777-3872-4350-ba68-73bc92808dff
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: bf1d316f-20ad-4fa9-8fe8-daabc9168d68
+          option-id: 7f2cbf8f-dc58-478f-8f29-46f29011c550

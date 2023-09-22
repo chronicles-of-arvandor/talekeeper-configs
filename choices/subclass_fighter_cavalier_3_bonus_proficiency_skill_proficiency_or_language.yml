@@ -1,0 +1,16 @@
+choice:
+  ==: Choice
+  id: 7ffca91c-cbf2-4438-be9a-d9fbcc207b5d
+  text: "Cavalier: Bonus proficiency: Skill proficiency or Language"
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+      sub-class-id: 88d0bd99-4205-470c-a23a-18ce9cbdf4e0
+      level: 3
+  options:
+    - ==: ChoiceOption
+      id: 0d734c09-758e-4feb-b3bb-4d1ec8ddf4fc
+      text: Skill proficiency
+    - ==: ChoiceOption
+      id: 67343be1-6799-49ad-86e1-9962aa0bcbd1
+      text: Language

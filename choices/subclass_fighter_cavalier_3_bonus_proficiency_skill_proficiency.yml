@@ -1,0 +1,54 @@
+choice:
+  ==: Choice
+  id: 72e53602-7bd1-4075-b993-7ac7c4426200
+  text: "Cavalier: Bonus proficiency: Skill proficiency"
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 7ffca91c-cbf2-4438-be9a-d9fbcc207b5d
+      option-id: 0d734c09-758e-4feb-b3bb-4d1ec8ddf4fc
+  options:
+    - ==: ChoiceOption
+      id: c3436d0c-5f24-482d-b270-497e9434ee59
+      text: Animal Handling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ANIMAL_HANDLING
+    - ==: ChoiceOption
+      id: f142028f-ce7a-404a-b0c2-c243cfa4d60e
+      text: History
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - HISTORY
+    - ==: ChoiceOption
+      id: 4413ecdd-b67a-4ac0-96de-ce307ac4e1cf
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: 70591673-8bc5-4a10-b363-e5118027d839
+      text: Performance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERFORMANCE
+    - ==: ChoiceOption
+      id: 7d7b002e-a023-4268-82e9-4ffbe949383e
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION
