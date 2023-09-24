@@ -21,3 +21,9 @@ effect:
           class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
           sub-class-id: 072348d9-0d6b-4859-9bfa-202ce0526bdd
           level: 2
+        - ==: ChoicePrerequisite
+          choice-id: a434538e-94ec-4301-8f18-3939f4faa610
+          option-id: a7c57f13-a29f-4252-b008-7c2ed3a02a77
+        - ==: ChoicePrerequisite
+          choice-id: 0cc2969a-137b-4416-9208-9ba22cf123b0
+          option-id: e06561ff-6766-4997-bbfc-6cb64612a60e
