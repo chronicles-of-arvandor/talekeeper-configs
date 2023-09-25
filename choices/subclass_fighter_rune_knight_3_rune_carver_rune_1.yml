@@ -1,0 +1,22 @@
+choice:
+  ==: Choice
+  id: 616c149b-3469-4e1f-92a3-d3e3c55ceb11
+  text: "Rune Knight: Rune carver: Rune (1)"
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+      sub-class-id: 519db2c3-2e90-4f42-a51d-67708b7ab778
+      level: 3
+  options:
+    - ==: ChoiceOption
+      id: f81f6c61-6aa8-43fc-bfdd-3f77fae8ccf3
+      text: Cloud Rune
+    - ==: ChoiceOption
+      id: 302c01d7-1d6c-4557-b7c6-7f814bc4c4df
+      text: Fire Rune
+    - ==: ChoiceOption
+      id: 7a1ac953-9101-4bb2-b345-2cc904957208
+      text: Frost Rune
+    - ==: ChoiceOption
+      id: 0fbf9280-206c-4d86-a592-4df1b0e1a5c4
+      text: Stone Rune
