@@ -1,0 +1,46 @@
+choice:
+  ==: Choice
+  id: a0dba59c-8939-4eed-b9b8-9ef065e7e899
+  text: "Samurai: Bonus proficiency: Skill proficiency"
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+      sub-class-id: 822b83c0-13c1-4feb-8820-79b413fe470e
+      level: 3
+  options:
+    - ==: ChoiceOption
+      id: fc500e52-7bcb-49f4-bfea-333747c8330f
+      text: History
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - HISTORY
+    - ==: ChoiceOption
+      id: c4382509-9a99-4e4f-9800-636197ed8dd5
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: cf8640a6-3441-42e4-8969-ce4200d65c9f
+      text: Performance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERFORMANCE
+    - ==: ChoiceOption
+      id: 998c1262-2d87-4549-a5c4-4dbd19b65997
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION
