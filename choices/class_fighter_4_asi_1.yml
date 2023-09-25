@@ -14,6 +14,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: STRENGTH
             score: 20
     - ==: ChoiceOption
       id: 0c4a784f-969c-4d68-a991-8f84f862809c
@@ -22,6 +23,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: DEXTERITY
             score: 20
     - ==: ChoiceOption
       id: 72036452-0c68-42f6-a461-6ed68e30a7a3
@@ -30,6 +32,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: CONSTITUTION
             score: 20
     - ==: ChoiceOption
       id: 490086e2-c4d1-46d2-9fd4-6df9313da940
@@ -38,6 +41,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: INTELLIGENCE
             score: 20
     - ==: ChoiceOption
       id: f18cd754-f862-4ff0-a6d5-83ed2ef63a5b
@@ -46,6 +50,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: WISDOM
             score: 20
     - ==: ChoiceOption
       id: 978f11bf-e480-44c9-9df6-fb4ca203f23f
@@ -54,4 +59,5 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: CHARISMA
             score: 20

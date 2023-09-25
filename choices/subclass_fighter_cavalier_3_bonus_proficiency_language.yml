@@ -14,7 +14,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: e7741777-3872-4350-ba68-73bc92808dff
+            language-ids:
+              - e7741777-3872-4350-ba68-73bc92808dff
     - ==: ChoiceOption
       id: 168f3574-f0bb-4ad8-9e0b-abd19d5ff62a
       text: Celestial
@@ -22,7 +23,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 48f22713-4960-4b52-b5d9-f695bb67d97e
+            language-ids:
+              - 48f22713-4960-4b52-b5d9-f695bb67d97e
     - ==: ChoiceOption
       id: 32bc0105-6adb-450a-92f3-7d9c67749275
       text: Draconic
@@ -30,7 +32,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 037e0942-8e13-496d-b8c3-be1f747f98a6
+            language-ids:
+              - 037e0942-8e13-496d-b8c3-be1f747f98a6
     - ==: ChoiceOption
       id: cbf0a4a1-8ab3-4875-a7cd-6321a20be38b
       text: Druidic
@@ -38,7 +41,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: f3f1b3e7-adba-489d-a0d5-23c335d5647b
+            language-ids:
+              - f3f1b3e7-adba-489d-a0d5-23c335d5647b
     - ==: ChoiceOption
       id: e463b82b-9969-4a45-95dc-f3afca3a6ed1
       text: Dwarvish
@@ -46,7 +50,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 9dee82b7-9989-4b95-aaa2-ef438d0c9ef7
+            language-ids:
+              - 9dee82b7-9989-4b95-aaa2-ef438d0c9ef7
     - ==: ChoiceOption
       id: d7b48370-24a4-42b1-a6d1-63edde621aa4
       text: Elvish
@@ -54,7 +59,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 4c6ddd7a-170f-4b62-bd40-d1a24d0652c4
+            language-ids:
+              - 4c6ddd7a-170f-4b62-bd40-d1a24d0652c4
     - ==: ChoiceOption
       id: 6167321a-993e-4c2a-9b86-918fba4efeab
       text: Giant
@@ -62,7 +68,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 190d4a61-8da8-43d2-840c-0a7d77df8d99
+            language-ids:
+              - 190d4a61-8da8-43d2-840c-0a7d77df8d99
     - ==: ChoiceOption
       id: 38b74c4e-de9f-4ccf-ac33-4b66627ea4d0
       text: Gnomish
@@ -70,7 +77,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: dcd85141-a131-471c-9ae5-8abe19ab7267
+            language-ids:
+              - dcd85141-a131-471c-9ae5-8abe19ab7267
     - ==: ChoiceOption
       id: 61be9c49-fc0e-40c4-9edf-0e9e46c34acf
       text: Goblin
@@ -78,7 +86,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 6ed810c9-3482-4e75-8cb8-8a70bd07b861
+            language-ids:
+              - 6ed810c9-3482-4e75-8cb8-8a70bd07b861
     - ==: ChoiceOption
       id: de0f5926-5df1-4e5d-b24d-17dff62a9f98
       text: Halfling
@@ -86,7 +95,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: cb813851-fef8-4f9a-a533-41d2a0af2215
+            language-ids:
+              - cb813851-fef8-4f9a-a533-41d2a0af2215
     - ==: ChoiceOption
       id: 54fda988-666c-400d-b692-ff95d34953b1
       text: Infernal
@@ -94,7 +104,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 0297b6cf-bc7c-437f-8e51-bd1955b3ca50
+            language-ids:
+              - 0297b6cf-bc7c-437f-8e51-bd1955b3ca50
     - ==: ChoiceOption
       id: 681572d5-aec6-44e9-a4da-41c18a05325c
       text: Orc
@@ -102,7 +113,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 7dbfa12e-a9ab-4e4c-809d-03786b81543f
+            language-ids:
+              - 7dbfa12e-a9ab-4e4c-809d-03786b81543f
     - ==: ChoiceOption
       id: 050b52f5-42b0-485f-8b95-2b466ac6b637
       text: Primordial
@@ -110,7 +122,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: c9e3cfac-4202-466f-920f-93e4ca073588
+            language-ids:
+              - c9e3cfac-4202-466f-920f-93e4ca073588
     - ==: ChoiceOption
       id: f65f575e-a773-43b9-aa40-61c275ca4a35
       text: Sylvan
@@ -118,7 +131,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 682c9b4e-d443-4be7-b722-0fc16e1b2ea5
+            language-ids:
+              - 682c9b4e-d443-4be7-b722-0fc16e1b2ea5
     - ==: ChoiceOption
       id: 3b3c6160-ba3e-415f-b6c9-c9b61771d89b
       text: Thieves' Cant
@@ -126,7 +140,8 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 5354ee6c-8b46-4a85-b64c-28d983561aa9
+            language-ids:
+              - 5354ee6c-8b46-4a85-b64c-28d983561aa9
     - ==: ChoiceOption
       id: 82d59ea0-bb8b-43dc-affb-07c7aa61add9
       text: Undercommon
@@ -134,4 +149,5 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: LanguagePrerequisite
-            language-id: 2cf3a918-d647-4f59-a605-acf440b53dd8
+            language-ids:
+              - 2cf3a918-d647-4f59-a605-acf440b53dd8
