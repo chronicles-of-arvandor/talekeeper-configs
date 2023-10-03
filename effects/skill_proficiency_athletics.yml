@@ -11,3 +11,27 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: fd58eaad-4e96-4f26-9cb3-642267375400
           option-id: bf1dac64-c0aa-4b31-b41e-acdc643cb488
+        - ==: ChoicePrerequisite
+          choice-id: acbb520f-3506-4f09-93c3-496153a5b514
+          option-id: 9cb8bd86-c49b-404e-a7dc-df759236ba5d
+        - ==: ChoicePrerequisite
+          choice-id: 7d666e0b-db03-4869-b58f-25d682b3e90a
+          option-id: ee8bbd25-8597-44b8-a617-d7a72ded55b3
+        - ==: ChoicePrerequisite
+          choice-id: 453e5ec6-dd04-4c67-a765-858bab513aa6
+          option-id: 793b83c8-00e2-41e9-b9ef-bb21e4e81a07
+        - ==: ChoicePrerequisite
+          choice-id: 21dd02b8-a02d-41a2-a698-9cafa0c99ce9
+          option-id: 73df220a-3307-414f-95c1-666f344e3383
+        - ==: ChoicePrerequisite
+          choice-id: 45baa58a-bde6-4ee5-90a4-63558e380d6f
+          option-id: 6c540958-ec2a-4233-af97-4684e807f65a
+        - ==: ChoicePrerequisite
+          choice-id: 0387d030-1c73-4cdd-a66d-67777b1f4513
+          option-id: 686c856a-773c-4503-9122-206237b4fed7
+        - ==: ChoicePrerequisite
+          choice-id: 814835e9-6531-441e-a870-da6e7216b36e
+          option-id: 883d83a5-73e1-476d-924a-f2cf86ee66d6
+        - ==: ChoicePrerequisite
+          choice-id: 258d8318-5e84-4380-a8fb-48481781d0e5
+          option-id: 60dc874d-6d1f-4e0d-bc25-ad1f8771f51e

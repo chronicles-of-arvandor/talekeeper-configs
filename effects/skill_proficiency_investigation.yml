@@ -1,14 +1,25 @@
 effect:
   ==: SkillProficiencyEffect
   skills:
-  - INVESTIGATION
+    - INVESTIGATION
   prerequisites:
-  - ==: OrPrerequisite
-    prerequisites:
-    # Wizard choices
-    - ==: ChoicePrerequisite
-      choice-id: 42da86af-f234-44cc-ba51-456060f30158
-      option-id: 5ee28822-0340-4242-90b1-a63c0224a956
-    - ==: ChoicePrerequisite
-      choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
-      option-id: 0737f234-15a3-4785-bdf5-bc035f392aa1
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 42da86af-f234-44cc-ba51-456060f30158
+          option-id: 5ee28822-0340-4242-90b1-a63c0224a956
+        - ==: ChoicePrerequisite
+          choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
+          option-id: 0737f234-15a3-4785-bdf5-bc035f392aa1
+        - ==: ChoicePrerequisite
+          choice-id: 45baa58a-bde6-4ee5-90a4-63558e380d6f
+          option-id: 0d3941e8-09e4-4833-b847-a0c6dd936c29
+        - ==: ChoicePrerequisite
+          choice-id: 0387d030-1c73-4cdd-a66d-67777b1f4513
+          option-id: f116359a-8d08-47e9-8211-e298d65a0e13
+        - ==: ChoicePrerequisite
+          choice-id: 814835e9-6531-441e-a870-da6e7216b36e
+          option-id: 5a423875-9a8c-490d-824b-d5ea59820d80
+        - ==: ChoicePrerequisite
+          choice-id: 258d8318-5e84-4380-a8fb-48481781d0e5
+          option-id: f045fc47-1a82-418d-9440-2c108db65e2f
