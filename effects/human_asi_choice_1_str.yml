@@ -1,0 +1,8 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    STRENGTH: 1
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 626952ff-0af2-4b48-971c-e94aa056d576
+      option-id: a1a6eee6-386a-41b1-8dd3-0cd080ffe7d7

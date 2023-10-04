@@ -1,0 +1,108 @@
+choice:
+  ==: Choice
+  id: 258d8318-5e84-4380-a8fb-48481781d0e5
+  text: Rogue Proficiency Choice (4)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: dcb9c812-6c1d-488e-97f9-5f076d58946c
+      text: Acrobatics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ACROBATICS
+    - ==: ChoiceOption
+      id: 60dc874d-6d1f-4e0d-bc25-ad1f8771f51e
+      text: Athletics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ATHLETICS
+    - ==: ChoiceOption
+      id: 76733d54-8874-4a59-9711-6266b8e98efb
+      text: Deception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - DECEPTION
+    - ==: ChoiceOption
+      id: 22162789-8f2d-421e-8eae-c0d561e92823
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: 2e6a54cf-6400-4afd-ae0b-f07536cc792c
+      text: Intimidation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INTIMIDATION
+    - ==: ChoiceOption
+      id: f045fc47-1a82-418d-9440-2c108db65e2f
+      text: Investigation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INVESTIGATION
+    - ==: ChoiceOption
+      id: 2b60cfcf-6ff2-4edf-86a6-7e1a729e3444
+      text: Perception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERCEPTION
+    - ==: ChoiceOption
+      id: 43f98d4b-6410-4dfd-9eeb-88b23c523c71
+      text: Performance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERFORMANCE
+    - ==: ChoiceOption
+      id: 69d96b0d-f248-426c-a6c4-d71184d9360e
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION
+    - ==: ChoiceOption
+      id: 5537e9e5-e400-402c-8189-0a49351abb08
+      text: Sleight of Hand
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SLEIGHT_OF_HAND
+    - ==: ChoiceOption
+      id: e84d3346-f990-4b6c-9901-adaeb15548ea
+      text: Stealth
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - STEALTH

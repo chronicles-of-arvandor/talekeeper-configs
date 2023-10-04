@@ -1,0 +1,134 @@
+choice:
+  ==: Choice
+  id: 481b4e05-7760-4a0d-abf3-71624b8ec6eb
+  text: Human Language Choice
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 5556b2fd-71b1-46e6-adba-c3dec84a30d3
+  options:
+    - ==: ChoiceOption
+      id: 42a43515-aa5e-45bc-949e-5d007398d005
+      text: Abyssal
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - e7741777-3872-4350-ba68-73bc92808dff
+    - ==: ChoiceOption
+      id: 01b5379e-6639-4aa1-997b-cfc98a37430b
+      text: Celestial
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 48f22713-4960-4b52-b5d9-f695bb67d97e
+    - ==: ChoiceOption
+      id: a480e0b3-579c-4fdb-a3a9-eb79cb8a7977
+      text: Draconic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 037e0942-8e13-496d-b8c3-be1f747f98a6
+    - ==: ChoiceOption
+      id: 3fa55c3a-3a8c-444a-b1fd-f0f2a81199e7
+      text: Dwarvish
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 9dee82b7-9989-4b95-aaa2-ef438d0c9ef7
+    - ==: ChoiceOption
+      id: 6eaf8b02-7a09-4ceb-ba62-19c0dd26104d
+      text: Elvish
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 4c6ddd7a-170f-4b62-bd40-d1a24d0652c4
+    - ==: ChoiceOption
+      id: 63c52ddd-54f8-4a4b-a43a-90acb2406ef6
+      text: Giant
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 190d4a61-8da8-43d2-840c-0a7d77df8d99
+    - ==: ChoiceOption
+      id: e3785df6-8e65-44ef-96bf-c123a0757942
+      text: Gnomish
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - dcd85141-a131-471c-9ae5-8abe19ab7267
+    - ==: ChoiceOption
+      id: 3c69dc67-3bc2-43ff-903a-2f2cf3f9140b
+      text: Goblin
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 6ed810c9-3482-4e75-8cb8-8a70bd07b861
+    - ==: ChoiceOption
+      id: b404c1a4-cd21-4266-a509-0743b62578a7
+      text: Halfling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - cb813851-fef8-4f9a-a533-41d2a0af2215
+    - ==: ChoiceOption
+      id: 8debd6bf-5743-4fc0-9092-892a5bd51e10
+      text: Infernal
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 0297b6cf-bc7c-437f-8e51-bd1955b3ca50
+    - ==: ChoiceOption
+      id: 0b490b1f-ced6-4679-a122-4e804de3e681
+      text: Orc
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 7dbfa12e-a9ab-4e4c-809d-03786b81543f
+    - ==: ChoiceOption
+      id: adccf48d-03f5-4ec0-b0f6-fc0b372079e3
+      text: Primordial
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - c9e3cfac-4202-466f-920f-93e4ca073588
+    - ==: ChoiceOption
+      id: e060c832-ecd1-4497-b21a-806547b460b9
+      text: Sylvan
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 682c9b4e-d443-4be7-b722-0fc16e1b2ea5
+    - ==: ChoiceOption
+      id: e3bb1378-cc46-4085-99f8-7a6c5411c3f5
+      text: Undercommon
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 2cf3a918-d647-4f59-a605-acf440b53dd8

@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 11cf5e43-9fee-4c27-9dbb-5f693db2f8eb
+  text: Rogue 4th Level ASI
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      level: 4
+  options:
+    - ==: ChoiceOption
+      id: 1d7d6a49-aee7-43a6-a7b9-1d1a1f71c338
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 9ce51136-1922-4beb-bb91-aaac5a743bde
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: e0d9d4d4-856f-4d3a-a041-9d00e537746f
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 99239ed2-521d-4cc3-b698-139d6a527950
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: cce8dcc2-eb6a-4a41-b5cc-2a17809028ec
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: d436bc8d-9b58-4bfc-99f4-953bc2544e02
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

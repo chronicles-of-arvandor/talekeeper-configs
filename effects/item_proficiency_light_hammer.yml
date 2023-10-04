@@ -8,3 +8,5 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
           option-id: 87854c78-a136-4b4a-8cda-4517cbcabbf1
+    - ==: AncestryPrerequisite
+      ancestry-id: 70bda7fd-42a9-460e-a27f-35fd6aa53578

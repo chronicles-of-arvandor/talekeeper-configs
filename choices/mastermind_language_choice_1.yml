@@ -1,0 +1,136 @@
+choice:
+  ==: Choice
+  id: ddfb7c60-4484-42f7-b24b-93b9dc6db66c
+  text: "Mastermind: Bonus Proficiency: Language (1)"
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      sub-class-id: d2037a60-eb97-4494-8c06-6a9dee926d56
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: ada14ddc-9274-45ae-ab5f-363991936ce8
+      text: Abyssal
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - e7741777-3872-4350-ba68-73bc92808dff
+    - ==: ChoiceOption
+      id: 1da9764e-a336-4a21-9519-51901eb6709f
+      text: Celestial
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 48f22713-4960-4b52-b5d9-f695bb67d97e
+    - ==: ChoiceOption
+      id: def8bb1d-10d9-4fc0-894f-3712f5611a74
+      text: Draconic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 037e0942-8e13-496d-b8c3-be1f747f98a6
+    - ==: ChoiceOption
+      id: 4786a597-50be-421f-8e94-ab8a2f529961
+      text: Dwarvish
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 9dee82b7-9989-4b95-aaa2-ef438d0c9ef7
+    - ==: ChoiceOption
+      id: 45f8bed9-f46a-419d-8e53-0981261181df
+      text: Elvish
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 4c6ddd7a-170f-4b62-bd40-d1a24d0652c4
+    - ==: ChoiceOption
+      id: 5218c586-0515-4bbd-9270-242857668048
+      text: Giant
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 190d4a61-8da8-43d2-840c-0a7d77df8d99
+    - ==: ChoiceOption
+      id: c29c52ed-bbc6-4b54-979e-ecf1ed6a91ca
+      text: Gnomish
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - dcd85141-a131-471c-9ae5-8abe19ab7267
+    - ==: ChoiceOption
+      id: 386ba50a-fd48-45ab-a498-714b0d2aa463
+      text: Goblin
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 6ed810c9-3482-4e75-8cb8-8a70bd07b861
+    - ==: ChoiceOption
+      id: ae58c3c9-686a-463d-9e72-ef168407a1fe
+      text: Halfling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - cb813851-fef8-4f9a-a533-41d2a0af2215
+    - ==: ChoiceOption
+      id: 1842592d-1974-4ef8-ad4a-9f96c0922b99
+      text: Infernal
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 0297b6cf-bc7c-437f-8e51-bd1955b3ca50
+    - ==: ChoiceOption
+      id: e2ddba57-6728-485d-83c3-60180425a408
+      text: Orc
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 7dbfa12e-a9ab-4e4c-809d-03786b81543f
+    - ==: ChoiceOption
+      id: 078070f9-4c84-4b1c-8855-95a435a38156
+      text: Primordial
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - c9e3cfac-4202-466f-920f-93e4ca073588
+    - ==: ChoiceOption
+      id: 99e533ca-dbf1-41c4-8a80-bc2362e61871
+      text: Sylvan
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 682c9b4e-d443-4be7-b722-0fc16e1b2ea5
+    - ==: ChoiceOption
+      id: f0960578-4739-4d09-804d-1ec103824f71
+      text: Undercommon
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: LanguagePrerequisite
+            language-ids:
+              - 2cf3a918-d647-4f59-a605-acf440b53dd8

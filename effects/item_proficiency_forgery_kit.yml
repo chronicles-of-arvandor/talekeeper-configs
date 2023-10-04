@@ -1,0 +1,8 @@
+effect:
+  ==: ItemProficiencyEffect
+  items: []
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      sub-class-id: d2037a60-eb97-4494-8c06-6a9dee926d56
+      level: 1

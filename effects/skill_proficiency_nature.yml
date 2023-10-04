@@ -1,0 +1,10 @@
+effect:
+  ==: SkillProficiencyEffect
+  skills:
+    - NATURE
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: e33f3401-9c3d-4265-ad8f-39b2d92f1c3a
+          option-id: 62fde77b-21fd-41db-93c9-011330db8339

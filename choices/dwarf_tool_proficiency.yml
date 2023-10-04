@@ -1,0 +1,35 @@
+choice:
+  ==: Choice
+  id: ae1493ef-860b-433d-8e20-cc75b0c7f448
+  text: Dwarf Tool Proficiency Choice
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 70bda7fd-42a9-460e-a27f-35fd6aa53578
+  options:
+    - ==: ChoiceOption
+      id: 8a9c2f80-910a-419e-9a9b-90cee2f3541a
+      text: Smith's tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Smith's tools
+    - ==: ChoiceOption
+      id: fbb606d0-9c56-439b-bcf4-dd72a5f6146b
+      text: Brewer's supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Brewer's supplies
+    - ==: ChoiceOption
+      id: cb0d2376-ac13-4e62-8bab-a63ad909e9f5
+      text: Mason's tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Mason's tools

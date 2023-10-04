@@ -1,0 +1,9 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Poisoner's Kit
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      sub-class-id: 69c4a7ea-c383-4244-a937-e76ee499b0ff
+      level: 1

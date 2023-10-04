@@ -1,0 +1,8 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    DEXTERITY: 1
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 626952ff-0af2-4b48-971c-e94aa056d576
+      option-id: b0841601-9be3-44bd-a715-ed1572e2dc56

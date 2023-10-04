@@ -1,14 +1,16 @@
 effect:
   ==: SkillProficiencyEffect
   skills:
-  - ARCANA
+    - ARCANA
   prerequisites:
-  - ==: OrPrerequisite
-    prerequisites:
-    # Wizard choices
-    - ==: ChoicePrerequisite
-      choice-id: 42da86af-f234-44cc-ba51-456060f30158
-      option-id: 5018c728-1472-47ff-a930-b054b8a95382
-    - ==: ChoicePrerequisite
-      choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
-      option-id: 013be2b4-34cc-4738-a14f-6f88b86919e0
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 42da86af-f234-44cc-ba51-456060f30158
+          option-id: 5018c728-1472-47ff-a930-b054b8a95382
+        - ==: ChoicePrerequisite
+          choice-id: 49b6432a-6512-4993-9306-4116c5dbb282
+          option-id: 013be2b4-34cc-4738-a14f-6f88b86919e0
+        - ==: ChoicePrerequisite
+          choice-id: e33f3401-9c3d-4265-ad8f-39b2d92f1c3a
+          option-id: 321a35a8-9eb8-462d-8b02-9fbfdf628c7a

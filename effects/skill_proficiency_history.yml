@@ -23,3 +23,6 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: a0dba59c-8939-4eed-b9b8-9ef065e7e899
           option-id: fc500e52-7bcb-49f4-bfea-333747c8330f
+        - ==: ChoicePrerequisite
+          choice-id: e33f3401-9c3d-4265-ad8f-39b2d92f1c3a
+          option-id: 24a89aa6-5aba-4308-a5ed-dde6321bfc8e

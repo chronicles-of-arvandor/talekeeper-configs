@@ -12,3 +12,18 @@ effect:
           class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
           sub-class-id: 519db2c3-2e90-4f42-a51d-67708b7ab778
           level: 3
+        - ==: ChoicePrerequisite
+          choice-id: ddfb7c60-4484-42f7-b24b-93b9dc6db66c
+          option-id: 5218c586-0515-4bbd-9270-242857668048
+        - ==: ChoicePrerequisite
+          choice-id: ea52965d-922f-4217-ab11-c7399692f08c
+          option-id: 9c1e7b5a-9172-4939-ac95-c8675287e1d2
+        - ==: ChoicePrerequisite
+          choice-id: 481b4e05-7760-4a0d-abf3-71624b8ec6eb
+          option-id: 63c52ddd-54f8-4a4b-a43a-90acb2406ef6
+        - ==: ChoicePrerequisite
+          choice-id: 9326cb4c-79d1-45c5-a4f0-7f3c564acb57
+          option-id: 91f0b7aa-a04d-467b-934e-7b407493582e
+        - ==: ChoicePrerequisite
+          choice-id: 75ee2228-e296-41b3-a064-1f27f818ea53
+          option-id: 7019af41-fb21-43e8-a931-33ba2723f560
