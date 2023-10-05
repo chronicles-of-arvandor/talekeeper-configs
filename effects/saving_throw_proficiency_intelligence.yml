@@ -1,10 +1,13 @@
 effect:
   ==: SavingThrowProficiencyEffect
   abilities:
-  - INTELLIGENCE
+    - INTELLIGENCE
   prerequisites:
-  - ==: OrPrerequisite
-    prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ClassPrerequisite
+          class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+          level: 1
     - ==: ClassPrerequisite
-      class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
       level: 1

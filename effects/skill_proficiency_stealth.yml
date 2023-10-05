@@ -20,3 +20,11 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: e33f3401-9c3d-4265-ad8f-39b2d92f1c3a
           option-id: 22481ace-c7f7-49c7-a752-f76586a7ac45
+        - ==: ChoicePrerequisite
+          choice-id: 66b0d3cb-cde0-4ddb-a5bc-0760f01bf3c3
+          option-id: c87d9ec1-870b-42ed-b26e-29a77026f2a9
+        - ==: ChoicePrerequisite
+          choice-id: 48c9724a-6492-4345-8488-af4a3bb9d2dd
+          option-id: f66299dd-09aa-4634-92df-56b416278dab
+    - ==: AncestryPrerequisite
+      ancestry-id: 0b9e1e22-edef-4c80-93e1-1a5cfae7db55

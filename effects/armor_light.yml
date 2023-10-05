@@ -14,3 +14,6 @@ effect:
         - ==: ClassPrerequisite
           class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
           level: 1
+    - ==: ClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      level: 1
