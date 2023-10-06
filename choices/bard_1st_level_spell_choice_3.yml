@@ -1,0 +1,225 @@
+choice:
+  ==: Choice
+  id: d945ca1c-a05a-455d-8bd8-a96e8b98552c
+  text: Bard 1st level spell choices (3)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 2a5b101f-e335-4626-be63-f0b16bd96528
+      text: Animal Friendship
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a34af202-19bc-4a78-94ea-168472e9baf2
+    - ==: ChoiceOption
+      id: 02b8d927-b58e-4edf-b33d-4d5bf67bb5fe
+      text: Bane
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 61fb7468-dcbc-4170-b2f6-ac5ba72b317a
+    - ==: ChoiceOption
+      id: d586f497-1a81-4214-a851-f71ddc23d6a4
+      text: Charm Person
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 51646f5d-a8e0-4d35-b7bf-3921acdcec53
+    - ==: ChoiceOption
+      id: 2aad11b9-bc22-4db4-b335-c05c77e46350
+      text: Color Spray
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - b97fb6cf-0e4f-43b8-abee-08e516ef0d61
+    - ==: ChoiceOption
+      id: 57bca099-ce04-4725-abee-776a3805b44f
+      text: Command
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d464c804-1e8b-41ad-af2a-477a9661134a
+    - ==: ChoiceOption
+      id: bd6dfbd2-7639-4ad7-ae8f-c33dd8e1fd6f
+      text: Comprehend Languages
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0d2fec2-a0c7-4dec-a569-26d0af264291
+    - ==: ChoiceOption
+      id: 750349b0-00d9-4f11-911b-137320326a34
+      text: Cure Wounds
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8533d133-cfab-4dae-84f1-bfa76a3dff13
+    - ==: ChoiceOption
+      id: ea3abf75-4171-4a9a-8b85-6da255545946
+      text: Detect Magic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1357e1dd-30a8-48b4-a8ae-264789343338
+    - ==: ChoiceOption
+      id: 50e54191-6d94-494e-b877-e1b01799cded
+      text: Disguise Self
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 12071801-2f50-4588-9e6d-95a33493d789
+    - ==: ChoiceOption
+      id: 71c79a9a-7acf-4dac-9de4-9359406a216f
+      text: Dissonant Whispers
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6445a27b-bb14-403b-8e07-2c951123dede
+    - ==: ChoiceOption
+      id: a2c4ca0c-c26a-4cea-8b64-1d6fd78cd9e4
+      text: Earth Tremor
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 043b9a0f-f1dd-4f29-92d9-82d29e478cf3
+    - ==: ChoiceOption
+      id: 6d291f1f-c3ab-484c-a77d-8c89d4275026
+      text: Faerie Fire
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - dcfd2838-b84e-4b5a-8a44-f467acde9e3f
+    - ==: ChoiceOption
+      id: 0140b4d4-a33d-4349-86ad-e7a7eb50c2d1
+      text: Feather Fall
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0c7f047-a5f8-4677-bd09-c80e0da38314
+    - ==: ChoiceOption
+      id: eb1e2982-8a84-4b67-8fd5-0b87824ef040
+      text: Healing Word
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a792b276-98d8-422c-86f2-1d2d53e2a4a6
+    - ==: ChoiceOption
+      id: 76dfc84c-b75c-4015-83fd-3f331fbcd57e
+      text: Heroism
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c830961f-17ef-4979-a552-de1f48c6bd5e
+    - ==: ChoiceOption
+      id: 3cac8608-4aaf-4ff4-9119-7222a0733fc4
+      text: Identify
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1e6f1f85-878d-4f56-8814-39db70d22e61
+    - ==: ChoiceOption
+      id: 9e23ab15-4e48-4f10-a7a1-5779acd5baed
+      text: Illusory Script
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2092af07-feac-4255-af5f-846c7dd40bb3
+    - ==: ChoiceOption
+      id: 4ac3075a-9795-4286-9025-fcc1c2396f87
+      text: Longstrider
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e6a1b955-6458-4b83-be56-c77bd4d8945a
+    - ==: ChoiceOption
+      id: 85c7648b-84e3-48e3-b364-0ea532ce559b
+      text: Silent Image
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 63febc12-690a-4aff-9eac-a9ae9ca18551
+    - ==: ChoiceOption
+      id: a7f74167-a83a-4b1b-978a-5b5a6f50ccc8
+      text: Sleep
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3cab387f-d0f6-47a9-9b93-addf11fbfbac
+    - ==: ChoiceOption
+      id: 6ff08695-8da6-47eb-a270-fe86a57238f2
+      text: Speak with Animals
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6607316c-5e54-43ba-9357-e10286cd6161
+    - ==: ChoiceOption
+      id: e9674bf9-95a9-4315-a5eb-05195c92f529
+      text: Tasha's Hideous Laughter
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e8a33bc9-d2ab-42d0-928b-b30b3586b619
+    - ==: ChoiceOption
+      id: 6f9ccf0a-3cad-4abb-8e5c-5d589832963a
+      text: Thunderwave
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ae7d8000-b14b-416f-9cdd-6a2cec78b39e
+    - ==: ChoiceOption
+      id: fbba8241-5154-494a-a85e-a9a4ede0d87f
+      text: Unseen Servant
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c9d53670-161b-4de0-99c7-17fb094209e7

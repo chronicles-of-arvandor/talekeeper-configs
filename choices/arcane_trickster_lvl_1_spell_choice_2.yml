@@ -1,0 +1,73 @@
+choice:
+  ==: Choice
+  id: 20e84444-503a-4f5b-963e-af0dd5b791b8
+  text: Arcane Trickster lvl 1 Spell Choice (2)
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      sub-class-id: fc16ade7-992a-47bb-bcb0-dd9dc3bfca70
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: cdd4fccc-a3e3-4fad-8db6-461079c8601a
+      text: Color Spray
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - b97fb6cf-0e4f-43b8-abee-08e516ef0d61
+    - ==: ChoiceOption
+      id: 88a798d2-bca7-481e-8bbb-701e3c611fbe
+      text: Disguise Self
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 12071801-2f50-4588-9e6d-95a33493d789
+    - ==: ChoiceOption
+      id: 428fb1bb-3f6a-41fb-b7fb-97953613fe1f
+      text: Illusory Script
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2092af07-feac-4255-af5f-846c7dd40bb3
+    - ==: ChoiceOption
+      id: 7557199b-d4cb-4036-a653-bf731f32ac61
+      text: Silent Image
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 63febc12-690a-4aff-9eac-a9ae9ca18551
+    - ==: ChoiceOption
+      id: cba771aa-e4a1-40f4-b55a-6ba4561e616e
+      text: Charm Person
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 51646f5d-a8e0-4d35-b7bf-3921acdcec53
+    - ==: ChoiceOption
+      id: cabfe6e9-0264-4835-b0e2-dcab89535272
+      text: Sleep
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3cab387f-d0f6-47a9-9b93-addf11fbfbac
+    - ==: ChoiceOption
+      id: 9d9ece17-9f39-43ee-9c19-6beab35be217
+      text: Tasha's Hideous Laughter
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e8a33bc9-d2ab-42d0-928b-b30b3586b619

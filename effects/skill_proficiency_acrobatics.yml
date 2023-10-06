@@ -44,3 +44,21 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 48c9724a-6492-4345-8488-af4a3bb9d2dd
           option-id: 0ce78b9f-7f0a-48a0-882d-ed79ec4c11c9
+        - ==: ChoicePrerequisite
+          choice-id: 8e556835-3ef6-4293-8258-1edc46744bea
+          option-id: 6fd106b7-65e1-4f2b-8803-2605a687e8d1
+        - ==: ChoicePrerequisite
+          choice-id: 21e4962e-b6cf-40a7-8786-80cd18b16177
+          option-id: 7351304e-b5f3-4f4d-95b4-7d5f0842f32d
+        - ==: ChoicePrerequisite
+          choice-id: 8239a6cc-0d40-4fd2-9a7e-4f81e9ece9a9
+          option-id: 59b2811a-b15d-4b4a-bb69-3c66f379e132
+        - ==: ChoicePrerequisite
+          choice-id: b1b6febf-f523-4330-8857-95886dd920c8
+          option-id: 1176d4bf-6548-4538-97bc-985181cab649
+        - ==: ChoicePrerequisite
+          choice-id: da880853-a89f-4448-b8a3-11d30668a6d9
+          option-id: 7fd8f319-374b-4b43-81d5-821a4bf80f2f
+        - ==: ChoicePrerequisite
+          choice-id: 05921150-7517-4ce7-a5d1-5549602596a8
+          option-id: 635878cb-ec83-4f55-8e00-81d48750cecc

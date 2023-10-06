@@ -32,3 +32,7 @@ effect:
         - ==: ClassPrerequisite
           class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
           level: 1
+    - ==: SubClassPrerequisite
+      class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+      sub-class-id: aa8f5a5f-d356-46d4-999a-95bcbb50798f
+      level: 1

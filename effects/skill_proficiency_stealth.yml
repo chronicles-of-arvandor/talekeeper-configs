@@ -26,5 +26,23 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 48c9724a-6492-4345-8488-af4a3bb9d2dd
           option-id: f66299dd-09aa-4634-92df-56b416278dab
+        - ==: ChoicePrerequisite
+          choice-id: 8e556835-3ef6-4293-8258-1edc46744bea
+          option-id: 91e8ad33-e666-4028-a9ed-553cc7653cd9
+        - ==: ChoicePrerequisite
+          choice-id: 21e4962e-b6cf-40a7-8786-80cd18b16177
+          option-id: 55c7f2e0-35bd-4020-a5bf-81bce24174b1
+        - ==: ChoicePrerequisite
+          choice-id: 8239a6cc-0d40-4fd2-9a7e-4f81e9ece9a9
+          option-id: 8a66de6b-f60d-4128-928a-041f49250dd5
+        - ==: ChoicePrerequisite
+          choice-id: b1b6febf-f523-4330-8857-95886dd920c8
+          option-id: a7b4ce45-b769-4537-8a8f-bcd6cc197094
+        - ==: ChoicePrerequisite
+          choice-id: da880853-a89f-4448-b8a3-11d30668a6d9
+          option-id: 2def5449-7818-4dec-94e0-afe5b0e53b29
+        - ==: ChoicePrerequisite
+          choice-id: 05921150-7517-4ce7-a5d1-5549602596a8
+          option-id: befa0f18-fdec-4a0b-86c3-8d82b801d5e7
     - ==: AncestryPrerequisite
       ancestry-id: 0b9e1e22-edef-4c80-93e1-1a5cfae7db55

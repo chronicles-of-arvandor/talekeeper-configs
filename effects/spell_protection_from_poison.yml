@@ -1,0 +1,46 @@
+effect:
+  ==: SpellEffect
+  spells:
+    - a5a0c073-cc49-4a52-a23c-6c09eeeec798
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: 2e42a6c3-1698-49e3-b82f-59869ba9d830
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: 1ab5d5df-d9c8-46e2-975e-9b28e508253e
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: d389d36a-a3a6-4c5a-8b14-612d58776663
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: 71d8b938-7c7a-4c96-a858-ab44af330f4d
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: 89c00d29-8e7f-4651-8136-289d1c0fe270
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 75ee467f-93f7-4310-8003-e82dc7e46357
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 1b4e50d2-c455-4ce5-8a96-bb3e448cd90f
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 9e27dea5-6fe5-4162-b90c-1ca90e57778e
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 44d846ac-b16b-4e83-84ba-cdf666ec2a87
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 70664238-9914-465e-974e-8e59978171cb
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 47a5e6db-b28c-4af7-a5a5-1b35041dbd8c
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 1454da89-8c78-476c-aebd-2e994dfa6f13
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 402ee607-7da9-4129-a7f5-4aa1e5072fa1

@@ -32,3 +32,42 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 67b31d50-d3fa-4693-b87b-dc6c801d061a
           option-id: a442ea65-54c1-42b0-9a67-2aa148d7831d
+        - ==: ChoicePrerequisite
+          choice-id: 91a81703-9ab2-45c2-a5bc-dafc3d0d713a
+          option-id: 00cc27d7-c00f-438a-915d-7d85cc80caa3
+        - ==: ChoicePrerequisite
+          choice-id: fea5df9a-d777-483a-b346-3d43731f03f4
+          option-id: 3e7f2632-fab7-4186-8dbb-73acc20b4b20
+        - ==: ChoicePrerequisite
+          choice-id: f7340a82-70a6-4074-b396-95e953a7473d
+          option-id: 25d4f6af-ea10-43ba-bc81-f08204d611c6
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 229db0f7-7e04-4b60-9ad3-9876c016e51b
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: db49716c-17b6-476c-b1a3-98682e24b106
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: ad62626c-b3b0-4dca-b96b-8e7ad24268af
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: f23bf2ff-a481-44af-9839-547b18792125
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: e478c7b3-623d-4079-8b9d-83d4f2cc016a
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: f329d83e-1805-4f1c-a08b-e233e6245f48
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: ff7cd947-edaa-493b-913f-e6a0b44552d6
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 058df1da-eb06-4784-b8ab-88bd437680b3
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 08e3eafd-1f53-4b94-8271-a94476d9553d
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 85938a39-71bb-4a07-a5f1-6ffaa84b74f8

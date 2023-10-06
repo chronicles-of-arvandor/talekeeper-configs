@@ -62,3 +62,81 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 0e3a19ae-9924-4e94-ba39-33ff27c9b79b
           option-id: 4bafdbe0-6c55-4a0f-8dec-fb8bd189cdeb
+        - ==: ChoicePrerequisite
+          choice-id: c45469a7-69db-478c-a10c-cd84d66503dc
+          option-id: 90b6c38e-388c-424a-bdda-7b9973749374
+        - ==: ChoicePrerequisite
+          choice-id: 2705cce8-4b5c-4d2a-bd2c-babda645e939
+          option-id: a8fa809c-1068-46ba-b3c5-14be9319e915
+        - ==: ChoicePrerequisite
+          choice-id: e3aab1f6-4801-4979-946e-e656799bcf89
+          option-id: 709df9d5-a218-4406-b06e-9eb99ea90271
+        - ==: ChoicePrerequisite
+          choice-id: d945ca1c-a05a-455d-8bd8-a96e8b98552c
+          option-id: a2c4ca0c-c26a-4cea-8b64-1d6fd78cd9e4
+        - ==: ChoicePrerequisite
+          choice-id: b7a59893-2304-4b48-b603-77e12c3e066b
+          option-id: 0e2f363d-5eef-43e0-ba25-7bb66be39c36
+        - ==: ChoicePrerequisite
+          choice-id: 7777b641-3a0d-49f0-8d42-3acc1c53bafb
+          option-id: 879b9c52-a616-4dad-9175-41fbd1a2de8e
+        - ==: ChoicePrerequisite
+          choice-id: a7f1008a-5213-41f0-ace9-03e5ae7060da
+          option-id: 6d99a934-9c85-4579-93e2-99451c4eba84
+        - ==: ChoicePrerequisite
+          choice-id: b2f712a6-3430-4693-b18a-68f253073404
+          option-id: 0627fe9d-97e3-4072-aec5-335c308d00d5
+        - ==: ChoicePrerequisite
+          choice-id: 8b98ab7a-0c63-4dce-a4c1-ae0929a5d456
+          option-id: 4909db09-e797-498f-a263-e25cd64ee790
+        - ==: ChoicePrerequisite
+          choice-id: 286555df-d2ca-46e9-b3af-679cb39a1e59
+          option-id: 1241c577-aa94-4580-b79e-06ca9dd64894
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: dde540c0-3be3-403e-bcf9-e24425cc0e1f
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: cb186454-10c8-4b6c-8d55-9128df06b65a
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: f0bc3b61-df65-4bea-8937-4f8586920ab7
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: 3c938add-9efa-4758-ae9d-d9cad76488ec
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: e6f6b631-ab67-4173-b9a2-7fe81e48afdc
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: 0047efcb-49e4-470c-9ddf-5a12520a43be
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: 8202c9df-a6db-47a7-a154-23f8505d581d
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: 00f5c789-ffcd-4a06-bd6e-eca97a360427
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 0ce5d7df-d445-40c6-b62f-503c5e1e7419
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 51ea9791-3813-4679-9289-f1d003cfc23d
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 1a01cd95-28a5-4c8b-bdee-e3965cdb6f9b
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 42790d0e-cdf7-44f7-805c-a02bfe12a148
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 292a06d8-75c1-42e2-b175-970f51746da6
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 3d29dc1f-4415-47fe-bed8-26f3ed5fbf63
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 33527aa3-78cd-4e06-b54b-9c0021154115
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 13ded494-478f-4912-9ef5-77a00f58f44b

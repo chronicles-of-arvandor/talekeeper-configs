@@ -1,0 +1,8 @@
+effect:
+  ==: SavingThrowProficiencyEffect
+  abilities:
+    - CHARISMA
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+      level: 1

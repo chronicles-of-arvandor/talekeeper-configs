@@ -1,0 +1,49 @@
+effect:
+  ==: SpellEffect
+  spells:
+    - 4329c65b-cf82-4121-a6aa-074aad31c419
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 8b98ab7a-0c63-4dce-a4c1-ae0929a5d456
+          option-id: 8d7c2b19-9fb1-409e-b7b6-ed0b9a40f5d5
+        - ==: ChoicePrerequisite
+          choice-id: 286555df-d2ca-46e9-b3af-679cb39a1e59
+          option-id: c32a98ce-bbf1-4404-ac0e-b5c490676b58
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: a2278dc8-b023-4ea2-bcd6-627ef34c25a1
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: 95c25bf3-48af-41e0-b15a-dd2c07658b3b
+        - ==: ChoicePrerequisite
+          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
+          option-id: 452d9197-413f-4342-84c9-c654dfccc6b8
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: bbcee537-4acf-4cf6-9ffc-76317b7caae2
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: 061712f3-8929-47bf-a757-220c815c2ef3
+        - ==: ChoicePrerequisite
+          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
+          option-id: dd1d33cf-2b00-4bef-96f7-3eab5563a229
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 0dfaf7f8-ced8-4077-886e-a1a9148d4e76
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: 732f9834-78a0-470f-86d0-a220ad0adc29
+        - ==: ChoicePrerequisite
+          choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
+          option-id: fc156382-75ca-470c-a060-99ebeb1bfd7a
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 27db35f9-fad0-43a6-a906-42767817a105
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 153f0a08-7b73-4cae-b033-3c1423eeccb3
+        - ==: ChoicePrerequisite
+          choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
+          option-id: 3193c6ee-a777-4b8d-b606-2c9610f20850
