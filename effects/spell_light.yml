@@ -65,5 +65,31 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: 33e54c11-bc28-4c13-b186-aff80e259738
+        - ==: ChoicePrerequisite
+          choice-id: 4e7477d9-000f-4994-8237-2d44dbe34d33
+          option-id: 00873d5d-385a-43fd-a9d7-7769531751f1
+        - ==: ChoicePrerequisite
+          choice-id: 7c273480-3505-40c4-98a4-83fbe9bc270b
+          option-id: b6b81392-3adc-46cb-afd1-5fc17c77537d
+        - ==: ChoicePrerequisite
+          choice-id: cf30da4b-159e-4b47-bc8d-874807d7fd13
+          option-id: b570eb7b-7f4f-421f-8dd1-661503369b58
+        - ==: ChoicePrerequisite
+          choice-id: 7dfbeaea-7dd5-4de5-921c-98bae7d928b1
+          option-id: 0ff8da56-ca1a-40b0-abd0-bcf8bb06ee8b
+        - ==: ChoicePrerequisite
+          choice-id: 5c83f418-8913-48c5-adaa-df794c8b67f3
+          option-id: bc8a5196-c850-47e3-84c6-bcc30143e228
+        - ==: ChoicePrerequisite
+          choice-id: 542cd5b2-4d41-4503-808a-e5ed3101411c
+          option-id: 25a1eafc-9eaf-4924-84ec-3db62fbe1bf0
     - ==: AncestryPrerequisite
       ancestry-id: 59cb2ad6-b2bf-432c-b6e8-a5e804dc4243
+    - ==: SubClassPrerequisite
+      class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+      sub-class-id: 421b0a61-118d-4ce6-ba70-8b8d6a392c0f
+      level: 1
+    - ==: SubClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      sub-class-id: 6ca47d14-446c-418f-bda3-6237f091036e
+      level: 1

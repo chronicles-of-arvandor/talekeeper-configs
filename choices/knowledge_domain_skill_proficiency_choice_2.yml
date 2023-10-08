@@ -1,0 +1,46 @@
+choice:
+  ==: Choice
+  id: 1e9a0f4d-12d0-49b0-8594-860323ec022b
+  text: Knowledge Domain Skill Proficiency Choice (2)
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      sub-class-id: e24fb860-4952-445f-bce8-3c568bab4908
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: a64f244d-e266-425b-b286-fd1d49e66075
+      text: Arcana
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ARCANA
+    - ==: ChoiceOption
+      id: 98df6a4e-ea05-4eb8-b732-f0547b560c11
+      text: History
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - HISTORY
+    - ==: ChoiceOption
+      id: d9c50898-93c5-4738-a5d6-db8ea06661a8
+      text: Nature
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - NATURE
+    - ==: ChoiceOption
+      id: c90d87b3-066b-4edb-b537-364c74c8a09f
+      text: Religion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - RELIGION

@@ -1,0 +1,37 @@
+choice:
+  ==: Choice
+  id: b8c60d48-2730-49e7-bc48-8ae148be3b13
+  text: Fey Wanderer Skill Proficiency Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+      sub-class-id: 49fcfeb4-f72d-40ea-bd6b-8f9c981a334b
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 466b06dd-6882-42b0-96c7-a34a9a13a0ca
+      text: Deception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - DECEPTION
+    - ==: ChoiceOption
+      id: 9531dade-29d3-42b8-bffc-843bbcb43c3a
+      text: Performance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERFORMANCE
+    - ==: ChoiceOption
+      id: d9864ab3-cfbd-4f2b-a95d-f01dd00ee3ed
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION

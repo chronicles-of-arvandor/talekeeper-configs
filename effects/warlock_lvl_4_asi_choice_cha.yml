@@ -1,0 +1,8 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    CHARISMA: 1
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 2f685407-ebe9-44fd-b12e-10cdf83fdf31
+      option-id: 56a93bff-bb4e-4cab-8794-cfc2de20a3d4

@@ -89,3 +89,15 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: f58fd89d-3b1a-427c-9f8f-9b3dbbb488bc
+    - ==: SubClassPrerequisite
+      class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+      sub-class-id: 4d949df7-d627-4be3-b920-a76d62b72d04
+      level: 3
+    - ==: SubClassPrerequisite
+      class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+      sub-class-id: abd56abd-6752-447b-91d5-5fd1b7883a52
+      level: 3
+    - ==: SubClassPrerequisite
+      class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+      sub-class-id: 8273c3e0-040c-4d44-906b-2eeee99a5498
+      level: 3

@@ -1,0 +1,423 @@
+choice:
+  ==: Choice
+  id: 530d64df-992e-4dd3-8b1f-490fec676bf2
+  text: Warlock Level 6 Spell Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+      level: 6
+  options:
+    - ==: ChoiceOption
+      id: 352743bc-4e68-4655-b85d-34ed9fa10bd4
+      text: Armor of Agathys
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 59d4cc87-1e71-4599-ac22-7cf33e8fa084
+    - ==: ChoiceOption
+      id: 379cefa3-6e4f-4d3c-b9a9-2d1fdfe1f5fe
+      text: Arms of Hadar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8a54ad7e-d6c6-4961-8d81-9e5dc1d43033
+    - ==: ChoiceOption
+      id: 25dfa45c-ebe4-4e10-9a44-1597aaf979d6
+      text: Cause Fear
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 5bb61c30-9424-40f5-8fff-39abdb84e163
+    - ==: ChoiceOption
+      id: b4dd1fa8-2b68-409d-bb7a-b91f82a6dfee
+      text: Charm Person
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 51646f5d-a8e0-4d35-b7bf-3921acdcec53
+    - ==: ChoiceOption
+      id: fc769700-af0a-4c6b-9bb9-1eba1d6b15c2
+      text: Cloud of Daggers
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 51763d7e-5b34-4a35-963d-3b711963a852
+    - ==: ChoiceOption
+      id: 4cfe692b-bf21-405f-ba4b-db5700535513
+      text: Comprehend Languages
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0d2fec2-a0c7-4dec-a569-26d0af264291
+    - ==: ChoiceOption
+      id: d4b3fdaf-7450-4d6f-8b51-ac22620aa377
+      text: Counterspell
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e63c8f84-1516-4179-8041-ae4d58440034
+    - ==: ChoiceOption
+      id: e836afb6-c78f-43b4-abae-ccfe8330b39a
+      text: Crown of Madness
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8ba79089-9ac5-403c-a3c3-66cc0d23c155
+    - ==: ChoiceOption
+      id: 961541dc-b30e-497e-a900-0adf66eb0c93
+      text: Darkness
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 22a26c31-8b44-44a3-875c-9d1ab178b435
+    - ==: ChoiceOption
+      id: d20888cf-aa27-422e-a4ff-d20471aaab34
+      text: Dispel Magic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 5b9aa1a7-b9b2-4c6c-8f3d-efd723fc80fb
+    - ==: ChoiceOption
+      id: 9507292d-63ff-4a62-a88b-5d6c7723d3b6
+      text: Earthbind
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cfb06fe0-1679-49d9-90b8-207d4fe968d5
+    - ==: ChoiceOption
+      id: 20ae73cd-115a-432b-a18f-d544457b4238
+      text: Enemies Abound
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1ba1513a-1519-4b25-96f0-6e09ce2e96e1
+    - ==: ChoiceOption
+      id: a5caee22-05ae-449d-91eb-d459254078ed
+      text: Enthrall
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cbf62a23-9fb3-4431-ab22-a186f969213c
+    - ==: ChoiceOption
+      id: 43dc9812-ef6a-4bc4-9ec6-5ad0862d4aea
+      text: Expeditious Retreat
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1a623eab-bb65-4cc4-9ae9-54c159464033
+    - ==: ChoiceOption
+      id: 1593f4db-9354-4d1f-b3a8-ea321c4944d1
+      text: Fear
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ea62ea27-fa1a-48f1-a073-7b7a6d997833
+    - ==: ChoiceOption
+      id: 678acd81-1e79-4669-a889-9b6350c20ebe
+      text: Fly
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - decf4e92-323b-41a2-98ca-c391e5e49295
+    - ==: ChoiceOption
+      id: 58400912-7638-448c-a07c-0d0498fda05a
+      text: Gaseous Form
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 9c1ae274-8b46-43e1-8be0-b52cd0e15ca0
+    - ==: ChoiceOption
+      id: eb777d5a-59e6-41e4-b0f2-7197dcb959cf
+      text: Hellish Rebuke
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2a6df7c9-ace4-4b24-8d09-1a702ce174c8
+    - ==: ChoiceOption
+      id: 275e6594-a196-4197-abae-e67cfb785ccb
+      text: Hex
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ca99e64d-28cd-4c43-9e23-b0cf34c53c00
+    - ==: ChoiceOption
+      id: 31c01df6-2720-4801-9e90-353d1955bde6
+      text: Hold Person
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 24b4e7c7-ae96-4d1a-980b-992c9f9572ce
+    - ==: ChoiceOption
+      id: 5a7d2e31-71a3-4707-a284-6badd351f1d5
+      text: Hunger of Hadar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d48e1206-7ace-4277-8859-6bf2ec1efd00
+    - ==: ChoiceOption
+      id: 186fc3fb-1e9c-4b3f-ae71-d0e022725652
+      text: Hypnotic Pattern
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2c5cb903-e577-41ad-a55d-39753309cfe5
+    - ==: ChoiceOption
+      id: 9da3b2c4-128e-49dd-86f2-2ece99492a0d
+      text: Illusory Script
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2092af07-feac-4255-af5f-846c7dd40bb3
+    - ==: ChoiceOption
+      id: 642da729-fc3d-484c-bfb2-a7740856d328
+      text: Invisibility
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 0f4831cd-dcd0-42d8-8bc3-f07548d33124
+    - ==: ChoiceOption
+      id: 9954db9d-3cb6-4def-9e21-26ce21915c3b
+      text: Magic Circle
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - b135c71b-e5f3-422c-a92f-e72f8e8dbd10
+    - ==: ChoiceOption
+      id: 4eed7f6f-7ebf-4512-9244-cd9a7be5aad9
+      text: Major Image
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 83b22cfc-a0bc-4836-a13b-1a734b3d3cd0
+    - ==: ChoiceOption
+      id: 3d911159-187b-41d7-80a0-b4888d0ab8d9
+      text: Mind Spike
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d70f3835-f6dd-45a8-bdb7-c4d35e801d69
+    - ==: ChoiceOption
+      id: be513aa5-4e0f-493c-8ed3-83ea191ab77b
+      text: Mirror Image
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 84172b37-7252-47b2-b8f4-7967780743be
+    - ==: ChoiceOption
+      id: 63e8d176-ff1b-4c92-8eed-5ac29e403027
+      text: Misty Step
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6aeb8ea3-c4e4-4260-b0a9-c79d0e52567d
+    - ==: ChoiceOption
+      id: fca7a243-beab-493d-9f25-c6de548e4b04
+      text: Protection from Evil and Good
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - eb2ff821-7cb5-4b85-8445-be03b41373fd
+    - ==: ChoiceOption
+      id: 72e59276-ef75-495a-9231-fe78ce490791
+      text: Ray of Enfeeblement
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 5f0cd983-d356-4043-bb98-4947e1942bff
+    - ==: ChoiceOption
+      id: 0b60b3a0-e0a7-4c4b-902c-ad6490961243
+      text: Remove Curse
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cb2a9a43-10b7-4836-96b1-d16596454bfd
+    - ==: ChoiceOption
+      id: 2dddc100-519c-4203-8123-61c0e019edfa
+      text: Shadow Blade
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1a557463-40bc-4e1e-a9ac-2a42ad859ffd
+    - ==: ChoiceOption
+      id: 12f8e79c-d5ea-49e5-b8be-cba89b6f23b9
+      text: Shatter
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - f8d53f36-e6bc-4d3e-b421-9e9a13338dbf
+    - ==: ChoiceOption
+      id: c5a3f5e4-efa5-4c0c-9a3a-11cd0fedaafa
+      text: Spider Climb
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ae0ee077-53b5-4d23-9cda-5ba2c1a7abb2
+    - ==: ChoiceOption
+      id: 2706fa06-f5aa-4193-9ed6-8636a827a4df
+      text: Spirit Shroud
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - dd7f4f68-0ad7-459e-93ba-0dc85920fc0e
+    - ==: ChoiceOption
+      id: 7e4379d7-ba5f-4355-acc4-7e0a77d77167
+      text: Suggestion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8b1e4ec4-9b9c-469c-80ab-3b659e7ae4fc
+    - ==: ChoiceOption
+      id: 951d00d7-3a19-45e7-a543-35733833c32d
+      text: Summon Fey
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 31914c07-f445-4d5c-a151-3e1b85b63802
+    - ==: ChoiceOption
+      id: 1a5d0241-83fb-439e-a580-e247ca694881
+      text: Summon Lesser Demons
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 0346ef7f-43ce-4d7e-af85-2772171e7ece
+    - ==: ChoiceOption
+      id: 6a100cc0-5844-47d5-a3a1-04c6b2810831
+      text: Summon Shadowspawn
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c4ff161b-5a28-4208-b995-385b0f562d1d
+    - ==: ChoiceOption
+      id: 2302aad9-3475-4541-8fec-86cb6b488c1b
+      text: Summon Undead
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8df9e85e-6210-4c5f-97cf-b54918bca909
+    - ==: ChoiceOption
+      id: 1c25c4f8-2597-43e1-86cc-f27716638663
+      text: Thunder Step
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d633af93-e6d0-4a21-9bb5-a33f02d687a0
+    - ==: ChoiceOption
+      id: e7af6f74-703c-43e4-b3a6-99155a8363d5
+      text: Tongues
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ee81ba48-1637-4741-801e-9187fb4b7064
+    - ==: ChoiceOption
+      id: c179ca42-5d71-4157-b499-c3f57768cf70
+      text: Unseen Servant
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c9d53670-161b-4de0-99c7-17fb094209e7
+    - ==: ChoiceOption
+      id: 5dfe05d4-ec85-48b4-a177-7012e4f3d13d
+      text: Vampiric Touch
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 159bee9f-ca5e-45a8-84fd-412fb0a58dbd
+    - ==: ChoiceOption
+      id: ca2ddc94-f974-4ef5-b3b6-0e72a4d7eed1
+      text: Witch Bolt
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 5c86e718-3849-4841-aa32-ba70ca0eaf7f

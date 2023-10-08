@@ -1,0 +1,28 @@
+choice:
+  ==: Choice
+  id: 260cb89b-2e25-458d-9d8e-429b8bfc367b
+  text: Order Domain Skill Proficiency Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      sub-class-id: 482e3790-732e-4342-ba2a-5b6c4a1dca5f
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 5105119f-508e-4fef-892a-b7122d0de8d2
+      text: Intimidation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INTIMIDATION
+    - ==: ChoiceOption
+      id: 263c729d-bfe8-441e-b249-de4a84b22e08
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION

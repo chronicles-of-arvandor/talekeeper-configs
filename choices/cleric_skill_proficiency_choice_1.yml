@@ -1,0 +1,54 @@
+choice:
+  ==: Choice
+  id: 5f093fa4-84cf-41ed-bced-8a1d8c8e6b83
+  text: Cleric Skill Proficiency Works (1)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: a0416777-2c3c-4f83-9dce-4110d029953c
+      text: History
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - HISTORY
+    - ==: ChoiceOption
+      id: bda9743f-c6b2-4124-85a8-442c3fc4e0fc
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: 0db54ca0-283b-40d3-9946-fedcf7e49a32
+      text: Medicine
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - MEDICINE
+    - ==: ChoiceOption
+      id: 1f2e30f7-1d31-4972-8806-6ee78fa55327
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION
+    - ==: ChoiceOption
+      id: d5468581-0822-4f4d-a043-d3cf3326f894
+      text: Religion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - RELIGION

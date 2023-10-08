@@ -1,0 +1,37 @@
+choice:
+  ==: Choice
+  id: f038a38b-ec05-46fc-948a-470d1f0d280e
+  text: Nature Domain Skill Proficiency Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      sub-class-id: 8dd073a0-42d9-4c84-96fb-80e6080b20e7
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 8a5f2162-5393-4bc3-9211-fd32f72a6e8c
+      text: Animal Handling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ANIMAL_HANDLING
+    - ==: ChoiceOption
+      id: a51db3ae-a3ba-4a88-9f84-5c01d7a25267
+      text: Nature
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - NATURE
+    - ==: ChoiceOption
+      id: 24ec524f-23ec-4b01-8a0b-67be282869fb
+      text: Survival
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SURVIVAL

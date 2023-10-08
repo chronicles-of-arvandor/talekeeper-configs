@@ -17,3 +17,24 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: 41e035e5-680e-4d06-ba54-7f8778142946
+        - ==: ChoicePrerequisite
+          choice-id: 4d977f27-980f-4a7c-a5b7-8165c76805cf
+          option-id: 1d1bd785-17cd-40d1-a272-2401aa6cb24d
+        - ==: ChoicePrerequisite
+          choice-id: f9ffea64-fdb3-4358-91c1-e1d635e2380d
+          option-id: 8a55cb7b-71ba-43fb-8a13-e0c6e8525dd9
+        - ==: ChoicePrerequisite
+          choice-id: dd3d3ae8-3f07-4394-8552-e264d344f14e
+          option-id: 64510b83-31bb-49b8-aff9-6d31f1cac512
+        - ==: ChoicePrerequisite
+          choice-id: 8b6808f8-0f95-4e76-98ea-e063e2391371
+          option-id: b1847d96-1cf5-4aa0-b932-cbbcc22e5615
+        - ==: ChoicePrerequisite
+          choice-id: e452ea04-6581-4781-bab1-130e2072d2e0
+          option-id: bb8db496-a29c-4270-a86d-a921d03a3e00
+        - ==: ChoicePrerequisite
+          choice-id: dfee654d-2f4f-466c-9402-e89c9e6cf375
+          option-id: b555925e-fb38-4630-ae6c-cabae3428239
+        - ==: ChoicePrerequisite
+          choice-id: 530d64df-992e-4dd3-8b1f-490fec676bf2
+          option-id: 275e6594-a196-4197-abae-e67cfb785ccb

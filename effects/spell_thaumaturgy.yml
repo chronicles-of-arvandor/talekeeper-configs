@@ -11,3 +11,15 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: 472a1843-9000-4dab-9c4f-53d7d911e721
+        - ==: ChoicePrerequisite
+          choice-id: 4e7477d9-000f-4994-8237-2d44dbe34d33
+          option-id: 012906f8-c2a0-42ad-b178-a77d89af44f7
+        - ==: ChoicePrerequisite
+          choice-id: 7c273480-3505-40c4-98a4-83fbe9bc270b
+          option-id: b232b6d0-bc12-4f66-b974-4174d1dda6ad
+        - ==: ChoicePrerequisite
+          choice-id: cf30da4b-159e-4b47-bc8d-874807d7fd13
+          option-id: 74150acb-af87-4d93-a5f4-0aa481ab12f8
+        - ==: ChoicePrerequisite
+          choice-id: 7dfbeaea-7dd5-4de5-921c-98bae7d928b1
+          option-id: 878abf83-911d-4a07-bc74-ad5563ecb091

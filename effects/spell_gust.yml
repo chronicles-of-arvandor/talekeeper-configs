@@ -50,3 +50,12 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: 1b93cd5f-696d-4461-ac22-565d0355757b
+        - ==: ChoicePrerequisite
+          choice-id: 5c83f418-8913-48c5-adaa-df794c8b67f3
+          option-id: 575868c5-9675-4aba-a5cf-746229fe5f0a
+        - ==: ChoicePrerequisite
+          choice-id: 542cd5b2-4d41-4503-808a-e5ed3101411c
+          option-id: a164b557-c13c-429c-bd37-06fe6164e72b
+        - ==: ChoicePrerequisite
+          choice-id: 602e42ca-e624-4825-ae0b-c591be203a94
+          option-id: 08849383-01e5-4db1-8dc0-e7b36b815554

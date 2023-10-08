@@ -1,0 +1,37 @@
+choice:
+  ==: Choice
+  id: 52704710-6245-4b17-b8c2-b3c8dab1d43c
+  text: Peace Domain Skill Proficiency Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      sub-class-id: 7e5aaeec-6495-4857-b669-b617a9c5e6df
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: d4eedc3a-599a-4799-b46c-ad10af177e60
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: b23a66d9-f901-44d6-ab93-cab0f6398197
+      text: Performance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERFORMANCE
+    - ==: ChoiceOption
+      id: 455eea48-c800-4d25-a35d-1201ce18e97b
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION

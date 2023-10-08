@@ -1,0 +1,180 @@
+choice:
+  ==: Choice
+  id: 7a900d68-580a-4246-b68a-c499f21924ad
+  text: Ranger 3rd level Spell Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+      level: 3
+  options:
+    - ==: ChoiceOption
+      id: c676c13b-c70c-4916-9d2b-7dfdffab1f31
+      text: Absorb Elements
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2fe0913a-66f5-45a1-bc13-8c081bcb3f7a
+    - ==: ChoiceOption
+      id: e7d9754b-e095-4779-876f-b0153b44ae96
+      text: Alarm
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - f770d723-21a1-4f1c-8891-7222b8f68987
+    - ==: ChoiceOption
+      id: b2c4519f-7849-4bb6-ad12-5d59d16355d0
+      text: Animal Friendship
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a34af202-19bc-4a78-94ea-168472e9baf2
+    - ==: ChoiceOption
+      id: 6caea299-8447-43a0-a71e-719f2086bcd8
+      text: Beast Bond
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d8e5e0e1-b7de-4e91-b0f5-e56486e4b404
+    - ==: ChoiceOption
+      id: 77fa64a6-47b9-434d-939a-1edf1183e76a
+      text: Cure Wounds
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8533d133-cfab-4dae-84f1-bfa76a3dff13
+    - ==: ChoiceOption
+      id: 95184d68-7c29-4ece-8437-3c60f2c0404c
+      text: Detect Magic
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 1357e1dd-30a8-48b4-a8ae-264789343338
+    - ==: ChoiceOption
+      id: a8d78936-5f7e-4a1b-bd7a-c620ce6bc7e4
+      text: Detect Poison and Disease
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 742808f5-27de-4a43-87a1-b7c9bf1b7379
+    - ==: ChoiceOption
+      id: 18dd2c28-2239-401e-9817-e640376ef6f5
+      text: Ensnaring Strike
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 00b497e3-1ce5-4a0a-ad92-8211819b6199
+    - ==: ChoiceOption
+      id: 6467007c-2f3e-477b-aa11-77cbb1c69bdb
+      text: Entangle
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ee999473-c9a1-4db5-a085-e20401639238
+    - ==: ChoiceOption
+      id: c7780396-e88b-49fd-9074-13fcf41cbd07
+      text: Fog Cloud
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c34b2565-f909-4376-9451-8aa7a8290bfb
+    - ==: ChoiceOption
+      id: c6bad438-6403-4124-b4d0-1626383d2e19
+      text: Goodberry
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6ed8eda3-ef13-4df6-8769-18399f0d395d
+    - ==: ChoiceOption
+      id: 2cc5762d-a740-40c3-acbe-fadae969c32c
+      text: Hail of Thorns
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 9a670c6f-9512-4c2f-ab2c-d1f455a4c53f
+    - ==: ChoiceOption
+      id: 20402a16-2fe5-485a-ab8d-9a0c653dbb12
+      text: Hunter's Mark
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a00a2ef9-bf76-4fe9-b7ab-2ca5581af39c
+    - ==: ChoiceOption
+      id: 1b32f276-63c6-4514-9d10-2ddb57c4d788
+      text: Jump
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8cba7ae0-5448-423f-92ad-a9cd8339997d
+    - ==: ChoiceOption
+      id: 0ed7aeb0-cce6-4c2b-8d09-853e95b5d0a1
+      text: Longstrider
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e6a1b955-6458-4b83-be56-c77bd4d8945a
+    - ==: ChoiceOption
+      id: 2a7f1fd6-1792-46ca-8f85-3e5999d48240
+      text: Searing Smite
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - f682a9a4-5e0d-4291-a7b2-eec99773178a
+    - ==: ChoiceOption
+      id: 8c37e4d9-0bd2-44a9-a7dd-da7b8523840c
+      text: Snare
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2f73a357-3d09-47b5-9d96-1ffbb322c602
+    - ==: ChoiceOption
+      id: bf21bfca-43f6-4eda-9052-82f48bd82977
+      text: Speak with Animals
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6607316c-5e54-43ba-9357-e10286cd6161
+    - ==: ChoiceOption
+      id: 796e954a-4c8d-4b58-a4c0-142c6e5b4a86
+      text: Zephyr Strike
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 592127eb-ad30-4cf6-8963-3bbd08884386

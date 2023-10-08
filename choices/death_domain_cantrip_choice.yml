@@ -1,0 +1,40 @@
+choice:
+  ==: Choice
+  id: 45b06a1e-04f9-45c2-9be7-e44a772be54a
+  text: Death Domain Cantrip Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      sub-class-id: 76aafb6b-dc8c-4a00-9967-1a827e054f17
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: a52382e8-abaa-4a54-a0ae-6fc1baa2843b
+      text: Chill Touch
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 19139527-9542-4a43-8fec-997674f557ef
+    - ==: ChoiceOption
+      id: 47166ae8-b106-4ab5-ae6e-b9addc84958d
+      text: Spare the Dying
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 42e223a7-c858-4d31-beb2-fa6e652fe70d
+    - ==: ChoiceOption
+      id: 45e46bb4-b077-4035-9a8a-63ee93b3bd33
+      text: Toll the Dead
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 19a5c80e-0099-41ca-8071-1ead39826363
+    - ==: ChoiceOption
+      id: f54732c7-9a95-44d6-8bd5-a3c185fa7af3
+      text: Sapping Sting
