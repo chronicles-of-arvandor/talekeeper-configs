@@ -1,0 +1,16 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - bagpipes
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 592874e1-4f46-4e79-98f6-c6af425fb053
+          option-id: b3e6b94c-733c-46f2-827c-be83d9900c8e
+        - ==: ChoicePrerequisite
+          choice-id: 844ed632-9679-4cd4-b2c5-b24d6a172f09
+          option-id: 4684c324-99f1-447f-b1ee-2f01293870fb
+        - ==: ChoicePrerequisite
+          choice-id: d6d3cdc3-8da0-4ca4-932d-6a9f084f5a4d
+          option-id: ec98779f-4997-41bc-9da5-1dab9c10db7c

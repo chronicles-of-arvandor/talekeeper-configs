@@ -8,3 +8,6 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
           option-id: 63de588f-b111-417a-be13-2705f7dd1c6f
+    - ==: ClassPrerequisite
+      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+      level: 1

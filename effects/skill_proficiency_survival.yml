@@ -50,6 +50,12 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: f038a38b-ec05-46fc-948a-470d1f0d280e
           option-id: 24ec524f-23ec-4b01-8a0b-67be282869fb
+        - ==: ChoicePrerequisite
+          choice-id: ba198a29-dfd9-4edb-9338-db4f28f34a45
+          option-id: 70eca74e-9787-4535-9506-a51cab90eac4
+        - ==: ChoicePrerequisite
+          choice-id: 7aa5b311-b0b3-4071-9b70-8bd22c59ec76
+          option-id: 5c185f89-a97f-448a-83ba-e7781a313663
     - ==: SubClassPrerequisite
       class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
       sub-class-id: 730bd84c-4758-4b2f-9c97-caabd3af320f

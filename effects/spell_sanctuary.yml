@@ -21,3 +21,11 @@ effect:
       class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
       sub-class-id: 7e5aaeec-6495-4857-b669-b617a9c5e6df
       level: 1
+    - ==: SubClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      sub-class-id: e5d356b5-46b2-41c4-ba7a-7fd5fed49751
+      level: 1
+    - ==: SubClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      sub-class-id: 9a4760c4-cbf6-4b74-b97a-f77d2c9f0f71
+      level: 1

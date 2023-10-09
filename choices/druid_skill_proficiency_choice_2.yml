@@ -1,0 +1,81 @@
+choice:
+  ==: Choice
+  id: 7aa5b311-b0b3-4071-9b70-8bd22c59ec76
+  text: Druid Skill Proficiency Choice (2)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 0cf5e739-5174-4d6f-8e42-4506274d03b9
+      text: Animal Handling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ANIMAL_HANDLING
+    - ==: ChoiceOption
+      id: d31b7175-8b47-4521-9c6a-46db39d13211
+      text: Arcana
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ARCANA
+    - ==: ChoiceOption
+      id: 23aabe05-5b13-464e-9432-77d28881946c
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: 187a012a-0ffa-4c91-b5b8-80abf142a688
+      text: Medicine
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - MEDICINE
+    - ==: ChoiceOption
+      id: 791ae59d-7d69-422e-a133-ccacd6eda40f
+      text: Nature
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - NATURE
+    - ==: ChoiceOption
+      id: 8cd5b33a-5fb6-4a49-a286-2aacfd1b3b2e
+      text: Perception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERCEPTION
+    - ==: ChoiceOption
+      id: 82a2b7a3-cc46-4741-bc21-7c414dfea092
+      text: Religion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - RELIGION
+    - ==: ChoiceOption
+      id: 5c185f89-a97f-448a-83ba-e7781a313663
+      text: Survival
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SURVIVAL

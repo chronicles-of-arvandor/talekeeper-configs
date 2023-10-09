@@ -1,0 +1,207 @@
+choice:
+  ==: Choice
+  id: 592874e1-4f46-4e79-98f6-c6af425fb053
+  text: Bard Musical Instrument Item Proficiency Choice (1)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: b3e6b94c-733c-46f2-827c-be83d9900c8e
+      text: bagpipes
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - bagpipes
+    - ==: ChoiceOption
+      id: ed9ce532-4f03-4cf6-8558-113eb4d18eef
+      text: birdpipes
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - birdpipes
+    - ==: ChoiceOption
+      id: 75c72ed2-fa98-4bad-8223-23270fa1aa41
+      text: drum
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - drum
+    - ==: ChoiceOption
+      id: 28aa63e7-8fc3-4a8c-81d6-f32abe4561b5
+      text: dulcimer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - dulcimer
+    - ==: ChoiceOption
+      id: e78bf841-c533-43b4-998b-1b4a4aa6372c
+      text: flute
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - flute
+    - ==: ChoiceOption
+      id: 907d0b1a-0dfb-4c43-af82-fe37ebd4455e
+      text: glaur
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - glaur
+    - ==: ChoiceOption
+      id: 17c51ef5-a603-442a-93b2-fb4bc2e33969
+      text: hand drum
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - hand drum
+    - ==: ChoiceOption
+      id: 23c70574-6695-4d75-b583-289663f27e4f
+      text: horn
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - horn
+    - ==: ChoiceOption
+      id: 7e86a72c-01f8-40e7-a049-b8e736132825
+      text: longhorn
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - longhorn
+    - ==: ChoiceOption
+      id: 013c54f8-599e-4636-a9e1-7952d31aa639
+      text: lute
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - lute
+    - ==: ChoiceOption
+      id: 15126312-20bf-4d1d-9c1a-625ad77e757a
+      text: lyre
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - lyre
+    - ==: ChoiceOption
+      id: 3c4f4e41-92a8-4d33-b367-c798d2c39a02
+      text: pan flute
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - pan flute
+    - ==: ChoiceOption
+      id: 2c4a6983-5b8e-4b5a-95cf-c00eb5de57f8
+      text: shawm
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - shawm
+    - ==: ChoiceOption
+      id: 21ec4b01-3170-4813-aeb0-47173a39eafe
+      text: songhorn
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - songhorn
+    - ==: ChoiceOption
+      id: 8b833853-35c5-48c1-abb1-3310df7048eb
+      text: tantan
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - tantan
+    - ==: ChoiceOption
+      id: d85d202f-d86d-418a-b1da-959f6c17dde6
+      text: thelarr
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - thelarr
+    - ==: ChoiceOption
+      id: 376e5f8e-77b6-4860-a213-c3a68855cb8a
+      text: tocken
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - tocken
+    - ==: ChoiceOption
+      id: de2297e1-3970-4e66-95b1-816c49c79224
+      text: viol
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - viol
+    - ==: ChoiceOption
+      id: 27c707fb-2470-4882-96f6-5ed6815358e2
+      text: wargong
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - wargong
+    - ==: ChoiceOption
+      id: bfb6f697-4f2c-4451-8e6e-7c4fea49f4dc
+      text: whistle-stick
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - whistle-stick
+    - ==: ChoiceOption
+      id: c05806d1-e481-4d35-9db1-4815b8e8e719
+      text: yarting
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - yarting
+    - ==: ChoiceOption
+      id: 42139640-74eb-4720-bdbe-329d6ef6797e
+      text: zulkoon
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - zulkoon

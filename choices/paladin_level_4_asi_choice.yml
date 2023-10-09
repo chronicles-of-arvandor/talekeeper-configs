@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: f910f977-5b2c-41a3-8ee3-902864eae564
+  text: Paladin Level 4 ASI Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      level: 4
+  options:
+    - ==: ChoiceOption
+      id: e2dec746-0ec9-4e39-a2f7-1198d14fa406
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 9de651e8-8dac-41e8-a1ef-26dde55e11e8
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: ac3901af-1ca0-4819-b174-e68e06a4c4bf
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 8da2d02b-0eda-408d-baaa-2d07fdf6411e
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: b969520c-2853-4a6b-8b4f-a80ee656c07e
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: e45a1c70-ed31-4dba-935f-d5fdd5767bc9
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

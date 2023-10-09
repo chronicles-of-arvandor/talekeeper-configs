@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 2cee07a7-1618-4a19-aeac-cdcdd41b06ca
+  text: Paladin Skill Proficiency Choice (1)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: fcd080ac-1814-47a5-9454-1336ec638897
+      text: Athletics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ATHLETICS
+    - ==: ChoiceOption
+      id: 2a10e68d-f634-4134-aa54-5735f7800300
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: f599b995-e269-4467-8c11-8c4ac2bf5886
+      text: Intimidation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INTIMIDATION
+    - ==: ChoiceOption
+      id: 4553eaec-21a7-4395-a056-cb15d560c5cd
+      text: Medicine
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - MEDICINE
+    - ==: ChoiceOption
+      id: 8a773a7f-5519-4870-a429-bed808094460
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION
+    - ==: ChoiceOption
+      id: d7b12a84-1bfc-491a-8b7c-4262d2e797c0
+      text: Religion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - RELIGION

@@ -84,6 +84,21 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 542cd5b2-4d41-4503-808a-e5ed3101411c
           option-id: 0deed478-cd89-43ea-b7ab-8620629d2a4a
+        - ==: ChoicePrerequisite
+          choice-id: 100cc834-776d-4d27-ab5b-78788686b709
+          option-id: 73e87f1f-2fdf-46dc-9877-32291af37d47
+        - ==: ChoicePrerequisite
+          choice-id: eb9a3d34-74c1-4324-92fa-030bd1fc6d93
+          option-id: 3a2d7a20-946a-4415-9baa-4f952e9593bd
+        - ==: ChoicePrerequisite
+          choice-id: 9a218df2-28d4-415a-9126-4176ff87e057
+          option-id: 88184152-af07-4fb6-9f0b-5f2fc51b317d
+        - ==: ChoicePrerequisite
+          choice-id: bae358bb-c462-41fd-8e48-dfb2abf4057b
+          option-id: 3d9b4ad0-ceec-46dd-80c1-78b76d5794e1
+        - ==: ChoicePrerequisite
+          choice-id: 4cb1bb8a-596f-4605-be30-524323bad72f
+          option-id: ec8ce717-c1bc-4ed6-a277-78d0f88a7b72
     - ==: OrPrerequisite
       prerequisites:
         - ==: SubClassPrerequisite

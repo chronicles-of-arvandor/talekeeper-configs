@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: d797e190-2441-4e54-b75f-18ade6d200c9
+  text: Sorcerer Level 4 ASI Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+      level: 4
+  options:
+    - ==: ChoiceOption
+      id: c38b47af-1ebd-45ba-8e54-6399c814de7e
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 7908587e-530e-4b9b-b5e3-0ee4c69e20a8
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: d3a44169-fd5f-4908-873a-5d0d1ae1dbe2
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 387d4b5b-e958-4399-b1cd-e310d54c524f
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: cfd16f73-eb57-4064-92d8-a595e9e8c002
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: cb87f6e2-98cb-4732-a265-138f0de789af
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

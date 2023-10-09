@@ -1,0 +1,16 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - tocken
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 592874e1-4f46-4e79-98f6-c6af425fb053
+          option-id: 376e5f8e-77b6-4860-a213-c3a68855cb8a
+        - ==: ChoicePrerequisite
+          choice-id: 844ed632-9679-4cd4-b2c5-b24d6a172f09
+          option-id: 17242b88-bcb0-4196-88c9-634331142fca
+        - ==: ChoicePrerequisite
+          choice-id: d6d3cdc3-8da0-4ca4-932d-6a9f084f5a4d
+          option-id: aba5ed66-4cd8-4c96-84f3-7b8fc9e5266b

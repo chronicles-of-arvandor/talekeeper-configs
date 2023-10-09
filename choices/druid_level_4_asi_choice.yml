@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: de36eb29-a5db-4e69-93ca-ce1f8e587e54
+  text: Druid Level 4 ASI Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+      level: 4
+  options:
+    - ==: ChoiceOption
+      id: 8471b7bf-6adb-46e5-b5bf-ed206bf27223
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 87d1860a-6d6b-4371-8f7d-a3ae866ec33a
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: 77956e23-502b-484e-854d-a3d8481eaf5d
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 8eaca1bd-dc3d-48e9-97ce-9864d4fe768d
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 561b12ab-79c3-4710-ac4a-e0606d80d5b7
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: b53e6e35-1a6f-4907-b4c0-2982b5234723
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

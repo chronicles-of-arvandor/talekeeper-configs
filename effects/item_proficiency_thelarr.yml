@@ -1,0 +1,16 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - thelarr
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 592874e1-4f46-4e79-98f6-c6af425fb053
+          option-id: d85d202f-d86d-418a-b1da-959f6c17dde6
+        - ==: ChoicePrerequisite
+          choice-id: 844ed632-9679-4cd4-b2c5-b24d6a172f09
+          option-id: 7c4b3626-49c0-47cd-bb25-f2e5b021e6bc
+        - ==: ChoicePrerequisite
+          choice-id: d6d3cdc3-8da0-4ca4-932d-6a9f084f5a4d
+          option-id: 1d1ff0f8-b105-4623-9224-c6ea3ee1fe95

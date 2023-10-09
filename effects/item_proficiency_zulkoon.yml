@@ -1,0 +1,16 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - zulkoon
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 592874e1-4f46-4e79-98f6-c6af425fb053
+          option-id: 42139640-74eb-4720-bdbe-329d6ef6797e
+        - ==: ChoicePrerequisite
+          choice-id: 844ed632-9679-4cd4-b2c5-b24d6a172f09
+          option-id: 42801d6e-6797-4f3b-b7b2-aee2add1f958
+        - ==: ChoicePrerequisite
+          choice-id: d6d3cdc3-8da0-4ca4-932d-6a9f084f5a4d
+          option-id: 075b8506-fe79-4b2a-bec3-7ad022546d1f

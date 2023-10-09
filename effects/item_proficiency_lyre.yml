@@ -1,0 +1,16 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - lyre
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 592874e1-4f46-4e79-98f6-c6af425fb053
+          option-id: 15126312-20bf-4d1d-9c1a-625ad77e757a
+        - ==: ChoicePrerequisite
+          choice-id: 844ed632-9679-4cd4-b2c5-b24d6a172f09
+          option-id: 80032593-4758-4013-9ceb-0c36b99b712d
+        - ==: ChoicePrerequisite
+          choice-id: d6d3cdc3-8da0-4ca4-932d-6a9f084f5a4d
+          option-id: e70f18ee-b296-44dc-8ecf-af8efa8b329b

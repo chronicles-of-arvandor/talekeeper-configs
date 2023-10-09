@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 809499f0-85c8-4d49-8ac1-dc0e5094639c
+  text: Sorceror Skill Proficiency Choice (2)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: c6c4e8d6-780c-4edd-a10d-f0aab8f09108
+      text: Arcana
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ARCANA
+    - ==: ChoiceOption
+      id: 26a8856e-b00b-41cc-9493-3df24822917a
+      text: Deception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - DECEPTION
+    - ==: ChoiceOption
+      id: 1a4126c4-c65c-4958-b25c-b5ed56aaaee2
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: b7ee23b9-556e-473c-adc5-b9b57cf210e0
+      text: Intimidation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INTIMIDATION
+    - ==: ChoiceOption
+      id: ac2150ba-62fe-4779-8d87-ea795975d80f
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION
+    - ==: ChoiceOption
+      id: 3304a614-aefd-4593-8596-17499c283d6e
+      text: Religion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - RELIGION

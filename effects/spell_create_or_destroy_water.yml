@@ -30,3 +30,7 @@ effect:
       class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
       sub-class-id: 60c655e8-97e7-468e-8b1c-0650f2dda1f5
       level: 1
+    - ==: SubClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      sub-class-id: e09538f0-ca9f-405b-8db7-914e764f6871
+      level: 1

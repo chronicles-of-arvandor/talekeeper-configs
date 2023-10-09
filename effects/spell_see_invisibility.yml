@@ -77,7 +77,23 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: 7f5bec00-6e4f-4959-9b19-05fc0c7f04f7
+        - ==: ChoicePrerequisite
+          choice-id: f176a303-4308-49c7-8aed-1fa4e7db35e1
+          option-id: 10c7127a-951a-420d-ac88-47c3cc4cd8ff
+        - ==: ChoicePrerequisite
+          choice-id: 54e34aff-eb2f-4701-a4dd-16b185f22f76
+          option-id: 59fa9229-c7a5-4b08-85f2-876723010c67
+        - ==: ChoicePrerequisite
+          choice-id: 4192ca7a-8809-4d46-b721-5cdb599a700a
+          option-id: aa0789f3-a8e0-4dcc-b32e-84196cdc36b5
+        - ==: ChoicePrerequisite
+          choice-id: b8d1912e-cbfa-4a4a-b930-5e6b99e5ba2a
+          option-id: d9806a8c-93f9-43b3-bcca-e8e7d4ce9898
     - ==: SubClassPrerequisite
       class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
       sub-class-id: fdb7542c-731f-42be-a4d4-b51df77809b2
+      level: 3
+    - ==: SubClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      sub-class-id: 600dd7a8-9706-43e2-841c-2209d9e72b5c
       level: 3

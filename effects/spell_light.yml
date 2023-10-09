@@ -83,6 +83,21 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 542cd5b2-4d41-4503-808a-e5ed3101411c
           option-id: 25a1eafc-9eaf-4924-84ec-3db62fbe1bf0
+        - ==: ChoicePrerequisite
+          choice-id: 100cc834-776d-4d27-ab5b-78788686b709
+          option-id: 4c769df8-d572-4a31-bbbf-008ce8905a24
+        - ==: ChoicePrerequisite
+          choice-id: eb9a3d34-74c1-4324-92fa-030bd1fc6d93
+          option-id: 124a9589-7a7c-423b-9036-50718f89d2e5
+        - ==: ChoicePrerequisite
+          choice-id: 9a218df2-28d4-415a-9126-4176ff87e057
+          option-id: d6bdd2d9-6f8c-4dcd-b7cf-6e3f7be7b50c
+        - ==: ChoicePrerequisite
+          choice-id: bae358bb-c462-41fd-8e48-dfb2abf4057b
+          option-id: 81aee292-9892-4113-8a6d-8b2931776adb
+        - ==: ChoicePrerequisite
+          choice-id: 4cb1bb8a-596f-4605-be30-524323bad72f
+          option-id: 26777c84-ef64-4374-9223-4de2087ab16d
     - ==: AncestryPrerequisite
       ancestry-id: 59cb2ad6-b2bf-432c-b6e8-a5e804dc4243
     - ==: SubClassPrerequisite

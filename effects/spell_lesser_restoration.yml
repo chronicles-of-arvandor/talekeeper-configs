@@ -88,3 +88,11 @@ effect:
       class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
       sub-class-id: 1e2ff8e3-90d2-49a7-8d79-9a5ee784da2b
       level: 3
+    - ==: SubClassPrerequisite
+      class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+      sub-class-id: 69130b22-7f74-458c-a9e2-eb7b8af3b858
+      level: 3
+    - ==: SubClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      sub-class-id: e5d356b5-46b2-41c4-ba7a-7fd5fed49751
+      level: 3

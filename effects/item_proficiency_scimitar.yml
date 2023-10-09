@@ -12,3 +12,6 @@ effect:
       class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
       sub-class-id: 03300739-47b3-4533-ba25-e6f60d093a40
       level: 1
+    - ==: ClassPrerequisite
+      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+      level: 1

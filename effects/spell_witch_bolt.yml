@@ -122,3 +122,24 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 530d64df-992e-4dd3-8b1f-490fec676bf2
           option-id: ca2ddc94-f974-4ef5-b3b6-0e72a4d7eed1
+        - ==: ChoicePrerequisite
+          choice-id: 7339657e-e49b-4a6b-aebd-c8967495c9f0
+          option-id: cd0e4519-edbb-445c-9ac8-41d6625b3ee9
+        - ==: ChoicePrerequisite
+          choice-id: eef322fc-2969-43b5-a1b9-92351b86e6a5
+          option-id: c41fdad8-704e-43c8-9f40-f9decadab37f
+        - ==: ChoicePrerequisite
+          choice-id: 7b2e5958-9ccb-46f7-8359-0bc3c0082d6f
+          option-id: c01a30b7-23cd-4148-adcd-1562788a9dae
+        - ==: ChoicePrerequisite
+          choice-id: f176a303-4308-49c7-8aed-1fa4e7db35e1
+          option-id: 69314e01-eb5f-47dc-89b8-793993d3454e
+        - ==: ChoicePrerequisite
+          choice-id: 54e34aff-eb2f-4701-a4dd-16b185f22f76
+          option-id: bc2478e5-4002-472b-9453-175c8890f1ea
+        - ==: ChoicePrerequisite
+          choice-id: 4192ca7a-8809-4d46-b721-5cdb599a700a
+          option-id: f49886c1-028a-49c6-b37a-2e94967be60b
+        - ==: ChoicePrerequisite
+          choice-id: b8d1912e-cbfa-4a4a-b930-5e6b99e5ba2a
+          option-id: cab076cb-fc7c-48d0-888c-79eca0583171

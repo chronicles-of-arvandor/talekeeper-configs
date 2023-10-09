@@ -92,3 +92,30 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 602e42ca-e624-4825-ae0b-c591be203a94
           option-id: c0b789e1-4050-4bbe-8f8d-a9b02d4b95ec
+        - ==: ChoicePrerequisite
+          choice-id: 100cc834-776d-4d27-ab5b-78788686b709
+          option-id: 5fc5b52b-c762-47a2-87fd-3f452ad37857
+        - ==: ChoicePrerequisite
+          choice-id: eb9a3d34-74c1-4324-92fa-030bd1fc6d93
+          option-id: faf82dba-8811-4301-8191-f793b559d03a
+        - ==: ChoicePrerequisite
+          choice-id: 9a218df2-28d4-415a-9126-4176ff87e057
+          option-id: 8c045c32-aac3-465b-b37b-1d41942a51cf
+        - ==: ChoicePrerequisite
+          choice-id: bae358bb-c462-41fd-8e48-dfb2abf4057b
+          option-id: 1e1fcca9-4c64-432c-960d-0b682f78e396
+        - ==: ChoicePrerequisite
+          choice-id: 4cb1bb8a-596f-4605-be30-524323bad72f
+          option-id: a59f0f1d-fbc4-43d2-b5c8-e6fd56139322
+        - ==: ChoicePrerequisite
+          choice-id: 8f13cb16-a96c-4644-a3a8-3085110bb0e4
+          option-id: bf395841-17f5-45ec-ab66-490cd2ce7c99
+        - ==: ChoicePrerequisite
+          choice-id: 75d8f487-22ce-440f-8b5d-c2f8346604cd
+          option-id: 1ab4e4b0-650e-4387-aefb-daf5ccbaa375
+        - ==: ChoicePrerequisite
+          choice-id: c46f808a-6224-4b3e-8565-3c9d91900d8a
+          option-id: fe67656c-de35-498a-8dec-7ad84f7cf915
+        - ==: ChoicePrerequisite
+          choice-id: b937326c-efb2-4808-b817-1569e102d555
+          option-id: 544618d7-d20b-432e-b238-2169d5345605

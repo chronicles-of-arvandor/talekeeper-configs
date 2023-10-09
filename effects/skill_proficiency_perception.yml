@@ -59,6 +59,12 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 7028824e-166a-4765-aed8-c8f1c33333f0
           option-id: 22545ea3-1684-4dfa-8a28-a28f18eb2af1
+        - ==: ChoicePrerequisite
+          choice-id: ba198a29-dfd9-4edb-9338-db4f28f34a45
+          option-id: f9ea90c4-c42f-4bc1-9d74-8dbaa2e6e3e2
+        - ==: ChoicePrerequisite
+          choice-id: 7aa5b311-b0b3-4071-9b70-8bd22c59ec76
+          option-id: 8cd5b33a-5fb6-4a49-a286-2aacfd1b3b2e
     - ==: AncestryPrerequisite
       ancestry-id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
     - ==: AncestryPrerequisite

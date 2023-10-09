@@ -17,3 +17,24 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: c6c58338-dd04-486d-8b50-a6c6b5fe5d7c
+        - ==: ChoicePrerequisite
+          choice-id: 7339657e-e49b-4a6b-aebd-c8967495c9f0
+          option-id: 474ae16d-b4e3-4959-a9a9-caabe3dae8d5
+        - ==: ChoicePrerequisite
+          choice-id: eef322fc-2969-43b5-a1b9-92351b86e6a5
+          option-id: 1ae648da-f1d3-404e-a234-339ebf4ea2ea
+        - ==: ChoicePrerequisite
+          choice-id: 7b2e5958-9ccb-46f7-8359-0bc3c0082d6f
+          option-id: 984493cc-a942-472d-9130-c65b62d70261
+        - ==: ChoicePrerequisite
+          choice-id: f176a303-4308-49c7-8aed-1fa4e7db35e1
+          option-id: d397dd0e-cdb4-4367-923a-b8d8e1df5c6b
+        - ==: ChoicePrerequisite
+          choice-id: 54e34aff-eb2f-4701-a4dd-16b185f22f76
+          option-id: 554cbdf5-4d76-4b2f-8d53-e1b149fe6d2e
+        - ==: ChoicePrerequisite
+          choice-id: 4192ca7a-8809-4d46-b721-5cdb599a700a
+          option-id: 9cafe692-85fb-4f4d-9f4d-c2260de5714b
+        - ==: ChoicePrerequisite
+          choice-id: b8d1912e-cbfa-4a4a-b930-5e6b99e5ba2a
+          option-id: f5839283-ec8f-4136-bb8d-2ac233c14368

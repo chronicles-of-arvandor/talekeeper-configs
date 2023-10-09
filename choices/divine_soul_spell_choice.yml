@@ -1,0 +1,55 @@
+choice:
+  ==: Choice
+  id: 71655496-240f-48eb-ab19-24a3c4316e53
+  text: Divine Soul Spell Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+      sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: fb6f2ff7-c515-48bc-9590-0371cc2edfb4
+      text: Cure Wounds
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8533d133-cfab-4dae-84f1-bfa76a3dff13
+    - ==: ChoiceOption
+      id: 17a018fc-f3a8-4917-ab35-c9e902ab8155
+      text: Inflict Wounds
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - fc5ff38e-8321-42e3-8fb0-890bbc457731
+    - ==: ChoiceOption
+      id: 29f6a432-30ed-4218-9d23-f4b681da3772
+      text: Bless
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 6c063b46-ea44-4e12-a15c-15f2405162f3
+    - ==: ChoiceOption
+      id: 81f30601-6acc-4aa8-9102-12511353b282
+      text: Bane
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 61fb7468-dcbc-4170-b2f6-ac5ba72b317a
+    - ==: ChoiceOption
+      id: 0fe6690a-aca4-47ad-9412-b3ba6848fb55
+      text: Protection from Evil and Good
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - eb2ff821-7cb5-4b85-8445-be03b41373fd

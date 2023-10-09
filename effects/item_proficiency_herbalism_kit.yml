@@ -1,0 +1,8 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Herbalism Kit
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+      level: 1
