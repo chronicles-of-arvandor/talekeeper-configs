@@ -101,3 +101,7 @@ effect:
       class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
       sub-class-id: 8273c3e0-040c-4d44-906b-2eeee99a5498
       level: 3
+    - ==: SubClassPrerequisite
+      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+      sub-class-id: 76aafb6b-dc8c-4a00-9967-1a827e054f17
+      level: 3
