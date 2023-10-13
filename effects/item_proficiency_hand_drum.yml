@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - hand drum
+    - hand_drum
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

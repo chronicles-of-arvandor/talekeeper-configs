@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - pan flute
+    - pan_flute
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

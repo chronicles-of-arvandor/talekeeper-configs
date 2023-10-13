@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - light crossbow
+    - light_crossbow
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

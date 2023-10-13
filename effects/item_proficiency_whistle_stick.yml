@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - whistle-stick
+    - whistle_stick
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

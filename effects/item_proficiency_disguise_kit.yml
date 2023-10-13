@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Disguise kit
+    - disguise_kit
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:
