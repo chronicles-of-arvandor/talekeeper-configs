@@ -8,6 +8,6 @@ effect:
         - ==: ClassPrerequisite
           class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
           level: 1
-    - ==: ClassPrerequisite
-      class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
-      level: 1
+        - ==: ClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          level: 1

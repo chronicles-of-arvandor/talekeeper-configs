@@ -29,8 +29,6 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 89ea4a06-de8b-4032-90c1-ab5c3edc48a1
           option-id: 5758f349-3e91-409a-9f0a-13d43c19f68d
-    - ==: OrPrerequisite
-      prerequisites:
         - ==: SubClassPrerequisite
           class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
           sub-class-id: 110dc641-91c4-4341-9e67-3511095b39ee

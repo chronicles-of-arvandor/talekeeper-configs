@@ -38,7 +38,7 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 89ea4a06-de8b-4032-90c1-ab5c3edc48a1
           option-id: 7f742c00-f8c1-46a9-bebb-542b55d3d39d
-    - ==: SubClassPrerequisite
-      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
-      sub-class-id: ea7d2d3a-26f1-4ab3-9758-f95a0bf38e04
-      level: 1
+        - ==: SubClassPrerequisite
+          class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+          sub-class-id: ea7d2d3a-26f1-4ab3-9758-f95a0bf38e04
+          level: 1

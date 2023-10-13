@@ -8,9 +8,9 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 8b934f7e-43c9-43e5-879b-9ca520716c96
           option-id: 81f5c6e0-74e5-46c7-ad4d-37707cc628dc
-    - ==: ClassPrerequisite
-      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
-      level: 1
-    - ==: ClassPrerequisite
-      class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
-      level: 1
+        - ==: ClassPrerequisite
+          class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+          level: 1
+        - ==: ClassPrerequisite
+          class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+          level: 1

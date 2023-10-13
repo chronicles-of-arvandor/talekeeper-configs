@@ -3,12 +3,14 @@ effect:
   items:
     - darts
   prerequisites:
-    - ==: ClassPrerequisite
-      class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
-      level: 1
-    - ==: ClassPrerequisite
-      class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
-      level: 1
-    - ==: ClassPrerequisite
-      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
-      level: 1
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          level: 1
+        - ==: ClassPrerequisite
+          class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+          level: 1
+        - ==: ClassPrerequisite
+          class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+          level: 1

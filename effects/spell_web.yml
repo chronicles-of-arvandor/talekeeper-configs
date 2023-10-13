@@ -65,9 +65,9 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: b8d1912e-cbfa-4a4a-b930-5e6b99e5ba2a
           option-id: 99065cfd-2249-49a6-8dfa-ddef8ab8bf6d
-    - ==: OrPrerequisite
-      prerequisites:
-        - ==: SubClassPrerequisite
-          class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
-          sub-class-id: a34b86f8-ab97-4be1-a4c3-7f3df9e4e74a
-          level: 3
+        - ==: OrPrerequisite
+          prerequisites:
+            - ==: SubClassPrerequisite
+              class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+              sub-class-id: a34b86f8-ab97-4be1-a4c3-7f3df9e4e74a
+              level: 3

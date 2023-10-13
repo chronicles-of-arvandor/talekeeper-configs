@@ -1,8 +1,10 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Thieves' Tools
+    - thieves_tools
   prerequisites:
-    - ==: ClassPrerequisite
-      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
-      level: 1
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ClassPrerequisite
+          class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+          level: 1

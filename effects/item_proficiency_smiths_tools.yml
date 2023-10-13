@@ -12,7 +12,7 @@ effect:
           class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
           sub-class-id: 519db2c3-2e90-4f42-a51d-67708b7ab778
           level: 3
-    - ==: SubClassPrerequisite
-      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
-      sub-class-id: ea7d2d3a-26f1-4ab3-9758-f95a0bf38e04
-      level: 1
+        - ==: SubClassPrerequisite
+          class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+          sub-class-id: ea7d2d3a-26f1-4ab3-9758-f95a0bf38e04
+          level: 1

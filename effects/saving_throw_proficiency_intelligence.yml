@@ -8,9 +8,9 @@ effect:
         - ==: ClassPrerequisite
           class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
           level: 1
-    - ==: ClassPrerequisite
-      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
-      level: 1
-    - ==: ClassPrerequisite
-      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
-      level: 1
+        - ==: ClassPrerequisite
+          class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+          level: 1
+        - ==: ClassPrerequisite
+          class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+          level: 1

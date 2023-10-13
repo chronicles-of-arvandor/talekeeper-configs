@@ -137,19 +137,19 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: b8d1912e-cbfa-4a4a-b930-5e6b99e5ba2a
           option-id: dba4160a-f775-4ab5-bb23-e58bb0903b83
-    - ==: SubClassPrerequisite
-      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
-      sub-class-id: 482e3790-732e-4342-ba2a-5b6c4a1dca5f
-      level: 3
-    - ==: SubClassPrerequisite
-      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
-      sub-class-id: de190ce7-84ee-4cd0-b3bf-42ea3742a263
-      level: 3
-    - ==: SubClassPrerequisite
-      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
-      sub-class-id: 9a4760c4-cbf6-4b74-b97a-f77d2c9f0f71
-      level: 3
-    - ==: SubClassPrerequisite
-      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
-      sub-class-id: e9f5256e-f8e9-44a9-8076-9e76b1164133
-      level: 3
+        - ==: SubClassPrerequisite
+          class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+          sub-class-id: 482e3790-732e-4342-ba2a-5b6c4a1dca5f
+          level: 3
+        - ==: SubClassPrerequisite
+          class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+          sub-class-id: de190ce7-84ee-4cd0-b3bf-42ea3742a263
+          level: 3
+        - ==: SubClassPrerequisite
+          class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+          sub-class-id: 9a4760c4-cbf6-4b74-b97a-f77d2c9f0f71
+          level: 3
+        - ==: SubClassPrerequisite
+          class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+          sub-class-id: e9f5256e-f8e9-44a9-8076-9e76b1164133
+          level: 3

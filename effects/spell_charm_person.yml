@@ -200,13 +200,11 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: b8d1912e-cbfa-4a4a-b930-5e6b99e5ba2a
           option-id: 3a6dded6-139f-458e-ad90-817c12ac6e14
-    - ==: OrPrerequisite
-      prerequisites:
         - ==: SubClassPrerequisite
           class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
           sub-class-id: 49fcfeb4-f72d-40ea-bd6b-8f9c981a334b
           level: 1
-    - ==: SubClassPrerequisite
-      class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
-      sub-class-id: f2800bdc-29a6-48f2-99ca-0d583e326bae
-      level: 1
+        - ==: SubClassPrerequisite
+          class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+          sub-class-id: f2800bdc-29a6-48f2-99ca-0d583e326bae
+          level: 1
