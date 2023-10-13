@@ -1,0 +1,30 @@
+choice:
+  ==: Choice
+  id: 85e6250c-3a66-4d93-b167-14bc1f983ea6
+  text: Ranger Fighting Style choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+      level: 2
+  options:
+    - ==: ChoiceOption
+      id: e09701ae-3571-49d2-82da-e3b349142e39
+      text: Archery
+    - ==: ChoiceOption
+      id: f81ab0bb-fb0e-4315-8202-e0cc94ada668
+      text: Blind Fighting
+    - ==: ChoiceOption
+      id: d63351d0-c7f4-4d35-bedb-299b6e00fa10
+      text: Defense
+    - ==: ChoiceOption
+      id: 79c6544c-6031-4915-8b74-f0ebc02e419a
+      text: Druidic Warrior
+    - ==: ChoiceOption
+      id: b4c26f58-5b1a-40bc-91cb-40e0ab086eea
+      text: Dueling
+    - ==: ChoiceOption
+      id: 3f4878d6-20ae-4e7b-ae0b-d6b63a13401f
+      text: Two-Weapon Fighting
+    - ==: ChoiceOption
+      id: 7595392f-f931-4f18-9d7d-8dc96083f0ba
+      text: Thrown Weapon Fighting

@@ -1,0 +1,34 @@
+choice:
+  ==: Choice
+  id: 5f4c4cf4-d037-4cfe-ba2c-9744ec425df8
+  text: Circle of Land Favored Terrain Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+      sub-class-id: 441448d9-992a-40ac-a263-7573b7555d36
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 6cf1c54d-07ec-4f79-b421-3cd3dc7a05ca
+      text: Artic
+    - ==: ChoiceOption
+      id: 315604bd-d428-4f7a-9750-2acf05ebe8a2
+      text: Coast
+    - ==: ChoiceOption
+      id: 8fd42e1c-c8de-4822-a4c1-3d875b2ac364
+      text: Desert
+    - ==: ChoiceOption
+      id: af5a2371-d7c7-42f4-b5fa-638982be74da
+      text: Forest
+    - ==: ChoiceOption
+      id: 6bd2ab1b-4f0e-4fd7-a2c6-a1ca21b755f2
+      text: Grassland
+    - ==: ChoiceOption
+      id: 227ca4e1-e5e8-4d75-a1ac-31099f430c4f
+      text: Mountain
+    - ==: ChoiceOption
+      id: af44b1c9-2782-4d39-8097-f92d813cdd3d
+      text: Swamp
+    - ==: ChoiceOption
+      id: 093d5ee6-20c2-4b9f-967e-49c07d6d57a3
+      text: Underdark

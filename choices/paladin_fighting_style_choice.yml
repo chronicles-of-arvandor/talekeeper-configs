@@ -1,0 +1,42 @@
+choice:
+  ==: Choice
+  id: a37f6ad1-62d5-4715-8f6d-00bf5ff385c7
+  text: Paladin Fighting Style Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+      level: 2
+  options:
+    - ==: ChoiceOption
+      id: fee6b1fe-f8c3-4f57-9b9c-a603afc509e6
+      text: Close Quarters Shooter
+    - ==: ChoiceOption
+      id: d7471dd1-785f-4709-a062-18d0a41ba5dc
+      text: Defense
+    - ==: ChoiceOption
+      id: c9a098ac-9265-4840-8804-ddfd38f9693e
+      text: Dueling
+    - ==: ChoiceOption
+      id: 00a59859-60e4-47bb-886e-a7f1b4f76727
+      text: Great Weapon Fighting
+    - ==: ChoiceOption
+      id: 54b5c5f5-2324-47bf-acb8-af2368423cee
+      text: Mariner
+    - ==: ChoiceOption
+      id: 672898ca-cff8-4096-aeac-f6d983fe5783
+      text: Protection
+    - ==: ChoiceOption
+      id: 58668970-33d3-4a29-854c-e761b9af0276
+      text: Tunnel Fighter
+    - ==: ChoiceOption
+      id: 9691187f-219d-482b-9aa0-31b47765f08a
+      text: Blessed Warrior
+    - ==: ChoiceOption
+      id: 82a7f0e4-e0ba-46ee-9a3c-4a06ae318b09
+      text: Blind Fighting
+    - ==: ChoiceOption
+      id: c024df8c-9003-46a4-a9dd-ec7995a22287
+      text: Interception
+    - ==: ChoiceOption
+      id: 95424f0f-7fb8-4e66-81d1-97d8c1e8e3a4
+      text: Thrown Weapon Fighting

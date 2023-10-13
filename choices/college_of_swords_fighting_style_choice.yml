@@ -1,0 +1,16 @@
+choice:
+  ==: Choice
+  id: 6707d3e7-55dd-4f91-916a-6669d460b6d3
+  text: College Of Swords Fighting Style Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+      sub-class-id: 03300739-47b3-4533-ba25-e6f60d093a40
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: ea29bbd3-0ec3-4cc8-bddc-116cef84918c
+      text: Dueling
+    - ==: ChoiceOption
+      id: 05e8ccaa-f3a2-4ecd-88a2-f6f80ec462d1
+      text: Two-Weapon Fighting

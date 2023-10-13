@@ -41,3 +41,15 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: b937326c-efb2-4808-b817-1569e102d555
           option-id: 00b8b958-1917-44e6-a580-29bbb5db22cb
+        - ==: ChoicePrerequisite
+          choice-id: 7dac1552-9e7f-490b-b379-a19607eb3ed4
+          option-id: ff02f2c1-2264-4ef7-8fab-83638bdb3796
+        - ==: ChoicePrerequisite
+          choice-id: 0ea45159-37ea-46b9-a15c-6e98e3d4664e
+          option-id: bee44289-e27d-488b-96d8-db2aa00734b9
+        - ==: ChoicePrerequisite
+          choice-id: a898805f-3e2a-4f81-9977-23cbca7983bb
+          option-id: b3b6c8d4-b5f7-4675-9ab7-276b8c897000
+        - ==: ChoicePrerequisite
+          choice-id: 2568de8e-1b87-408f-bbe0-518fa3e83863
+          option-id: a53cda36-4595-4fe9-bfdf-4edadf8bd126

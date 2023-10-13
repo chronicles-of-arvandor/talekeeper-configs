@@ -1,0 +1,19 @@
+choice:
+  ==: Choice
+  id: 9fe1a7f2-2242-413b-bfdc-f4073528faba
+  text: Hunter's Prey Choices
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+      sub-class-id: 6acb5d01-7cdb-4b21-a51b-74532606f752
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 101a70cd-4ea0-487b-8b1c-1f08ac42ba47
+      text: Colossus Slayer
+    - ==: ChoiceOption
+      id: fd4d7bf2-8050-4489-8639-e0378d3d6ba2
+      text: Giant Killer
+    - ==: ChoiceOption
+      id: 0ccb9b43-14e6-4377-8b2c-4bb0e28aac63
+      text: Horde Breaker

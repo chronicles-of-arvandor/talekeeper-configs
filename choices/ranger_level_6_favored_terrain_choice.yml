@@ -1,0 +1,33 @@
+choice:
+  ==: Choice
+  id: 7f1b1709-9458-4df1-ba7f-0f93c27cdbbe
+  text: Ranger Level 6 Favored Terrain choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+      level: 6
+  options:
+    - ==: ChoiceOption
+      id: 8b119ab6-5e8c-4a8e-abe8-0022bb487dab
+      text: Artic
+    - ==: ChoiceOption
+      id: 59120365-0277-4191-b1e5-6dec8df0204a
+      text: Coast
+    - ==: ChoiceOption
+      id: d0749174-cd06-4ffc-befc-f40794684835
+      text: Desert
+    - ==: ChoiceOption
+      id: b1821c93-f58c-4d6a-8fcd-cd6f37273cb8
+      text: Forest
+    - ==: ChoiceOption
+      id: 0da71e5b-79d6-485c-abd3-98805d44c1f0
+      text: Grassland
+    - ==: ChoiceOption
+      id: f88c172e-f671-4094-a64d-95dd73f0e984
+      text: Mountain
+    - ==: ChoiceOption
+      id: 244957fe-07d2-4981-a5d6-6307566e27d9
+      text: Swamp
+    - ==: ChoiceOption
+      id: d738b333-4cec-40b2-b7a3-d2cb052aadd0
+      text: Underdark
