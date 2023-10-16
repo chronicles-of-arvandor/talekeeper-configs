@@ -1,0 +1,17 @@
+choice:
+  ==: Choice
+  id: 92c2a7e8-872d-4980-9d56-83a25a42ac5c
+  text: Kobold Legacy Choice
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 32c234c9-0785-40d4-80ce-0fd43afa0919
+  options:
+    - ==: ChoiceOption
+      id: 95e4a6a3-fdd5-4d2e-be3a-5dc3d47678a3
+      text: Craftiness
+    - ==: ChoiceOption
+      id: c366b7e1-004c-46e7-8937-e079ac99350d
+      text: Defiance
+    - ==: ChoiceOption
+      id: 41bfab3f-8dbd-4de7-929f-4311df9f8e5d
+      text: Draconic Sorcery

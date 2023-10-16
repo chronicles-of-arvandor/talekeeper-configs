@@ -97,3 +97,9 @@ effect:
           option-id: c080e1a3-eec8-4900-b321-96b616eb0242
         - ==: AncestryPrerequisite
           ancestry-id: 2300d5d4-2f14-4b25-ad9d-77910877fd50
+        - ==: ChoicePrerequisite
+          choice-id: cea2822b-6185-4982-b75f-3cf55776fba3
+          option-id: d50b0de6-51cc-48fd-ba79-6ace7210a8db
+        - ==: ChoicePrerequisite
+          choice-id: 48024280-6d01-4f22-9de4-31c6efcde757
+          option-id: 68748d5d-58f1-47a4-8bd5-2b2fa5cf5345

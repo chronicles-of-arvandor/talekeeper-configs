@@ -87,3 +87,9 @@ effect:
           class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
           sub-class-id: 2473b65b-b1dc-4eaf-a58b-298aba28da1f
           level: 1
+        - ==: ChoicePrerequisite
+          choice-id: cea2822b-6185-4982-b75f-3cf55776fba3
+          option-id: c2205db6-e5f1-4197-9309-945817872540
+        - ==: ChoicePrerequisite
+          choice-id: 48024280-6d01-4f22-9de4-31c6efcde757
+          option-id: c095062d-3e7a-4da8-87df-11e4efe1f352

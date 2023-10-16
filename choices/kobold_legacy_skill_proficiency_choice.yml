@@ -1,0 +1,54 @@
+choice:
+  ==: Choice
+  id: 110491fd-c040-44e8-a57f-6fda4a23c395
+  text: Kobold Legacy Skill Proficiency Choice
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: 92c2a7e8-872d-4980-9d56-83a25a42ac5c
+      option-id: 95e4a6a3-fdd5-4d2e-be3a-5dc3d47678a3
+  options:
+    - ==: ChoiceOption
+      id: 7c35d21b-2c0a-487e-bfff-a46476e8e1ed
+      text: Arcana
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ARCANA
+    - ==: ChoiceOption
+      id: 5dc33f00-0b0c-4249-bdc7-17d4bd298e73
+      text: Investigation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INVESTIGATION
+    - ==: ChoiceOption
+      id: ef835cea-aca5-4c6c-8c25-fb6cfb1719b7
+      text: Medicine
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - MEDICINE
+    - ==: ChoiceOption
+      id: 88cdc226-644c-4704-8034-9b17011ad30e
+      text: Sleight of Hand
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SLEIGHT_OF_HAND
+    - ==: ChoiceOption
+      id: 1b3f0d96-1bbc-4ae6-8a75-be4a9860758d
+      text: Survival
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SURVIVAL

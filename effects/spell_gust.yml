@@ -92,3 +92,9 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 0ea45159-37ea-46b9-a15c-6e98e3d4664e
           option-id: 4019f51a-5ca5-4a37-8cc7-895839f6c065
+        - ==: ChoicePrerequisite
+          choice-id: cea2822b-6185-4982-b75f-3cf55776fba3
+          option-id: 3e61c1f6-2528-4ced-b777-d17a99de265a
+        - ==: ChoicePrerequisite
+          choice-id: 48024280-6d01-4f22-9de4-31c6efcde757
+          option-id: 711e3373-d9e9-4a40-8eff-190f3b0fea91

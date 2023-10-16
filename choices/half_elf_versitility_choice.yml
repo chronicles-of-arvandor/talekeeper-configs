@@ -1,0 +1,51 @@
+choice:
+  ==: Choice
+  id: e22d9e79-f118-4493-b8d6-955d79c43e3f
+  text: Half Elf Versitility Choice
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 57cda023-1d07-4a1d-82cf-b5f62c816952
+  options:
+    - ==: ChoiceOption
+      id: cce2196e-a0de-42bf-bc01-ceb80a75f0f3
+      text: Skill Versatility
+    - ==: ChoiceOption
+      id: 68e00318-69c7-4c26-bc76-83cfee879b59
+      text: Elf Weapon Training
+      prerequisites:
+        - ==: OrPrerequisite
+          prerequisites:
+            - ==: ChoicePrerequisite
+              choice-id: 26986980-a980-4d7a-a8e2-e5d64947b1fc
+              option-id: c831f180-9d9a-42ac-b1e1-c2407fcd5f9f
+            - ==: ChoicePrerequisite
+              choice-id: 26986980-a980-4d7a-a8e2-e5d64947b1fc
+              option-id: 804a0d18-f68e-4f15-bfb8-fe99a739e820
+    - ==: ChoiceOption
+      id: 31bdb8e7-5431-443a-bae0-752c31ed8087
+      text: Cantrip
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 26986980-a980-4d7a-a8e2-e5d64947b1fc
+          option-id: c831f180-9d9a-42ac-b1e1-c2407fcd5f9f
+    - ==: ChoiceOption
+      id: 13c8b96c-35eb-4c55-abf3-e750f4b5e93d
+      text: Fleet of Foot
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 26986980-a980-4d7a-a8e2-e5d64947b1fc
+          option-id: 804a0d18-f68e-4f15-bfb8-fe99a739e820
+    - ==: ChoiceOption
+      id: 711f92ad-4867-4a06-882c-48c793746da5
+      text: Mask of the Wild
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 26986980-a980-4d7a-a8e2-e5d64947b1fc
+          option-id: 804a0d18-f68e-4f15-bfb8-fe99a739e820
+    - ==: ChoiceOption
+      id: 4c94b22f-4688-41ed-b343-41084a5dfdbb
+      text: Dark Elf Magic
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 26986980-a980-4d7a-a8e2-e5d64947b1fc
+          option-id: 576dc7bb-f345-487c-be0f-81f302be3073

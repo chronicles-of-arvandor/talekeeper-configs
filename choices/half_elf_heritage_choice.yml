@@ -1,0 +1,17 @@
+choice:
+  ==: Choice
+  id: 26986980-a980-4d7a-a8e2-e5d64947b1fc
+  text: Half Elf Heritage Choice
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 57cda023-1d07-4a1d-82cf-b5f62c816952
+  options:
+    - ==: ChoiceOption
+      id: c831f180-9d9a-42ac-b1e1-c2407fcd5f9f
+      text: High Elf
+    - ==: ChoiceOption
+      id: 804a0d18-f68e-4f15-bfb8-fe99a739e820
+      text: Wood Elf
+    - ==: ChoiceOption
+      id: 576dc7bb-f345-487c-be0f-81f302be3073
+      text: Dark Elf

@@ -55,3 +55,9 @@ effect:
           option-id: afa7027d-13c8-4709-8edf-953236423047
         - ==: AncestryPrerequisite
           ancestry-id: 0b9e1e22-edef-4c80-93e1-1a5cfae7db55
+        - ==: ChoicePrerequisite
+          choice-id: 5e5ac408-42fb-43ef-8bdb-73ca17b44e25
+          option-id: e1c6705e-06b0-42c6-800b-5b632886aa3d
+        - ==: ChoicePrerequisite
+          choice-id: 82ff1f21-bda7-41a7-b8c1-4ca4e9f0f0ff
+          option-id: 30f3b960-b985-4768-a17f-2c19ec5a4ce7

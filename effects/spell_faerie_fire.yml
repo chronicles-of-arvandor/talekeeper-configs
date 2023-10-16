@@ -72,3 +72,40 @@ effect:
           class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
           sub-class-id: fdb7542c-731f-42be-a4d4-b51df77809b2
           level: 1
+    - ==: AndPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: e22d9e79-f118-4493-b8d6-955d79c43e3f
+          option-id: 4c94b22f-4688-41ed-b343-41084a5dfdbb
+        - ==: OrPrerequisite
+          prerequisites:
+            - ==: ClassPrerequisite
+              class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: a9b560a5-7a29-4675-a424-a624f8488db7
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+              level: 3
+            - ==: ClassPrerequisite
+              class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5
+              level: 3

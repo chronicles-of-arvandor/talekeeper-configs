@@ -77,3 +77,9 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: cb7ba620-a390-456d-9c00-bb48fd8dab90
           option-id: 5e2d9b57-f42f-40a7-8ab7-bc773cf21a90
+        - ==: ChoicePrerequisite
+          choice-id: 5e5ac408-42fb-43ef-8bdb-73ca17b44e25
+          option-id: bf73e8cd-cdb2-4258-9fcc-481741463ea8
+        - ==: ChoicePrerequisite
+          choice-id: 82ff1f21-bda7-41a7-b8c1-4ca4e9f0f0ff
+          option-id: 1188c637-5ce8-4d6f-99e3-95c81472b57c
