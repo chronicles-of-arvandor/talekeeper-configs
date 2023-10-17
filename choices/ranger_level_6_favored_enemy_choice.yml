@@ -1,0 +1,51 @@
+choice:
+  ==: Choice
+  id: ccb7d4f8-ee5a-4ac2-88c3-cce5777bbd34
+  text: Ranger Level 6 Favored Enemy Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+      level: 6
+  options:
+    - ==: ChoiceOption
+      id: 54ba45f2-300d-4e1a-9647-dbf9f1cdf263
+      text: Abberations
+    - ==: ChoiceOption
+      id: a914a518-7a7e-42d9-b320-f93c5c273610
+      text: Beasts
+    - ==: ChoiceOption
+      id: 57c1387e-6928-43f3-920a-27d4522e7dcc
+      text: Celestials
+    - ==: ChoiceOption
+      id: de5a176f-0840-40a2-ab3c-ccdfdfccedcc
+      text: Constructs
+    - ==: ChoiceOption
+      id: e2b661e3-6c46-4c9c-b755-4700d1e71958
+      text: Dragons
+    - ==: ChoiceOption
+      id: 27bdfa8b-c173-4e66-b8da-377660877a72
+      text: Elementals
+    - ==: ChoiceOption
+      id: fb07f0e4-5dca-4a5d-b48c-a0fec66b908b
+      text: Fey
+    - ==: ChoiceOption
+      id: fc47f0f3-0a22-46d0-af52-1c9c0e345faa
+      text: Fiends
+    - ==: ChoiceOption
+      id: 014f4ed5-f67d-4624-a5b4-fba0e5e8c4be
+      text: Giants
+    - ==: ChoiceOption
+      id: 6016c999-b3b8-40f2-b926-fa56a4269c91
+      text: Monstrosities
+    - ==: ChoiceOption
+      id: 34f906f6-201d-4ccf-b917-57c142c283df
+      text: Oozes
+    - ==: ChoiceOption
+      id: 9b08f483-cff6-4818-b5e8-e231df08662a
+      text: Plants
+    - ==: ChoiceOption
+      id: 2dc8297e-af57-494a-a1d2-fed2f4659b89
+      text: Undead
+    - ==: ChoiceOption
+      id: ff2baded-f11d-464a-b4d2-5d218353d7e3
+      text: Humanoids
