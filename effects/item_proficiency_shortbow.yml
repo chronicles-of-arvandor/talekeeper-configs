@@ -1,6 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
-  items: []
+  items:
+    - shortbow
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

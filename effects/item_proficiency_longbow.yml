@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Longbow
+    - longbow
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:
