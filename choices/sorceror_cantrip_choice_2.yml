@@ -268,3 +268,51 @@ choice:
             ==: SpellPrerequisite
             spell-ids:
               - b66a154a-9d7a-4f1e-909a-9b4c17aaa13c
+    - ==: ChoiceOption
+      id: 2c13a7ae-ad10-457b-8f62-a1e3ad733653
+      text: Guidance
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: f7435374-4693-4918-a6d7-011eadc7f808
+      text: Resistance
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: ecac070c-352e-4675-9ee1-006b57874739
+      text: Sacred Flame
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 4cf8cf40-19b9-4396-989e-48b0a6a4cc4a
+      text: Spare the Dying
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: cddc0c07-bded-4f9b-84ad-47441dec341a
+      text: Thaumaturgy
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 232c13bc-8b74-49a2-bfb9-452ce1ac9611
+      text: Toll the Dead
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1

@@ -41,3 +41,12 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 4a69ecc4-64f0-432d-93e7-1ae843057397
           option-id: 547f424d-2add-4f55-9ffd-6de7425473d0
+        - ==: AndPrerequisite
+          prerequisites:
+            - ==: ChoicePrerequisite
+              choice-id: 5f4c4cf4-d037-4cfe-ba2c-9744ec425df8
+              option-id: af44b1c9-2782-4d39-8097-f92d813cdd3d
+            - ==: SubClassPrerequisite
+              class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
+              sub-class-id: 441448d9-992a-40ac-a263-7573b7555d36
+              level: 2
