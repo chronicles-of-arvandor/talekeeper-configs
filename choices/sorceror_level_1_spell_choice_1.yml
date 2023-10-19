@@ -241,3 +241,123 @@ choice:
             ==: SpellPrerequisite
             spell-ids:
               - 5c86e718-3849-4841-aa32-ba70ca0eaf7f
+    - ==: ChoiceOption
+      id: c1ee8a55-4099-40bf-9481-b146b4306078
+      text: Bane
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: cfde294e-a5eb-4004-9f3b-de4edabd865c
+      text: Bless
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 690577aa-205e-4152-9446-c13ba80d71e3
+      text: Ceremony
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 4a365383-06f7-409c-b3e5-4519a83bb8ce
+      text: Command
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: c613b894-5577-4f67-95cc-ed7b1f76f313
+      text: Create or Destroy Water
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: ccfed7ff-ba65-4bf1-bba6-3670e4e35f97
+      text: Cure Wounds
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: ce2fe367-cf33-4f33-9ec9-8eb3c46272c6
+      text: Detect Evil and Good
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: cc1512b2-80c2-48de-a69c-e9492fb06d2c
+      text: Detect Poison and Disease
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 1e665856-7a38-4117-a4a5-1a7f7413ade8
+      text: Guiding Bolt
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 4f472b80-10f9-4418-b4d2-d1668d944770
+      text: Healing Word
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 5d063b1a-add7-4c20-8a1b-6b93ccb9337c
+      text: Inflict Wounds
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 2a1aaffa-5207-4b62-a820-16d595b95196
+      text: Protection from Evil and Good
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 83218039-68ef-4871-a5e9-a27188485e99
+      text: Purify Food and Drink
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: 9ef14b0f-bd01-457a-b8d5-68f4d3bb29ab
+      text: Sanctuary
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
+    - ==: ChoiceOption
+      id: a594d489-2334-461e-8779-5f93cb6dbbf1
+      text: Shield of Faith
+      prerequisites:
+        - ==: SubClassPrerequisite
+          class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+          sub-class-id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+          level: 1
