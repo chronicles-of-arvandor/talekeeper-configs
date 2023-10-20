@@ -15,6 +15,16 @@ choice:
             ==: AbilityPrerequisite
             ability: STRENGTH
             score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 03f4daa5-e62f-4936-8a16-c1a1d444647d
+                option-id: 8f580416-34ac-4737-b0f1-dab4c2c1cdf7
+              - ==: ChoicePrerequisite
+                choice-id: 38977561-2812-4a97-8149-1661635960f3
+                option-id: 207cbd74-c3b3-42c2-84ac-52b567f4e351
     - ==: ChoiceOption
       id: 3139a12a-eeaf-45b4-b215-8702788d1693
       text: Dexterity
@@ -24,6 +34,16 @@ choice:
             ==: AbilityPrerequisite
             ability: DEXTERITY
             score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 03f4daa5-e62f-4936-8a16-c1a1d444647d
+                option-id: 48603b68-8d9a-44f5-9e02-770c3b65d7a4
+              - ==: ChoicePrerequisite
+                choice-id: 38977561-2812-4a97-8149-1661635960f3
+                option-id: 9a79a5e9-da88-444d-bfa9-b3bb214d0b80
     - ==: ChoiceOption
       id: 2d73c945-cd6d-4a88-a36f-5cd923e51693
       text: Constitution
@@ -33,6 +53,16 @@ choice:
             ==: AbilityPrerequisite
             ability: CONSTITUTION
             score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 03f4daa5-e62f-4936-8a16-c1a1d444647d
+                option-id: 45e40ab7-2a73-4cf9-a18b-dc9813e58cd6
+              - ==: ChoicePrerequisite
+                choice-id: 38977561-2812-4a97-8149-1661635960f3
+                option-id: b97420d5-1690-4337-9786-57f2cd8d619d
     - ==: ChoiceOption
       id: 6b049775-3ff8-4016-8f7f-726e13cf5222
       text: Intelligence
@@ -42,6 +72,16 @@ choice:
             ==: AbilityPrerequisite
             ability: INTELLIGENCE
             score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 03f4daa5-e62f-4936-8a16-c1a1d444647d
+                option-id: 1e3dad2f-9717-4c05-b580-092c5beaf2f2
+              - ==: ChoicePrerequisite
+                choice-id: 38977561-2812-4a97-8149-1661635960f3
+                option-id: 5d5a49ca-b725-4583-8309-7e9564a84478
     - ==: ChoiceOption
       id: 5e284cc6-64ec-4812-8971-206c75a5fefd
       text: Wisdom
@@ -51,6 +91,16 @@ choice:
             ==: AbilityPrerequisite
             ability: WISDOM
             score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 03f4daa5-e62f-4936-8a16-c1a1d444647d
+                option-id: dddc430e-2514-4e00-a65e-2b5448863795
+              - ==: ChoicePrerequisite
+                choice-id: 38977561-2812-4a97-8149-1661635960f3
+                option-id: 46dae7b5-0edd-45b5-81c0-d7a887a1798d
     - ==: ChoiceOption
       id: 8dd78fec-e50f-4a60-85ef-f3aff687b9ae
       text: Charisma
@@ -60,3 +110,13 @@ choice:
             ==: AbilityPrerequisite
             ability: CHARISMA
             score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 03f4daa5-e62f-4936-8a16-c1a1d444647d
+                option-id: 30f9aa6d-3c5a-4297-884c-e34999bcfcc3
+              - ==: ChoicePrerequisite
+                choice-id: 38977561-2812-4a97-8149-1661635960f3
+                option-id: b0b0cd0d-7e1e-46c1-8e68-534e4054821e
