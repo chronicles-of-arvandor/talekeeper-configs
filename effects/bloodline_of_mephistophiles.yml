@@ -1,0 +1,8 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    INTELLIGENCE: 1
+  prerequisites:
+    - ==: SubAncestryPrerequisite
+      ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+      sub-ancestry-id: f7b3b6e5-e2fa-47e8-a082-1a8315c68596

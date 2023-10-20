@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Woodcarver's Tools
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 543b86dc-35fa-477e-9e78-b492566d5cda
+          option-id: fe6c5e25-ee7c-4666-9b56-b91bb79584ca

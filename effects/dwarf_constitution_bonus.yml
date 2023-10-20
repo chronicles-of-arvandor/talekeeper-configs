@@ -1,0 +1,7 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    CONSTITUTION: 2
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 70bda7fd-42a9-460e-a27f-35fd6aa53578

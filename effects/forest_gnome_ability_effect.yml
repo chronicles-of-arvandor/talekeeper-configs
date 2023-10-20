@@ -1,0 +1,8 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    DEXTERITY: 1
+  prerequisites:
+    - ==: SubAncestryPrerequisite
+      ancestry-id: 59ce9f43-f104-4eb6-af37-c7b7a56dddd8
+      sub-ancestry-id: e65c4614-ed6e-42d6-b037-ae4fd6215a44

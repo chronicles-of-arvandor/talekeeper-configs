@@ -54,3 +54,6 @@ effect:
           class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
           sub-class-id: 68842d93-c312-4c0d-a12b-d638639b825b
           level: 1
+        - ==: ChoicePrerequisite
+          choice-id: 1983bdbf-2ac0-4931-90e3-d5b2b0a4a171
+          option-id: 2e0b3a73-d1ee-4709-b85e-d868d257394e

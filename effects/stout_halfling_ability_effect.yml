@@ -1,0 +1,8 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    CONSTITUTION: 1
+  prerequisites:
+    - ==: SubAncestryPrerequisite
+      ancestry-id: 5cc1578f-f250-421a-9be2-be15a313113e
+      sub-ancestry-id: 3b47ca13-d883-4b02-85eb-f2aeb1009010

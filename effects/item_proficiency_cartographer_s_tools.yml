@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Cartographer's Tools
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 543b86dc-35fa-477e-9e78-b492566d5cda
+          option-id: ca3401b2-98ea-443d-a708-3a4802ae3c3f

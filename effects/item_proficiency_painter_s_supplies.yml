@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Painter's Supplies
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 543b86dc-35fa-477e-9e78-b492566d5cda
+          option-id: c3214e58-c14f-4f48-b842-a9bd819a95cc

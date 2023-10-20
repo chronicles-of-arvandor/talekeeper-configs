@@ -105,3 +105,9 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 48024280-6d01-4f22-9de4-31c6efcde757
           option-id: 633b799c-d26b-4fb5-aaeb-a3fb2009e8ef
+        - ==: ChoicePrerequisite
+          choice-id: 87d7ae10-ca4b-4879-b1ae-dab9de7186d7
+          option-id: 9393389a-6e5a-405e-a5a1-5f403654d020
+        - ==: SubAncestryPrerequisite
+          ancestry-id: 59ce9f43-f104-4eb6-af37-c7b7a56dddd8
+          sub-ancestry-id: e65c4614-ed6e-42d6-b037-ae4fd6215a44

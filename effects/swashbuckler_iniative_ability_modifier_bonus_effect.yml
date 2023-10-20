@@ -1,0 +1,8 @@
+effect:
+  ==: InitiativeAbilityModBonusEffect
+  ability: CHARISMA
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      sub-class-id: 5965dc2f-23bf-4d02-8236-58ee8e9fd687
+      level: 1

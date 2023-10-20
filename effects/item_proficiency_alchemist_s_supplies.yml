@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Alchemist's Supplies
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 543b86dc-35fa-477e-9e78-b492566d5cda
+          option-id: bf3da60d-5f19-46c7-bae0-e426cbeb3933

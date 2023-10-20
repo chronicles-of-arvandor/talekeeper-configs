@@ -1,0 +1,279 @@
+choice:
+  ==: Choice
+  id: 87d7ae10-ca4b-4879-b1ae-dab9de7186d7
+  text: High Elf Cantrip Choice
+  prerequisites:
+    - ==: SubAncestryPrerequisite
+      ancestry-id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
+      sub-ancestry-id: 365d9a17-1dba-4efb-9593-552c86b6c82c
+  options:
+    - ==: ChoiceOption
+      id: 9a626580-9755-423c-8c1c-bd4ceace7bc1
+      text: Acid Splash
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d9da5247-2559-48b3-be5c-a4207a0eb005
+    - ==: ChoiceOption
+      id: fdd10a49-0256-4f85-ba39-f0e8984d07e2
+      text: Blade Ward
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 733e257a-475e-4fb2-acfe-0a884d33efcb
+    - ==: ChoiceOption
+      id: 8a731786-7d11-4446-b5e1-716418f173e2
+      text: Booming Blade
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ad1f922e-c669-4d31-be04-5872205509ea
+    - ==: ChoiceOption
+      id: 534939cf-6315-439c-8232-0685aef79d48
+      text: Chill Touch
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 19139527-9542-4a43-8fec-997674f557ef
+    - ==: ChoiceOption
+      id: c9f39619-f780-4d25-bb9d-189e6c62fe1c
+      text: Control Flames
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 7a1184a4-502f-430b-be12-1478e0b792b6
+    - ==: ChoiceOption
+      id: 11e44782-4c63-40b0-a043-9af66b1a53ce
+      text: Create Bonfire
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e8d039f1-79ca-4437-a1a3-6623f9d67283
+    - ==: ChoiceOption
+      id: ab8104a4-9e63-403d-8ab1-ecdfaef47bf1
+      text: Dancing Lights
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 56451d67-b7b1-4a7e-a100-2d653199df5d
+    - ==: ChoiceOption
+      id: 4f0c47d7-7016-4793-8796-1688c48bc416
+      text: Fire Bolt
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cc9680b7-2af2-449f-8a6d-8062c4b81907
+    - ==: ChoiceOption
+      id: 33792d71-7e1b-4d4d-84d8-fbaad0d197c3
+      text: Friends
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 191f1c4f-4bd4-4811-a27b-3b99bc389f8d
+    - ==: ChoiceOption
+      id: 6c634fb5-bf59-4ef1-a39f-c5d4f24146ca
+      text: Frostbite
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2a783877-dd06-4e52-a4d4-0acdedead0da
+    - ==: ChoiceOption
+      id: 1eee2203-6697-4368-9a77-f1396b3b138c
+      text: Green-Flame Blade
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a2e7b356-8320-4d2a-8e78-7c05012ac137
+    - ==: ChoiceOption
+      id: 58676f5b-1330-4205-9d3b-7ffa6e6bf240
+      text: Gust
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a82737a3-af26-4f2b-a58c-7ba94d0dc451
+    - ==: ChoiceOption
+      id: 41380c21-e82e-4c19-af54-ce99759f2df2
+      text: Infestation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 29427ded-1f5c-4ae8-a919-8b44079a1f53
+    - ==: ChoiceOption
+      id: bf4ec08a-29d6-466e-a279-3c2d1cf1fc93
+      text: Light
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ba914481-32f6-415b-bc0b-b7a0cf6f5b4c
+    - ==: ChoiceOption
+      id: 76dcd9a5-1541-4757-a64f-eba88cb68c6c
+      text: Lightning Lure
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2752079e-9752-45b8-805d-4bcd42442e28
+    - ==: ChoiceOption
+      id: 0a00cf14-331a-420d-83b2-65eacdefff71
+      text: Mage Hand
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ff05080b-7b90-4e2a-997e-6616edb53966
+    - ==: ChoiceOption
+      id: 1add67f1-4b8e-438f-9fd5-e808c9c01875
+      text: Mending
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 01a38667-24df-4c6c-b1b4-b79bc0e90e48
+    - ==: ChoiceOption
+      id: 24c85ac9-9804-4289-845c-6a065dcfda36
+      text: Message
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 06b1bd92-99ce-4011-b88d-6efef6237581
+    - ==: ChoiceOption
+      id: 00b2ee7f-f23b-4798-a023-44b668c117c5
+      text: Mind Sliver
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - cd8b723c-5127-4de0-af91-32ce6bbbdc66
+    - ==: ChoiceOption
+      id: 9393389a-6e5a-405e-a5a1-5f403654d020
+      text: Minor Illusion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 4d61d9e1-dff5-4a95-8904-e2dfa80e9c0b
+    - ==: ChoiceOption
+      id: c18c7364-19ec-4b80-8fc5-64a26d0ed49b
+      text: Mold Earth
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c323498b-9173-4d87-a582-82701d55577c
+    - ==: ChoiceOption
+      id: 30dd4f84-fd56-4969-a54a-1a242f5af72c
+      text: Poison Spray
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d3d77389-c974-4a2b-aa5b-366bbe5d5216
+    - ==: ChoiceOption
+      id: 5035b30a-6bb1-4f28-988e-64e3eb8af429
+      text: Prestidigitation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 99789a43-9d2d-4837-9847-ddea2ffe72ff
+    - ==: ChoiceOption
+      id: 6fc776e4-c9eb-4a00-8915-c99fdd24d9bf
+      text: Ray of Frost
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d2802957-c490-44ec-8a60-60321bfde484
+    - ==: ChoiceOption
+      id: 055c1da8-40bc-440c-9fc4-be2528b64a97
+      text: Shape Water
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3f3e3187-f22e-4127-a215-df451ae1534a
+    - ==: ChoiceOption
+      id: 26d708c5-09e5-436b-ae6f-9e07341a1a66
+      text: Shocking Grasp
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 9f0f287f-b336-4cbb-8d1d-68257a3af55d
+    - ==: ChoiceOption
+      id: 3ac0c754-67d6-4a39-899f-ef90906a0eb0
+      text: Sword Burst
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 9b1cc26c-8c60-4748-bb6a-8593a78bbf02
+    - ==: ChoiceOption
+      id: 7b6f9f7a-eedd-41da-8b6f-b0602e98f8b6
+      text: Thunderclap
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0ca352c-f724-4161-844e-a17bd6a65263
+    - ==: ChoiceOption
+      id: e0fbf0cb-0bfb-4d21-bf21-70987d7bbfcc
+      text: Toll the Dead
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 19a5c80e-0099-41ca-8071-1ead39826363
+    - ==: ChoiceOption
+      id: 883bd6be-f501-4593-9b1c-987d2eadc718
+      text: True Strike
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - b66a154a-9d7a-4f1e-909a-9b4c17aaa13c

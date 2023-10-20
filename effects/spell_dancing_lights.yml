@@ -89,3 +89,9 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: e22d9e79-f118-4493-b8d6-955d79c43e3f
           option-id: 4c94b22f-4688-41ed-b343-41084a5dfdbb
+        - ==: ChoicePrerequisite
+          choice-id: 87d7ae10-ca4b-4879-b1ae-dab9de7186d7
+          option-id: ab8104a4-9e63-403d-8ab1-ecdfaef47bf1
+        - ==: SubAncestryPrerequisite
+          ancestry-id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
+          sub-ancestry-id: 55dc16f9-514a-4c00-9e11-ef3978b24a4d

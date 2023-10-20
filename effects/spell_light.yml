@@ -120,3 +120,6 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 48024280-6d01-4f22-9de4-31c6efcde757
           option-id: 13e67191-5229-472a-829c-05f8fa146c9f
+        - ==: ChoicePrerequisite
+          choice-id: 87d7ae10-ca4b-4879-b1ae-dab9de7186d7
+          option-id: bf4ec08a-29d6-466e-a279-3c2d1cf1fc93

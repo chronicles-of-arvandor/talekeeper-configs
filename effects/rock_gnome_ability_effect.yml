@@ -1,0 +1,7 @@
+effect:
+  ==: AbilityEffect
+  abilities: {}
+  prerequisites:
+    - ==: SubAncestryPrerequisite
+      ancestry-id: 59ce9f43-f104-4eb6-af37-c7b7a56dddd8
+      sub-ancestry-id: 46e4251d-5412-4bfd-b9fa-e2e00981061c

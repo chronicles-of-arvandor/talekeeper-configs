@@ -1,0 +1,62 @@
+choice:
+  ==: Choice
+  id: 8dd41880-99c4-4235-8beb-b50e48e485ec
+  text: Aasimar ASI Choice (2)
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 59cb2ad6-b2bf-432c-b6e8-a5e804dc4243
+  options:
+    - ==: ChoiceOption
+      id: 577bb745-34db-4ba5-a942-9c4acf6daa28
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 3139a12a-eeaf-45b4-b215-8702788d1693
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: 2d73c945-cd6d-4a88-a36f-5cd923e51693
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 6b049775-3ff8-4016-8f7f-726e13cf5222
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 5e284cc6-64ec-4812-8971-206c75a5fefd
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: 8dd78fec-e50f-4a60-85ef-f3aff687b9ae
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

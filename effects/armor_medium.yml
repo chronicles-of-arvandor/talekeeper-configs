@@ -53,3 +53,6 @@ effect:
         - ==: ClassPrerequisite
           class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
           level: 1
+        - ==: SubAncestryPrerequisite
+          ancestry-id: 70bda7fd-42a9-460e-a27f-35fd6aa53578
+          sub-ancestry-id: d5f5deea-ff01-4811-ab04-f67d8532b266

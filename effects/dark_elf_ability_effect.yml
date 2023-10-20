@@ -1,0 +1,8 @@
+effect:
+  ==: AbilityEffect
+  abilities:
+    CHARISMA: 1
+  prerequisites:
+    - ==: SubAncestryPrerequisite
+      ancestry-id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
+      sub-ancestry-id: 55dc16f9-514a-4c00-9e11-ef3978b24a4d

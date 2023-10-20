@@ -1,0 +1,62 @@
+choice:
+  ==: Choice
+  id: 25621530-cd35-4d91-a627-c8ea3385f3b4
+  text: Half Elf ASI Choice (1)
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 57cda023-1d07-4a1d-82cf-b5f62c816952
+  options:
+    - ==: ChoiceOption
+      id: 915961d6-8340-42c9-a159-f06d431cf85f
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 7386e6ad-dee3-407a-a112-809aa6cee03e
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: c20d179f-f217-42d0-9bc0-3918cb056b93
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: e613b1f0-db31-43d4-9086-fe3ec61dfd62
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 07f52099-85f6-4968-9f19-2094b723e9c5
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: 1f0d336a-cb8c-4f07-944f-15754c29314c
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

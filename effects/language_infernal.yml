@@ -52,3 +52,6 @@ effect:
           option-id: f98ca95e-64e8-4acd-ad2b-94de33ddb2c9
         - ==: AncestryPrerequisite
           ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+        - ==: ChoicePrerequisite
+          choice-id: 1983bdbf-2ac0-4931-90e3-d5b2b0a4a171
+          option-id: a8eb3bd8-d0da-4f6c-8f10-e961d15a0666

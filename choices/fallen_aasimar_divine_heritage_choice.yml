@@ -1,0 +1,15 @@
+choice:
+  ==: Choice
+  id: 48817245-d27b-47d9-8ce7-5fad00ec4c4c
+  text: Fallen Aasimar Divine Heritage Choice
+  prerequisites:
+    - ==: SubAncestryPrerequisite
+      ancestry-id: 59cb2ad6-b2bf-432c-b6e8-a5e804dc4243
+      sub-ancestry-id: 1302fa29-e6a7-441f-83c3-2a61d7ad7774
+  options:
+    - ==: ChoiceOption
+      id: ee35fd8a-d142-4ea1-ba04-d07d1373f2aa
+      text: Necrotic Shroud
+    - ==: ChoiceOption
+      id: 390a0c4c-7551-4dd3-a439-264a63273815
+      text: Radiant Consumption

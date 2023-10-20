@@ -1,0 +1,8 @@
+effect:
+  ==: InitiativeAbilityModBonusEffect
+  ability: WISDOM
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+      sub-class-id: 0a7fea91-7984-420b-a0bd-3fe3b9b39be8
+      level: 1
