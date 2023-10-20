@@ -32,6 +32,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: DEXTERITY
             score: 20
     - ==: ChoiceOption
       id: b97420d5-1690-4337-9786-57f2cd8d619d
@@ -40,6 +41,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: CONSTITUTION
             score: 20
     - ==: ChoiceOption
       id: 5d5a49ca-b725-4583-8309-7e9564a84478
@@ -48,6 +50,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: INTELLIGENCE
             score: 20
     - ==: ChoiceOption
       id: 46dae7b5-0edd-45b5-81c0-d7a887a1798d
@@ -56,6 +59,7 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: WISDOM
             score: 20
     - ==: ChoiceOption
       id: b0b0cd0d-7e1e-46c1-8e68-534e4054821e
@@ -64,4 +68,5 @@ choice:
         - ==: NotPrerequisite
           prerequisite:
             ==: AbilityPrerequisite
+            ability: CHARISMA
             score: 20
