@@ -74,3 +74,6 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 87d7ae10-ca4b-4879-b1ae-dab9de7186d7
           option-id: 6fc776e4-c9eb-4a00-8915-c99fdd24d9bf
+        - ==: SubAncestryPrerequisite
+          ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+          sub-ancestry-id: 7760c61b-83ef-4d96-b549-483948725c68

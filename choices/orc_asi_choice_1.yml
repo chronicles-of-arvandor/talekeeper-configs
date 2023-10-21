@@ -1,0 +1,62 @@
+choice:
+  ==: Choice
+  id: b9c1d22c-560e-407b-b810-1764da91601f
+  text: Orc_ASI_choice (1)
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: c49912de-75f1-42fd-b010-f64976e2fdd7
+  options:
+    - ==: ChoiceOption
+      id: 4539f0f4-d5d1-4327-aa2e-2263b911a570
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 5a24809c-d35b-4f63-a829-ad555c49f6fd
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: a8d65673-b688-441f-bdef-e7c93ac53caa
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: c9f7fef1-d894-421c-80c6-443029a959ee
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 4460f450-1e31-4cda-9b64-ec912c3357b9
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: 4ba4ca69-c07d-407a-8ee7-ecf1866e3f05
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

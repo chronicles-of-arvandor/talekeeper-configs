@@ -1,0 +1,62 @@
+choice:
+  ==: Choice
+  id: be93c5af-5e22-4e62-a724-8becd5a1f28d
+  text: Kobold_ASI_Choice (1)
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 32c234c9-0785-40d4-80ce-0fd43afa0919
+  options:
+    - ==: ChoiceOption
+      id: 755eca64-7b12-4928-8b2e-8ea194c04a52
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 495fcb17-f352-4257-b81b-830218ccf2bf
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: 0ed9ff03-2566-45d0-9048-ce7e7f4514d2
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: f3e8a283-9b68-4ee2-8eeb-89b8dc1ae61d
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 8f2cd9ae-b2d2-469d-9d25-459cc2c42d39
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: aead107b-6e2b-49a6-85a0-33a1ba651770
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

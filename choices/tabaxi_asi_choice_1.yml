@@ -1,0 +1,62 @@
+choice:
+  ==: Choice
+  id: 06b7deb5-c241-4f87-8611-6413022936f0
+  text: Tabaxi ASI Choice (1)
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 0b9e1e22-edef-4c80-93e1-1a5cfae7db55
+  options:
+    - ==: ChoiceOption
+      id: 47c22ee3-a412-4436-9423-52455ec3c297
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: d10827f9-131d-4d52-8a8a-3ed70aa6e92c
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: 5b7a1404-f626-4fc7-8a35-3f46318c5504
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 6866c2df-c833-41e5-80b8-aecde4e426e4
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 8fee294d-a549-48d9-84fb-1321ee0c6228
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: 0ba2a28e-0779-43d8-9b6c-90a0d479f7e1
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

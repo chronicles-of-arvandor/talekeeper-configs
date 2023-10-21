@@ -29,3 +29,15 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 2568de8e-1b87-408f-bbe0-518fa3e83863
           option-id: 96c51e1d-2efe-43b7-87c5-910fdd2bfea4
+        - ==: SubAncestryPrerequisite
+          ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+          sub-ancestry-id: 4d3f1011-57f8-48ff-b34a-bb4b2ba0ef7c
+        - ==: SubAncestryPrerequisite
+          ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+          sub-ancestry-id: 580f994b-8a5d-4822-901d-69eb75601020
+        - ==: SubAncestryPrerequisite
+          ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+          sub-ancestry-id: d4434cb9-da7c-4be2-aed5-47fb8e0da872
+        - ==: SubAncestryPrerequisite
+          ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
+          sub-ancestry-id: b2ed3642-0803-413c-ae31-f8b42ca9f93b

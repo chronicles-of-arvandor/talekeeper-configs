@@ -1,0 +1,122 @@
+choice:
+  ==: Choice
+  id: 38964f11-56eb-4f5a-b24e-2411a5e72182
+  text: Tabaxi ASI Choice (3)
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 0b9e1e22-edef-4c80-93e1-1a5cfae7db55
+  options:
+    - ==: ChoiceOption
+      id: e0892d73-5316-454a-a220-b28275183e79
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 06b7deb5-c241-4f87-8611-6413022936f0
+                option-id: 47c22ee3-a412-4436-9423-52455ec3c297
+              - ==: ChoicePrerequisite
+                choice-id: dfd84931-d981-4813-acfb-88b98936a5e3
+                option-id: 603ae96a-b38e-4428-b1df-479e0efee94a
+    - ==: ChoiceOption
+      id: 08eb8ec1-a7cc-4320-b713-b1a87e38c76d
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 06b7deb5-c241-4f87-8611-6413022936f0
+                option-id: d10827f9-131d-4d52-8a8a-3ed70aa6e92c
+              - ==: ChoicePrerequisite
+                choice-id: dfd84931-d981-4813-acfb-88b98936a5e3
+                option-id: a985f2ab-ec9a-4b19-8dd1-a034536b272d
+    - ==: ChoiceOption
+      id: cefb9f07-3c1d-4b33-aaa1-d7f6ff82c0c5
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 06b7deb5-c241-4f87-8611-6413022936f0
+                option-id: 5b7a1404-f626-4fc7-8a35-3f46318c5504
+              - ==: ChoicePrerequisite
+                choice-id: dfd84931-d981-4813-acfb-88b98936a5e3
+                option-id: d3585c27-e682-438a-825b-12f692c2fa32
+    - ==: ChoiceOption
+      id: 19f65736-7620-410c-8b59-c304e245c43d
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 06b7deb5-c241-4f87-8611-6413022936f0
+                option-id: 6866c2df-c833-41e5-80b8-aecde4e426e4
+              - ==: ChoicePrerequisite
+                choice-id: dfd84931-d981-4813-acfb-88b98936a5e3
+                option-id: d682c5fc-f389-4788-bf57-02fcaa2b0611
+    - ==: ChoiceOption
+      id: f19f1754-703c-41bd-94da-55d9c065a0e8
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 06b7deb5-c241-4f87-8611-6413022936f0
+                option-id: 8fee294d-a549-48d9-84fb-1321ee0c6228
+              - ==: ChoicePrerequisite
+                choice-id: dfd84931-d981-4813-acfb-88b98936a5e3
+                option-id: 275adc6e-ef14-491f-aee1-0743b8f1d707
+    - ==: ChoiceOption
+      id: 1cec584e-a4ba-4544-8b59-3b113c2d4f3e
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AndPrerequisite
+            prerequisites:
+              - ==: ChoicePrerequisite
+                choice-id: 06b7deb5-c241-4f87-8611-6413022936f0
+                option-id: 0ba2a28e-0779-43d8-9b6c-90a0d479f7e1
+              - ==: ChoicePrerequisite
+                choice-id: dfd84931-d981-4813-acfb-88b98936a5e3
+                option-id: f58c2e90-ea84-4de6-b5f9-4e9bd653373f

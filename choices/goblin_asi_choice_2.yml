@@ -1,0 +1,62 @@
+choice:
+  ==: Choice
+  id: f1f55171-94c7-4ddd-921d-425447bd6a83
+  text: Goblin ASI Choice (2)
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: f4cec5d4-5453-4567-a405-21616559f1fd
+  options:
+    - ==: ChoiceOption
+      id: 61f95d9e-bcfb-4197-9175-5d0487c4d1be
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: b25232ab-009d-4de5-a75a-ed5836526ccd
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: e1ec1cf8-f3ff-462b-adbb-adc95365875c
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 2d06314b-15b0-492e-8482-679cc2b159bf
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: df0f44ca-a646-4258-814e-414cd3a07a13
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: e87c0b5a-84be-4582-bed0-0c47f422af74
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20
