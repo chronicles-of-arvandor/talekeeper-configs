@@ -1,7 +1,7 @@
 choice:
   ==: Choice
   id: c45469a7-69db-478c-a10c-cd84d66503dc
-  text: Arcane Trickster 3rd Lvl 1 Spell Choice
+  text: Arcane Trickster lvl 1 Spell Choice (3)
   prerequisites:
     - ==: SubClassPrerequisite
       class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a

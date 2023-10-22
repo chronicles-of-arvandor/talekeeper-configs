@@ -9,7 +9,7 @@ choice:
   options:
     - ==: ChoiceOption
       id: b9da3edd-0e8a-48b8-a3ad-ad7614317591
-      text: Artic
+      text: Arctic
     - ==: ChoiceOption
       id: a9f1bd64-7c6f-4bd4-b386-f2e4cb96bdd3
       text: Coast
