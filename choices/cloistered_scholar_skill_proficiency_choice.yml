@@ -1,0 +1,35 @@
+choice:
+  ==: Choice
+  id: 70a13481-33f9-4fb1-8c5a-922f229f4709
+  text: Cloistered Scholar Skill Proficiency Choice
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: 33f961d1-4e48-4545-989d-a071de9e1f26
+  options:
+    - ==: ChoiceOption
+      id: d6a82ad3-2234-4f65-a5d7-bec803367b2d
+      text: Arcana
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ARCANA
+    - ==: ChoiceOption
+      id: 655dcbec-7e21-47d0-aa83-090d025c279f
+      text: Nature
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - NATURE
+    - ==: ChoiceOption
+      id: 76d702ef-07c2-4aa7-91fb-2f092ad7298b
+      text: Religion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - RELIGION

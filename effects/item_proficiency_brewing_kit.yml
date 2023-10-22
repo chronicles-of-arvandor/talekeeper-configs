@@ -1,13 +1,10 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - herbalism_kit
+    - Brewing Kit
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:
-        - ==: ClassPrerequisite
-          class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
-          level: 1
         - ==: ChoicePrerequisite
           choice-id: 1f622aab-197c-4770-8530-c139b6d52002
-          option-id: 1021302d-4b95-4407-9c83-362234d67255
+          option-id: 83b7b553-0063-4138-a1ab-536d400cb5b2

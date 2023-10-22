@@ -1,0 +1,26 @@
+choice:
+  ==: Choice
+  id: 1f622aab-197c-4770-8530-c139b6d52002
+  text: Hermit Item Proficiency Choice
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: a2533d35-dd44-480b-afe0-3b10184119a0
+  options:
+    - ==: ChoiceOption
+      id: 1021302d-4b95-4407-9c83-362234d67255
+      text: Herbalism kit
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Herbalism kit
+    - ==: ChoiceOption
+      id: 83b7b553-0063-4138-a1ab-536d400cb5b2
+      text: Brewing Kit
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Brewing Kit
