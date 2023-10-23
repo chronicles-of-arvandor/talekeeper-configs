@@ -91,3 +91,11 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 82ff1f21-bda7-41a7-b8c1-4ca4e9f0f0ff
           option-id: a061fc1a-4d83-43bd-8cf1-7db4fe93b20d
+        - ==: ChoicePrerequisite
+          choice-id: 3235b91e-ea07-4a74-b559-57c5e028538b
+          option-id: 1709d798-95c6-4774-b0b9-87378dcd0229
+        - ==: ChoicePrerequisite
+          choice-id: 6ec86161-2f23-4cee-aafc-6367a719d107
+          option-id: ec3cd4c3-3e7c-4517-857b-36c110ccd352
+        - ==: BackgroundPrerequisite
+          background-id: 17695285-a959-487f-8101-a3e8c089cab1

@@ -1,0 +1,44 @@
+choice:
+  ==: Choice
+  id: 1a5b214f-0edc-4d87-b4b7-91ba44b268de
+  text: Noble Retainers Item Proficiency Choice
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: f25fd663-1746-41eb-bb9c-86e5a1f0fde2
+  options:
+    - ==: ChoiceOption
+      id: 874fb32b-d36e-4831-ac38-ff6aca7f55a3
+      text: Dice Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dice Set
+    - ==: ChoiceOption
+      id: cda5090f-f0da-4e54-980c-664d33f9d841
+      text: Dragonchess Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dragonchess Set
+    - ==: ChoiceOption
+      id: 6e4d8b52-2bf2-4e5c-8c5c-fa2f8419c509
+      text: Playing Card Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Playing Card Set
+    - ==: ChoiceOption
+      id: 99918c8b-2897-4bbf-acfa-377061a793d7
+      text: Three-Dragon Ante Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Three-Dragon Ante Set

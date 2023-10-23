@@ -17,3 +17,24 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 82fbb938-9588-4664-a873-b76a9065ee32
           option-id: 2d70ff72-394c-4b19-a6a3-8266b870ee7d
+        - ==: ChoicePrerequisite
+          choice-id: 0c80143e-38b9-49db-9ef9-8cf0ba397021
+          option-id: 289a8800-8f92-45ea-a7b7-7dc95040e549
+        - ==: ChoicePrerequisite
+          choice-id: c597bd88-d691-45e0-84a1-d42dae257752
+          option-id: dbeb8100-686d-4dec-9d4c-416dd1cf6f34
+        - ==: ChoicePrerequisite
+          choice-id: 3194d027-245a-497a-b330-797a0f161b07
+          option-id: 653cc341-dea5-42da-ae52-a1ffa1c9874e
+        - ==: ChoicePrerequisite
+          choice-id: 87ce930e-2ef1-461a-b8af-8089e9d7bf6b
+          option-id: 08c58971-82cb-43f1-b731-fd279d1cc8a5
+        - ==: ChoicePrerequisite
+          choice-id: 4869692e-69a0-4d70-8513-d72e28821f04
+          option-id: e41d8e70-6874-4d3d-8937-697e0e9bae87
+        - ==: ChoicePrerequisite
+          choice-id: 47aaaec2-049c-4987-af57-4af78f727db5
+          option-id: 5dfa043f-d626-4619-a83c-425ce351f436
+        - ==: ChoicePrerequisite
+          choice-id: a10a65f0-9b92-4139-bd13-e7f3d375fca9
+          option-id: 5d597531-7ebb-40df-98cd-ed7de535cf65

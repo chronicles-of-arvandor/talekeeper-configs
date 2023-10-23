@@ -81,3 +81,15 @@ effect:
           background-id: 9df72b1e-a26b-45b1-8969-e80ef372ef38
         - ==: BackgroundPrerequisite
           background-id: e8b1fa1f-e125-4455-9945-2216efd77d29
+        - ==: ChoicePrerequisite
+          choice-id: 3235b91e-ea07-4a74-b559-57c5e028538b
+          option-id: 93a20701-db4e-4607-87ef-06179e1de460
+        - ==: ChoicePrerequisite
+          choice-id: 6ec86161-2f23-4cee-aafc-6367a719d107
+          option-id: 35bbb558-b392-4a52-9ed5-8f970a3203f9
+        - ==: ChoicePrerequisite
+          choice-id: d9ea8bb8-362f-4a5e-b3b9-d90de37913bf
+          option-id: 823c7930-3491-457f-83d2-8d3bd102518e
+        - ==: ChoicePrerequisite
+          choice-id: 5b88d37a-f1b0-4438-b424-5886bc96a4bc
+          option-id: 325d8421-cd31-46c5-a2ae-e81dac9b0888

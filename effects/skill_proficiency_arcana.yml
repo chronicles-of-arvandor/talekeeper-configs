@@ -78,3 +78,11 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 70a13481-33f9-4fb1-8c5a-922f229f4709
           option-id: d6a82ad3-2234-4f65-a5d7-bec803367b2d
+        - ==: ChoicePrerequisite
+          choice-id: 3235b91e-ea07-4a74-b559-57c5e028538b
+          option-id: 49b6fa63-5827-4b75-a854-3fdde0bb1ab9
+        - ==: ChoicePrerequisite
+          choice-id: 6ec86161-2f23-4cee-aafc-6367a719d107
+          option-id: b9ebd405-7e85-429c-b369-3552bfc0c8da
+        - ==: BackgroundPrerequisite
+          background-id: 2a77faa4-a812-4f42-91b1-27fa638ed69c

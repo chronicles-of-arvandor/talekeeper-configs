@@ -19,3 +19,5 @@ effect:
           background-id: 23e1dcff-2f9e-4a04-a54a-b496cbfe856d
         - ==: BackgroundPrerequisite
           background-id: 0d887bd6-8e55-46de-bf21-05067f445456
+        - ==: BackgroundPrerequisite
+          background-id: 5aa5fe05-8a1f-4ece-b0f6-174cd83eb7a4

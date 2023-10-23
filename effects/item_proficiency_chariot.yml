@@ -1,0 +1,11 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Chariot
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: BackgroundPrerequisite
+          background-id: e2c8aa46-845e-4c5d-a31e-4aca5973f9ec
+        - ==: BackgroundPrerequisite
+          background-id: 5403f63a-91ef-400f-99c8-f220485a7963

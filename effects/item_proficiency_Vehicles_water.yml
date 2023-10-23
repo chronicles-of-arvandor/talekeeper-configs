@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items: []
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: BackgroundPrerequisite
+          background-id: 8ca79bb2-eeac-4d3a-bd92-edab77310546
+        - ==: BackgroundPrerequisite
+          background-id: 31596aa5-8619-44da-ba01-068d7c3a6ebc

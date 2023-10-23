@@ -1,0 +1,44 @@
+choice:
+  ==: Choice
+  id: d9ea8bb8-362f-4a5e-b3b9-d90de37913bf
+  text: Urban Bounty Hunter Skill Proficiency Choice (1)
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: 285224c3-4731-4ad9-84b4-9049c2e8d284
+  options:
+    - ==: ChoiceOption
+      id: 823c7930-3491-457f-83d2-8d3bd102518e
+      text: Deception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - DECEPTION
+    - ==: ChoiceOption
+      id: e01456df-46b2-4bfc-94f6-43324f124d8a
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: 36d20b3b-6b1b-4161-9e29-839968674a29
+      text: Persuasion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERSUASION
+    - ==: ChoiceOption
+      id: 464a33d3-96f4-434d-a249-99850d0c2d85
+      text: Stealth
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - STEALTH

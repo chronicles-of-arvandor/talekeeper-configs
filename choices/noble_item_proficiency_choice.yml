@@ -1,0 +1,44 @@
+choice:
+  ==: Choice
+  id: b4cb87cb-a983-4d6a-8075-ba7c8619b808
+  text: Noble Item Proficiency Choice
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: dd5ab2ca-daaa-4d44-9246-90a1eeca11fa
+  options:
+    - ==: ChoiceOption
+      id: ece75e51-66d7-4c30-9989-4240c5a4bb8a
+      text: Dice Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dice Set
+    - ==: ChoiceOption
+      id: 105c3733-c7d1-4804-9af1-c739495ce8b7
+      text: Dragonchess Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dragonchess Set
+    - ==: ChoiceOption
+      id: ce3b27b9-ad5b-4d96-b8ad-137b80ad9b52
+      text: Playing Card Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Playing Card Set
+    - ==: ChoiceOption
+      id: 03062aab-ee0c-417e-bb5d-a0985fe7c3af
+      text: Three-Dragon Ante Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Three-Dragon Ante Set

@@ -85,3 +85,26 @@ effect:
           option-id: 1188c637-5ce8-4d6f-99e3-95c81472b57c
         - ==: BackgroundPrerequisite
           background-id: e88d9753-4b88-48ff-ba64-88f4e611d3ac
+        - ==: ChoicePrerequisite
+          choice-id: 3235b91e-ea07-4a74-b559-57c5e028538b
+          option-id: c3d307e3-3594-4ec6-92fa-08d8284eef4e
+        - ==: BackgroundPrerequisite
+          background-id: 3cf2c04e-f2e4-48c5-8241-6c8c06f97ce9
+        - ==: BackgroundPrerequisite
+          background-id: f3c9f75b-c0fd-4620-bd6d-258a9d8f5c7c
+        - ==: BackgroundPrerequisite
+          background-id: f2278f1e-55fd-4a6b-87f0-6248e4e11e72
+        - ==: BackgroundPrerequisite
+          background-id: 5403f63a-91ef-400f-99c8-f220485a7963
+        - ==: BackgroundPrerequisite
+          background-id: dd5ab2ca-daaa-4d44-9246-90a1eeca11fa
+        - ==: BackgroundPrerequisite
+          background-id: f25fd663-1746-41eb-bb9c-86e5a1f0fde2
+        - ==: BackgroundPrerequisite
+          background-id: a8431b0a-c971-4ea3-a168-fa396c5f3eb5
+        - ==: ChoicePrerequisite
+          choice-id: d9ea8bb8-362f-4a5e-b3b9-d90de37913bf
+          option-id: 36d20b3b-6b1b-4161-9e29-839968674a29
+        - ==: ChoicePrerequisite
+          choice-id: 5b88d37a-f1b0-4438-b424-5886bc96a4bc
+          option-id: 1a38b5fd-41a1-4726-a898-112c842cfbaa

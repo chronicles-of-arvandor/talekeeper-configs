@@ -1,0 +1,5 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Cart
+  prerequisites: []

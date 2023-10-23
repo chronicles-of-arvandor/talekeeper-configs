@@ -78,3 +78,17 @@ effect:
           background-id: 33f961d1-4e48-4545-989d-a071de9e1f26
         - ==: BackgroundPrerequisite
           background-id: 5bcaa342-efcb-48f2-be82-f4ee77a2a952
+        - ==: ChoicePrerequisite
+          choice-id: 3235b91e-ea07-4a74-b559-57c5e028538b
+          option-id: b7c4efd7-7371-4b0d-a943-d1fcc79d68eb
+        - ==: ChoicePrerequisite
+          choice-id: 6ec86161-2f23-4cee-aafc-6367a719d107
+          option-id: fb22029d-2611-44ac-a7b0-69031cfb3c6f
+        - ==: BackgroundPrerequisite
+          background-id: dd5ab2ca-daaa-4d44-9246-90a1eeca11fa
+        - ==: BackgroundPrerequisite
+          background-id: a8431b0a-c971-4ea3-a168-fa396c5f3eb5
+        - ==: BackgroundPrerequisite
+          background-id: f25fd663-1746-41eb-bb9c-86e5a1f0fde2
+        - ==: BackgroundPrerequisite
+          background-id: 2a77faa4-a812-4f42-91b1-27fa638ed69c

@@ -17,3 +17,24 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 82fbb938-9588-4664-a873-b76a9065ee32
           option-id: 9a2db920-8c57-45ad-8364-ea566ff62e36
+        - ==: ChoicePrerequisite
+          choice-id: 0c80143e-38b9-49db-9ef9-8cf0ba397021
+          option-id: 4298c61d-a0be-49dd-89cf-47e927b2069a
+        - ==: ChoicePrerequisite
+          choice-id: c597bd88-d691-45e0-84a1-d42dae257752
+          option-id: 6100fc5b-0118-4a10-a3d4-df1e7fc14948
+        - ==: ChoicePrerequisite
+          choice-id: 3194d027-245a-497a-b330-797a0f161b07
+          option-id: 5edef667-c1bf-419f-bd6b-51eabe81be65
+        - ==: ChoicePrerequisite
+          choice-id: 87ce930e-2ef1-461a-b8af-8089e9d7bf6b
+          option-id: b10d0ab8-55d0-4754-9ef1-4dca5476e333
+        - ==: ChoicePrerequisite
+          choice-id: 4869692e-69a0-4d70-8513-d72e28821f04
+          option-id: 0bec856d-ee57-4c1b-87d4-7c1c37f3a7a4
+        - ==: ChoicePrerequisite
+          choice-id: 47aaaec2-049c-4987-af57-4af78f727db5
+          option-id: f5b2563a-cbeb-4741-a1db-e9dc45b99081
+        - ==: ChoicePrerequisite
+          choice-id: a10a65f0-9b92-4139-bd13-e7f3d375fca9
+          option-id: c271816a-dc4d-4faf-9e2b-323711f062ca

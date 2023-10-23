@@ -10,3 +10,11 @@ effect:
           level: 1
         - ==: BackgroundPrerequisite
           background-id: e8b1fa1f-e125-4455-9945-2216efd77d29
+        - ==: BackgroundPrerequisite
+          background-id: 5aa5fe05-8a1f-4ece-b0f6-174cd83eb7a4
+        - ==: ChoicePrerequisite
+          choice-id: 47aaaec2-049c-4987-af57-4af78f727db5
+          option-id: cec929d6-62f5-4640-93c3-9375f5b3d018
+        - ==: ChoicePrerequisite
+          choice-id: a10a65f0-9b92-4139-bd13-e7f3d375fca9
+          option-id: 27acd76a-30f2-4439-bd89-530b4ea093f6

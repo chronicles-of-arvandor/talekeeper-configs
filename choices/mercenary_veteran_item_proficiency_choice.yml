@@ -1,0 +1,44 @@
+choice:
+  ==: Choice
+  id: 322e7d62-d081-41fb-be01-0fcc2b9222db
+  text: Mercenary Veteran Item Proficiency Choice
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: 5403f63a-91ef-400f-99c8-f220485a7963
+  options:
+    - ==: ChoiceOption
+      id: 3ade7ddb-f769-41e2-a578-0951c7d66f63
+      text: Dice Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dice Set
+    - ==: ChoiceOption
+      id: 267cad26-a4b2-45b4-b8e3-51f13000319a
+      text: Dragonchess Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dragonchess Set
+    - ==: ChoiceOption
+      id: b650051d-0ddc-47c3-983b-cd3a45f120c5
+      text: Playing Card Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Playing Card Set
+    - ==: ChoiceOption
+      id: 3a2f7d92-390f-4935-8c6d-4f497ac4b40f
+      text: Three-Dragon Ante Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Three-Dragon Ante Set

@@ -63,3 +63,14 @@ effect:
           option-id: 30f3b960-b985-4768-a17f-2c19ec5a4ce7
         - ==: BackgroundPrerequisite
           background-id: e8b1fa1f-e125-4455-9945-2216efd77d29
+        - ==: ChoicePrerequisite
+          choice-id: 6ec86161-2f23-4cee-aafc-6367a719d107
+          option-id: d28bd802-f0a7-4ff8-adbf-ca83c455f654
+        - ==: BackgroundPrerequisite
+          background-id: 5aa5fe05-8a1f-4ece-b0f6-174cd83eb7a4
+        - ==: ChoicePrerequisite
+          choice-id: d9ea8bb8-362f-4a5e-b3b9-d90de37913bf
+          option-id: 464a33d3-96f4-434d-a249-99850d0c2d85
+        - ==: ChoicePrerequisite
+          choice-id: 5b88d37a-f1b0-4438-b424-5886bc96a4bc
+          option-id: 17d8f3bb-fedc-42c4-91a6-4810ad09f154

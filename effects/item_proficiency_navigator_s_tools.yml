@@ -1,0 +1,14 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Navigator's Tools
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 1db6b5fc-8c87-40cf-9cab-e4287d890cba
+          option-id: 7f17dfae-0c17-4e51-8451-6da478b31821
+        - ==: BackgroundPrerequisite
+          background-id: 8ca79bb2-eeac-4d3a-bd92-edab77310546
+        - ==: BackgroundPrerequisite
+          background-id: 31596aa5-8619-44da-ba01-068d7c3a6ebc

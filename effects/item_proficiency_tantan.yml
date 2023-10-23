@@ -17,3 +17,24 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 82fbb938-9588-4664-a873-b76a9065ee32
           option-id: 59861f05-18eb-4420-a4c5-26507d6042df
+        - ==: ChoicePrerequisite
+          choice-id: 0c80143e-38b9-49db-9ef9-8cf0ba397021
+          option-id: bca573de-86e5-4d04-b22f-cb083f72ff93
+        - ==: ChoicePrerequisite
+          choice-id: c597bd88-d691-45e0-84a1-d42dae257752
+          option-id: 2bf4dd2d-4558-4a48-988e-47e1a82d024c
+        - ==: ChoicePrerequisite
+          choice-id: 3194d027-245a-497a-b330-797a0f161b07
+          option-id: 08724892-fdfe-4452-85d4-8fd937103aca
+        - ==: ChoicePrerequisite
+          choice-id: 87ce930e-2ef1-461a-b8af-8089e9d7bf6b
+          option-id: 8c3f6dca-3c56-4921-a1ef-a64af278a9cb
+        - ==: ChoicePrerequisite
+          choice-id: 4869692e-69a0-4d70-8513-d72e28821f04
+          option-id: e1b70688-33e2-4194-b8cf-0111ab48fa99
+        - ==: ChoicePrerequisite
+          choice-id: 47aaaec2-049c-4987-af57-4af78f727db5
+          option-id: 58e2bfaa-d88b-4e5e-90fe-6d81ef3390ee
+        - ==: ChoicePrerequisite
+          choice-id: a10a65f0-9b92-4139-bd13-e7f3d375fca9
+          option-id: 9fd958d6-9856-4b6e-8e92-e05ec394df17
