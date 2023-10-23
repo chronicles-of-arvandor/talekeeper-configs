@@ -77,3 +77,7 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 82ff1f21-bda7-41a7-b8c1-4ca4e9f0f0ff
           option-id: d1a1e66a-0420-49e3-8d87-b62fcde16d64
+        - ==: BackgroundPrerequisite
+          background-id: 9df72b1e-a26b-45b1-8969-e80ef372ef38
+        - ==: BackgroundPrerequisite
+          background-id: e8b1fa1f-e125-4455-9945-2216efd77d29

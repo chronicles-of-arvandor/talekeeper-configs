@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Dragonchess Set
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 41237697-6374-4473-90eb-69774fc61926
+          option-id: 92766bd0-e768-4a68-98c2-b07ad7be9432

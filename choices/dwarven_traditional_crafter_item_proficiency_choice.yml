@@ -1,0 +1,170 @@
+choice:
+  ==: Choice
+  id: 66e8e0f7-91e0-42e4-a8f3-696a6115efd7
+  text: Dwarven Traditional Crafter Item Proficiency Choice
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: 5bcaa342-efcb-48f2-be82-f4ee77a2a952
+  options:
+    - ==: ChoiceOption
+      id: 7af2dcd8-00d1-4e90-949b-61559c2bf6bf
+      text: Alchemist's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Alchemist's Tools
+    - ==: ChoiceOption
+      id: 54bcda46-e157-4922-a6c4-7be84a46f4d0
+      text: Artisan's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Artisan's Tools
+    - ==: ChoiceOption
+      id: 1b0417f2-3c29-4c6a-9791-301abc6d1655
+      text: Brewer's Supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Brewer's Supplies
+    - ==: ChoiceOption
+      id: ca32a74c-cf4f-4e12-945c-eefb8c59e9db
+      text: Calligrapher's Supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Calligrapher's Supplies
+    - ==: ChoiceOption
+      id: 57e6a4da-a432-4b5d-a81b-52aeccce9b40
+      text: Carpenter's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Carpenter's Tools
+    - ==: ChoiceOption
+      id: 66b7b3fb-a783-47cf-94dc-790315202ca7
+      text: Cartographer's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Cartographer's Tools
+    - ==: ChoiceOption
+      id: 4ee727a5-4b8e-4d84-a841-695b90d7d236
+      text: Cobbler's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Cobbler's Tools
+    - ==: ChoiceOption
+      id: f235b3e3-bdfd-4df5-a5ea-b43192839a3d
+      text: Cook's Utensils
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Cook's Utensils
+    - ==: ChoiceOption
+      id: f333adba-eb8c-46a0-af0a-59d3a1343f72
+      text: Glassblower's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Glassblower's Tools
+    - ==: ChoiceOption
+      id: b446f3ef-e286-4c63-be64-db9947bbd25a
+      text: Jeweler's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Jeweler's Tools
+    - ==: ChoiceOption
+      id: 68a6b2c1-6944-419b-8754-7849da36af96
+      text: Leatherworker's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Leatherworker's Tools
+    - ==: ChoiceOption
+      id: 3cb33d67-115a-4ae1-a2e7-8adce088641b
+      text: Mason's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Mason's Tools
+    - ==: ChoiceOption
+      id: bf1a40d6-4ef1-4b7b-90c0-9347fb03e3b4
+      text: Painter's Supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Painter's Supplies
+    - ==: ChoiceOption
+      id: 2d273738-b60a-4caf-a1bc-5576fc40e044
+      text: Potter's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Potter's Tools
+    - ==: ChoiceOption
+      id: ffa070fb-5f1f-4af7-9609-c2797bcde53a
+      text: Smith's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Smith's Tools
+    - ==: ChoiceOption
+      id: a23350d4-dff8-4844-b57f-ff777dfe0316
+      text: Tinker's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Tinker's Tools
+    - ==: ChoiceOption
+      id: a732ff78-1ac6-4d71-abdb-c269bc50eeed
+      text: Weaver's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Weaver's Tools
+    - ==: ChoiceOption
+      id: e9e22039-7085-487e-9d65-6a14ec86e4fa
+      text: Woodcarver's Tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Woodcarver's Tools

@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Gaming Set
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 41237697-6374-4473-90eb-69774fc61926
+          option-id: 570871a1-f378-41d1-87fa-2f366d883abd

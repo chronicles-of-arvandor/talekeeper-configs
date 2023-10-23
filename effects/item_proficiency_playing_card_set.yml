@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Playing Card Set
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 41237697-6374-4473-90eb-69774fc61926
+          option-id: 462a88b6-f85c-496b-803b-741f088fe161

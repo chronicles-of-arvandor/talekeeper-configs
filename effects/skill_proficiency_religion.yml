@@ -83,3 +83,7 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 70a13481-33f9-4fb1-8c5a-922f229f4709
           option-id: 76d702ef-07c2-4aa7-91fb-2f092ad7298b
+        - ==: BackgroundPrerequisite
+          background-id: 2f04e772-bb66-49ca-8577-36f76e49b23c
+        - ==: BackgroundPrerequisite
+          background-id: 5c677fca-430f-4716-99ec-f1ba72a7fe54

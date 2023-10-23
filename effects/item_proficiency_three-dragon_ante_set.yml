@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Three-Dragon Ante Set
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 41237697-6374-4473-90eb-69774fc61926
+          option-id: 69913742-7933-47a1-a43a-beb6f4e9b7b8

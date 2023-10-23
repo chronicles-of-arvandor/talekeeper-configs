@@ -1,0 +1,10 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - Dice Set
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 41237697-6374-4473-90eb-69774fc61926
+          option-id: a3c04dc7-fae6-4e19-97bc-3b73287915e5

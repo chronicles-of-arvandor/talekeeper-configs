@@ -1,0 +1,53 @@
+choice:
+  ==: Choice
+  id: 41237697-6374-4473-90eb-69774fc61926
+  text: Criminal Item Proficiency Choice
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: e8b1fa1f-e125-4455-9945-2216efd77d29
+  options:
+    - ==: ChoiceOption
+      id: a3c04dc7-fae6-4e19-97bc-3b73287915e5
+      text: Dice Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dice Set
+    - ==: ChoiceOption
+      id: 92766bd0-e768-4a68-98c2-b07ad7be9432
+      text: Dragonchess Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Dragonchess Set
+    - ==: ChoiceOption
+      id: 570871a1-f378-41d1-87fa-2f366d883abd
+      text: Gaming Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Gaming Set
+    - ==: ChoiceOption
+      id: 462a88b6-f85c-496b-803b-741f088fe161
+      text: Playing Card Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Playing Card Set
+    - ==: ChoiceOption
+      id: 69913742-7933-47a1-a43a-beb6f4e9b7b8
+      text: Three-Dragon Ante Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Three-Dragon Ante Set

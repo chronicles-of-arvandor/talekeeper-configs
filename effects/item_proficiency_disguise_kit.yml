@@ -13,3 +13,9 @@ effect:
           class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
           sub-class-id: d2037a60-eb97-4494-8c06-6a9dee926d56
           level: 1
+        - ==: BackgroundPrerequisite
+          background-id: 9df72b1e-a26b-45b1-8969-e80ef372ef38
+        - ==: BackgroundPrerequisite
+          background-id: 23e1dcff-2f9e-4a04-a54a-b496cbfe856d
+        - ==: BackgroundPrerequisite
+          background-id: 0d887bd6-8e55-46de-bf21-05067f445456
