@@ -1,0 +1,14 @@
+choice:
+  ==: Choice
+  id: a378d80c-5f89-45c5-9140-7447f5d4066b
+  text: "Guild Merchant: Tool proficiency or language"
+  prerequisites:
+    - ==: BackgroundPrerequisite
+      background-id: f3c9f75b-c0fd-4620-bd6d-258a9d8f5c7c
+  options:
+    - ==: ChoiceOption
+      id: e0246af1-dbc5-4e1e-b3d8-7afb9ece7cb3
+      text: Tool proficiency
+    - ==: ChoiceOption
+      id: 85ff6932-ada8-40cb-bf68-a0c08ecac9b9
+      text: Language

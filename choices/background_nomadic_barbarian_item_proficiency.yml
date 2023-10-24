@@ -14,7 +14,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Alchemist's Supplies
+              - alchemists_supplies
     - ==: ChoiceOption
       id: 4b202aeb-a79a-4b5b-b10b-bc32630ac3a3
       text: Brewer's Supplies
@@ -23,7 +23,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Brewer's Supplies
+              - brewers_supplies
     - ==: ChoiceOption
       id: 61ffc89d-f799-454d-b344-2066342ecb90
       text: Calligrapher's Supplies
@@ -32,7 +32,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Calligrapher's Supplies
+              - calligraphers_supplies
     - ==: ChoiceOption
       id: 85a9ef5e-0aa2-4829-8963-942f0d8b835a
       text: Carpenter's Tools
@@ -41,7 +41,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Carpenter's Tools
+              - carpenters_tools
     - ==: ChoiceOption
       id: 40ce3aa4-6ac3-4261-be15-fb64e495ce7e
       text: Cartographer's Tools
@@ -50,7 +50,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Cartographer's Tools
+              - cartographers_tools
     - ==: ChoiceOption
       id: afde03c8-bc63-4b8b-a82b-4477f6cacf2a
       text: Cobbler's Tools
@@ -59,7 +59,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Cobbler's Tools
+              - cobblers_tools
     - ==: ChoiceOption
       id: cfe208a3-b424-4b78-96f4-3678082d9f5b
       text: Cook's Utensils
@@ -68,7 +68,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Cook's Utensils
+              - cooks_utensils
     - ==: ChoiceOption
       id: bfb0ea4b-37a9-4709-97f3-32e9e2314c77
       text: Glassblower's Tools
@@ -77,7 +77,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Glassblower's Tools
+              - glassblowers_tools
     - ==: ChoiceOption
       id: 71737f77-12a2-425e-bc7c-8878289d75a3
       text: Jeweler's Tools
@@ -86,7 +86,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Jeweler's Tools
+              - jewelers_tools
     - ==: ChoiceOption
       id: 27fa9aa2-e83e-4d0b-9329-d5e3368788e2
       text: Leatherworker's Tools
@@ -95,7 +95,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Leatherworker's Tools
+              - leatherworkers_tools
     - ==: ChoiceOption
       id: 237f8625-280d-4c64-a29f-52134ce922ac
       text: Mason's Tools
@@ -104,7 +104,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Mason's Tools
+              - masons_tools
     - ==: ChoiceOption
       id: e1701971-fc64-45b4-86f6-9a86fe2669d4
       text: Painter's Supplies
@@ -113,7 +113,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Painter's Supplies
+              - painters_supplies
     - ==: ChoiceOption
       id: e96c2241-184c-4375-b774-dd01ca7451bc
       text: Potter's Tools
@@ -122,7 +122,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Potter's Tools
+              - potters_tools
     - ==: ChoiceOption
       id: 5cc9c36d-db7e-400e-8b93-e7b21abff002
       text: Smith's Tools
@@ -131,7 +131,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Smith's Tools
+              - smiths_tools
     - ==: ChoiceOption
       id: 0eca9306-3cf6-4163-8b39-1212b710ca80
       text: Tinker's Tools
@@ -140,7 +140,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Tinker's Tools
+              - tinkers_tools
     - ==: ChoiceOption
       id: db6fcda5-0f27-40ec-9b19-abaee23e2f83
       text: Weaver's Tools
@@ -149,7 +149,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Weaver's Tools
+              - weavers_tools
     - ==: ChoiceOption
       id: 099b9f4a-36b1-4315-9758-ff4627e65472
       text: Woodcarver's Tools
@@ -158,7 +158,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Woodcarver's Tools
+              - woodcarvers_tools
     - ==: ChoiceOption
       id: b10d0ab8-55d0-4754-9ef1-4dca5476e333
       text: Bagpipes
@@ -167,7 +167,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Bagpipes
+              - bagpipes
     - ==: ChoiceOption
       id: 952b13a8-e1d4-4864-b2f7-eb0a3abeb171
       text: Birdpipes
@@ -176,7 +176,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Birdpipes
+              - birdpipes
     - ==: ChoiceOption
       id: 2f88fff3-6013-4091-b6ac-205748f546a3
       text: Drum
@@ -185,7 +185,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Drum
+              - drum
     - ==: ChoiceOption
       id: 67ac08d4-bf2e-4ebb-b6a0-b6a096f7da77
       text: Dulcimer
@@ -194,7 +194,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Dulcimer
+              - dulcimer
     - ==: ChoiceOption
       id: c8268aaa-d2c7-4f45-9669-4de7ec98d874
       text: Flute
@@ -203,7 +203,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Flute
+              - flute
     - ==: ChoiceOption
       id: df3143bc-9f76-4d2e-a4c0-33afe6704ac1
       text: Glaur
@@ -212,7 +212,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Glaur
+              - glaur
     - ==: ChoiceOption
       id: 21dca90a-2ccf-4db4-b69e-36581f892907
       text: Hand Drum
@@ -221,7 +221,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Hand Drum
+              - hand_drum
     - ==: ChoiceOption
       id: 56d346e9-dabe-4613-878b-3917a1ad3c47
       text: Horn
@@ -230,7 +230,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Horn
+              - horn
     - ==: ChoiceOption
       id: ab1e2ad1-2d14-471e-bd41-0abaf92d1b06
       text: Longhorn
@@ -239,7 +239,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Longhorn
+              - longhorn
     - ==: ChoiceOption
       id: 1c3ecb48-3b81-4e7a-a2bd-c13d438ff4cd
       text: Lute
@@ -248,7 +248,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Lute
+              - lute
     - ==: ChoiceOption
       id: 332920f0-99bd-4990-96bf-aa2d2fec96b7
       text: Lyre
@@ -257,7 +257,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Lyre
+              - lyre
     - ==: ChoiceOption
       id: 08c58971-82cb-43f1-b731-fd279d1cc8a5
       text: Pan Flute
@@ -266,7 +266,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Pan Flute
+              - pan_flute
     - ==: ChoiceOption
       id: bf22234c-cae6-46ec-b638-0fad3f502cff
       text: Shawm
@@ -275,7 +275,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Shawm
+              - shawm
     - ==: ChoiceOption
       id: 0ac2d027-8335-46ee-a51c-24ad71ce6205
       text: Songhorn
@@ -284,7 +284,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Songhorn
+              - songhorn
     - ==: ChoiceOption
       id: 8c3f6dca-3c56-4921-a1ef-a64af278a9cb
       text: Tantan
@@ -293,7 +293,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Tantan
+              - tantan
     - ==: ChoiceOption
       id: 03e232f6-f2fc-4aa7-87ad-c7cb7ce41a92
       text: Thelarr
@@ -302,7 +302,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Thelarr
+              - thelarr
     - ==: ChoiceOption
       id: 18efc490-07b9-44db-9a19-7b13b405cd97
       text: Tocken
@@ -311,7 +311,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Tocken
+              - tocken
     - ==: ChoiceOption
       id: 110e9e66-effa-48b7-9c42-de955596c0ea
       text: Viol
@@ -320,7 +320,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Viol
+              - viol
     - ==: ChoiceOption
       id: c019351f-bf45-4588-85e6-2bbf6c12f720
       text: Wargong
@@ -329,7 +329,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Wargong
+              - wargong
     - ==: ChoiceOption
       id: 44607985-7d7b-4223-a92b-3c87a2c3fe1e
       text: Yarting
@@ -338,7 +338,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Yarting
+              - yarting
     - ==: ChoiceOption
       id: e579ffad-0093-4e97-8b5e-bd3a96b72766
       text: Zulkoon
@@ -347,4 +347,4 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Zulkoon
+              - zulkoon

@@ -14,7 +14,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Dice Set
+              - dice_set
     - ==: ChoiceOption
       id: 1930478d-583c-45dc-b485-960e8542b1c3
       text: Dragonchess Set
@@ -23,7 +23,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Dragonchess Set
+              - dragonchess_set
     - ==: ChoiceOption
       id: ed1fd448-0aba-4531-a824-6d9c5f2cf398
       text: Playing Card Set
@@ -32,7 +32,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Playing Card Set
+              - playing_card_set
     - ==: ChoiceOption
       id: bfcef388-be44-4d26-a3d5-8456ecaab537
       text: Three-Dragon Ante Set
@@ -41,4 +41,4 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Three-Dragon Ante Set
+              - threedragon_ante_set

@@ -15,7 +15,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Alchemist's Supplies
+              - alchemists_supplies
     - ==: ChoiceOption
       id: 8f6d62a0-1442-4cdc-b43e-9c5e65ed9bdc
       text: Brewer's Supplies
@@ -24,7 +24,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Brewer's Supplies
+              - brewers_supplies
     - ==: ChoiceOption
       id: 73019ff7-471a-4bf6-9a4c-e3fa344d12f9
       text: Calligrapher's Supplies
@@ -33,7 +33,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Calligrapher's Supplies
+              - calligraphers_supplies
     - ==: ChoiceOption
       id: 83d3afec-efbc-4007-b1a0-5b9fb51fe4f1
       text: Carpenter's Supplies
@@ -42,7 +42,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Carpenter's Supplies
+              - carpenters_supplies
     - ==: ChoiceOption
       id: 43120c7d-d410-4690-bfcd-b74352cba0aa
       text: Cobbler's Tools
@@ -51,7 +51,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Cobbler's Tools
+              - cobblers_tools
     - ==: ChoiceOption
       id: ca3401b2-98ea-443d-a708-3a4802ae3c3f
       text: Cartographer's Tools
@@ -60,7 +60,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Cartographer's Tools
+              - cartographers_tools
     - ==: ChoiceOption
       id: e04c9941-31fd-41be-9cba-98320fefd193
       text: Cook's Utensils
@@ -69,7 +69,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Cook's Utensils
+              - cooks_utensils
     - ==: ChoiceOption
       id: 6d71d90b-ce51-4e10-93e0-9c4c18d6baf4
       text: Glassblower's Tools
@@ -78,7 +78,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Glassblower's Tools
+              - glassblowers_tools
     - ==: ChoiceOption
       id: 418c7d9d-6546-4e90-b8ae-6ca38c2f94b0
       text: Jeweler's Tools
@@ -87,7 +87,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Jeweler's Tools
+              - jewelers_tools
     - ==: ChoiceOption
       id: 96eb9b88-172a-4b59-91b2-506d4907fa52
       text: Leatherworker's Tools
@@ -96,7 +96,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Leatherworker's Tools
+              - leatherworkers_tools
     - ==: ChoiceOption
       id: fef63a8c-28d7-463f-bc6f-b05dbfd3c563
       text: Mason's Tools
@@ -105,7 +105,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Mason's Tools
+              - masons_tools
     - ==: ChoiceOption
       id: c3214e58-c14f-4f48-b842-a9bd819a95cc
       text: Painter's Supplies
@@ -114,7 +114,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Painter's Supplies
+              - painters_supplies
     - ==: ChoiceOption
       id: a87ffcd4-8c3c-407f-8175-1e52bed7e77f
       text: Potter's Tools
@@ -123,7 +123,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Potter's Tools
+              - potters_tools
     - ==: ChoiceOption
       id: 2e370099-f804-4380-8bb1-b37bc41e4c35
       text: Smith's Tools
@@ -132,7 +132,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Smith's Tools
+              - smiths_tools
     - ==: ChoiceOption
       id: fe6de1c4-5280-4281-855f-61991236a91a
       text: Tinker's Tools
@@ -141,7 +141,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Tinker's Tools
+              - tinkers_tools
     - ==: ChoiceOption
       id: b6de0bd4-c5da-4d58-81ef-5245f64ba0bf
       text: Weaver's Tools
@@ -150,7 +150,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Weaver's Tools
+              - weavers_tools
     - ==: ChoiceOption
       id: fe6c5e25-ee7c-4666-9b56-b91bb79584ca
       text: Woodcarver's Tools
@@ -159,4 +159,4 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Woodcarver's Tools
+              - woodcarvers_tools

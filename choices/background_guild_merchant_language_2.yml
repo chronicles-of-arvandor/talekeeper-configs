@@ -5,11 +5,9 @@ choice:
   prerequisites:
     - ==: BackgroundPrerequisite
       background-id: f3c9f75b-c0fd-4620-bd6d-258a9d8f5c7c
-    - ==: NotPrerequisite
-      prerequisite:
-        ==: ChoicePrerequisite
-        choice-id: 1db6b5fc-8c87-40cf-9cab-e4287d890cba
-        option-id: 8f580416-34ac-4737-b0f1-dab4c2c1cdf7
+    - ==: ChoicePrerequisite
+      choice-id: a378d80c-5f89-45c5-9140-7447f5d4066b
+      option-id: 85ff6932-ada8-40cb-bf68-a0c08ecac9b9
   options:
     - ==: ChoiceOption
       id: 0d495eee-b1a8-4cdd-bf74-383d92cf8b36

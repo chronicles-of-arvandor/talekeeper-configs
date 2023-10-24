@@ -1,44 +1,53 @@
 choice:
   ==: Choice
-  id: 7031dceb-0e0d-4b5c-b4dc-512311fb206c
-  text: Noble Knight Item Proficiency Set
+  id: 41237697-6374-4473-90eb-69774fc61926
+  text: Criminal Item Proficiency Choice
   prerequisites:
     - ==: BackgroundPrerequisite
-      background-id: a8431b0a-c971-4ea3-a168-fa396c5f3eb5
+      background-id: e8b1fa1f-e125-4455-9945-2216efd77d29
   options:
     - ==: ChoiceOption
-      id: 64baea49-c998-4300-b7b3-e801e61b84d5
+      id: a3c04dc7-fae6-4e19-97bc-3b73287915e5
       text: Dice Set
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Dice Set
+              - dice_set
     - ==: ChoiceOption
-      id: 39771eda-5502-4be5-8777-828e5c353b30
+      id: 92766bd0-e768-4a68-98c2-b07ad7be9432
       text: Dragonchess Set
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Dragonchess Set
+              - dragonchess_set
     - ==: ChoiceOption
-      id: 1f63785f-d082-4099-83bd-2e4de33785db
+      id: 570871a1-f378-41d1-87fa-2f366d883abd
+      text: Gaming Set
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - gaming_set
+    - ==: ChoiceOption
+      id: 462a88b6-f85c-496b-803b-741f088fe161
       text: Playing Card Set
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Playing Card Set
+              - playing_card_set
     - ==: ChoiceOption
-      id: a1291b67-b8e3-470a-ae37-377edaedd33f
+      id: 69913742-7933-47a1-a43a-beb6f4e9b7b8
       text: Three-Dragon Ante Set
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Three-Dragon Ante Set
+              - threedragon_ante_set

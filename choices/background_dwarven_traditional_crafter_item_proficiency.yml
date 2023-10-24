@@ -1,197 +1,170 @@
 choice:
   ==: Choice
-  id: 4869692e-69a0-4d70-8513-d72e28821f04
-  text: Outlander Item Proficiency Choice
+  id: 66e8e0f7-91e0-42e4-a8f3-696a6115efd7
+  text: Dwarven Traditional Crafter Item Proficiency Choice
   prerequisites:
     - ==: BackgroundPrerequisite
-      background-id: 54171efa-6d1e-4b83-8b12-18e7c804a58d
+      background-id: 5bcaa342-efcb-48f2-be82-f4ee77a2a952
   options:
     - ==: ChoiceOption
-      id: 0bec856d-ee57-4c1b-87d4-7c1c37f3a7a4
-      text: Bagpipes
+      id: 7af2dcd8-00d1-4e90-949b-61559c2bf6bf
+      text: Alchemist's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Bagpipes
+              - alchemists_tools
     - ==: ChoiceOption
-      id: a7be04f0-eca1-4ef4-8b58-fdfcccc8ae97
-      text: Birdpipes
+      id: 54bcda46-e157-4922-a6c4-7be84a46f4d0
+      text: Artisan's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Birdpipes
+              - artisans_tools
     - ==: ChoiceOption
-      id: df439f4c-af05-42d2-a49f-fa3747075445
-      text: Drum
+      id: 1b0417f2-3c29-4c6a-9791-301abc6d1655
+      text: Brewer's Supplies
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Drum
+              - brewers_supplies
     - ==: ChoiceOption
-      id: a1621d8e-2244-4704-803c-5a972b61993f
-      text: Dulcimer
+      id: ca32a74c-cf4f-4e12-945c-eefb8c59e9db
+      text: Calligrapher's Supplies
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Dulcimer
+              - calligraphers_supplies
     - ==: ChoiceOption
-      id: 701ad528-090b-46c2-9be3-77e02d3e0f2f
-      text: Flute
+      id: 57e6a4da-a432-4b5d-a81b-52aeccce9b40
+      text: Carpenter's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Flute
+              - carpenters_tools
     - ==: ChoiceOption
-      id: 39a4daf6-2735-4a56-96af-de027233be9c
-      text: Glaur
+      id: 66b7b3fb-a783-47cf-94dc-790315202ca7
+      text: Cartographer's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Glaur
+              - cartographers_tools
     - ==: ChoiceOption
-      id: 5b6badc5-7e2a-4acc-9e18-af5af99d2ecf
-      text: Hand Drum
+      id: 4ee727a5-4b8e-4d84-a841-695b90d7d236
+      text: Cobbler's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Hand Drum
+              - cobblers_tools
     - ==: ChoiceOption
-      id: ef289e05-3305-4089-acd4-e66e2a8a2c02
-      text: Horn
+      id: f235b3e3-bdfd-4df5-a5ea-b43192839a3d
+      text: Cook's Utensils
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Horn
+              - cooks_utensils
     - ==: ChoiceOption
-      id: 50b2da2c-9e9e-4891-86a4-4613535c8a9d
-      text: Longhorn
+      id: f333adba-eb8c-46a0-af0a-59d3a1343f72
+      text: Glassblower's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Longhorn
+              - glassblowers_tools
     - ==: ChoiceOption
-      id: 6b1ba771-543c-45fe-9cfd-bef73f5a01ea
-      text: Lute
+      id: b446f3ef-e286-4c63-be64-db9947bbd25a
+      text: Jeweler's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Lute
+              - jewelers_tools
     - ==: ChoiceOption
-      id: 53089147-b715-40ae-b148-d5a9f1246e3c
-      text: Lyre
+      id: 68a6b2c1-6944-419b-8754-7849da36af96
+      text: Leatherworker's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Lyre
+              - leatherworkers_tools
     - ==: ChoiceOption
-      id: e41d8e70-6874-4d3d-8937-697e0e9bae87
-      text: Pan Flute
+      id: 3cb33d67-115a-4ae1-a2e7-8adce088641b
+      text: Mason's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Pan Flute
+              - masons_tools
     - ==: ChoiceOption
-      id: 63c8a2db-c504-4b8a-8d9d-3227df7d006b
-      text: Shawm
+      id: bf1a40d6-4ef1-4b7b-90c0-9347fb03e3b4
+      text: Painter's Supplies
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Shawm
+              - painters_supplies
     - ==: ChoiceOption
-      id: 54cb8ef5-c376-4345-b294-13821a893691
-      text: Songhorn
+      id: 2d273738-b60a-4caf-a1bc-5576fc40e044
+      text: Potter's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Songhorn
+              - potters_tools
     - ==: ChoiceOption
-      id: e1b70688-33e2-4194-b8cf-0111ab48fa99
-      text: Tantan
+      id: ffa070fb-5f1f-4af7-9609-c2797bcde53a
+      text: Smith's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Tantan
+              - smiths_tools
     - ==: ChoiceOption
-      id: e7158290-7c23-4d74-a546-ea4ac475dde2
-      text: Thelarr
+      id: a23350d4-dff8-4844-b57f-ff777dfe0316
+      text: Tinker's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Thelarr
+              - tinkers_tools
     - ==: ChoiceOption
-      id: b80155de-2bcd-45da-8e72-59c56416ef6a
-      text: Tocken
+      id: a732ff78-1ac6-4d71-abdb-c269bc50eeed
+      text: Weaver's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Tocken
+              - weavers_tools
     - ==: ChoiceOption
-      id: 7c5dabb3-c9c9-488a-bca5-8af56dee951a
-      text: Viol
+      id: e9e22039-7085-487e-9d65-6a14ec86e4fa
+      text: Woodcarver's Tools
       prerequisites:
         - ==: NotPrerequisite
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Viol
-    - ==: ChoiceOption
-      id: 5efe86ea-d3cd-482e-ad84-f3209bdb6878
-      text: Wargong
-      prerequisites:
-        - ==: NotPrerequisite
-          prerequisite:
-            ==: ItemProficiencyPrerequisite
-            item-ids:
-              - Wargong
-    - ==: ChoiceOption
-      id: fe0adc28-94a8-4f2b-8c40-67fc7abe9cc0
-      text: Yarting
-      prerequisites:
-        - ==: NotPrerequisite
-          prerequisite:
-            ==: ItemProficiencyPrerequisite
-            item-ids:
-              - Yarting
-    - ==: ChoiceOption
-      id: ec5cbc88-7509-47ac-8dc5-8122176a164e
-      text: Zulkoon
-      prerequisites:
-        - ==: NotPrerequisite
-          prerequisite:
-            ==: ItemProficiencyPrerequisite
-            item-ids:
-              - Zulkoon
+              - woodcarvers_tools

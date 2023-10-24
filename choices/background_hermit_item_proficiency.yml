@@ -14,7 +14,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Herbalism kit
+              - herbalism_kit
     - ==: ChoiceOption
       id: 83b7b553-0063-4138-a1ab-536d400cb5b2
       text: Brewing Kit
@@ -23,4 +23,4 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Brewing Kit
+              - brewing_kit
