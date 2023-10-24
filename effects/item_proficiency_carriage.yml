@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Carriage
+    - carriage
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

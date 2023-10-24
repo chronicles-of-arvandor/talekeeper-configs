@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Three-Dragon Ante Set
+    - threedragon_ante_set
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Dice Set
+    - dice_set
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Sled
+    - sled
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

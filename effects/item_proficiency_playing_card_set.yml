@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Playing Card Set
+    - playing_card_set
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

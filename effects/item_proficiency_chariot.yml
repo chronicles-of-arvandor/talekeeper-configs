@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Chariot
+    - chariot
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

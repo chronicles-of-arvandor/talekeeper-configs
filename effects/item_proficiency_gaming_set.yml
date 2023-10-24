@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Gaming Set
+    - gaming_set
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:

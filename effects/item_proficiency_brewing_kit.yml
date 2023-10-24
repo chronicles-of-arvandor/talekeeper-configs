@@ -1,7 +1,7 @@
 effect:
   ==: ItemProficiencyEffect
   items:
-    - Brewing Kit
+    - brewing_kit
   prerequisites:
     - ==: OrPrerequisite
       prerequisites:
