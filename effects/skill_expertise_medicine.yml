@@ -1,0 +1,37 @@
+effect:
+  ==: SkillExpertiseEffect
+  skills:
+    - MEDICINE
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 38352cbb-3843-4286-bf75-3c22b1812fed
+          option-id: 4917d4d2-a8ce-4543-b8a7-e31aa2b0db7a
+        - ==: ChoicePrerequisite
+          choice-id: edad5f49-e281-4854-ba32-62afbaca05ee
+          option-id: 1aac4fc9-4f8a-4416-9142-a6b20c4ee891
+        - ==: ChoicePrerequisite
+          choice-id: 5b162397-c70e-4c69-8ff0-43c6b23f7d7d
+          option-id: 940fe27e-ea2d-49ba-b02d-cd40b4e3e0a0
+        - ==: ChoicePrerequisite
+          choice-id: 8f9de955-c822-4188-a237-e88de18f3b19
+          option-id: b53c0e47-ab22-4719-9efd-5e85de17aa7b
+        - ==: ChoicePrerequisite
+          choice-id: 86516f17-ac82-49a6-a3cf-0c807efda887
+          option-id: 4e4d83a5-afd2-4b78-a9e2-95b17699fe4e
+        - ==: ChoicePrerequisite
+          choice-id: c58ab835-2245-44c6-8b01-bb2c7155c821
+          option-id: 9002c890-3ed8-4dc3-a66b-7c025a91198d
+        - ==: ChoicePrerequisite
+          choice-id: f94b6811-72c9-4fbb-918b-f9a22db16e60
+          option-id: bcb57a50-25cd-487b-abed-55ce808c56a8
+        - ==: ChoicePrerequisite
+          choice-id: 69f83b25-4aff-4067-8d3d-85b64f35ed20
+          option-id: bcc67389-1a5b-4137-91fe-bce36ffcaba2
+        - ==: ChoicePrerequisite
+          choice-id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+          option-id: 767d8278-c8eb-4a38-a4a1-1e8dd1fec6e6
+        - ==: ChoicePrerequisite
+          choice-id: bf473a18-720e-443d-aa9f-2980505bb95f
+          option-id: fd7595f7-7613-4d43-b385-d8a4eedddbd0

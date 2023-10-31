@@ -1,0 +1,135 @@
+choice:
+  ==: Choice
+  id: edad5f49-e281-4854-ba32-62afbaca05ee
+  text: Bard 3rd level expertise (2)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+      level: 3
+  options:
+    - ==: ChoiceOption
+      id: ac734fbe-efa5-4347-ae23-5488846331df
+      text: Acrobatics
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ACROBATICS
+    - ==: ChoiceOption
+      id: 75e16afe-5e58-4445-a470-a30a506b02c1
+      text: Animal Handling
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ANIMAL_HANDLING
+    - ==: ChoiceOption
+      id: 686f3b8f-07ac-4beb-b211-b163ef5e8b8c
+      text: Arcana
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ARCANA
+    - ==: ChoiceOption
+      id: 3c32f90e-3bce-40b5-920c-ec3d180ba0d3
+      text: Athletics
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ATHLETICS
+    - ==: ChoiceOption
+      id: 7c5ab506-64a5-4f80-98c7-1fc4e08229a0
+      text: Deception
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - DECEPTION
+    - ==: ChoiceOption
+      id: 149e6983-7ada-4c26-9f3d-a2d8e2dbc0e0
+      text: History
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - HISTORY
+    - ==: ChoiceOption
+      id: 526a2fe0-4858-4f2b-95c4-3d8c2cbaff1d
+      text: Insight
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - INSIGHT
+    - ==: ChoiceOption
+      id: ff28d945-116d-4a8d-85c2-04aacec433aa
+      text: Intimidation
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - INTIMIDATION
+    - ==: ChoiceOption
+      id: 3bbe5d97-ed15-49e4-8c20-bb59eebf28fc
+      text: Investigation
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - INVESTIGATION
+    - ==: ChoiceOption
+      id: 1aac4fc9-4f8a-4416-9142-a6b20c4ee891
+      text: Medicine
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - MEDICINE
+    - ==: ChoiceOption
+      id: 8b8fe629-b5df-49dc-a306-2cdb1ba5d4e6
+      text: Nature
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - NATURE
+    - ==: ChoiceOption
+      id: 2d38b82f-48b1-4369-a544-8faa73d824bd
+      text: Perception
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - PERCEPTION
+    - ==: ChoiceOption
+      id: 589c56cb-31f5-4ba4-b8a0-6081f9094861
+      text: Performance
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - PERFORMANCE
+    - ==: ChoiceOption
+      id: df55a76d-9ef8-4558-b4de-6a597bdae39b
+      text: Persuasion
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - PERSUASION
+    - ==: ChoiceOption
+      id: 8e53c47d-d565-4569-a77f-df6e0d067e81
+      text: Religion
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - RELIGION
+    - ==: ChoiceOption
+      id: 13410e26-2424-46f7-99ae-42a519e01814
+      text: Sleight of Hand
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - SLEIGHT_OF_HAND
+    - ==: ChoiceOption
+      id: 1e1a38bb-45a1-4053-b672-b6c0157a64d2
+      text: Stealth
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - STEALTH
+    - ==: ChoiceOption
+      id: be033f50-339b-4644-901b-18e96e9771ff
+      text: Survival
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - SURVIVAL

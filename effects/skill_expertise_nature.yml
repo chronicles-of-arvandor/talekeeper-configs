@@ -1,0 +1,47 @@
+effect:
+  ==: SkillExpertiseEffect
+  skills:
+    - NATURE
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 38352cbb-3843-4286-bf75-3c22b1812fed
+          option-id: c118a33d-5739-48b2-b021-91806ae43375
+        - ==: ChoicePrerequisite
+          choice-id: edad5f49-e281-4854-ba32-62afbaca05ee
+          option-id: 8b8fe629-b5df-49dc-a306-2cdb1ba5d4e6
+        - ==: ChoicePrerequisite
+          choice-id: 5b162397-c70e-4c69-8ff0-43c6b23f7d7d
+          option-id: 322b4d00-c682-43cb-b668-6129ffe01f7e
+        - ==: ChoicePrerequisite
+          choice-id: 8f9de955-c822-4188-a237-e88de18f3b19
+          option-id: 17e61c7d-c5dc-4c66-ac8c-f78cd5627502
+        - ==: ChoicePrerequisite
+          choice-id: 86516f17-ac82-49a6-a3cf-0c807efda887
+          option-id: d52b63fb-8891-4ba7-8b63-87d2f06f970b
+        - ==: ChoicePrerequisite
+          choice-id: c58ab835-2245-44c6-8b01-bb2c7155c821
+          option-id: 40d6d59c-5d17-4c96-9bbc-78828b2c9234
+        - ==: ChoicePrerequisite
+          choice-id: f94b6811-72c9-4fbb-918b-f9a22db16e60
+          option-id: 0af38fe3-a5c0-4244-8531-da19fa5e27bf
+        - ==: ChoicePrerequisite
+          choice-id: 69f83b25-4aff-4067-8d3d-85b64f35ed20
+          option-id: 0e1ff2b9-68eb-4136-b68e-69680d4de5a3
+        - ==: ChoicePrerequisite
+          choice-id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+          option-id: c26b3a23-10ce-4320-9b7a-3fabefdf430f
+        - ==: ChoicePrerequisite
+          choice-id: e3d337d3-fa1d-43db-bcec-0e5fc1146ede
+          option-id: e495ff5e-9085-4dd2-9040-957841fd3ea9
+        - ==: ChoicePrerequisite
+          choice-id: 1e9a0f4d-12d0-49b0-8594-860323ec022b
+          option-id: d9c50898-93c5-4738-a5d6-db8ea06661a8
+        - ==: SubClassPrerequisite
+          class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+          sub-class-id: 730bd84c-4758-4b2f-9c97-caabd3af320f
+          level: 3
+        - ==: ChoicePrerequisite
+          choice-id: bf473a18-720e-443d-aa9f-2980505bb95f
+          option-id: 5211bd68-0b31-4af9-a4c0-0896edd0b56c

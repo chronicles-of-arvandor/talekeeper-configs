@@ -1,0 +1,43 @@
+effect:
+  ==: SkillExpertiseEffect
+  skills:
+    - RELIGION
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 38352cbb-3843-4286-bf75-3c22b1812fed
+          option-id: 9c8a6ef2-8fa5-4cf5-b284-167655f0577f
+        - ==: ChoicePrerequisite
+          choice-id: edad5f49-e281-4854-ba32-62afbaca05ee
+          option-id: 8e53c47d-d565-4569-a77f-df6e0d067e81
+        - ==: ChoicePrerequisite
+          choice-id: 5b162397-c70e-4c69-8ff0-43c6b23f7d7d
+          option-id: 9b8b1798-eb48-4174-afb4-1a887cd1078d
+        - ==: ChoicePrerequisite
+          choice-id: 8f9de955-c822-4188-a237-e88de18f3b19
+          option-id: ead101d8-d549-4832-902e-b1da69a75554
+        - ==: ChoicePrerequisite
+          choice-id: 86516f17-ac82-49a6-a3cf-0c807efda887
+          option-id: cb595345-e62f-45a1-92c3-29b954a0f4b9
+        - ==: ChoicePrerequisite
+          choice-id: c58ab835-2245-44c6-8b01-bb2c7155c821
+          option-id: aff0ab95-61c0-4e7b-b6fb-4fc19c9a5beb
+        - ==: ChoicePrerequisite
+          choice-id: f94b6811-72c9-4fbb-918b-f9a22db16e60
+          option-id: dc6bd2a7-2a7b-4057-a2ba-6b027cea519f
+        - ==: ChoicePrerequisite
+          choice-id: 69f83b25-4aff-4067-8d3d-85b64f35ed20
+          option-id: d61b8d3d-c50c-454a-a46e-8bd291bd7ba7
+        - ==: ChoicePrerequisite
+          choice-id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+          option-id: 2da9308e-3433-42d5-959e-6d27e8f67c59
+        - ==: ChoicePrerequisite
+          choice-id: e3d337d3-fa1d-43db-bcec-0e5fc1146ede
+          option-id: 19772f8e-e9ed-41d8-8ea0-78db953dc4d0
+        - ==: ChoicePrerequisite
+          choice-id: 1e9a0f4d-12d0-49b0-8594-860323ec022b
+          option-id: c90d87b3-066b-4edb-b537-364c74c8a09f
+        - ==: ChoicePrerequisite
+          choice-id: bf473a18-720e-443d-aa9f-2980505bb95f
+          option-id: 12ccb56e-d6f0-4154-a89d-e836d9a45532

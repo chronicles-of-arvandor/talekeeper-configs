@@ -1,0 +1,37 @@
+effect:
+  ==: SkillExpertiseEffect
+  skills:
+    - ATHLETICS
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 38352cbb-3843-4286-bf75-3c22b1812fed
+          option-id: d7740ae1-1c21-4e7c-8497-e43c7ca23e27
+        - ==: ChoicePrerequisite
+          choice-id: edad5f49-e281-4854-ba32-62afbaca05ee
+          option-id: 3c32f90e-3bce-40b5-920c-ec3d180ba0d3
+        - ==: ChoicePrerequisite
+          choice-id: 5b162397-c70e-4c69-8ff0-43c6b23f7d7d
+          option-id: ca8feb4c-cd80-483a-833d-6ac58fe31dbd
+        - ==: ChoicePrerequisite
+          choice-id: 8f9de955-c822-4188-a237-e88de18f3b19
+          option-id: fcf8544a-b835-4af7-a0a3-c04d0473a1f3
+        - ==: ChoicePrerequisite
+          choice-id: 86516f17-ac82-49a6-a3cf-0c807efda887
+          option-id: 3d909a4b-7f56-4d90-bdda-95997f652f2a
+        - ==: ChoicePrerequisite
+          choice-id: c58ab835-2245-44c6-8b01-bb2c7155c821
+          option-id: 8d11ba86-6709-4334-bd7f-225b74af6f5b
+        - ==: ChoicePrerequisite
+          choice-id: f94b6811-72c9-4fbb-918b-f9a22db16e60
+          option-id: aafdd910-caa5-4ef5-8ea3-cfd755d35c00
+        - ==: ChoicePrerequisite
+          choice-id: 69f83b25-4aff-4067-8d3d-85b64f35ed20
+          option-id: c852e21f-c451-465a-b229-71e83c60a64d
+        - ==: ChoicePrerequisite
+          choice-id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+          option-id: f0027e2a-0106-4ce4-94f6-4825789be713
+        - ==: ChoicePrerequisite
+          choice-id: bf473a18-720e-443d-aa9f-2980505bb95f
+          option-id: 9c40ca2b-52dd-4f7f-a05e-d607a70036ea

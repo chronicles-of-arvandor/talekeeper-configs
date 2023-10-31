@@ -1,0 +1,142 @@
+choice:
+  ==: Choice
+  id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+  text: Rogue 6th level expertise (2)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+      level: 6
+  options:
+    - ==: ChoiceOption
+      id: 35a4ed6a-4533-415c-8e8b-0b69ea237821
+      text: Acrobatics
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ACROBATICS
+    - ==: ChoiceOption
+      id: 501562db-7505-4328-93cc-61caa52c1c51
+      text: Animal Handling
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ANIMAL_HANDLING
+    - ==: ChoiceOption
+      id: 8ea9aae3-c9d4-4de0-8236-cb04d059c89e
+      text: Arcana
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ARCANA
+    - ==: ChoiceOption
+      id: f0027e2a-0106-4ce4-94f6-4825789be713
+      text: Athletics
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - ATHLETICS
+    - ==: ChoiceOption
+      id: e9e0842b-e16d-455d-9fc8-237e53a03064
+      text: Deception
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - DECEPTION
+    - ==: ChoiceOption
+      id: 99648818-fb64-4f4d-9a57-924e6659cf9c
+      text: History
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - HISTORY
+    - ==: ChoiceOption
+      id: 97aa163c-2242-424c-a6b7-e03ad436f400
+      text: Insight
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - INSIGHT
+    - ==: ChoiceOption
+      id: 30474998-5e8d-42bc-a472-e70a45a0f680
+      text: Intimidation
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - INTIMIDATION
+    - ==: ChoiceOption
+      id: 977b4d44-1277-40a0-810d-db2d0aed8a54
+      text: Investigation
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - INVESTIGATION
+    - ==: ChoiceOption
+      id: 767d8278-c8eb-4a38-a4a1-1e8dd1fec6e6
+      text: Medicine
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - MEDICINE
+    - ==: ChoiceOption
+      id: c26b3a23-10ce-4320-9b7a-3fabefdf430f
+      text: Nature
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - NATURE
+    - ==: ChoiceOption
+      id: 00c40d21-c293-4791-b41e-ab18b51fa524
+      text: Perception
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - PERCEPTION
+    - ==: ChoiceOption
+      id: 4c1d34ba-5a6a-47e1-bb8e-0907e20e0bf9
+      text: Performance
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - PERFORMANCE
+    - ==: ChoiceOption
+      id: e425cb63-3537-4f27-a773-7bd3f4ca92ab
+      text: Persuasion
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - PERSUASION
+    - ==: ChoiceOption
+      id: 2da9308e-3433-42d5-959e-6d27e8f67c59
+      text: Religion
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - RELIGION
+    - ==: ChoiceOption
+      id: 849bb5ee-01d9-42b2-b28f-325e3ff6acf6
+      text: Sleight of Hand
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - SLEIGHT_OF_HAND
+    - ==: ChoiceOption
+      id: 62d0f319-35d7-4501-a17f-057a994734d0
+      text: Stealth
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - STEALTH
+    - ==: ChoiceOption
+      id: 1ecba337-1be1-4622-b082-674564ac3d0c
+      text: Survival
+      prerequisites:
+        - ==: SkillProficiencyPrerequisite
+          skills:
+            - SURVIVAL
+    - ==: ChoiceOption
+      id: cfee0999-df8c-478c-80eb-26557422c565
+      text: Thieves' tools
+      prerequisites:
+        - ==: ItemProficiencyPrerequisite
+          item-ids:
+            - thieves_tools

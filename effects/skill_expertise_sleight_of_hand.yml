@@ -1,0 +1,37 @@
+effect:
+  ==: SkillExpertiseEffect
+  skills:
+    - SLEIGHT_OF_HAND
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 38352cbb-3843-4286-bf75-3c22b1812fed
+          option-id: 9207a84c-2871-4456-8c54-50b23c7d00da
+        - ==: ChoicePrerequisite
+          choice-id: edad5f49-e281-4854-ba32-62afbaca05ee
+          option-id: 13410e26-2424-46f7-99ae-42a519e01814
+        - ==: ChoicePrerequisite
+          choice-id: 5b162397-c70e-4c69-8ff0-43c6b23f7d7d
+          option-id: 812a6ca7-3768-493a-92d0-9a41b0655723
+        - ==: ChoicePrerequisite
+          choice-id: 8f9de955-c822-4188-a237-e88de18f3b19
+          option-id: e3765b48-56b7-4e11-a6fa-c6a330d022f6
+        - ==: ChoicePrerequisite
+          choice-id: 86516f17-ac82-49a6-a3cf-0c807efda887
+          option-id: 55256a15-cd7e-4f24-9e72-2e963f56ec89
+        - ==: ChoicePrerequisite
+          choice-id: c58ab835-2245-44c6-8b01-bb2c7155c821
+          option-id: deb9db8d-20e9-4641-bfd3-727dd84a1bb4
+        - ==: ChoicePrerequisite
+          choice-id: f94b6811-72c9-4fbb-918b-f9a22db16e60
+          option-id: 6c2292e2-4264-4be0-a527-a566140294b1
+        - ==: ChoicePrerequisite
+          choice-id: 69f83b25-4aff-4067-8d3d-85b64f35ed20
+          option-id: 79700e32-ed20-4487-a018-c9512d34454c
+        - ==: ChoicePrerequisite
+          choice-id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+          option-id: 849bb5ee-01d9-42b2-b28f-325e3ff6acf6
+        - ==: ChoicePrerequisite
+          choice-id: bf473a18-720e-443d-aa9f-2980505bb95f
+          option-id: 4d7ed5d2-5e66-4019-9eb0-a2342b365065

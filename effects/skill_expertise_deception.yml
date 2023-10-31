@@ -1,0 +1,37 @@
+effect:
+  ==: SkillExpertiseEffect
+  skills:
+    - DECEPTION
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 38352cbb-3843-4286-bf75-3c22b1812fed
+          option-id: 8bac0231-ece5-4c7f-95d3-f12b5fe1b734
+        - ==: ChoicePrerequisite
+          choice-id: edad5f49-e281-4854-ba32-62afbaca05ee
+          option-id: 7c5ab506-64a5-4f80-98c7-1fc4e08229a0
+        - ==: ChoicePrerequisite
+          choice-id: 5b162397-c70e-4c69-8ff0-43c6b23f7d7d
+          option-id: 378bb287-5f08-4e11-a34a-22ce200afb3b
+        - ==: ChoicePrerequisite
+          choice-id: 8f9de955-c822-4188-a237-e88de18f3b19
+          option-id: e8f2bfc2-5ede-40e1-a323-799ce167840d
+        - ==: ChoicePrerequisite
+          choice-id: 86516f17-ac82-49a6-a3cf-0c807efda887
+          option-id: a3b8af4e-7ec2-4eff-97bf-f8e0a6fe63df
+        - ==: ChoicePrerequisite
+          choice-id: c58ab835-2245-44c6-8b01-bb2c7155c821
+          option-id: 1fcea975-3324-4a55-aebb-f1273a9c2d77
+        - ==: ChoicePrerequisite
+          choice-id: f94b6811-72c9-4fbb-918b-f9a22db16e60
+          option-id: 62db70e7-38ba-4bbd-a551-437d15c6b403
+        - ==: ChoicePrerequisite
+          choice-id: 69f83b25-4aff-4067-8d3d-85b64f35ed20
+          option-id: d31662f1-4e40-4846-8d99-f91c4decdd53
+        - ==: ChoicePrerequisite
+          choice-id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+          option-id: e9e0842b-e16d-455d-9fc8-237e53a03064
+        - ==: ChoicePrerequisite
+          choice-id: bf473a18-720e-443d-aa9f-2980505bb95f
+          option-id: 578a7e61-a842-4e18-825d-64229edd0b93

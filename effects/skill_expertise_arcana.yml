@@ -1,0 +1,43 @@
+effect:
+  ==: SkillExpertiseEffect
+  skills:
+    - ARCANA
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 38352cbb-3843-4286-bf75-3c22b1812fed
+          option-id: bc2a927a-b029-45ee-8ed0-8d8ca3fc5951
+        - ==: ChoicePrerequisite
+          choice-id: edad5f49-e281-4854-ba32-62afbaca05ee
+          option-id: 686f3b8f-07ac-4beb-b211-b163ef5e8b8c
+        - ==: ChoicePrerequisite
+          choice-id: 5b162397-c70e-4c69-8ff0-43c6b23f7d7d
+          option-id: 406cc85d-8ca5-494b-812b-ae4275ebc493
+        - ==: ChoicePrerequisite
+          choice-id: 8f9de955-c822-4188-a237-e88de18f3b19
+          option-id: 6c9af506-8737-4c47-b00c-4c71cd3b6295
+        - ==: ChoicePrerequisite
+          choice-id: 86516f17-ac82-49a6-a3cf-0c807efda887
+          option-id: 49c3cd01-37a0-412b-bea1-212fca75a3c2
+        - ==: ChoicePrerequisite
+          choice-id: c58ab835-2245-44c6-8b01-bb2c7155c821
+          option-id: 65f323c5-342f-454a-9ceb-ddaa706ba4b0
+        - ==: ChoicePrerequisite
+          choice-id: f94b6811-72c9-4fbb-918b-f9a22db16e60
+          option-id: 4425fca9-7b94-49d5-8e8e-f75f328daaf0
+        - ==: ChoicePrerequisite
+          choice-id: 69f83b25-4aff-4067-8d3d-85b64f35ed20
+          option-id: ea8cffca-dfdc-4d69-9968-78b3c0fba723
+        - ==: ChoicePrerequisite
+          choice-id: 87ed37f9-c446-4a82-ab8f-2ff3dad99ec1
+          option-id: 8ea9aae3-c9d4-4de0-8236-cb04d059c89e
+        - ==: ChoicePrerequisite
+          choice-id: e3d337d3-fa1d-43db-bcec-0e5fc1146ede
+          option-id: d0d03303-616f-4142-89b7-7476e3997096
+        - ==: ChoicePrerequisite
+          choice-id: 1e9a0f4d-12d0-49b0-8594-860323ec022b
+          option-id: a64f244d-e266-425b-b286-fd1d49e66075
+        - ==: ChoicePrerequisite
+          choice-id: bf473a18-720e-443d-aa9f-2980505bb95f
+          option-id: 9acd4ae1-4cc7-4ced-b34c-b135eb588e02

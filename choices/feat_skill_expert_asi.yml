@@ -1,0 +1,62 @@
+choice:
+  ==: Choice
+  id: af093d95-f3ae-4557-97a8-8cc34126fdf7
+  text: Skill Expert ASI
+  prerequisites:
+    - ==: FeatPrerequisite
+      feat-id: 89b81527-02c7-4b89-834c-9015127d2907
+  options:
+    - ==: ChoiceOption
+      id: 2f7e5035-5f86-4314-b6f1-aeefbfff2c72
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 2811d50c-838a-47fa-8e2b-0544ed6e5b94
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: 8aa322b4-0648-414d-961e-e8bd232c46c3
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 19f0fd2a-3352-42b5-9ab8-71f29a6094c8
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 9f3c0064-3433-4193-873a-dc05942f2ac7
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: de977433-e5ff-4a1d-880a-9cf3e78e61cf
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20
