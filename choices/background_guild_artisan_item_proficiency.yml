@@ -158,4 +158,4 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              alchemists_supplies
+              - alchemists_supplies
