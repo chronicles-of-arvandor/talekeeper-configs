@@ -32,6 +32,7 @@ class:
         - ==: Pattern
           color: BLACK
           pattern: bo
+    levels-per-caster-level: 3
   - ==: SubClass
     id: 69c4a7ea-c383-4244-a937-e76ee499b0ff
     name: Assassin
