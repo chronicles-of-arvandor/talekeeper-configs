@@ -1,0 +1,19 @@
+choice:
+  ==: Choice
+  id: db44fd93-7de1-46ad-a72e-ac4580326040
+  text: Storm Herald Aura Terrain Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+      sub-class-id: adee41b1-0368-49fc-bc62-4ed01ca7f992
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: e715e5eb-7d2e-42aa-a95b-e6f317268c93
+      text: Desert
+    - ==: ChoiceOption
+      id: 4ce63ce2-5efd-4b91-9da4-d61a0e686c7c
+      text: Sea
+    - ==: ChoiceOption
+      id: 6f4b8324-c7dd-4d96-b8c4-6795a7673379
+      text: Tundra

@@ -1,0 +1,25 @@
+choice:
+  ==: Choice
+  id: de304f95-da90-40c0-ae12-b67a244ca0e2
+  text: Totem Barbarian Aspect of the Beast Totem Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+      sub-class-id: def7299a-2ce8-42e4-8f57-3b3c602aa130
+      level: 3
+  options:
+    - ==: ChoiceOption
+      id: 0e5f10c6-f140-444e-bb47-dac5d253d3eb
+      text: Bear
+    - ==: ChoiceOption
+      id: 41e7d192-08df-4ff9-b3b2-a17b96f54354
+      text: Eagle
+    - ==: ChoiceOption
+      id: 12b9bfdc-5da6-47f4-a56e-c8579ec05127
+      text: Elk
+    - ==: ChoiceOption
+      id: a51fa612-b994-4716-9514-a08ec20836e4
+      text: Tiger
+    - ==: ChoiceOption
+      id: 2205b68c-ba0a-40de-b505-dcd2c8730912
+      text: Wolf

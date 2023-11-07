@@ -1,0 +1,25 @@
+choice:
+  ==: Choice
+  id: ba4ef6e1-eaec-4d93-9c2b-1c7cfbb6b57f
+  text: Totem Barbarian Totem Animal Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+      sub-class-id: def7299a-2ce8-42e4-8f57-3b3c602aa130
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 358e6464-941a-41e9-b8cf-b1787403686d
+      text: Bear
+    - ==: ChoiceOption
+      id: 9a0af056-73ac-4bff-8a7e-f0236ec7d29b
+      text: Eagle
+    - ==: ChoiceOption
+      id: fdc487c8-2767-4656-8ed4-81640918d914
+      text: Elk
+    - ==: ChoiceOption
+      id: 9b31132e-6da8-481f-9ce8-fd5a324f0b3c
+      text: Tiger
+    - ==: ChoiceOption
+      id: f0dddc13-f27c-4896-8e75-b6f4baa23cdc
+      text: Wolf

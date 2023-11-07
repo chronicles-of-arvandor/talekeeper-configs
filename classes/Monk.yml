@@ -1,0 +1,105 @@
+class:
+  ==: Class
+  id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+  name: Monk
+  sub-classes:
+    - ==: SubClass
+      id: c3a486a9-3091-4118-b1be-8cc16de2899f
+      name: Drunken Master
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+    - ==: SubClass
+      id: 0bcb1ce4-b60b-471f-8f86-bddcdfe58b5d
+      name: Etherial Self
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+    - ==: SubClass
+      id: 833c1d8c-811e-4e4b-973b-826ebb3672c0
+      name: Kensei
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+    - ==: SubClass
+      id: 0ac44285-d822-43d2-84f9-ea3cfd6f8ee6
+      name: Long Death
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+    - ==: SubClass
+      id: ce01df3d-8225-4ca1-94e4-0589a4821d1f
+      name: Mercy
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+    - ==: SubClass
+      id: 8cf6989f-a057-4f36-8896-d987c845dbe7
+      name: Open Hand
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+    - ==: SubClass
+      id: 072783e5-2e21-4710-a0e0-b84fbe06f09b
+      name: Shadow
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+    - ==: SubClass
+      id: 680781e9-4c8c-4fa0-979f-386f126bd34d
+      name: Sun Soul
+      features: {}
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns: []
+  sub-class-selection-level: 3
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3NDQ5NjZkMWQ0YmQ4MjFmOTczMjlhYmYyMjdlMzZjNjVkZmQ4YjEyYjMxZmM5NjYxNWI4Zjc4MDM2MWRlNCJ9fX0=
+  base-hp: 8
+  features: {}

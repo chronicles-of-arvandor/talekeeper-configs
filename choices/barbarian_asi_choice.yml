@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: cbf61dda-2428-43c0-8f37-134b97a04a50
+  text: Barbarian ASI Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+      level: 4
+  options:
+    - ==: ChoiceOption
+      id: 594fc282-12ac-49c3-ad42-0bf443d677f1
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: c8178771-54f8-4ed0-994c-9f30976ca0a4
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: c92e2e03-6ee7-4266-abe9-752029c122e7
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: e8210e1a-472b-4120-a052-106ad7efcde2
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: a83f7821-35c1-4786-a185-f01d3a0c5d91
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: 42d3b494-45c2-42a5-ae7a-902edcf830ef
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

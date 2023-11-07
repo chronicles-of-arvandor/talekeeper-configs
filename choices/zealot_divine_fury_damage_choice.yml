@@ -1,0 +1,16 @@
+choice:
+  ==: Choice
+  id: db682e52-8838-4c09-b23a-a52223e2375c
+  text: Zealot Divine Fury Damage Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+      sub-class-id: 40cc11aa-b5ad-4752-9bfc-14b9323ad4d7
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: 61dc5390-45ad-4719-8ef2-48869894483d
+      text: Necrotic
+    - ==: ChoiceOption
+      id: 4973a052-42de-4c1b-a12f-872072cba0de
+      text: Radiant

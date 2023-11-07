@@ -1,0 +1,60 @@
+choice:
+  ==: Choice
+  id: e1464f51-b8e1-4e7b-b438-60e22069d83e
+  text: Barbarian Skill Proficiency Choice (1)
+  prerequisites: []
+  options:
+    - ==: ChoiceOption
+      id: b44a1dfd-8c1d-47ca-ad1d-42784abb079e
+      text: Animal Handling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ANIMAL_HANDLING
+    - ==: ChoiceOption
+      id: 925b1b58-6dbb-4416-ae23-112c50bd6dc4
+      text: Athletics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ATHLETICS
+    - ==: ChoiceOption
+      id: 3928bd0c-0a8c-42cd-9a36-a356d1165319
+      text: Intimidation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INTIMIDATION
+    - ==: ChoiceOption
+      id: 82bc707e-5f65-4865-bb84-080c6a6ef5dd
+      text: Nature
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - NATURE
+    - ==: ChoiceOption
+      id: 48529fee-c9cf-432b-8a54-a17c71814d35
+      text: Perception
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - PERCEPTION
+    - ==: ChoiceOption
+      id: 886b20c4-2e76-4ace-9036-db82ab43f7fe
+      text: Survival
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SURVIVAL

@@ -1,0 +1,45 @@
+choice:
+  ==: Choice
+  id: 91d02e9a-08e6-46d7-bdcf-93d391e042f5
+  text: Aspect of the Beast Tiger Skill Proficiency Choice (1)
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: de304f95-da90-40c0-ae12-b67a244ca0e2
+      option-id: a51fa612-b994-4716-9514-a08ec20836e4
+  options:
+    - ==: ChoiceOption
+      id: 26e2d360-281a-4066-8591-a95c5fb1c0a7
+      text: Acrobatics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ACROBATICS
+    - ==: ChoiceOption
+      id: 1846bc41-e944-4c0e-bcb8-99c8d39accb7
+      text: Athletics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ATHLETICS
+    - ==: ChoiceOption
+      id: 228837ae-d533-458e-956f-e3e5be06ade4
+      text: Stealth
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - STEALTH
+    - ==: ChoiceOption
+      id: 836b058b-015d-473f-830c-7b1d6e031e93
+      text: Survival
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - SURVIVAL
