@@ -50,6 +50,9 @@ effect:
             - ==: OrPrerequisite
               prerequisites:
                 - ==: ClassPrerequisite
+                  class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+                  level: 3
+                - ==: ClassPrerequisite
                   class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
                   level: 3
                 - ==: ClassPrerequisite
@@ -62,6 +65,9 @@ effect:
                   class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
                   level: 3
                 - ==: ClassPrerequisite
+                  class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+                  level: 3
+                - ==: ClassPrerequisite
                   class-id: a9b560a5-7a29-4675-a424-a624f8488db7
                   level: 3
                 - ==: ClassPrerequisite
@@ -71,10 +77,10 @@ effect:
                   class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
                   level: 3
                 - ==: ClassPrerequisite
-                  class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
+                  class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
                   level: 3
                 - ==: ClassPrerequisite
-                  class-id: 8399372a-231b-4d8f-985a-d6130f6f9827
+                  class-id: df8c9655-bea7-4fb5-9d68-bf49041a4026
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: 41f1c523-dbfc-45ae-8b2f-468975973dc5

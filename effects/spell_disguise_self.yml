@@ -63,9 +63,6 @@ effect:
           choice-id: 20e84444-503a-4f5b-963e-af0dd5b791b8
           option-id: 88a798d2-bca7-481e-8bbb-701e3c611fbe
         - ==: ChoicePrerequisite
-          choice-id: 36f325c0-b14c-46cc-bbb4-7a94e58bd4ae
-          option-id: 87ebf879-56c7-4c67-a46e-f2f3618a71b3
-        - ==: ChoicePrerequisite
           choice-id: c45469a7-69db-478c-a10c-cd84d66503dc
           option-id: b6b62f9c-efed-4623-aebd-0f365d799746
         - ==: ChoicePrerequisite
@@ -98,24 +95,6 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 286555df-d2ca-46e9-b3af-679cb39a1e59
           option-id: 8f2bf5f1-9461-49ba-a52d-81682eb39f24
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 5f15e0f9-7bb1-4646-b709-3e3c70990e04
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 4f27205d-5c52-410c-bfec-bb318415ff6d
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: f74ac7a9-94ce-4063-953d-701744d82fa2
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 8e494726-269c-4b51-ba6e-ce3db99ff11d
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: a24533e8-04a7-4000-a4c4-4c1119dd3485
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: e4fbb203-3e2b-4f80-9088-a862f5cd6b71
         - ==: ChoicePrerequisite
           choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
           option-id: f5cd175f-fc95-4fa9-b85b-d1942dac3de9
@@ -171,16 +150,22 @@ effect:
             - ==: OrPrerequisite
               prerequisites:
                 - ==: ClassPrerequisite
-                  class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
+                  class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
                   level: 3
                 - ==: ClassPrerequisite
-                  class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+                  class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
                   level: 3
                 - ==: ClassPrerequisite
+                  class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
+                  level: 3
+                - ==: ClassPrerequisite
                   class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+                  level: 3
+                - ==: ClassPrerequisite
+                  class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: a9b560a5-7a29-4675-a424-a624f8488db7
@@ -208,6 +193,9 @@ effect:
             - ==: OrPrerequisite
               prerequisites:
                 - ==: ClassPrerequisite
+                  class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+                  level: 3
+                - ==: ClassPrerequisite
                   class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
                   level: 3
                 - ==: ClassPrerequisite
@@ -220,13 +208,16 @@ effect:
                   class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
                   level: 3
                 - ==: ClassPrerequisite
+                  class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+                  level: 3
+                - ==: ClassPrerequisite
                   class-id: a9b560a5-7a29-4675-a424-a624f8488db7
                   level: 3
                 - ==: ClassPrerequisite
-                  class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
+                  class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
                   level: 3
                 - ==: ClassPrerequisite
-                  class-id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
+                  class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: 8399372a-231b-4d8f-985a-d6130f6f9827

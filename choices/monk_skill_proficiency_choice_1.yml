@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 5a1e6735-2a5b-45fe-8039-4521b8aaac51
+  text: Monk Skill Proficiency Choice (1)
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: b4ebfb2e-6019-4d98-ac62-10351f5c84c0
+      text: Acrobatics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ACROBATICS
+    - ==: ChoiceOption
+      id: 6ec37f2f-c28f-4fbc-b03c-2d0cefc4570d
+      text: Athletics
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - ATHLETICS
+    - ==: ChoiceOption
+      id: 7457f0e6-e889-4aad-88df-a7eadab2f00c
+      text: History
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - HISTORY
+    - ==: ChoiceOption
+      id: 98249628-0360-438a-8a6c-4d5488caee77
+      text: Insight
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - INSIGHT
+    - ==: ChoiceOption
+      id: dfbe1d56-b5dd-4c4f-bc60-d4a45c0ac27f
+      text: Religion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - RELIGION
+    - ==: ChoiceOption
+      id: fb7042bb-9b59-4787-b338-e1a38ca8c120
+      text: Stealth
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SkillProficiencyPrerequisite
+            skills:
+              - STEALTH

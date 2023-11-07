@@ -130,6 +130,9 @@ effect:
             - ==: OrPrerequisite
               prerequisites:
                 - ==: ClassPrerequisite
+                  class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+                  level: 5
+                - ==: ClassPrerequisite
                   class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
                   level: 5
                 - ==: ClassPrerequisite
@@ -140,6 +143,9 @@ effect:
                   level: 5
                 - ==: ClassPrerequisite
                   class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+                  level: 5
+                - ==: ClassPrerequisite
+                  class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
                   level: 5
                 - ==: ClassPrerequisite
                   class-id: a9b560a5-7a29-4675-a424-a624f8488db7

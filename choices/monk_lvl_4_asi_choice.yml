@@ -1,0 +1,63 @@
+choice:
+  ==: Choice
+  id: 3b13ef57-3971-4119-9a55-f02573a80615
+  text: Monk Level 4 ASI Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+      level: 4
+  options:
+    - ==: ChoiceOption
+      id: 2be978c6-014e-4dd7-a6d0-879f14763712
+      text: Strength
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: STRENGTH
+            score: 20
+    - ==: ChoiceOption
+      id: 51094ee6-691f-47c3-b7d2-56af27025a57
+      text: Dexterity
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: DEXTERITY
+            score: 20
+    - ==: ChoiceOption
+      id: dd65511f-ddce-4a59-b423-715586c9e5d2
+      text: Constitution
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CONSTITUTION
+            score: 20
+    - ==: ChoiceOption
+      id: 59dbe2b8-f4c6-403d-bfc5-464abdf1692a
+      text: Intelligence
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: INTELLIGENCE
+            score: 20
+    - ==: ChoiceOption
+      id: 7fecbb31-f49f-4803-955d-45cf2e3da619
+      text: Wisdom
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: WISDOM
+            score: 20
+    - ==: ChoiceOption
+      id: d2b021bd-2d51-4c3f-b294-e02ff8876f4f
+      text: Charisma
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: AbilityPrerequisite
+            ability: CHARISMA
+            score: 20

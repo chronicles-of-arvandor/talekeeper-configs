@@ -1,0 +1,351 @@
+choice:
+  ==: Choice
+  id: e533060b-9135-4742-b586-d263e6f2dbc7
+  text: Monk Item Proficiency Choice
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: eaf90212-f808-487c-a10e-4dc22fbce47f
+      text: alchemists_supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - alchemists_supplies
+    - ==: ChoiceOption
+      id: f058dc8d-2ebf-4d77-a53f-3c68ff6161fa
+      text: brewers_supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - brewers_supplies
+    - ==: ChoiceOption
+      id: 04fc2289-1fc0-40fd-838a-20a82e0ebf5b
+      text: calligraphers_supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - calligraphers_supplies
+    - ==: ChoiceOption
+      id: d248b385-a4c1-4978-ac5f-d68707e9d78e
+      text: carpenters_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - carpenters_tools
+    - ==: ChoiceOption
+      id: e2acd3af-2f38-4beb-9c90-714a0dbac02b
+      text: cartographers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - cartographers_tools
+    - ==: ChoiceOption
+      id: 8bda4817-caf6-48dd-b680-6eff345adebd
+      text: cobblers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - cobblers_tools
+    - ==: ChoiceOption
+      id: 68be9c48-dbfc-4e27-9f1e-70586a71af2f
+      text: cooks_utensils
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - cooks_utensils
+    - ==: ChoiceOption
+      id: 66b3abb3-ccb6-49a6-b470-c7b745150c91
+      text: glassblowers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - glassblowers_tools
+    - ==: ChoiceOption
+      id: dd14f199-6118-4045-b65f-f6765b6fd42d
+      text: jewelers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - jewelers_tools
+    - ==: ChoiceOption
+      id: 73302a08-5dfb-430d-b6d5-2136b77e56b4
+      text: leatherworkers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - leatherworkers_tools
+    - ==: ChoiceOption
+      id: 11735907-a230-4a60-aab9-270bab5df3af
+      text: masons_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - masons_tools
+    - ==: ChoiceOption
+      id: 83aae5b1-2718-45bb-af46-278445277d90
+      text: painters_supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - painters_supplies
+    - ==: ChoiceOption
+      id: 40e2be29-cdc6-419e-8c9a-feed65604fd7
+      text: potters_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - potters_tools
+    - ==: ChoiceOption
+      id: a190a381-52ba-4fa3-a972-de77c775480f
+      text: smiths_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - smiths_tools
+    - ==: ChoiceOption
+      id: 629f7ac8-0a6e-4d5e-b9a3-df8a9e2d461e
+      text: tinkers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - tinkers_tools
+    - ==: ChoiceOption
+      id: e16320a2-4ca4-49cf-81b5-6dfdeee3d5b9
+      text: weavers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - weavers_tools
+    - ==: ChoiceOption
+      id: a371e56c-3652-43f0-baf0-a1f77ee1eaa4
+      text: woodcarvers_tools
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - woodcarvers_tools
+    - ==: ChoiceOption
+      id: 21e16256-9240-4d70-b8c6-31ea8c28fdcc
+      text: bagpipes
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - bagpipes
+    - ==: ChoiceOption
+      id: 03242cae-7318-4c58-86ba-6cd0a5c182ec
+      text: birdpipes
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - birdpipes
+    - ==: ChoiceOption
+      id: b66d5804-f9f4-49ab-9a84-b64e88b68205
+      text: drum
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - drum
+    - ==: ChoiceOption
+      id: 11df5bfe-7255-4808-a8bc-f6b57285f046
+      text: dulcimer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - dulcimer
+    - ==: ChoiceOption
+      id: 8c87bb7b-deed-49e3-b585-95aa01c8fb5b
+      text: flute
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - flute
+    - ==: ChoiceOption
+      id: 452853d5-0d5e-445e-9da3-f4736e2cb304
+      text: glaur
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - glaur
+    - ==: ChoiceOption
+      id: ce0885e2-65d0-40ae-bccc-715019ba2daf
+      text: hand_drum
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - hand_drum
+    - ==: ChoiceOption
+      id: 0b7aa7d5-2450-4e5f-95fe-9b533976d8e7
+      text: horn
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - horn
+    - ==: ChoiceOption
+      id: de176176-fbef-4b69-bd54-eccd4e45f29d
+      text: longhorn
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - longhorn
+    - ==: ChoiceOption
+      id: 7477e212-cee2-443a-ad24-a0003fb28b0b
+      text: lute
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - lute
+    - ==: ChoiceOption
+      id: 0ec88cdb-f7eb-4816-abd6-6170868a0898
+      text: lyre
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - lyre
+    - ==: ChoiceOption
+      id: 8d2a2583-a058-4a0e-80d6-7a77eadf43f9
+      text: pan_flute
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - pan_flute
+    - ==: ChoiceOption
+      id: 267e350b-4546-4c89-b0fa-f51fcea6118a
+      text: shawm
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - shawm
+    - ==: ChoiceOption
+      id: 7fced840-d319-4d0d-8adf-2b6c0537a358
+      text: songhorn
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - songhorn
+    - ==: ChoiceOption
+      id: 80b20216-989f-4274-8b68-b93e715a7dfa
+      text: tantan
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - tantan
+    - ==: ChoiceOption
+      id: 75256878-8be6-4508-b024-b0c4d26e453d
+      text: thelarr
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - thelarr
+    - ==: ChoiceOption
+      id: cd263b7e-3759-4aa9-b3cc-9e92457ac871
+      text: tocken
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - tocken
+    - ==: ChoiceOption
+      id: 4d41af25-e2d4-4d18-92e8-3cabdf798c60
+      text: viol
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - viol
+    - ==: ChoiceOption
+      id: bda3d7cd-d822-4ed8-9bf4-f53641e8b4c5
+      text: wargong
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - wargong
+    - ==: ChoiceOption
+      id: fea8a39a-d2ea-4503-8d8b-58c3cfd95ca2
+      text: yarting
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - yarting
+    - ==: ChoiceOption
+      id: b9ca542e-b39b-4c7c-93df-b2236c00fba6
+      text: zulkoon
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - zulkoon

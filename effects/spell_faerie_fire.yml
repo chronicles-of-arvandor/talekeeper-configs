@@ -33,18 +33,6 @@ effect:
           choice-id: 286555df-d2ca-46e9-b3af-679cb39a1e59
           option-id: a7ac9ca6-c5ff-4793-a6ca-590eb27f07dd
         - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: bdebb924-2cd0-4b8a-ae01-b2ea0ec57a34
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 76cdfe44-e94d-4a7a-abb3-3e0d50e6e9a6
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: ceeec88d-3f93-4de3-af77-e363e59f1f89
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: decfafd1-580d-47b2-a092-249a53af49f4
-        - ==: ChoicePrerequisite
           choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
           option-id: d4a14427-3eb9-498e-8cf7-0622736d862e
         - ==: ChoicePrerequisite
@@ -80,6 +68,9 @@ effect:
             - ==: OrPrerequisite
               prerequisites:
                 - ==: ClassPrerequisite
+                  class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+                  level: 3
+                - ==: ClassPrerequisite
                   class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
                   level: 3
                 - ==: ClassPrerequisite
@@ -90,6 +81,9 @@ effect:
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+                  level: 3
+                - ==: ClassPrerequisite
+                  class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: a9b560a5-7a29-4675-a424-a624f8488db7
@@ -117,6 +111,9 @@ effect:
             - ==: OrPrerequisite
               prerequisites:
                 - ==: ClassPrerequisite
+                  class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+                  level: 3
+                - ==: ClassPrerequisite
                   class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
                   level: 3
                 - ==: ClassPrerequisite
@@ -127,6 +124,9 @@ effect:
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+                  level: 3
+                - ==: ClassPrerequisite
+                  class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
                   level: 3
                 - ==: ClassPrerequisite
                   class-id: a9b560a5-7a29-4675-a424-a624f8488db7

@@ -42,24 +42,6 @@ effect:
           choice-id: 286555df-d2ca-46e9-b3af-679cb39a1e59
           option-id: 992d652b-5502-4078-99a9-5b235ee1792d
         - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: f02cf154-a673-4402-bfd9-3a502d955bf1
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 529080b6-2e22-48ef-8a00-7b34cd932c2c
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: e8cef795-5a13-412c-bde5-ff34321e5c81
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: ba6438d4-1ac4-4795-af9e-6197de00cf18
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 9232925e-1fc3-4a60-8860-f69598e30604
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: c9722713-47d9-412b-a8f4-cacfa0dac1c6
-        - ==: ChoicePrerequisite
           choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
           option-id: 3b1c15b4-aa66-4dcc-ab52-7e713898da82
         - ==: ChoicePrerequisite
@@ -97,6 +79,9 @@ effect:
             - ==: OrPrerequisite
               prerequisites:
                 - ==: ClassPrerequisite
+                  class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+                  level: 5
+                - ==: ClassPrerequisite
                   class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
                   level: 5
                 - ==: ClassPrerequisite
@@ -107,6 +92,9 @@ effect:
                   level: 5
                 - ==: ClassPrerequisite
                   class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
+                  level: 5
+                - ==: ClassPrerequisite
+                  class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
                   level: 5
                 - ==: ClassPrerequisite
                   class-id: a9b560a5-7a29-4675-a424-a624f8488db7

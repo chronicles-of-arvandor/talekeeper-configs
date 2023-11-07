@@ -114,3 +114,7 @@ effect:
         - ==: SubAncestryPrerequisite
           ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
           sub-ancestry-id: 0e529c9e-7c9a-4a39-bf76-57ee643981f6
+        - ==: SubClassPrerequisite
+          class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+          sub-class-id: 072783e5-2e21-4710-a0e0-b84fbe06f09b
+          level: 1

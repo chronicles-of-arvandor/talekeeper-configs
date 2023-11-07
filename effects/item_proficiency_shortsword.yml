@@ -19,3 +19,6 @@ effect:
           option-id: 68e00318-69c7-4c26-bc76-83cfee879b59
         - ==: AncestryPrerequisite
           ancestry-id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
+        - ==: ClassPrerequisite
+          class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+          level: 1

@@ -6,7 +6,22 @@ class:
     - ==: SubClass
       id: c3a486a9-3091-4118-b1be-8cc16de2899f
       name: Drunken Master
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Drunken Technique
+            description: you learn how to twist and turn quickly as part of your Fury of
+              Blows. Whenever you use Flurry of Blows, you gain the benefit of
+              the Disengage action, and your walking speed increases by 10 feet
+              until the end of your current turn.
+        "6":
+          - ==: ClassFeature
+            name: Tipsy Sway
+            description: >-
+              You can move in sudden, swaying ways. You gain the following
+              benefits. 
+               Leap to your Feet. When you're prone, you can stand up by spending 5 feet of your movement, rather than half your speed. 
+               Redirect attack. When a creature missed you with a melee attack roll, You can spend one ki point as a reaction to cause that attack to hit one creature of your choice, other than the attacker that you can see within 5 feet of you.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -18,7 +33,37 @@ class:
     - ==: SubClass
       id: 0bcb1ce4-b60b-471f-8f86-bddcdfe58b5d
       name: Etherial Self
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Arms of the Ethereal Self
+            description: >-
+              Your mastery of your ki allows you to summon  a portion of your
+              etherial self. As a bonus action, you can spend 1 ki point to
+              summon the Arms of the Ethereal Self. When you do so, each
+              creature of your choice that you can see within 10 feet of you
+              must succeed on a Dexterity saving throw or take force damage
+              equal to two rolls of your Martial Arts die. 
+               For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You detrmine the arms' apperance, and they vanish early if you are incapacitated or die. 
+               While the spectral arms are present, you gain the following benefits: 
+               You can use your wisdom modifier in place of your strength modifier when making strength checks and strength saving throws. 
+               You can use the spectral arms to make unarmed strikes. 
+               When you make an unarmed strike with the arms on your turn, your reach for it is 5ft greater than normal. 
+               The unarmed strikes you make with the arms you can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.
+        "6":
+          - ==: ClassFeature
+            name: Visage of the Etherial Self
+            description: >-
+              You can summon the Visage of your etherial self. As a bonus
+              action, or as part of the bonus action you take to activate the
+              Arms of the Ethereal Self, you can spend 1 ki point to summon this
+              visage for 10 minutes. It vanishes early if you are incapacitated
+              or die. 
+               The spectral visage covers your face like a helmet or mask. You determine its apperance. 
+               While the spectral visage is present, you gain the following benefits. 
+               Ethereal sight. You can see normally in darkness, both magical and nonmagical to a distance of 120 feet. 
+               Wisdom of the spirit. You have advantage on Wisdom (Insight) and Charisma (Intimidation) checks. 
+               Word of the Spirit. When you speak, you can direct your words to a creature of your choice that you can see within 60 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -42,7 +87,23 @@ class:
     - ==: SubClass
       id: 0ac44285-d822-43d2-84f9-ea3cfd6f8ee6
       name: Long Death
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Touch of Death
+            description: Your study of death allows you to extract vitality from another
+              creature as it nears its demise. When you reduce a creature within
+              5 feet of you to 0 hit points, you gain temporary hit points equal
+              to your Wisdom modifier + your monk level (minimum of 1 temporary
+              hit point)
+        "6":
+          - ==: ClassFeature
+            name: Hour of Reaping
+            description: You gain the ability to unsettle or terrify those around you as an
+              action, for your soul has been touched by the shadow of death.
+              When you take this action, each creature within 30 feet of you
+              that can see you must succeed on a Wisdom saving throw or be
+              frightened of  you until the end of your next turn.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -54,7 +115,28 @@ class:
     - ==: SubClass
       id: ce01df3d-8225-4ca1-94e4-0589a4821d1f
       name: Mercy
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Hands of Healing
+            description: >-
+              Your mystical touch can mend wounds. As an action, you can spend 1
+              ki point to touch a creature and restore a number of hit points
+              equal to a roll of your martial arts die + your wisdom modifier. 
+               When you use your fury of blows, you can replace one of the unarmed strikes with a use of this feature without spending a ki point for the healing.
+          - ==: ClassFeature
+            name: Hands of Harm
+            description: You use your ki to inflict wounds. When you hit a creature with an
+              unarmed strike, you can spend 1 ki point to deal extra necrotic
+              damage equal to one roll of your Martial Arts die + your Wisdom
+              modifier. You can use this feature only once per turn.
+        "6":
+          - ==: ClassFeature
+            name: Physicicans Touch
+            description: >-
+              You can administer even greater cures with a touch, and if you
+              feel it's necessary, you can use your knowledge to cause harm. 
+               When you use Hands of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: blinded, deafened, paralyzed, poisoned, or stunned. When you use Hands of Harm on a creature, you can subject that creature to the poisoned condition until the end of your next turn.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -66,7 +148,24 @@ class:
     - ==: SubClass
       id: 8cf6989f-a057-4f36-8896-d987c845dbe7
       name: Open Hand
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Open hand Technique
+            description: >-
+              You can Manipulate your Enemy's ki when you harness your own.
+              Whenever you hit a creature with one of the attacks granted by
+              your Flurry of Blows, you can impose one of the following effects
+              on that target: 
+               It must succeed on a Dexterity Saving throw or be knocked prone. 
+               It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you. 
+               It can't take reactions until the end of your next turn.
+        "6":
+          - ==: ClassFeature
+            name: Wholeness of Body
+            description: You gain the ability to heal yourself. As an action, you can regain
+              hit points equal to three times your monk level. You must finish a
+              long rest before you can use this feature again.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -78,7 +177,23 @@ class:
     - ==: SubClass
       id: 072783e5-2e21-4710-a0e0-b84fbe06f09b
       name: Shadow
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Shadow Arts
+            description: you can use your ki to duplicate the effects of certain spells. As
+              an action, you can spend 2 ki points to cast Darkness, Darkvision,
+              Pass without trace, or Silence, without providing material
+              components. Additionally, you gain the Minor Illusion Cantrip if
+              you don't already know it.
+        "6":
+          - ==: ClassFeature
+            name: Shadow Step
+            description: You gain the ability to step from one shadow into another. When you
+              are in dim light or darkness, as a bonus action you can teleport
+              up to 60 feet to an unoccupied space you can see that is also in
+              dim light or darkness. You then have advantage on the first melee
+              attack you make before the end of the turn.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -90,7 +205,24 @@ class:
     - ==: SubClass
       id: 680781e9-4c8c-4fa0-979f-386f126bd34d
       name: Sun Soul
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Radiant Sun Bolt
+            description: >-
+              you can hurl searing bolts of magical radiance. 
+               You gain a new attack option that you can use with the Attack action. This special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels, as shown in the Martial Arts Column of the Monk table. 
+               When you take the Attack action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action. 
+               When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the Attack action.
+        "6":
+          - ==: ClassFeature
+            name: Searing Arc Strike
+            description: >-
+              You gain the ability to channel your ki into searing waves of
+              energy. Immediately after you take the Attack action on your turn,
+              you can spend 2 ki points to cast the Burning hands spell as a
+              bonus action. 
+               You can spend additional ki points to cast Burning hands as a higher level Spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -102,4 +234,79 @@ class:
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3NDQ5NjZkMWQ0YmQ4MjFmOTczMjlhYmYyMjdlMzZjNjVkZmQ4YjEyYjMxZmM5NjYxNWI4Zjc4MDM2MWRlNCJ9fX0=
   base-hp: 8
-  features: {}
+  features:
+    "1":
+      - name: Unarmored Defense
+        description: While you are wearing no armor and not wielding a shield, your AC
+          equals 10 + your Dexterity modifier + your Wisdom modifier
+      - name: Martial Arts
+        description: >-
+          Your practice of martial arts gives you mastery of combat styles that
+          use unarmed strikes and monk weapons, which are short swords and any
+          simple melee weapons that don't have the two-handed or heavy
+          property. 
+           you gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield: 
+           You can use dexterity instead of strength for the attack and damage rolls of your unarmed strikes and monk weapons 
+           You can roll a d4 in place of the normal damage of your unarmed strikes or monk weapon, this die changes as you gain monk levels 
+           When you use the attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example if you take the attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn. 
+    "2":
+      - name: Ki
+        description: >-
+          Your training allows you to harness the mystic energies of ki. Your
+          access to this energy is represented by a number of ki points. Your
+          monk level determines the number of points you have. 
+           you can spend these points to fuel various ki features. You start knowing 3 such features: Fury of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class. 
+           When you spend a ki point, it is unavailable until you finish a short or a long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points. Some of your ki features require your target to make a saving throw to resist the features effects. The saving throw DC is calculated as follows: 
+           Ki save DC = 8 + your proficiency bonus + Wisdom modifier 
+           Fury of Blows. Immediately after you take the Attack action on your turn, you can spend 1 ki point to make 2 unarmed strikes as a bonus action. 
+           Patient Defense. You can spend 1 ki point to take the dodge action as a bonus action on your turn. 
+           Step of the wind. You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.
+      - name: Unarmored Movement
+        description: >-
+          Your speed increases by 10 feet while you are not wearing armor or
+          wielding a shield. This bonus increases when you reach certain monk
+          levels 
+           at 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.
+      - name: Dedicated Weapon
+        description: >-
+          You train yourself to use a variety of weapons as monk weapons, not
+          just the simple  melee weapons and shortswords.  Whenever you finish a
+          short or long rest, you can touch one weapon, focus your ki on it, and
+          then count that weapon as a monk weapon until you use this feature
+          again. The chosen weapon must meet these criteria: 
+           The weapon must be a simple or martial weapon, You must be proficient with it, It must lack the heavy or special Properties
+    "3":
+      - name: Monastic Tradition
+        description: You commit yourself to a monastic tradition and pick your subclass,
+          your subclass gives you features at 3rd, 6th, 11th, and 17th level.
+      - name: Deflect Missile
+        description: >-
+          you can use your reaction to deflect or catch the missile when you are
+          hit by a ranged weapon attack. When you do so, the  damage you take
+          from the attack is reduced by 1d10 + your dexterity modifier + your
+          monk level. 
+           If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have atleast one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with a range of 20/60 using the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your  weapon proficiencies, and the missile counts as a monk weapon for the attack.
+    "4":
+      - name: Asi Choice
+        description: You can increase 1 ability score of your choice by 1.
+      - name: Slow Fall
+        description: "You can use your reaction when you fall to reduce any falling
+          damage you take by an amount equal to five times your monk level. "
+    "5":
+      - name: Extra Attack
+        description: You can attack twice, instead of once, whenever you take the Attack
+          action on your turn.
+      - name: Stunning Strike
+        description: You can interfere with the flow of ki in an opponent's body. When
+          you hit another creature with a melee weapon attack, you can spend 1
+          ki point to attempt a stunning strike. The target must succeed on a
+          Constitution saving throw or be stunned until the end of your next
+          turn.
+      - name: Martial Arts
+        description: Your martial arts damage dice changes to a d6 instead of a d4
+    "6":
+      - name: Ki-Empowered Strikes
+        description: Your unarmed strikes count as magical for the purpose of overcoming
+          resistance and immunity to nonmagical attacks and damage.
+      - name: unarmored movement
+        description: unarmored movement increases to 15ft bonus
