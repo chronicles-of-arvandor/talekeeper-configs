@@ -11,3 +11,9 @@ effect:
         - ==: ClassPrerequisite
           class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
           level: 1
+        - ==: ChoicePrerequisite
+          choice-id: c17108e3-7a75-400b-b859-475c5b33cb73
+          option-id: eff86a54-de02-47c6-b207-bcf7d1915ebf
+        - ==: ChoicePrerequisite
+          choice-id: 1a58b557-ed62-4274-8b3a-1b9db14887f4
+          option-id: 6894b7fe-bd5a-4ed1-a807-e0972ec01e26

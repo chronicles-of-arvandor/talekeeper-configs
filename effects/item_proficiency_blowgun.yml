@@ -1,0 +1,13 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - blowgun
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 666db810-4e04-4b6a-9604-94316a972e27
+          option-id: e9a1ff8f-b2de-4a18-b0c9-82bc811e3b70
+        - ==: ChoicePrerequisite
+          choice-id: 1a58b557-ed62-4274-8b3a-1b9db14887f4
+          option-id: 19b20c90-4376-469d-be14-c47d4e5170d6

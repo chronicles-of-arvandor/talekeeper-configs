@@ -75,7 +75,46 @@ class:
     - ==: SubClass
       id: 833c1d8c-811e-4e4b-973b-826ebb3672c0
       name: Kensei
-      features: {}
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Kensei Weapons
+            description: "When you choose this tradition, choose two types of weapons to be
+              your kensei weapons: one melee and one ranged weapon. Each of
+              these weapons can be any simple or martial weapon that lacks the
+              heavy and special properties. The longbow is also a valid choice.
+              You gain proficiency with these weapons if you don't already have
+              it. Weapons of the chosen types are monk weapons for you. Many of
+              this tradition's features work only with your Kensei weapons. When
+              you reach 6th, 11th, and 17th level in this class, you can choose
+              another type of weapon - either melee or ranged - to be a kensei
+              weapon for you, following the above criteria"
+          - ==: ClassFeature
+            name: Agile Parry
+            description: If you make an unarmed strike as part of the attack action on your
+              turn and are holding a kensei weapon, you can use it to defend
+              yourself if it is a melee weapon. You gain a + 2 bonus to AC until
+              the start of your next turn, while the weapon is in your hand and
+              you aren't incapacitated.
+          - ==: ClassFeature
+            name: Kensei's Shot
+            description: You can use a Bonus action on your turn to make your ranged attacks
+              with a kensei weapon more deadly. When you do so, any target you
+              hit with a ranged attack using a kensei weapon takes an extra 1d4
+              damage of the weapons type. You retain this benefit until the end
+              of the current turn.
+        "6":
+          - ==: ClassFeature
+            name: Magic Kensei Weapons
+            description: Your attacks with your kensei weapons count as magical for the
+              purposes of overcoming resistance and immunity to nonmagical
+              attacks and damage.
+          - ==: ClassFeature
+            name: Deft Strike
+            description: When you  hit a target with a kensei weapon, you can spend 1 ki
+              point to cause the weapon to deal extra damage to the target equal
+              to your martial arts die. You can use this feature only once on
+              each of your turns.
       icon:
         ==: org.bukkit.inventory.ItemStack
         v: 3337

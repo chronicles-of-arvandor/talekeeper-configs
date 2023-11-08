@@ -1,0 +1,208 @@
+choice:
+  ==: Choice
+  id: c17108e3-7a75-400b-b859-475c5b33cb73
+  text: Kensei Melee Weapon Item Proficiency Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+      sub-class-id: 833c1d8c-811e-4e4b-973b-826ebb3672c0
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: ba7e51ba-a0e2-482e-96bc-a91bc3d01085
+      text: battleaxe
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - battleaxe
+    - ==: ChoiceOption
+      id: 3100946f-159e-4af0-8daa-4a6d2c6d5fdd
+      text: club
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - club
+    - ==: ChoiceOption
+      id: 196dbc28-52ef-4614-9c52-e5dc92888b05
+      text: dagger
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - dagger
+    - ==: ChoiceOption
+      id: 4aa94932-6cb8-4198-b997-0b70fd1160fb
+      text: flail
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - flail
+    - ==: ChoiceOption
+      id: 7c44792d-7cac-4c21-92a3-e52d8a8fd98c
+      text: greatclub
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - greatclub
+    - ==: ChoiceOption
+      id: f55119cd-9d7f-458a-b483-4377508c08b2
+      text: handaxe
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - handaxe
+    - ==: ChoiceOption
+      id: b6ef4d9a-5929-43e6-90e3-71ab95bd1947
+      text: javelin
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - javelin
+    - ==: ChoiceOption
+      id: fbf4ed72-1119-42fb-8d9c-f30fe9f64f9a
+      text: light_hammer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - light_hammer
+    - ==: ChoiceOption
+      id: 1d31cb1f-5ef1-437f-97df-129329d51f31
+      text: longsword
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - longsword
+    - ==: ChoiceOption
+      id: eff86a54-de02-47c6-b207-bcf7d1915ebf
+      text: mace
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - mace
+    - ==: ChoiceOption
+      id: 8e3a8feb-d147-44f4-869b-9a7c97fd128a
+      text: morningstar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - morningstar
+    - ==: ChoiceOption
+      id: 079097dc-0dcf-41f2-b94f-65fac56d6641
+      text: quarterstaff
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - quarterstaff
+    - ==: ChoiceOption
+      id: 194594b4-6ff0-4d57-a001-8941e70fafb4
+      text: rapier
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - rapier
+    - ==: ChoiceOption
+      id: 6b7660ab-6734-41dd-af7b-0fe01b38659b
+      text: Scimitar
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - Scimitar
+    - ==: ChoiceOption
+      id: 0cda6399-88b2-4a64-8bbc-3b07ded8153b
+      text: shortsword
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - shortsword
+    - ==: ChoiceOption
+      id: 54dec789-1759-4dfb-8691-151d54d8af12
+      text: sickle
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - sickle
+    - ==: ChoiceOption
+      id: 0b7ed4da-36d7-4d9a-b789-7a8815f0c6f2
+      text: spear
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - spear
+    - ==: ChoiceOption
+      id: 9cf5b1b9-ef7f-4c87-91e4-8da026725770
+      text: staff
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - staff
+    - ==: ChoiceOption
+      id: 84655bd0-4e15-4d53-9540-7e5ff86a39bc
+      text: trident
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - trident
+    - ==: ChoiceOption
+      id: 28e792e6-4783-4595-9027-8a2578c4851d
+      text: war_pick
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - war_pick
+    - ==: ChoiceOption
+      id: 03590a53-0a55-4a01-a616-788921d96dae
+      text: warhammer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - warhammer
+    - ==: ChoiceOption
+      id: a48b997a-cd4a-45f3-a898-8248261bcc39
+      text: whip
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - whip

@@ -1,0 +1,13 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - sling
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 666db810-4e04-4b6a-9604-94316a972e27
+          option-id: 0e2e1703-bf3e-4912-8a78-9e2bed1fbe0c
+        - ==: ChoicePrerequisite
+          choice-id: 1a58b557-ed62-4274-8b3a-1b9db14887f4
+          option-id: 35b4a8e3-9833-4919-9148-041f6a384969

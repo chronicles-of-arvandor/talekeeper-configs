@@ -23,3 +23,9 @@ effect:
         - ==: SubAncestryPrerequisite
           ancestry-id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
           sub-ancestry-id: 42770f93-a31c-4f96-91a7-5220e0a32616
+        - ==: ChoicePrerequisite
+          choice-id: c17108e3-7a75-400b-b859-475c5b33cb73
+          option-id: 1d31cb1f-5ef1-437f-97df-129329d51f31
+        - ==: ChoicePrerequisite
+          choice-id: 1a58b557-ed62-4274-8b3a-1b9db14887f4
+          option-id: 86266ba1-2efd-4f92-8431-b61a85cab883

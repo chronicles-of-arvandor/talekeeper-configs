@@ -1,0 +1,28 @@
+choice:
+  ==: Choice
+  id: dff31a61-82aa-4f9c-9310-a5077e7844ce
+  text: Kensei Way of the Brush Item Proficiency Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+      sub-class-id: 833c1d8c-811e-4e4b-973b-826ebb3672c0
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: fba37f81-7c0f-4dfe-a49c-03c671364398
+      text: calligraphers_supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - calligraphers_supplies
+    - ==: ChoiceOption
+      id: bf894a34-b45e-401f-bdda-645f6fbe8c5d
+      text: painters_supplies
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - painters_supplies

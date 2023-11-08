@@ -1,0 +1,73 @@
+choice:
+  ==: Choice
+  id: 666db810-4e04-4b6a-9604-94316a972e27
+  text: Kensei Ranged Weapon Item Proficiency Choice
+  prerequisites:
+    - ==: SubClassPrerequisite
+      class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
+      sub-class-id: 833c1d8c-811e-4e4b-973b-826ebb3672c0
+      level: 1
+  options:
+    - ==: ChoiceOption
+      id: e9a1ff8f-b2de-4a18-b0c9-82bc811e3b70
+      text: blowgun
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - blowgun
+    - ==: ChoiceOption
+      id: aeb86ab1-a342-424c-a02c-f41fdc4366d2
+      text: dart
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - dart
+    - ==: ChoiceOption
+      id: 485b1016-c8d2-4d7b-9e67-047facfda812
+      text: hand_crossbow
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - hand_crossbow
+    - ==: ChoiceOption
+      id: 1774d537-197b-4bbf-8776-fe93bb257f2b
+      text: light_crossbow
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - light_crossbow
+    - ==: ChoiceOption
+      id: 8f4ae928-2d3a-46ac-b9a7-35150ce0e64c
+      text: longbow
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - longbow
+    - ==: ChoiceOption
+      id: 63211a14-9762-47b2-8093-31f324db9c64
+      text: shortbow
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - shortbow
+    - ==: ChoiceOption
+      id: 0e2e1703-bf3e-4912-8a78-9e2bed1fbe0c
+      text: sling
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: ItemProficiencyPrerequisite
+            item-ids:
+              - sling

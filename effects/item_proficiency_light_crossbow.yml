@@ -1,0 +1,13 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - light_crossbow
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 666db810-4e04-4b6a-9604-94316a972e27
+          option-id: 1774d537-197b-4bbf-8776-fe93bb257f2b
+        - ==: ChoicePrerequisite
+          choice-id: 1a58b557-ed62-4274-8b3a-1b9db14887f4
+          option-id: f7930747-02c5-44a1-9372-7627ad6b132c

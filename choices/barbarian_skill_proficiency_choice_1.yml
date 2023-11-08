@@ -2,7 +2,10 @@ choice:
   ==: Choice
   id: e1464f51-b8e1-4e7b-b438-60e22069d83e
   text: Barbarian Skill Proficiency Choice (1)
-  prerequisites: []
+  prerequisites:
+    - ==: ClassPrerequisite
+      class-id: d3d867db-ba6c-497f-8a73-89bf70b9e12d
+      level: 1
   options:
     - ==: ChoiceOption
       id: b44a1dfd-8c1d-47ca-ad1d-42784abb079e

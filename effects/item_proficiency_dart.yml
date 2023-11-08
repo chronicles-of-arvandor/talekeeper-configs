@@ -1,0 +1,13 @@
+effect:
+  ==: ItemProficiencyEffect
+  items:
+    - dart
+  prerequisites:
+    - ==: OrPrerequisite
+      prerequisites:
+        - ==: ChoicePrerequisite
+          choice-id: 666db810-4e04-4b6a-9604-94316a972e27
+          option-id: aeb86ab1-a342-424c-a02c-f41fdc4366d2
+        - ==: ChoicePrerequisite
+          choice-id: 1a58b557-ed62-4274-8b3a-1b9db14887f4
+          option-id: 3b968ad9-e014-475a-9b13-ca89c4940505
