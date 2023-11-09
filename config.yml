@@ -5,7 +5,21 @@ database:
   dialect: MARIADB
 characters:
   defaults:
-    inventory: []
+    inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Magic
+            Item Token"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0070DD","text":"Rare"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Weight:
+            1lb"}],"text":""}'
+          PublicBukkitValues:
+            numinous-treasury:id: magic_item_token
 point-buy:
   cost:
     '8': 0
