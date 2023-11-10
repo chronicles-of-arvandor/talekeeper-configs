@@ -271,7 +271,7 @@ class:
           meta-type: BANNER
           patterns: []
   sub-class-selection-level: 3
-  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3NDQ5NjZkMWQ0YmQ4MjFmOTczMjlhYmYyMjdlMzZjNjVkZmQ4YjEyYjMxZmM5NjYxNWI4Zjc4MDM2MWRlNCJ9fX0=
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNhNzU2M2MxYjYzYWQ1MmRmYzkyMzNmNDI3Yjc5OGFkOWFmMDFmNjhmYWQ1ZjQxOWMyOWVkYzU2YzhlODk4YiJ9fX0=
   base-hp: 8
   features:
     "1":
