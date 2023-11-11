@@ -3,241 +3,453 @@ class:
   id: a9b560a5-7a29-4675-a424-a624f8488db7
   name: Paladin
   sub-classes:
-  - ==: SubClass
-    id: ac089ce8-f2ee-4737-82b9-749ab2cf349d
-    name: Ancients
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: LIGHT_GRAY_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: cre
-        - ==: Pattern
-          color: BLACK
-          pattern: sku
-        - ==: Pattern
-          color: BLACK
-          pattern: flo
-        - ==: Pattern
-          color: BLACK
-          pattern: gru
-  - ==: SubClass
-    id: de190ce7-84ee-4cd0-b3bf-42ea3742a263
-    name: Conquest
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: ss
-        - ==: Pattern
-          color: WHITE
-          pattern: cbo
-        - ==: Pattern
-          color: WHITE
-          pattern: tt
-        - ==: Pattern
-          color: WHITE
-          pattern: cr
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: mc
-        - ==: Pattern
-          color: WHITE
-          pattern: flo
-  - ==: SubClass
-    id: 0b8456bc-5cb2-4f62-80f0-faa8ad1d4a7e
-    name: Crown
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: YELLOW
-          pattern: mr
-        - ==: Pattern
-          color: YELLOW
-          pattern: mr
-        - ==: Pattern
-          color: BLACK
-          pattern: hh
-        - ==: Pattern
-          color: BLACK
-          pattern: mc
-        - ==: Pattern
-          color: YELLOW
-          pattern: bt
-        - ==: Pattern
-          color: BLACK
-          pattern: bs
-  - ==: SubClass
-    id: e5d356b5-46b2-41c4-ba7a-7fd5fed49751
-    name: Devotion
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: mc
-        - ==: Pattern
-          color: WHITE
-          pattern: tt
-        - ==: Pattern
-          color: WHITE
-          pattern: gra
-  - ==: SubClass
-    id: 37517112-768e-44de-b3ba-ca4e9b9bb5a6
-    name: Glory
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: YELLOW
-          pattern: flo
-  - ==: SubClass
-    id: e09538f0-ca9f-405b-8db7-914e764f6871
-    name: Open Sea
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: LIGHT_BLUE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: GRAY
-          pattern: mr
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: mc
-        - ==: Pattern
-          color: BROWN
-          pattern: sc
-        - ==: Pattern
-          color: WHITE
-          pattern: tr
-        - ==: Pattern
-          color: BROWN
-          pattern: hhb
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: cbo
-        - ==: Pattern
-          color: BLUE
-          pattern: bs
-  - ==: SubClass
-    id: 9a4760c4-cbf6-4b74-b97a-f77d2c9f0f71
-    name: Redemption
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: RED_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: cre
-        - ==: Pattern
-          color: YELLOW
-          pattern: flo
-        - ==: Pattern
-          color: BLACK
-          pattern: cs
-        - ==: Pattern
-          color: BLACK
-          pattern: hh
-        - ==: Pattern
-          color: WHITE
-          pattern: sku
-        - ==: Pattern
-          color: BLACK
-          pattern: sku
-        - ==: Pattern
-          color: RED
-          pattern: gru
-  - ==: SubClass
-    id: e9f5256e-f8e9-44a9-8076-9e76b1164133
-    name: Vengeance
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: sc
-        - ==: Pattern
-          color: WHITE
-          pattern: bri
-        - ==: Pattern
-          color: WHITE
-          pattern: flo
-        - ==: Pattern
-          color: RED
-          pattern: flo
-        - ==: Pattern
-          color: WHITE
-          pattern: tt
-        - ==: Pattern
-          color: RED
-          pattern: gru
-  - ==: SubClass
-    id: 600dd7a8-9706-43e2-841c-2209d9e72b5c
-    name: Watchers
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: LIGHT_GRAY_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: ms
-        - ==: Pattern
-          color: WHITE
-          pattern: mc
-        - ==: Pattern
-          color: BLACK
-          pattern: flo
-        - ==: Pattern
-          color: WHITE
-          pattern: cbo
-        - ==: Pattern
-          color: WHITE
-          pattern: cbo
+    - ==: SubClass
+      id: ac089ce8-f2ee-4737-82b9-749ab2cf349d
+      name: Ancients
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divinity
+            description: >-
+              You gain the following two Channel Divinity options: 
+               Nature's Wrath: You can use your Channel Divinity to invoke Primeval forces to ensare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity Saving throw (its choice) or be Restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns On a success, it frees itself and the vines vanish. 
+               OR 
+               Turn the Faithless: You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. 
+               A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can only use the Dash action or try to escape from an effect that prevents it from moving. If there is nowhere to move, the creature can use the Dodge action. 
+               If the creature's true form is concealed by an illusion, shapeshifting or other effect that form is revealed while it is turned.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: LIGHT_GRAY_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: cre
+            - ==: Pattern
+              color: BLACK
+              pattern: sku
+            - ==: Pattern
+              color: BLACK
+              pattern: flo
+            - ==: Pattern
+              color: BLACK
+              pattern: gru
+    - ==: SubClass
+      id: de190ce7-84ee-4cd0-b3bf-42ea3742a263
+      name: Conquest
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divinity
+            description: >-
+              Conquering Presence. You can use your Channel Divinity to exude a
+              terrifying presence. As an action, you force each creature of your
+              choice that you can see within 30 feet of you to make a Wisdom
+              saving throw. On a failed save, a creature becomes frightened of
+              you for 1 minute. The frightened creature can repeat this saving
+              throw at the end of its turns, ending the effect on itself on a
+              success. 
+               OR 
+               Guided strike. You can use your Channel divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divnity to gain a +10 Bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: ss
+            - ==: Pattern
+              color: WHITE
+              pattern: cbo
+            - ==: Pattern
+              color: WHITE
+              pattern: tt
+            - ==: Pattern
+              color: WHITE
+              pattern: cr
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: mc
+            - ==: Pattern
+              color: WHITE
+              pattern: flo
+    - ==: SubClass
+      id: 0b8456bc-5cb2-4f62-80f0-faa8ad1d4a7e
+      name: Crown
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divnity
+            description: >-
+              Champion Challenge: as a bonus action, you issue a challenge that
+              compels other creatures to do battle with you. Each creature of
+              your choice that you ca nsee within 30 feet of you must make a
+              Wisdom saving throw. On a failed save, a creature can't willingly
+              move more than 30 feet away from you. This effect ends on the
+              creature if you are incapacitated or die, or if the creature is
+              more than 30 feet away from you. 
+               OR 
+               Turn the Tide: as a Bonus action, you ca nbolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your charisma modifier (minimum of 1) if it has no more than half its hit points
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: YELLOW
+              pattern: mr
+            - ==: Pattern
+              color: YELLOW
+              pattern: mr
+            - ==: Pattern
+              color: BLACK
+              pattern: hh
+            - ==: Pattern
+              color: BLACK
+              pattern: mc
+            - ==: Pattern
+              color: YELLOW
+              pattern: bt
+            - ==: Pattern
+              color: BLACK
+              pattern: bs
+    - ==: SubClass
+      id: e5d356b5-46b2-41c4-ba7a-7fd5fed49751
+      name: Devotion
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divinity
+            description: >-
+              Sacred Weapon: As an action, you can imbue one weapon that you are
+              holding with positive energy, using your Channel Divinity. For 1
+              minute you add your Charisma modifier to attack rolls made with
+              that weapon (with a minimum bonus of +1). The weapon also emits
+              bright light in a 20-foot radius and dim light 20 feet beyond
+              that. If the weapon is not already magical, it becomes magical for
+              the duration. 
+               you can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends. 
+               OR 
+               Turn the Unholy: As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. 
+               A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: mc
+            - ==: Pattern
+              color: WHITE
+              pattern: tt
+            - ==: Pattern
+              color: WHITE
+              pattern: gra
+    - ==: SubClass
+      id: 37517112-768e-44de-b3ba-ca4e9b9bb5a6
+      name: Glory
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel divinity
+            description: >-
+              Peerless Athlete: As a bonus action, you can use your Channel
+              Divinity to augment your athleticism. For the next 10 minutes, you
+              have advantage on Strength (Athletics) and Dexterity (Acrobatics)
+              checks; you can carry, push, drag, and lift twice as much weight
+              as normal; and the Distance of your long and high jumps increases
+              by 10 feet (this extra distance costs movement as normal) 
+               OR 
+               Inspiring Smite: Immediately after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity as a Bonus action and distribute temporary hit points to creatures of your choice within 30 feet of you, which can include yourself. The total number of temporary hit points equals 2d8 + your level, divided among the chosen creatures however you like.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: YELLOW
+              pattern: flo
+    - ==: SubClass
+      id: e09538f0-ca9f-405b-8db7-914e764f6871
+      name: Open Sea
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divinity
+            description: >-
+              Marine Layer: As an Action, you channel the sea to create a thick
+              cloud of fog that surrounds you for 20 feet in all directions. The
+              fog moves with you, remaining centered on you and making its area
+              heavily obscured. You and each creature within 5 feet of you
+              instead treat the area as lightly obscured. This fog lasts for 10
+              minutes spreads around corners, and canot be dispersed unless you
+              choose to end this effect (no action required) 
+               OR 
+               Fury of the Tides: As a Bonus action, you channel the powerful might of the waves to bolster your attacks for 1 minute. Once per turn for the duration, when you hit a creature with a weapon attack, you can choose to push the target 10 feet away from you. If pushed into an obstacle or another creature, the target takes bludgeoning damage equal to your Charisma modifier.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: LIGHT_BLUE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: GRAY
+              pattern: mr
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: mc
+            - ==: Pattern
+              color: BROWN
+              pattern: sc
+            - ==: Pattern
+              color: WHITE
+              pattern: tr
+            - ==: Pattern
+              color: BROWN
+              pattern: hhb
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: cbo
+            - ==: Pattern
+              color: BLUE
+              pattern: bs
+    - ==: SubClass
+      id: 9a4760c4-cbf6-4b74-b97a-f77d2c9f0f71
+      name: Redemption
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divinity
+            description: >-
+              Emissary of Peace: You can use your Channel Divinity to Augment
+              your presence with divine power. As a bonus action, you grant
+              yourself a +5 bonus to Charisma (Persuasion) Checks for the next
+              10 minutes. 
+               OR 
+               Rebuke the Violent: You can use your Channel Divinity to rebuke those that use Violence. Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it jsut dealt. On a successful save, it takes half as much damage. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: RED_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: cre
+            - ==: Pattern
+              color: YELLOW
+              pattern: flo
+            - ==: Pattern
+              color: BLACK
+              pattern: cs
+            - ==: Pattern
+              color: BLACK
+              pattern: hh
+            - ==: Pattern
+              color: WHITE
+              pattern: sku
+            - ==: Pattern
+              color: BLACK
+              pattern: sku
+            - ==: Pattern
+              color: RED
+              pattern: gru
+    - ==: SubClass
+      id: e9f5256e-f8e9-44a9-8076-9e76b1164133
+      name: Vengeance
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divinity
+            description: >-
+              Abjure Enemy: As an action you present your holy symbol and speak
+              a prayer of denunciation, using your Channel Divinity. Choose one
+              creature within 60 feet of you that you can see. That creature
+              must make a wisdom saving throw, unless it is immune to being
+              frightened. Fiends and Undead have disadvantage on this saving
+              throw. 
+               On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened the creatures speed is 0 and it can't benefit from any bonus to its speed. 
+               On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage. 
+               OR 
+               Vow of Enmity: As a bonus action, you can utter a vow of Enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature 1 one minute or until it drops to 0 hit points or falls unconcious.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: sc
+            - ==: Pattern
+              color: WHITE
+              pattern: bri
+            - ==: Pattern
+              color: WHITE
+              pattern: flo
+            - ==: Pattern
+              color: RED
+              pattern: flo
+            - ==: Pattern
+              color: WHITE
+              pattern: tt
+            - ==: Pattern
+              color: RED
+              pattern: gru
+    - ==: SubClass
+      id: 600dd7a8-9706-43e2-841c-2209d9e72b5c
+      name: Watchers
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Channel Divinity
+            description: >-
+              Watcher's Will You can use your Channel Divinity to invest your
+              presence with the warding power of your faith. As an action, you
+              can choose a number of creatures you can see within 30 feet of
+              you, up to a number equal to your charisma modifier (minimum of 1
+              creature). For 1 minute, you and the chosen creatures have
+              advantage on Intelligence, Wisdom, and Charisma Saving throws. 
+               OR 
+               Abjure the Extraplanar: You can use your Channel Divinity to Castigate unworldy beings. As an action, you present your holy symbol and each Abberation, Celestial, Elemental, Fey, or Fiend, within 30 feet of you that can hear you must make a wisdom saving throw. On a failed save, the creature is Turned for 1 minute or until it takes damage. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: LIGHT_GRAY_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: ms
+            - ==: Pattern
+              color: WHITE
+              pattern: mc
+            - ==: Pattern
+              color: BLACK
+              pattern: flo
+            - ==: Pattern
+              color: WHITE
+              pattern: cbo
+            - ==: Pattern
+              color: WHITE
+              pattern: cbo
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBmZDJjYzkxMTZjMGY3MjRiZGNkYmYyZTk2MzNjYjBhN2Q0NTNmOGIzYTFhZDlkMTQ5M2U1ZTZmMTI4MTU1NSJ9fX0=
   base-hp: 10
-  levels-per-caster-level: 2
+  features:
+    "1":
+      - name: Divine Sense
+        description: The presence of a strong evil registers on your senses like a
+          noxious odor, and powerful good rings like heavenly music in your
+          ears. As an action, you can open your awareness to detect such forces.
+          Until the start of your next turn, you know the location of any
+          celestial, fiend, or undead within 60 feet of you that is not behind
+          total cover. You know the type (celestial, fiend, or undead) of any
+          being whose presence you sense, but not it's identity (the Vampire
+          Count Strahd von Zarovich, for instance). Within the same radius, you
+          also detect the presence of any place or object that has been
+          consecrated or desecrated, as with the hallow spell /n  You can use
+          this feature a number of times equal to 1+ your charisma modifier,
+          When you finish a long rest, you regain all expended uses.
+      - name: Lay on Hands
+        description: >-
+          Your blessed touch can heal wounds. You have a pool of healing power
+          that replenishes when you take a long rest. With that pool, you can
+          restore a total number of hit points equal to your paladin level x 5. 
+           As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature. Up to the Maximum amount remaining in your pool.  Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons witha single use of Lay on Hands, expending hit points seperately for each one. 
+           This feature has no effect on undead and constructs.
+    "2":
+      - name: Fighting Styles
+        description: >-
+          You adopt a particular style of fighting as your speciality. Choose
+          one of the following options. You can't take a fighting style option
+          more than once, even if you later get to choose again 
+           Close quarters shooter: When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and thre quarters cover against targets within 30 feet of you. you have a +1 bonus to attack rolls on ranged attacks 
+           Defense: While you are wearing armor, you  gain a +1 bonus to AC 
+           Dueling: When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon 
+           Great Weapon Fighting: When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with 2 hands, you can reroll the die and must use the new roll, even if the new roll is a  1 or a 2. The weapon must have the two-handed or vesstile property for you to gain this benefit. 
+           Mariner As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to armor class. 
+           Protection: When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. 
+           Tunnel fighter: As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your Defensive stance, you can make opprotunity attacks without using your reaction, and you can use your reaction to make a melee attack that moves more than 5 feet while within your reach. 
+           Blessed warrior. You learn 2 cantrips of your choice from  the cleric  spell list. They count as paladin spells for you, and charisma is your spellcasting ability for them. 
+           Blind fighting: being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you. 
+           Interception When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10+ your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction. 
+           Thrown Weapon fighting. You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged wattack using a thrown waeapon, you gain a +1 bonus to the damage roll.
+      - name: Spellcasting
+        description: >-
+          You have learned to draw on divine magic through meditation and prayer
+          to cast spells as a cleric does. 
+           The paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. 
+           You prepare the list of paladin spells that are available for you to cast, choosing from the paldin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level rounded down (minimum of 1 spell). The spells must be of a level for which you have spell slots. 
+           You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: atleast 1 minute per spell level for each spell on your list. 
+           Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions.
+      - name: Divine Smite
+        description: When you hit a creature with a melee weapon attack, you can expend
+          one spell slot to deal radiant damage to the target, in addition to
+          the weapon's damage. The extra damage is 2d8 for a 1st-level spell
+          slot, plus 1d8 for each spell level higher than 1st to a maximum of
+          5d8. The damage increases by 1d8 if the target is an undead or a
+          fiend, to a maximum of 6d8
+    "3":
+      - name: Divine Health
+        description: The divine magic flowing through you makes you immune to disease.
+      - name: Sacred Oath
+        description: When you reach a 3rd level, you swear the oath that bind you as a
+          paladin forever. Up to this time you have been in a preparatory stage,
+          commited to the path, but not yet sworn to it. Your choice of subclass
+          grants you features at 3rd level and again at 7th, 15th, and 20th
+          level. Those features include oath spells and the Channel divinity
+          feature
+      - name: Oath Spells
+        description: >-
+          Each oath has a list of associated spells, you gain access to these
+          spells at the levels specified in the oath description. Once you gain
+          access to an oath spell, you always have it prepared. Oath spells
+          don't count against the number of spells you can prepare each day. 
+           If you gain an oath spell that doesn't appear on the paladin spell list, that spell is nonetheless a paladin spell for you.
+      - name: Channel Divinity
+        description: >-
+          Your oath allows you  to channel divine energy to fuel magical
+          effects. Each Channel Divinity option provided by your oath explains
+          how to use it. 
+           When you use your Channel Divnity you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. 
+           Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC
+    "4":
+      - name: Ability Score improvement
+        description: You can increase an ability score of your choice by 1.
+    "5":
+      - name: Extra Attack
+        description: You can attack twice instead of once, whenever you take the Attack
+          action on your turn.
+    "6":
+      - name: Aura of Protection
+        description: Whenever you or a friendly creature within 10 feet of you must make
+          a saving throw, the creature gains a bonus to the saving throw equal
+          to your Charisma modifier (with a minimum of +1) You must be Conscious
+          to grant this bonus, at 18th level the range of this aura increases to
+          30 feet.

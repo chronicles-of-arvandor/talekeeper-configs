@@ -3,275 +3,740 @@ class:
   id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
   name: Cleric
   sub-classes:
-  - ==: SubClass
-    id: 74ad412d-e036-4ca0-b4f0-8f79ac426f36
-    name: Arcana
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: flo
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: vh
-  - ==: SubClass
-    id: 76aafb6b-dc8c-4a00-9967-1a827e054f17
-    name: Death
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: sku
-        - ==: Pattern
-          color: RED
-          pattern: gra
-  - ==: SubClass
-    id: ea7d2d3a-26f1-4ab3-9758-f95a0bf38e04
-    name: Forge
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: GRAY
-          pattern: bri
-        - ==: Pattern
-          color: RED
-          pattern: bt
-        - ==: Pattern
-          color: ORANGE
-          pattern: bts
-        - ==: Pattern
-          color: BLACK
-          pattern: ts
-  - ==: SubClass
-    id: 9cf9fce0-a077-46ba-b13c-a5e0d0da0cbb
-    name: Grave
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: GRAY
-          pattern: bt
-        - ==: Pattern
-          color: WHITE
-          pattern: sku
-  - ==: SubClass
-    id: e24fb860-4952-445f-bce8-3c568bab4908
-    name: Knowledge
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: LIGHT_GRAY
-          pattern: ss
-        - ==: Pattern
-          color: BLUE
-          pattern: vhr
-        - ==: Pattern
-          color: BROWN
-          pattern: bs
-  - ==: SubClass
-    id: 1e2ff8e3-90d2-49a7-8d79-9a5ee784da2b
-    name: Life
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: YELLOW
-          pattern: hh
-        - ==: Pattern
-          color: LIME
-          pattern: mc
-        - ==: Pattern
-          color: LIME
-          pattern: gru
-  - ==: SubClass
-    id: 6ca47d14-446c-418f-bda3-6237f091036e
-    name: Light
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: ORANGE
-          pattern: flo
-        - ==: Pattern
-          color: YELLOW
-          pattern: gru
-        - ==: Pattern
-          color: YELLOW
-          pattern: gra
-  - ==: SubClass
-    id: 8dd073a0-42d9-4c84-96fb-80e6080b20e7
-    name: Nature
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: LIME_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: GREEN
-          pattern: bts
-        - ==: Pattern
-          color: YELLOW
-          pattern: flo
-        - ==: Pattern
-          color: GREEN
-          pattern: gru
-  - ==: SubClass
-    id: 7e5aaeec-6495-4857-b669-b617a9c5e6df
-    name: Peace
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: mc
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: hhb
-  - ==: SubClass
-    id: 482e3790-732e-4342-ba2a-5b6c4a1dca5f
-    name: Order
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: LIGHT_GRAY
-          pattern: bri
-        - ==: Pattern
-          color: RED
-          pattern: bo
-  - ==: SubClass
-    id: 41abda81-661a-4404-8ab8-476845120093
-    name: Tempest
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: CYAN_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: ts
-        - ==: Pattern
-          color: GREEN
-          pattern: bts
-  - ==: SubClass
-    id: f2800bdc-29a6-48f2-99ca-0d583e326bae
-    name: Trickery
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: PINK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: cre
-        - ==: Pattern
-          color: BLACK
-          pattern: hhb
-        - ==: Pattern
-          color: BLACK
-          pattern: ts
-        - ==: Pattern
-          color: GRAY
-          pattern: bs
-  - ==: SubClass
-    id: fdb7542c-731f-42be-a4d4-b51df77809b2
-    name: Twilight
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: LIGHT_BLUE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: ORANGE
-          pattern: flo
-        - ==: Pattern
-          color: ORANGE
-          pattern: mc
-        - ==: Pattern
-          color: BLUE
-          pattern: hhb
-        - ==: Pattern
-          color: ORANGE
-          pattern: ms
-  - ==: SubClass
-    id: 849b8ecc-406d-4730-86dd-ad5b81a2bbf8
-    name: War
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: sku
-        - ==: Pattern
-          color: GRAY
-          pattern: hhb
+    - ==: SubClass
+      id: 74ad412d-e036-4ca0-b4f0-8f79ac426f36
+      name: Arcana
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Arcane Initiate
+            description: You gain Proficiency in the Arcana skill, and you gain two cantrips
+              of your choice from the wizard spell list. For you, these cantrips
+              count as cleric cantrips.
+        "2":
+          - ==: ClassFeature
+            name: Arcane Adjuration
+            description: >-
+              You can use your Channel Divinity to abjure otherworldy
+              creatures. 
+               As an action, you present your holy symbol, and one Celestial, Elemental, Fey, or Fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute until it takes any damage. 
+               A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 3o feet of you. It also can't take reactions. For its action, it can only use the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action. 
+               After you reach 5th level, when a creature fails its saving throws against your Arcane abjuration feature, the creature is banished for 1 minute (as in the banishment spell, no concentration required) if it isn't on its plane of origin and its challenge rating is at or below a certain threshold, as shown on the arcane banishment table.
+        "6":
+          - ==: ClassFeature
+            name: Spell Breaker
+            description: When you restore hit points to an ally with a spell of 1st level or
+              higher, you can also end one spell of your choice on that
+              creature. The level of the spell you end must be equal to or lower
+              than the level of the spell slot you use to cast the healing
+              spell.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: flo
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: vh
+    - ==: SubClass
+      id: 76aafb6b-dc8c-4a00-9967-1a827e054f17
+      name: Death
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Proficiency
+            description: You gain proficiency with Martial weapons
+          - ==: ClassFeature
+            name: Reaper
+            description: You learn one Necromancy cantrip of your choice from any spell
+              list. When you cast a necromancy cantrip that normally targets
+              only one creature, the spell can instead target two creatures
+              within range and within 5 feet of eachother.
+        "2":
+          - ==: ClassFeature
+            name: Touch of Death
+            description: You can use your Channel Divnity to destroy another creatures life
+              force by touch. When you hit a creature with a melee attack, you
+              can use Channel Divinity to deal extra necrotic damage to the
+              target. The damage equals 5+ twice your cleric level.
+        "6":
+          - ==: ClassFeature
+            name: Inescapable Destruction
+            description: Your ability to channel negative energy becomes more potent.
+              Necrotic damage delt by your cleric spells and Channel Divinity
+              options ignores resistances to necrotic damage.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: sku
+            - ==: Pattern
+              color: RED
+              pattern: gra
+    - ==: SubClass
+      id: ea7d2d3a-26f1-4ab3-9758-f95a0bf38e04
+      name: Forge
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Proficiencies
+            description: You gain proficiency with heavy armor and smith's tools.
+          - ==: ClassFeature
+            name: Blessing of the Forge
+            description: >-
+              You gain the ability to Imbue magic into a weapon or armor. At the
+              end of a long rest, you can touch one nonmagical object that is a
+              suit of armor or a simple or martial weapon. Until the end of your
+              next long rest, or until you die, the object becomes a magic item,
+              granting a +1 bonus to AC if it's armor or a +1 bonus to attack
+              and damage rolls if its a weapon. 
+               Once you use this feature you can't use it again until you finish a long rest.
+        "2":
+          - ==: ClassFeature
+            name: Forgemaster's Rune
+            description: >-
+              You use your bonus action to inscribe your Forgemaster's Rune upon
+              your weapon, setting the weapon ablaze. For a Duration of 1 minute
+              you can use your spellcasting ability instead of Strength for the
+              attack and damage rolls of melee attacks using that weapon, and
+              the weapon deals fire damage instead of its original damage type. 
+               When you hit a creature with a melee attack while this Channel Divinity is active, fire leaps from the target to a different creature of your choice that cou can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier. This spell's damage increases when you reach higher levels. 
+               This channel divnity does not require concentration, however the effect of this Channel divinity can not be combined with other weapon enhancing spells such as magic weapon, elemental weapon, or holy weapon. Casting such a spell ends the Channel Divinity. 
+               At 5th level the melee attack deals an extra 1d8 fire damage to the target and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level  and 17th level. 
+               at 6th level when you gain your second use of channel divinity, you can choose to spend two uses of Channel divnity instead of one, changing its damage type from fire to Radiant.
+        "6":
+          - ==: ClassFeature
+            name: Soul of the Forge
+            description: You gain resistance to fire damage. While wearing heavy armor, you
+              gain a +1 bonus to AC
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: GRAY
+              pattern: bri
+            - ==: Pattern
+              color: RED
+              pattern: bt
+            - ==: Pattern
+              color: ORANGE
+              pattern: bts
+            - ==: Pattern
+              color: BLACK
+              pattern: ts
+    - ==: SubClass
+      id: 9cf9fce0-a077-46ba-b13c-a5e0d0da0cbb
+      name: Grave
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Circle of Mortality
+            description: When you would normally roll one or more Dice to restore hit points
+              with a spell to a creature at 0 hit points, you instead use the
+              highest number possible for each die.
+          - ==: ClassFeature
+            name: Cantrip
+            description: You learn the Spare the Dying cantrip, which doesn't count against
+              the number  of Cleric cantrips you know. For you, it has a range
+              of 30 feet, and you can cast it as a bonus action.
+          - ==: ClassFeature
+            name: Eyes of the Grave
+            description: >-
+              You gain the ability to occasionally sense the presence of the
+              undead. As an action, you can open your awareness to magically
+              detect undead. Until the end of your turn, you know the location
+              of any undead within 60 feet of you that isn't behind total cover
+              and that isn't protected from Divination magic.  This sense
+              doesn't tell you anything about a creatures capabilities or
+              identity. 
+               You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you  finish a long rest. 
+        "2":
+          - ==: ClassFeature
+            name: Path of the Grave
+            description: >-
+              You can use your Channel divnity to mark another creatures life
+              force for termination. 
+               As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an Ally of yours hits the cursed creature with an attack the creature has vulnerability to all of that attacks damage and then the curse ends. 
+        "6":
+          - ==: ClassFeature
+            name: Sentinel at Death's Door
+            description: >-
+              You gain the ability to impede death's progress. As a reaction
+              when you or an Ally that you can see within 30 feet of you suffers
+              a critical hit, you can turn that attack into a normal hit. Any
+              effects triggered by a critical hit are canceled. 
+               You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: GRAY
+              pattern: bt
+            - ==: Pattern
+              color: WHITE
+              pattern: sku
+    - ==: SubClass
+      id: e24fb860-4952-445f-bce8-3c568bab4908
+      name: Knowledge
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Blessings of Knowledge
+            description: "You learn 2 languages of your choice. You also become proficient
+              in your choice of two of the following skills: Arcana, History,
+              Nature, or Religion. Your proficiency bonus is doubled for any
+              ability check you make that uses either of those skills. "
+        "2":
+          - ==: ClassFeature
+            name: Knowledge of the Ages
+            description: You can use your Channel Divinity to tap into a divine well of
+              knowledge. As an action, you choose one skill or tool. For 10
+              minutes, you have proficiency with that chosen skill or tool.
+        "6":
+          - ==: ClassFeature
+            name: Read Thoughts
+            description: >-
+              You can use your Channel Divinity to read a creatures thoughts.
+              You can then use your access to the creature's mind  to command
+              it. 
+               As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest. If the creature fails its save, you can read its surface thoughts (those foremost on its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute. During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: LIGHT_GRAY
+              pattern: ss
+            - ==: Pattern
+              color: BLUE
+              pattern: vhr
+            - ==: Pattern
+              color: BROWN
+              pattern: bs
+    - ==: SubClass
+      id: 1e2ff8e3-90d2-49a7-8d79-9a5ee784da2b
+      name: Life
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Proficiency
+            description: You gain proficiency with heavy armor.
+          - ==: ClassFeature
+            name: Disciple of Life
+            description: Your healing spells are more effective. Whenever you use a spell of
+              1st level or higher to restore hit points to a creature, the
+              creature regainst additional hit points equal to 2 + the spells
+              level.
+        "2":
+          - ==: ClassFeature
+            name: Preserve Life
+            description: >-
+              You can use your Channel Divinity to heal the badly injured. 
+               As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to 5 times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of it's hit points maximum. You can't use this feature on an undead or construct.
+        "6":
+          - ==: ClassFeature
+            name: Blessed Healer
+            description: The healing spells you cast on others heal you as well. When you
+              cast a spell of 1st level or higher that restores hit points to a
+              creature other than you, you regain hit points equal to 2 + the
+              spell's level.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: YELLOW
+              pattern: hh
+            - ==: Pattern
+              color: LIME
+              pattern: mc
+            - ==: Pattern
+              color: LIME
+              pattern: gru
+    - ==: SubClass
+      id: 6ca47d14-446c-418f-bda3-6237f091036e
+      name: Light
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Cantrip
+            description: "You gain the Light Cantrip if you don't already know it. "
+          - ==: ClassFeature
+            name: Warding Flare
+            description: >-
+              You can interpose divine light between yourself and an attacking
+              enemy. When you are attacked by a creature within 30 feet of
+              you  that you can see, you can use your reaction to impose
+              disadvantage on the attack roll, causing light to flare before the
+              attacker before it hits or misses. An attacker that can't be
+              blinded is immune to this feature. 
+               You can use this feature a number of times equal to your Wisdom modifier (mimimum of once). You regain all expended uses when you finish a long rest.
+        "2":
+          - ==: ClassFeature
+            name: Radiance of the Dawn
+            description: >-
+              You can use your Channel divinity to harness sunlight, Banishing
+              darkness and dealing radiant damage to your foes. 
+               As an action, you present your holy symbol and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected. 
+        "6":
+          - ==: ClassFeature
+            name: Improved Flare
+            description: You can also use your warding flare feature when a creature that
+              you can see within 30 feet of you attacks a creature other than
+              you.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: ORANGE
+              pattern: flo
+            - ==: Pattern
+              color: YELLOW
+              pattern: gru
+            - ==: Pattern
+              color: YELLOW
+              pattern: gra
+    - ==: SubClass
+      id: 8dd073a0-42d9-4c84-96fb-80e6080b20e7
+      name: Nature
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Acolyte of Nature
+            description: " You learn 1 cantrip of your choice from the Druid spell list. You
+              also gain proficiency in one of the following skills of your
+              choice: Animal handling, Nature, or Survival."
+          - ==: ClassFeature
+            name: Bonus proficiency
+            description: You gain proficiency with heavy armor
+        "2":
+          - ==: ClassFeature
+            name: Charm Animals And Plants
+            description: You can use your Channel Divinity to charm animals and plants. As
+              an action, you present your holy symbol and invoke the name of
+              your deity. Each beast or plant creature that can see you within
+              30 feet must make a wisdom saving throw. If the creature fails its
+              saving throw, it is charmed by you for 1 minute or until it takes
+              damage. While it is charmed by you, it is friendly to you and
+              other creatures you designate.
+        "6":
+          - ==: ClassFeature
+            name: Dampen Elements
+            description: When you or a creature within 30 feet of you takes acid, cold,
+              fire, lightning, or thuder damage, you can use your reaction to
+              grant resistance to the creature against that instance of damage.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: LIME_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: GREEN
+              pattern: bts
+            - ==: Pattern
+              color: YELLOW
+              pattern: flo
+            - ==: Pattern
+              color: GREEN
+              pattern: gru
+    - ==: SubClass
+      id: 7e5aaeec-6495-4857-b669-b617a9c5e6df
+      name: Peace
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Impliment of Peace
+            description: You gain proficiency in the Insight, Performance, or Persuasion
+              skill (your choice)
+          - ==: ClassFeature
+            name: Emboldening Bond
+            description: >-
+              You can forge an empowering bond among the people who are at peace
+              with one another. As an action, you choose a number of willing
+              creature within 30 feet of you (this can include yourself) equal
+              to your proficiency bonus. You create a magical bond among them
+              for 10 minutes or until you use this feature again. While any
+              bonded creature is within 30 feet of another, the creature can
+              roll a d4 and add the number rolled to an attack roll, an ability
+              check, or a saving throw it makes. Each creature can add the d4 no
+              more than once per turn. 
+               You can use this feature a number of times equal to your proficiency bonus and you regain all expended uses when you finish a long rest.
+        "2":
+          - ==: ClassFeature
+            name: Balm of Peace
+            description: You can use your Channel Divinity to make your very presence a
+              soothing balm. As an action, you can move up to your speed without
+              provoking opprotunity attacks, and wen you move within 5 feet of
+              any other creature during this action, you can restore a number of
+              hit points to that creature equal to 2d6 + your Wisdom modifier
+              (minimum of 1 hit point). A creature can receive this healing only
+              once whenever you take this action.
+        "6":
+          - ==: ClassFeature
+            name: Protective Bond
+            description: The bond you forge between people helps them protect eachother.
+              When a creature affected by your Emboldening Bond feature is about
+              to take damage, a second bonded creature within 30 feet of the
+              furst can use its reaction to teleport to an unoccupied space
+              within 5 feet of the first creature. The second creature then
+              takes all the damage instead.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: mc
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: hhb
+    - ==: SubClass
+      id: 482e3790-732e-4342-ba2a-5b6c4a1dca5f
+      name: Order
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Proficiencies
+            description: You gain proficiency with heavy armor. You also gain proficiency in
+              the Intimidation or Persuasion skill (your choice)
+          - ==: ClassFeature
+            name: Voice of Authority
+            description: >-
+              You can invoke the power of law to embolden an ally to attack. If
+              you cast a spell with a spell slot of 1st level or higher and
+              target an ally with the spell, that ally can use their reaction
+              immediately after the spell to make one weapon attack against a
+              creature of your choice that you can see. 
+               If the spell targets more than one ally, you choose the ally who can make the attack.
+        "2":
+          - ==: ClassFeature
+            name: Order's Demand
+            description: >-
+              You can use your Channel Divinity to exert an intimidating
+              presence over others. 
+               As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet must succeed on a Wisdom Saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the Charmed creatures to drop what they are holding when they fail the saving throw. 
+        "6":
+          - ==: ClassFeature
+            name: Embodiment of Law
+            description: >-
+              You become remarkably adept at channeling magical energy to compel
+              others. 
+               If you Cast a spell of the Enchantment school using a spell slot of 1st level or higher, you can change the spells casting time to 1 bonus action for this casting provided teh spells casting time is normally 1 action. 
+               You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: LIGHT_GRAY
+              pattern: bri
+            - ==: Pattern
+              color: RED
+              pattern: bo
+    - ==: SubClass
+      id: 41abda81-661a-4404-8ab8-476845120093
+      name: Tempest
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Proficiencies
+            description: You gain Proficiency with martial weapons and  heavy armor
+          - ==: ClassFeature
+            name: Wrath of the Storm
+            description: >-
+              You can thunderously rebuke attackers. When a creature within 5
+              feet of you that you can see hits you with an attack, you can use
+              your reaction to cause the creature to make a Dexterity saving
+              throw. The creature takes 2d8 lightning or thunder damage (your
+              choice) on a failed saving throw, and half as much damage on a
+              successful one. 
+               You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+        "2":
+          - ==: ClassFeature
+            name: Destructive Wrath
+            description: You can use your Channel Divinity to wield the power of the storm
+              with unchecked ferocity. When you roll lightning or thunder
+              damage, you can use your channel divinity to deal maximum damage
+              instead of rolling.
+        "6":
+          - ==: ClassFeature
+            name: Thunderous Strike
+            description: When you deal lightning damage to a large or smaller creature, you
+              can also push it up to 10 feet away from you.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: CYAN_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: ts
+            - ==: Pattern
+              color: GREEN
+              pattern: bts
+    - ==: SubClass
+      id: f2800bdc-29a6-48f2-99ca-0d583e326bae
+      name: Trickery
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Blessing of the Trickster
+            description: You can use your action to touch a willing creature other than
+              yourself to give it advantage on Dexterity (stealth) checks. This
+              blessing lasts for 1 hour or until you use this feature again.
+        "2":
+          - ==: ClassFeature
+            name: Invoke Duplicity
+            description: >-
+              You can use your Channel Divinity to create an illusory duplicate
+              of yourself. As an action, you create a perfect illusion of
+              yourself that lasts for 1 minute or until you lose your
+              concentration (as if you were concentrating on a spell.) The
+              illusion appears in an unoccupied space that you can see within 30
+              feet of you. As a bonus action on your turn you can move the
+              illusion up to 30 feet to a space you can see, but it must remain
+              within 120 feet of you. 
+               For the duration, you can cast spells as though you were in the illusion's space but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature given how distracting the illusion is to the target.
+        "6":
+          - ==: ClassFeature
+            name: Cloak of Shadows
+            description: You can use your Channel Divinity to Vansih. As an action, you
+              become invisible until the end of your next turn. You become
+              visible if you attack or cast a spell.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: PINK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: cre
+            - ==: Pattern
+              color: BLACK
+              pattern: hhb
+            - ==: Pattern
+              color: BLACK
+              pattern: ts
+            - ==: Pattern
+              color: GRAY
+              pattern: bs
+    - ==: SubClass
+      id: fdb7542c-731f-42be-a4d4-b51df77809b2
+      name: Twilight
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus proficiency
+            description: You gain proficiency with martial weapons.
+          - ==: ClassFeature
+            name: Eyes of Night
+            description: >-
+              You can see through the deepest gloom. You have darkvision out to
+              a range of 300 feet. In that radius, you can see in dim light as
+              if it were bright light and darkness as if it were dim light. 
+               As an action, you can magically share the darkvision of this feature with willing creatures you can see within 10 features up to a number of creatures equal to your wisdom modifier (minimum of one creature). The shared dark vision lasts for 1 hour. Once you share it, you can't do so again until you finish a long rest, unless you spend a spell slot of any level to share it again.
+          - ==: ClassFeature
+            name: Vigilante's Blessing
+            description: The night has taught you to be vigilant. As an action, you give one
+              creature you touch (including possibly yourself) advantage on the
+              next initiative roll the creature makes. This benefit ends
+              immediately after the roll or if you use this feature again.
+        "2":
+          - ==: ClassFeature
+            name: Twilight Sanctuary
+            description: >-
+              You can use your Channel Divinity to refresh your allies with
+              soothing twilight. 
+               As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the spehre, you can grant that creature one of these benefits: 
+               You grant it temporary hit points equal to 1d6 plus your cleric level. 
+               you end one effect on it, causing it to be charmed or frightened.
+        "6":
+          - ==: ClassFeature
+            name: Steps of Night
+            description: You can draw on the mystical power of night to rise into the air.
+              As a bonus action when you are in dim light or darkness, you can
+              magically give yourself a climbing speed equal to your walking
+              speed for 1 minute. You can use this bonus action a number of
+              times equal to your proficiency bonus and you regain all expended
+              uses when you finish a long rest.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: LIGHT_BLUE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: ORANGE
+              pattern: flo
+            - ==: Pattern
+              color: ORANGE
+              pattern: mc
+            - ==: Pattern
+              color: BLUE
+              pattern: hhb
+            - ==: Pattern
+              color: ORANGE
+              pattern: ms
+    - ==: SubClass
+      id: 849b8ecc-406d-4730-86dd-ad5b81a2bbf8
+      name: War
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Proficiencies
+            description: You gain proficiency with martial weapons and heavy armor.
+          - ==: ClassFeature
+            name: Warpriest
+            description: Your god delivers bolts of inspiration to you while you are engaged
+              in battle. When you use the attack action, you can make one weapon
+              attack as a bonus action. You can use this feature a number of
+              times equal to your Wisdom Modifier (minimum of once). You regain
+              all expended uses when you finish a long rest.
+        "2":
+          - ==: ClassFeature
+            name: Guided Strike
+            description: You can use your Channel Divinity to strike with supernatural
+              accuracy. When you make an attack roll, you can use your Channel
+              Divinity to gain a +10 bonus to the roll. You make this choice
+              after you see the roll, but before the DM says whether the attack
+              hits or mises.
+        "6":
+          - ==: ClassFeature
+            name: War God's Blessing
+            description: When a creature within 30 feet of you makes an attack roll, you can
+              use your reaction to grant that creature a +10 bonus to the roll,
+              using your Channel Divinity. You make this choice after you see
+              the roll, but before the Dm says whether the attack hits or
+              misses.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: sku
+            - ==: Pattern
+              color: GRAY
+              pattern: hhb
   sub-class-selection-level: 1
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI1NTU3YmQ1YTgyYjBjMjEwNDVlMzIyMGMzMzgwYWM5ZTBlZDQ2ZGM4M2I1ZjAwYTlkZjJlM2QzZTUwNDVhMiJ9fX0=
   base-hp: 8
-  levels-per-caster-level: 1
+  features:
+    "1":
+      - name: Spellcasting
+        description: >-
+          At first level you know 3 cantrips of your choice from the cleric
+          spell list. You learn additional cantrips from the list of your choice
+          at higher levels as shown in the Cantrips Known Column of the Cleric
+          Table 
+           The cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spells level or higher. You regain all expended spell slots when you finish a long rest. 
+           You prepare the list of cleric spells that are available for you to cast, Choosing from the Cleric spell list. When you do so, choose a number of cleric spells equal to your wisdom modifier + your cleric level (minimum 1 spell). The spells must be of a level for which you have spell slots. 
+           you can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: atleast 1 minute per spell level for each spell on your list. 
+           Wisdom is your spell casting ability for your cleric spells. 
+      - name: Ritual Casting
+        description: You can cast a cleric spell as a ritual if that spell has the
+          ritual tag and you have the spell prepared.
+      - name: Divine Domain
+        description: You choose a subclass domain shaped by your choice of deity and the
+          gifts they grant you. Your choice grants you domain spells and other
+          features when you choose it. It also grants you additional ways to use
+          Channel Divinity when you gain that feature at 2nd level, and
+          additional benefits at 6th, 8th, and 17th levels.
+      - name: Domain Spells
+        description: >-
+          Each domain has a list of spells that you gain at the cleric levels
+          noted in the domain description. Once you gain a domian spell, you
+          always have it prepared, and it doesn't count against the number of
+          spells you can prepare each day. 
+           if you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you
+    "2":
+      - name: Channel Divinity
+        description: >-
+          you gain the ability to channel divine energy directly from your
+          deity, using that energy to fuel magical effects. You start with two
+          such effects: Turn Undead, and an effect determined by your domain.
+          Some domains gran you additional effects as you advance in levels as
+          noted in the domain description. 
+           When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again. 
+           Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC. 
+           At 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level you can use it 3 times between rests. When you finish a short or long rest, you regain your expended uses
+      - name: Harness Divine power
+        description: You can Expend a use of your Channel Divinity to fuel your spells.
+          As a bonus action, you touch your holy symbol, utter a prayer and
+          regain one expended spell slot, the level of which can be no higher
+          than half your proficiency bonus (rounded up). The number of times you
+          can use this feature is based on the level you've reached in this
+          class. You regain all expended uses when you finish a long rest.
+      - name: Turn Undead
+        description: >-
+          As an action, you present your holy symbol and speak a prayer
+          censuring the undead. Each undead that can see or hear you within 30
+          feet of you must make a Wisdom saving throw. If the creature fails its
+          saving throw it is turned for 1 minute or until it takes any damage. 
+           A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. it also can't take reactions. For its action, it can only use the dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+    "4":
+      - name: Ability Score Improvement
+        description: You can increase an Ability score of your choice by 1
+    "5":
+      - name: Destroy undead.
+        description: When an undead fails its saving throw against your Turn Undead
+          feature, the creature is instantly destroyed if its challenge rating
+          is at or below a certain threshold as shown in the Cleric Table
