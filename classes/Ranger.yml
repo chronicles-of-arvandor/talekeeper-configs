@@ -3,204 +3,416 @@ class:
   id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
   name: Ranger
   sub-classes:
-  - ==: SubClass
-    id: 110dc641-91c4-4341-9e67-3511095b39ee
-    name: Beastmaster
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BROWN
-          pattern: cre
-        - ==: Pattern
-          color: BLACK
-          pattern: mr
-        - ==: Pattern
-          color: BROWN
-          pattern: cbo
-        - ==: Pattern
-          color: BROWN
-          pattern: mc
-        - ==: Pattern
-          color: BROWN
-          pattern: cre
-        - ==: Pattern
-          color: BROWN
-          pattern: tt
-  - ==: SubClass
-    id: 49fcfeb4-f72d-40ea-bd6b-8f9c981a334b
-    name: Fey Wanderer
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLUE
-          pattern: sku
-        - ==: Pattern
-          color: LIGHT_BLUE
-          pattern: cre
-        - ==: Pattern
-          color: BLACK
-          pattern: sc
-        - ==: Pattern
-          color: BLACK
-          pattern: cr
-        - ==: Pattern
-          color: WHITE
-          pattern: mc
-  - ==: SubClass
-    id: 0a7fea91-7984-420b-a0bd-3fe3b9b39be8
-    name: Gloomstalker
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: PURPLE
-          pattern: cr
-        - ==: Pattern
-          color: PURPLE
-          pattern: mr
-        - ==: Pattern
-          color: BLACK
-          pattern: dls
-        - ==: Pattern
-          color: BLACK
-          pattern: mc
-        - ==: Pattern
-          color: BLACK
-          pattern: rd
-        - ==: Pattern
-          color: BLACK
-          pattern: bo
-  - ==: SubClass
-    id: 805b8de8-9e23-4620-a152-5440a5f16924
-    name: Horizon Walker
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: PINK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: ORANGE
-          pattern: gru
-        - ==: Pattern
-          color: PURPLE
-          pattern: gra
-        - ==: Pattern
-          color: ORANGE
-          pattern: mc
-        - ==: Pattern
-          color: YELLOW
-          pattern: mc
-        - ==: Pattern
-          color: BLACK
-          pattern: hhb
-  - ==: SubClass
-    id: 6acb5d01-7cdb-4b21-a51b-74532606f752
-    name: Hunter
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BROWN
-          pattern: moj
-        - ==: Pattern
-          color: GREEN
-          pattern: hhb
-        - ==: Pattern
-          color: BLACK
-          pattern: dls
-        - ==: Pattern
-          color: BROWN
-          pattern: bt
-        - ==: Pattern
-          color: GREEN
-          pattern: br
-        - ==: Pattern
-          color: GREEN
-          pattern: cbo
-        - ==: Pattern
-          color: GREEN
-          pattern: tt
-  - ==: SubClass
-    id: ddf7f712-ef21-4e92-b197-328b602acba4
-    name: Monster Slayer
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: cr
-        - ==: Pattern
-          color: BLACK
-          pattern: lud
-        - ==: Pattern
-          color: BLACK
-          pattern: rd
-        - ==: Pattern
-          color: BLACK
-          pattern: cs
-  - ==: SubClass
-    id: a34b86f8-ab97-4be1-a4c3-7f3df9e4e74a
-    name: Swarm Keeper
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: cbo
-        - ==: Pattern
-          color: BLACK
-          pattern: ts
-        - ==: Pattern
-          color: BLACK
-          pattern: flo
-        - ==: Pattern
-          color: BLACK
-          pattern: bs
-        - ==: Pattern
-          color: BLACK
-          pattern: drs
-        - ==: Pattern
-          color: BLACK
-          pattern: ms
-        - ==: Pattern
-          color: BLUE
-          pattern: gru
+    - ==: SubClass
+      id: 110dc641-91c4-4341-9e67-3511095b39ee
+      name: Beastmaster
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Beastmaster Magic
+            description: "You learn an additional spell when you reach certain levels in
+              this class, as shown in the beastmaster spells table. The spell
+              counts as a ranger spell for you, but it doesn't count against the
+              number of spells you know. "
+          - ==: ClassFeature
+            name: Primal Beast Companion
+            description: >-
+              You can magically summon a primal beast, which draws strength from
+              your bond with nature. The beast is friendly to you and your
+              companions and obeys your commands. Choose it's stat block - Beast
+              of the Land, Beast of the Sea, or Beast of the Sky - which uses
+              your proficiency bonus (PB) in several places. You also  determine
+              the kind of animal the beast is, choosing a kind of appropriate
+              stat block. Whatever kind you choose, the beast bears primal
+              markings, indicating it's mystical origin. 
+               In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action takes is the dodge action unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the attack action to command the beast to take the attack action. If you are Incapacitated, the beast can take any action of its choice, not just Dodge 
+               If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored. 
+               When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and apperance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BROWN
+              pattern: cre
+            - ==: Pattern
+              color: BLACK
+              pattern: mr
+            - ==: Pattern
+              color: BROWN
+              pattern: cbo
+            - ==: Pattern
+              color: BROWN
+              pattern: mc
+            - ==: Pattern
+              color: BROWN
+              pattern: cre
+            - ==: Pattern
+              color: BROWN
+              pattern: tt
+    - ==: SubClass
+      id: 49fcfeb4-f72d-40ea-bd6b-8f9c981a334b
+      name: Fey Wanderer
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Fey Wanderer spells
+            description: "You gain spells when you take this subclass and reach levels in
+              this class as described on  the Fey Wanderer bonus spell list. The
+              spells count as ranger spells, but don't count towards the total
+              of spells you know. "
+          - ==: ClassFeature
+            name: Feywild Gifts
+            description: You possess a preternatural blessing from a fey ally or place of
+              fey power. Choose your blessing from the Feywild Gifts table or
+              determine it randomly.
+          - ==: ClassFeature
+            name: Dreadful Strikes
+            description: >-
+              You can augment your weappon with mind-scarring magic, drawn from
+              the gloomy hollows of the Feywild. When you hit a creature with a
+              weapon, you can deal an extra 1d4 Psychic damage to the target
+              which takes this damage only once per turn. 
+               The extra damage increases to 1d6 when you reach level 11 in this class
+          - ==: ClassFeature
+            name: Otherworldy Glamour
+            description: >-
+              Your fey qualities give you a supernatural charm. As a result,
+              whenever you make a Charisma check, you gain a bonus to the check
+              equal to your Wisdom modifier (minimum of +1). 
+               In addition you gain proficiency in one of the following skills of your choice: Deception, performance, or persuasion
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLUE
+              pattern: sku
+            - ==: Pattern
+              color: LIGHT_BLUE
+              pattern: cre
+            - ==: Pattern
+              color: BLACK
+              pattern: sc
+            - ==: Pattern
+              color: BLACK
+              pattern: cr
+            - ==: Pattern
+              color: WHITE
+              pattern: mc
+    - ==: SubClass
+      id: 0a7fea91-7984-420b-a0bd-3fe3b9b39be8
+      name: Gloomstalker
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Gloomstalker Bonus Spells
+            description: "You gain bonus spells when selecting this subclass and when you
+              level up in it as found in the Gloomstalker Bonus Spell Table.
+              These spells count as ranger spells but not against the total
+              number of spells you know. "
+          - ==: ClassFeature
+            name: Dread Ambusher
+            description: >-
+              You master the art of ambush. You can give yourself a bonus to
+              your initiative rolls equal to your Wisdom modifier. 
+               At the start of your furst turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 of the weapon's damage type.
+          - ==: ClassFeature
+            name: Umbral Sight
+            description: >-
+              You gain darkvision out to a range of 60 feet. If you already have
+              darkvision from your ancestry, its range increases by 30 feet. 
+               You are also adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see  you in that darkness.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: PURPLE
+              pattern: cr
+            - ==: Pattern
+              color: PURPLE
+              pattern: mr
+            - ==: Pattern
+              color: BLACK
+              pattern: dls
+            - ==: Pattern
+              color: BLACK
+              pattern: mc
+            - ==: Pattern
+              color: BLACK
+              pattern: rd
+            - ==: Pattern
+              color: BLACK
+              pattern: bo
+    - ==: SubClass
+      id: 805b8de8-9e23-4620-a152-5440a5f16924
+      name: Horizon Walker
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Horizon Walker Bonus Spells
+            description: "You gain bonus spells when taking this subclass as viewed in the
+              Horizon Walker Bonus Spell Table. These spells count as ranger
+              spells, but not against the total of spells you know. "
+          - ==: ClassFeature
+            name: Detect Portal
+            description: >-
+              You gain the ability to magically sense the presence of a planar
+              portal. As an action, you detect the distance and direction of the
+              closest planar portal within 1 mile of you. 
+               Once you use this feature you can't use it again until you finish a short or long rest.
+          - ==: ClassFeature
+            name: Planar Warrior
+            description: >-
+              You learn to draw on the energy of the multiverse to augment your
+              attacks. 
+               As a Bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack,  all damage delt by the attack becomes force damage, and the creature takes an extra 1d8 force damage from the attack. When you reach 11th level in this class, the extra damage increases to 2d8
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: PINK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: ORANGE
+              pattern: gru
+            - ==: Pattern
+              color: PURPLE
+              pattern: gra
+            - ==: Pattern
+              color: ORANGE
+              pattern: mc
+            - ==: Pattern
+              color: YELLOW
+              pattern: mc
+            - ==: Pattern
+              color: BLACK
+              pattern: hhb
+    - ==: SubClass
+      id: 6acb5d01-7cdb-4b21-a51b-74532606f752
+      name: Hunter
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Hunter's Prey
+            description: >-
+              You gain one of the following features of your choice. 
+               Colossus Slayer: Your Tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn. 
+               Giant Killer. When a large creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature. 
+               Horde Breaker: Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BROWN
+              pattern: moj
+            - ==: Pattern
+              color: GREEN
+              pattern: hhb
+            - ==: Pattern
+              color: BLACK
+              pattern: dls
+            - ==: Pattern
+              color: BROWN
+              pattern: bt
+            - ==: Pattern
+              color: GREEN
+              pattern: br
+            - ==: Pattern
+              color: GREEN
+              pattern: cbo
+            - ==: Pattern
+              color: GREEN
+              pattern: tt
+    - ==: SubClass
+      id: ddf7f712-ef21-4e92-b197-328b602acba4
+      name: Monster Slayer
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Monster Hunter Bonus spells
+            description: You gain spells when selecting this sub-class as found in the
+              monster slayer bonus spell table. These spells count as ranger
+              spells, but not towards the total number of spells you know.
+          - ==: ClassFeature
+            name: Hunter's Sense
+            description: >-
+              You gain the ability to peer at a creature and magically discern
+              how best to hurt it. As an action, choose one creature you can see
+              within 60 feet of you. You immediately learn whether the creature
+              has any damage immunities, or vulnerabilities and what they are.
+              If the creature is hidden from divination magic, you can sense
+              that it has no damage immunities, resistances, or
+              vulnerabilities. 
+               You can use this feature a number of times equal to your wisdom modifier (minimum of once). You regain all expended uses of it on the completion of a long rest. 
+          - ==: ClassFeature
+            name: Slayer's Prey
+            description: >-
+              You can focus your Ire on one foe, increasing the harm you inflict
+              on it. As a bonus action, you designate one creature you can see
+              within 60 feet of you as the target of this feature. The first
+              time each turn that you hit that target with a weapon attack, it
+              takes an extra 1d6 damage from the weapon 
+               This benefit lasts until you finish a short or long rest, It ends early if you designate a different creature.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: cr
+            - ==: Pattern
+              color: BLACK
+              pattern: lud
+            - ==: Pattern
+              color: BLACK
+              pattern: rd
+            - ==: Pattern
+              color: BLACK
+              pattern: cs
+    - ==: SubClass
+      id: a34b86f8-ab97-4be1-a4c3-7f3df9e4e74a
+      name: Swarm Keeper
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Swarm Keeper Bonus Spells
+            description: "You gain bonus spells when selecting this subclass as determined
+              in the Swarm Keeper Bonus spells table. These spells count as
+              ranger spells, but don't count towards the total number of ranger
+              spells you know. "
+          - ==: ClassFeature
+            name: Gathered Swarm
+            description: >-
+              A swarm of intangible nature spirits has bonded itself to you can
+              assist you in battle. Until you die, the swarm remains in your
+              space, crawling on you or flying and skittering around you within
+              your space. You Determine it's apperance or you generate it's
+              apperance by rolling on the Swarm Apperance Table 
+               Once on each of your turns, you can cause the swarm to assist you in one of the following ways, immediately after you hit a creature with an attack: 
+               The attacks target takes 1d6 piercing damage from the swarm 
+               The attack's target must succeed on a Strength saving throw against your spell save DC or be moved by the swarm up to 15 feet horizontally in a direction of your choice 
+               You are moved by the swarm 5 feet horizontally in a direction of your choice. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: cbo
+            - ==: Pattern
+              color: BLACK
+              pattern: ts
+            - ==: Pattern
+              color: BLACK
+              pattern: flo
+            - ==: Pattern
+              color: BLACK
+              pattern: bs
+            - ==: Pattern
+              color: BLACK
+              pattern: drs
+            - ==: Pattern
+              color: BLACK
+              pattern: ms
+            - ==: Pattern
+              color: BLUE
+              pattern: gru
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTVlMmRkZGE1YzRiNjU0MzUzZmUwMjMwZmFhNGU5NjI1MGZkYzI4MDlhODQ5ZTFmZmQwMjBmYzdlM2ZhMyJ9fX0=
   base-hp: 10
-  levels-per-caster-level: 2
+  features:
+    "1":
+      - name: Favored Enemy
+        description: >-
+          You have significant experience studying, tracking, hunting, and even
+          talking to a certain type of enemy. 
+           Choose a type of favored enemy: abberations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, undead, or humanoids. 
+           You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on intelligence checks to recall information about them. 
+           When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all. 
+           You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.
+      - name: Natural Explorer
+        description: >-
+          You are particularly familiar with one type of natural environment,
+          and are adept at traveling and surviving in such regions. Choose one
+          type of favored terrain. When you make an intelligence or wisdom check
+          related to your favored terrain, your proficiency bonus is doubled if
+          you are using a skill that you are proficient in. 
+           While traveling for an hour or more in your favored terrain, you gain the following benefits:  
+           Difficult terrain doesn't slow your group's travel. 
+           Your group can't become lost except by magical means. 
+           Even when engaged in another activity while traveling (such as foraging, navagating, or tracking) you remain alert to danger. 
+           If you are travelling alone, you can move stealthy at a normal pace. 
+           When you forage, you find twice as much food as you normally would. 
+           While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area. 
+           you choose additional favored terrain types at 6th and 10th level. 
+    "2":
+      - name: Spellcasting
+        description: >-
+          You have learned to use the magical essence of nature to cast spells,
+          much as a druid does. The ranger table shows how many spell slots you
+          have to cast your ranger spells of 1st level and higher. To cast one
+          of these spells, you must expend a slot of the spells level or higher.
+          You regain all expended spell slots when you finish a long rest. 
+           You start knowing two 1st-level spells of your choice from the ranger spell list. The spells known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. 
+           Wisdom is your spellcasting ability for your ranger spells.
+      - name: Fighting Style
+        description: >-
+          You adopt a particular style of fighting as your speciality. Choose
+          one of the following options. You can't take a Fighting style option
+          more than once, even if you later get to choose again. 
+           Archery: You gain a +2 bonus to attack rolls you make with ranged weapons 
+           Blind fighting: Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you. 
+           Defense: While wearing armor you gain a +1 bonus to AC 
+           Druidic Warrior: You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and wisdom is your spellcasting ability for you. 
+           Dueling: When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. 
+           Thrown weapon fighting: You can draw a weapon that has the thrown property as part of the attack you make with that weapon. In addition when you hit with a ranged attack using a thrown weapon, you gain +1 bonus to the damage roll. 
+           Two weapon fighting: When you engage in two-weapon fighitng, you can add your ability modifier to the damage of the second attack. 
+    "3":
+      - name: "Primeval Awareness:"
+        description: "You can use your action and expend one ranger spell slot to focus
+          your awareness on the region around you. For 1 minute per level of the
+          slot you expend, you can sense wheter the following types of creatures
+          are present within 1 mile of you (or within upto 6 miles if you are in
+          your favored terrain): Abberations, Celestials, Dragons, Elementals,
+          Fey, Fiends, and undead. This feature doesn't reveal the creatures'
+          location or number."
+      - name: Ranger Conclave
+        description: "You choose to emulate the ideals and training of a ranger conclave
+          from the list of available conclaves. Your choice grants you features
+          at this level, and again at 5th, 7th, 11th, and 15th level. "
+    "4":
+      - name: Ability Score Improvement
+        description: "You can increase one ability score of your choice by 1. "
+    "5":
+      - name: Extra Attack
+        description: When making the attack action, you can attack twice instead of once
+          in the same action

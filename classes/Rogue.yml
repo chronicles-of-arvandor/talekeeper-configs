@@ -3,227 +3,399 @@ class:
   id: 5192f9ea-289f-4bf6-87dc-d8c38285543a
   name: Rogue
   sub-classes:
-  - ==: SubClass
-    id: fc16ade7-992a-47bb-bcb0-dd9dc3bfca70
-    name: Arcane Trickster
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: GRAY
-          pattern: gru
-        - ==: Pattern
-          color: PURPLE
-          pattern: bs
-        - ==: Pattern
-          color: PURPLE
-          pattern: mr
-        - ==: Pattern
-          color: BLACK
-          pattern: mc
-        - ==: Pattern
-          color: BLACK
-          pattern: gru
-        - ==: Pattern
-          color: BLACK
-          pattern: bo
-    levels-per-caster-level: 3
-  - ==: SubClass
-    id: 69c4a7ea-c383-4244-a937-e76ee499b0ff
-    name: Assassin
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: ss
-        - ==: Pattern
-          color: LIGHT_GRAY
-          pattern: mr
-        - ==: Pattern
-          color: LIGHT_GRAY
-          pattern: bs
-        - ==: Pattern
-          color: BLACK
-          pattern: mc
-        - ==: Pattern
-          color: BLACK
-          pattern: cbo
-  - ==: SubClass
-    id: 1599e9da-22ec-440a-a6f7-b68dcab13d91
-    name: Inquisitive
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: PINK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: PURPLE
-          pattern: ss
-        - ==: Pattern
-          color: PURPLE
-          pattern: tt
-        - ==: Pattern
-          color: PURPLE
-          pattern: cbo
-        - ==: Pattern
-          color: PINK
-          pattern: gra
-        - ==: Pattern
-          color: PINK
-          pattern: flo
-        - ==: Pattern
-          color: PINK
-          pattern: tts
-  - ==: SubClass
-    id: d2037a60-eb97-4494-8c06-6a9dee926d56
-    name: Mastermind
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: LIGHT_GRAY_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: flo
-        - ==: Pattern
-          color: PINK
-          pattern: bri
-        - ==: Pattern
-          color: BLACK
-          pattern: ts
-        - ==: Pattern
-          color: BLACK
-          pattern: bs
-        - ==: Pattern
-          color: BLACK
-          pattern: cbo
-        - ==: Pattern
-          color: BLACK
-          pattern: bo
-  - ==: SubClass
-    id: b398c872-65ae-48aa-ad69-42c63da69d32
-    name: Phantom
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: GRAY
-          pattern: cbo
-        - ==: Pattern
-          color: BLACK
-          pattern: pig
-        - ==: Pattern
-          color: GRAY
-          pattern: cr
-        - ==: Pattern
-          color: GRAY
-          pattern: ts
-        - ==: Pattern
-          color: LIGHT_GRAY
-          pattern: gra
-        - ==: Pattern
-          color: BLACK
-          pattern: gru
-  - ==: SubClass
-    id: 730bd84c-4758-4b2f-9c97-caabd3af320f
-    name: Scout
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: GRAY
-          pattern: gru
-        - ==: Pattern
-          color: CYAN
-          pattern: gra
-        - ==: Pattern
-          color: GRAY
-          pattern: cs
-        - ==: Pattern
-          color: BLUE
-          pattern: mc
-        - ==: Pattern
-          color: YELLOW
-          pattern: sku
-  - ==: SubClass
-    id: 5965dc2f-23bf-4d02-8236-58ee8e9fd687
-    name: Swashbuckler
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: LIGHT_GRAY_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: gru
-        - ==: Pattern
-          color: BLACK
-          pattern: gra
-        - ==: Pattern
-          color: WHITE
-          pattern: sku
-        - ==: Pattern
-          color: WHITE
-          pattern: sku
-  - ==: SubClass
-    id: 8f75ec0e-18fe-42a1-82bd-8d8263695d60
-    name: Thief
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: ORANGE
-          pattern: bt
-        - ==: Pattern
-          color: YELLOW
-          pattern: flo
-        - ==: Pattern
-          color: BLACK
-          pattern: cbo
-        - ==: Pattern
-          color: BLACK
-          pattern: ms
-        - ==: Pattern
-          color: BLACK
-          pattern: hh
-        - ==: Pattern
-          color: BLACK
-          pattern: bo
+    - ==: SubClass
+      id: fc16ade7-992a-47bb-bcb0-dd9dc3bfca70
+      name: Arcane Trickster
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Spellcasting
+            description: >-
+              You agument your martial prowess with the ability to cast spells. 
+               You learn 3 cantrips: Mage Hand, and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level. 
+               The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of your spells you expend a slot of the spells level or higher. You regain all expended spell slots when you finish a long rest. 
+               You know 3 1st level wizard spells of your choice, two of which must be chosen from the Enchantment and Illusion spells on the wizard spell list. the spells known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells, each of these spells must be an enchantment or illusion spell of your choice. Except the spells you learn at 8th, 14th, and 20th level can come from any school of magic. 
+               Intelligence is your spellcasting ability for your wizard spells.
+          - ==: ClassFeature
+            name: Mage Hand Legerdemain
+            description: >-
+              When you cast Mage hand, you can make the spectral hand invisible,
+              and you can perform the following additional tasks with it: 
+               You can stow one object the hand is holding in a container worn by another creature. 
+               You can retrieve an object in a container worn or carried by another creature. 
+               You can use thieves tools to pick locks and disarm traps at range. 
+               You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check. 
+               In addition you can use the bonus action granted by your Cunning Action to control the hand. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: GRAY
+              pattern: gru
+            - ==: Pattern
+              color: PURPLE
+              pattern: bs
+            - ==: Pattern
+              color: PURPLE
+              pattern: mr
+            - ==: Pattern
+              color: BLACK
+              pattern: mc
+            - ==: Pattern
+              color: BLACK
+              pattern: gru
+            - ==: Pattern
+              color: BLACK
+              pattern: bo
+    - ==: SubClass
+      id: 69c4a7ea-c383-4244-a937-e76ee499b0ff
+      name: Assassin
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Bonus Proficiencies
+            description: You gain proficiency with the Disguise kit, and the Poisoner's kit.
+          - ==: ClassFeature
+            name: Assassinate
+            description: "You are at your deadliest when you get the drop on your enemies.
+              You have advantage on attack rolls against any creature that
+              hasn't taken a turn in the combat yet. In addition, any hit you
+              score against a creature that is suprised is a critical hit. "
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: ss
+            - ==: Pattern
+              color: LIGHT_GRAY
+              pattern: mr
+            - ==: Pattern
+              color: LIGHT_GRAY
+              pattern: bs
+            - ==: Pattern
+              color: BLACK
+              pattern: mc
+            - ==: Pattern
+              color: BLACK
+              pattern: cbo
+    - ==: SubClass
+      id: 1599e9da-22ec-440a-a6f7-b68dcab13d91
+      name: Inquisitive
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Ear for Deceit
+            description: You develop a keen ear for picking out lies. Whenever you make a
+              Wisdom (Insight) check to determine whether a creature is lying,
+              treat a roll of 7 or lower on the d20 as an 8
+          - ==: ClassFeature
+            name: Eye for Detail
+            description: "You can use a bonus action to make a Wisdom (Perception) check to
+              spot a hidden creature or object or to make an Intelligence
+              (Investigation) check to uncover or decipher clues. "
+          - ==: ClassFeature
+            name: Insightful Fighting
+            description: >-
+              You gain the ability to decipher an opponent's tactics and develop
+              a counter to them. As a bonus action, you make a Wisdom (insight)
+              check against a creature you can see that isn't incapacitated,
+              contested by the target's Charisma (Deception) check. if you
+              succeed, you can use your sneak attack against that target even if
+              you don't have advantage on the attack roll, but not if you have
+              disadvantage on it. 
+               The benfit lasts for 1 minute or until you successfully use this feature against a different target.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: PINK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: PURPLE
+              pattern: ss
+            - ==: Pattern
+              color: PURPLE
+              pattern: tt
+            - ==: Pattern
+              color: PURPLE
+              pattern: cbo
+            - ==: Pattern
+              color: PINK
+              pattern: gra
+            - ==: Pattern
+              color: PINK
+              pattern: flo
+            - ==: Pattern
+              color: PINK
+              pattern: tts
+    - ==: SubClass
+      id: d2037a60-eb97-4494-8c06-6a9dee926d56
+      name: Mastermind
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Master of Intrigue
+            description: >-
+              You gain proficiency with the disguise kit, the forgery kit, and
+              one gaming set of your choice. You also learn two languages of
+              your choice. 
+               Additionally you can unerringly mimic the speech patterns and accent of a creature that you can hear speak for atleast 1 minute, enabling you to pass yourself off as a native speaker of a particular land provided you knowthe language. 
+          - ==: ClassFeature
+            name: Master of Tactics
+            description: You canuse the help action as a bonus action. Additionally, when
+              you use the Help action to aid an ally in attacking a creature,
+              the target of that target can be within 30 feet of you, rather
+              than 5 feet of you, if the target can see or hear you.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: LIGHT_GRAY_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: flo
+            - ==: Pattern
+              color: PINK
+              pattern: bri
+            - ==: Pattern
+              color: BLACK
+              pattern: ts
+            - ==: Pattern
+              color: BLACK
+              pattern: bs
+            - ==: Pattern
+              color: BLACK
+              pattern: cbo
+            - ==: Pattern
+              color: BLACK
+              pattern: bo
+    - ==: SubClass
+      id: b398c872-65ae-48aa-ad69-42c63da69d32
+      name: Phantom
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Whispers of the Dead
+            description: "Echoes of those who have died cling to you. Whenever you finish a
+              short or long rest. You can gain one skill or tool proficiency of
+              your choice, as a ghostly presence shares its knowledge with you.
+              You lose this proficiency when you use this feature to choose a
+              different proficiency that you lack. "
+          - ==: ClassFeature
+            name: Wails from the Grave
+            description: >-
+              As you nudge someone closer to the grave, you can channel the
+              power of death to harm someone else as well. Immediately after you
+              deal Sneak Attack damage to a creature on your turn, you can
+              target a second creature that you can see within 30 feet of the
+              first creature. Roll half the number of Sneak Attack dice for your
+              level (rounded up), and the second creature takes necrotic damage
+              equal to the roll's total, as the wails of the dead sound around
+              them for a moment. 
+               You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: GRAY
+              pattern: cbo
+            - ==: Pattern
+              color: BLACK
+              pattern: pig
+            - ==: Pattern
+              color: GRAY
+              pattern: cr
+            - ==: Pattern
+              color: GRAY
+              pattern: ts
+            - ==: Pattern
+              color: LIGHT_GRAY
+              pattern: gra
+            - ==: Pattern
+              color: BLACK
+              pattern: gru
+    - ==: SubClass
+      id: 730bd84c-4758-4b2f-9c97-caabd3af320f
+      name: Scout
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Skirmisher
+            description: You are difficult to pin down during a fight. You can move up to
+              half your speed as a reaction when an enemy ends its turn within 5
+              feet of you. This movement doesn't provoke opprotunity attacks.
+          - ==: ClassFeature
+            name: Survivalist
+            description: You gain proficiency  in the Nature and Survival Skills if you
+              don't already have it. Your proficiency bonus is doubled for any
+              ability check you make that uses either of those proficiencies
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: GRAY
+              pattern: gru
+            - ==: Pattern
+              color: CYAN
+              pattern: gra
+            - ==: Pattern
+              color: GRAY
+              pattern: cs
+            - ==: Pattern
+              color: BLUE
+              pattern: mc
+            - ==: Pattern
+              color: YELLOW
+              pattern: sku
+    - ==: SubClass
+      id: 5965dc2f-23bf-4d02-8236-58ee8e9fd687
+      name: Swashbuckler
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Fancy Footwork
+            description: you learn how to land a strike and then slip away without reprisal.
+              During your turn, if you make a melee attack against a creature,
+              that creature can't make opprotunity attacks against you for the
+              rest of your turn.
+          - ==: ClassFeature
+            name: Rakish Audacity
+            description: >-
+              Your confidence propels you into battle, you can give yourself a
+              bonus to your initiative equal to your Charisma modifier 
+               You also gain an additional way to use your sneak attack; you don't need advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of  you, and you don't have disadvantage on the attack roll. All other rules for Sneak Attack still apply to you. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: LIGHT_GRAY_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: gru
+            - ==: Pattern
+              color: BLACK
+              pattern: gra
+            - ==: Pattern
+              color: WHITE
+              pattern: sku
+            - ==: Pattern
+              color: WHITE
+              pattern: sku
+    - ==: SubClass
+      id: 8f75ec0e-18fe-42a1-82bd-8d8263695d60
+      name: Thief
+      features:
+        "3":
+          - ==: ClassFeature
+            name: Second Story Work
+            description: You gan the ability to climb faster than normal; clibming no longer
+              costs you extra movement. In addition, when you make a running
+              jump, the distance you cover increases by a number of feet equal
+              to your Dexterity modifier.
+          - ==: ClassFeature
+            name: Fast Hands
+            description: You can use the bonus action granted  by your Cunning Action to
+              make a Dexterity (Sleight of Hand) check, use your thieves' tools
+              to disarm a trap or open a lock, or take the Use an Object action
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: ORANGE
+              pattern: bt
+            - ==: Pattern
+              color: YELLOW
+              pattern: flo
+            - ==: Pattern
+              color: BLACK
+              pattern: cbo
+            - ==: Pattern
+              color: BLACK
+              pattern: ms
+            - ==: Pattern
+              color: BLACK
+              pattern: hh
+            - ==: Pattern
+              color: BLACK
+              pattern: bo
   sub-class-selection-level: 3
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk0NDY5MjZlN2RjMWM5OGM0NjAyZTcxNGZlMzlmN2YyYTQyNDViYTFlMWQzMmNiYWM4Yzc2NGE2MDM5YTY1MiJ9fX0=
   base-hp: 8
+  features:
+    "1":
+      - name: Expertise
+        description: Choose two of your Skill proficiencies, or one of your skill
+          proficiencies and your proficiency with thieves' tools. Your
+          proficiency bonus is doubled for any ability check you make that uses
+          either of the chosen proficiencies. At 6th level you choose two more
+          of your proficiencies (in skills or thieves tools) to gain this
+          benefit
+      - name: Sneak Attack
+        description: You know how to strike Subtly and exploit a foe's distraction. Once
+          per turn, you can deal an extra 1d6 damage to one creature you hit
+          with an attack if you have advantage on the attack roll. The attack
+          must use a finesse or a ranged weapon. You don't need advantage on the
+          attack roll if another enemy of the target is within 5 feet of it,
+          that enemy isn't incapacitated, and you don't have disadvantage on the
+          attack roll. The amount of extra damage inceases as you gain levels in
+          this class, as shown in the Sneak attack Column of the Rogue table
+      - name: Thieves' Cant
+        description: >-
+          During your rogue training you learned thieves' cant, a secret mix of
+          dialect, jargon and code that allows you to hide messages in seemingly
+          normal conversation. Only another creature that knows thieves cant
+          understands such messages. It takes four times longer to convey such a
+          message than it does to speak the same idea plainly. 
+           In addition you understand a set of secret signs and symbols used to convey short, simple messages, such as weather an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area or easy marks or will provide a safe house for thieves on the run.
+    "2":
+      - name: Cunning Action
+        description: Your quick thinking and agility allow you to move and act quickly.
+          You can take a bonus action on each of your turns in Combat. This
+          action can only be used to take the Dash, Disengage, or Hide action.
+    "3":
+      - name: Roguish Archetype
+        description: You choose an Archetype that you emulate in the exercise of your
+          rogue abilities and pick your subclass. Your subclass choice grants
+          you features at 3rd level, and then again at 9th, 13th, and 17th
+          level.
+    "4":
+      - name: Ability Score Improvement
+        description: You increase any ability score of your choice by 1.
+    "5":
+      - name: Uncanny Dodge
+        description: When an attacker you see hits you with an attack, you can use your
+          reaction to halve the attack's damage against you.

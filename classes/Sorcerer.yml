@@ -3,140 +3,328 @@ class:
   id: 8399372a-231b-4d8f-985a-d6130f6f9827
   name: Sorcerer
   sub-classes:
-  - ==: SubClass
-    id: 69130b22-7f74-458c-a9e2-eb7b8af3b858
-    name: Clockwork Soul
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BROWN_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: LIGHT_GRAY
-          pattern: flo
-        - ==: Pattern
-          color: GRAY
-          pattern: cbo
-  - ==: SubClass
-    id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
-    name: Divine Soul
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: YELLOW_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: cbo
-        - ==: Pattern
-          color: YELLOW
-          pattern: flo
-        - ==: Pattern
-          color: BLACK
-          pattern: bt
-        - ==: Pattern
-          color: BLACK
-          pattern: tt
-        - ==: Pattern
-          color: WHITE
-          pattern: sc
-        - ==: Pattern
-          color: WHITE
-          pattern: mc
-  - ==: SubClass
-    id: 700b26b2-de26-4786-9fb7-7b2beb5f61a5
-    name: Storm Sorcerer
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: BLACK
-          pattern: bl
-        - ==: Pattern
-          color: BLACK
-          pattern: tr
-        - ==: Pattern
-          color: BLACK
-          pattern: tts
-        - ==: Pattern
-          color: BLACK
-          pattern: bts
-        - ==: Pattern
-          color: BLACK
-          pattern: ls
-        - ==: Pattern
-          color: BLACK
-          pattern: rs
-  - ==: SubClass
-    id: d44bfeaf-f3ed-4997-bc0b-b391f4b26fde
-    name: Shadow Magic
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: WHITE_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: gru
-        - ==: Pattern
-          color: ORANGE
-          pattern: gra
-        - ==: Pattern
-          color: BLACK
-          pattern: mr
-        - ==: Pattern
-          color: BLACK
-          pattern: tt
-        - ==: Pattern
-          color: BLACK
-          pattern: bt
-        - ==: Pattern
-          color: BLACK
-          pattern: drs
-  - ==: SubClass
-    id: 942e66aa-1bc5-4780-aa69-bed8d545be98
-    name: Wild Magic
-    icon:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: BLACK_BANNER
-      meta:
-        ==: ItemMeta
-        meta-type: BANNER
-        patterns:
-        - ==: Pattern
-          color: RED
-          pattern: hh
-        - ==: Pattern
-          color: ORANGE
-          pattern: hh
-        - ==: Pattern
-          color: RED
-          pattern: bl
-        - ==: Pattern
-          color: RED
-          pattern: drs
-        - ==: Pattern
-          color: BLACK
-          pattern: bo
-        - ==: Pattern
-          color: BLACK
-          pattern: glb
+    - ==: SubClass
+      id: 69130b22-7f74-458c-a9e2-eb7b8af3b858
+      name: Clockwork Soul
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Bonus Spells
+            description: You gain spells as shown on the Clockwork bonus spell table. These
+              spells count towards spells you can cast, but not towards the
+              maximum number of spells you know.
+          - ==: ClassFeature
+            name: Restore Balance
+            description: >-
+              Starting at 1st level, your connection with the Plane of absolute
+              order allows you to equalize chaotic moments. When a creature you
+              can see within 60 feet of you is about to roll a d20 with
+              advantage or disadvantage, you can use your reaction to prevent
+              the roll from being affected by advantage or disadvantage. 
+               You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses on completion of a long rest. 
+        "6":
+          - ==: ClassFeature
+            name: Bastion of Law
+            description: >-
+              You can tap into the grand equation of existance to imbue a
+              creature with a shimmering shield of order. As an action, you can
+              expend 1 to 5 sorcery points to create a magical ward around
+              yourself or another creature you can see within 30 feet of you.
+              The ward lasts until you finish a long rest or until you use this
+              feature again. 
+               The ward is represetned by a number of d8's equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BROWN_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: LIGHT_GRAY
+              pattern: flo
+            - ==: Pattern
+              color: GRAY
+              pattern: cbo
+    - ==: SubClass
+      id: 02c7254b-c7e6-45c9-a50b-ea88ce0dac1b
+      name: Divine Soul
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Divine magic
+            description: >-
+              Your link to the Divine allows you to learn spells normally
+              associated with the Cleric Class. When your spellcasting feature
+              lets you learn a sorcerer cantrip or sorcerer spell of 1st level
+              or higher, you can choose the spell from the cleric spell list or
+              sorcerer spell list. You must otherwise obey all the restrictions
+              for selecting the spell, and it becomes a sorcerer spell for you. 
+               In addition, choose an affinity for the source of your divine power: Good, evil, Law, Chaos, Or Neutrality. You learn an additional spell based on that affinity as shown on the divine magic table. It is a sorcerer spell for you, but doesn't count towards the number of sorcery spells known. 
+          - ==: ClassFeature
+            name: Favored by the Gods
+            description: >-
+              Divine power guards your destiny. If you fail a saving throw or
+              miss with an attack roll, you can roll 2d4 add it to the total
+              possibly changing the outcome. 
+               Once you use this feature, you can't use it again until you finish a short or long rest.
+        "6":
+          - ==: ClassFeature
+            name: Empowered Healing
+            description: "The divine energy Coursing through you can empower healing spells.
+              Whenever you or an ally within 5 feet of you rolls dice to
+              determine the number of hit points a spell restores, you can
+              speend 1 sorcery point to reroll any number of those dice once,
+              provided you aren't incapacitated. You can use this feature only
+              once per turn. "
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: YELLOW_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: cbo
+            - ==: Pattern
+              color: YELLOW
+              pattern: flo
+            - ==: Pattern
+              color: BLACK
+              pattern: bt
+            - ==: Pattern
+              color: BLACK
+              pattern: tt
+            - ==: Pattern
+              color: WHITE
+              pattern: sc
+            - ==: Pattern
+              color: WHITE
+              pattern: mc
+    - ==: SubClass
+      id: 700b26b2-de26-4786-9fb7-7b2beb5f61a5
+      name: Storm Sorcerer
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Wind Speaker
+            description: "The Arcane magic you command is confused with elemental air. You
+              can speak, read, and write Primordial. Knowing this language
+              allows you to understand and be understood by those who speak it's
+              dialect aquan. "
+          - ==: ClassFeature
+            name: Tempestuous Magic
+            description: "You can use a bonus action on your turn to cause whirling gusts of
+              elemental air to briefly surround you, immediately before or after
+              you cast a spell of 1st level or higher. doing so allows you to
+              fly upto 10 feet without provoking opprotunity attacks. "
+        "6":
+          - ==: ClassFeature
+            name: Heart of the Storm
+            description: "You gain resistance to lightning and thunder damage. In addition,
+              whenever you start casting a spell of 1st level or higher that
+              deals lightning or thunder damage , stormy magic erutps from you.
+              This eruption causes creatures of your choice that you can see
+              within 10 feet of  you to take lightning or thunder damage (choose
+              each time this ability activates) equal to half your sorcerer
+              level. "
+          - ==: ClassFeature
+            name: Storm Guide
+            description: >-
+              You gain the ability to Subtly control the weather around you. 
+               If it is raining, you can use an action to cause the rain to stop falling in a 20-foot-radius sphere centered on you. You can end this effect as a bonus action. 
+               If it is windy, you can use a bonus action each round to choose the direction the wind blows in a 100-foot radius sphere centered on you. The wind blows in that direction until the end of your next turn. This feature doesn't alter the speed of the wind. 
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: BLACK
+              pattern: bl
+            - ==: Pattern
+              color: BLACK
+              pattern: tr
+            - ==: Pattern
+              color: BLACK
+              pattern: tts
+            - ==: Pattern
+              color: BLACK
+              pattern: bts
+            - ==: Pattern
+              color: BLACK
+              pattern: ls
+            - ==: Pattern
+              color: BLACK
+              pattern: rs
+    - ==: SubClass
+      id: d44bfeaf-f3ed-4997-bc0b-b391f4b26fde
+      name: Shadow Magic
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Eyes of the Dark
+            description: >-
+              You have Darkvision with a range of 120 feet. 
+               When you reach 3rd level in this class, you learn the Darkness spell, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell
+          - ==: ClassFeature
+            name: Strength of the Grave
+            description: >-
+              Your existence in a twilight state between life and death makes
+              you difficult to defeat. When damage reduces you to 0 hit points,
+              you can make a Charisma saving throw (dc 5+ the damage taken) On a
+              Success, you instead drop to 1 hit point. You can't use this
+              feature if you are reduced to 0 hit points by Radiant damage, or
+              by a critical hit. 
+               After the saving throw Succeeds, you can't use this feature again until you finish a long rest.
+        "6":
+          - ==: ClassFeature
+            name: Hound of Ill Omen
+            description: >-
+              You gain the ability to call forth a howling creature of darkness
+              to harass your foes. As a bonus action, you can spend 3 sorcery
+              points to summon a Hound of Ill Omen to target one creature you
+              can see within 120 feet of you. The hound uses the Dire Wolf's
+              statistics, with the following changes: 
+               The hound is size medium not large, and counts as a monstrosity not a beast 
+               it appears with a number of temporary hit points equal to half your sorcerer level 
+               It can mvoe through other creatures and objects as if they were difficult terrain. The hound takes 5 fore damage if it ends its turn inside an object. 
+               At the start of its turn the hound automatically knows the targets location. If the target was hidden, it is no longer hidden from the hound. 
+               The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound can make Opprotunity attacks, but only against its target. Additionally while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spells you cast. The hound disappears if it is reduced to 0 hit points, if tits target is reduced to 0 hit points or after 5 minutes.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: WHITE_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: gru
+            - ==: Pattern
+              color: ORANGE
+              pattern: gra
+            - ==: Pattern
+              color: BLACK
+              pattern: mr
+            - ==: Pattern
+              color: BLACK
+              pattern: tt
+            - ==: Pattern
+              color: BLACK
+              pattern: bt
+            - ==: Pattern
+              color: BLACK
+              pattern: drs
+    - ==: SubClass
+      id: 942e66aa-1bc5-4780-aa69-bed8d545be98
+      name: Wild Magic
+      features:
+        "1":
+          - ==: ClassFeature
+            name: Wild Magic Surge
+            description: Your spellcasting can Unleash surges of untamed magic. Once per
+              turn, the DM can have you roll a d20 immediately after you cast a
+              sorcerer spell of 1st level or higher. If you roll a 1, roll on
+              the wild magic surge table to create a magical effect. If that
+              effect is a spell it is too wild to be affected by your Metamagic,
+              and if it normally requires concentration it doesn't require
+              concentration in this case; the spell lasts for its full duration.
+          - ==: ClassFeature
+            name: Tides of Chaos
+            description: >-
+              You can manipulate the forces of chance and chaos to gain
+              advantage on one attack roll, ability check, or saving throw. Once
+              you do so, you must finish a long rest before you can use this
+              feature again. 
+               Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.
+        "6":
+          - ==: ClassFeature
+            name: Bend Luck
+            description: You have the ability to twist fate using your wild magic. When
+              another creature you can see makes an attack roll, an ability
+              check or a saving throw, you can use your reaction and spend 2
+              sorcery points to roll 1d4 and apply the number rolled as a bonus
+              or penalty (Your Choice) to the creature's roll. You can do so
+              after the creature rolls but before any effects of the roll occur.
+      icon:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: BLACK_BANNER
+        meta:
+          ==: ItemMeta
+          meta-type: BANNER
+          patterns:
+            - ==: Pattern
+              color: RED
+              pattern: hh
+            - ==: Pattern
+              color: ORANGE
+              pattern: hh
+            - ==: Pattern
+              color: RED
+              pattern: bl
+            - ==: Pattern
+              color: RED
+              pattern: drs
+            - ==: Pattern
+              color: BLACK
+              pattern: bo
+            - ==: Pattern
+              color: BLACK
+              pattern: glb
   sub-class-selection-level: 1
   skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyODE5Mjk1YzAxZTEyYTI1YTRjYWJjNzYwYTY5MDBjODM0MDFhZWQxZTI0N2Q0NGI2YjkyOTJkYzZjMTBkYSJ9fX0=
   base-hp: 6
-  levels-per-caster-level: 1
+  features:
+    "1":
+      - name: Spellcasting
+        description: >-
+          You know 4 cantrips of your choice from the sorcerer spell list. You
+          learn additional sorcerer cantrips of your choice at higher levels, as
+          shown in the Cantrips Known Column of the sorcerer table 
+           The sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spells level or higher. You regain all expended slots when you finish a long rest. 
+           You know two 1st level spells of your choice from the sorcerer spell  list. 
+           Charisma is your spellcasting ability for your sorcerer spells
+      - name: Sorcerous Origin
+        description: You choose a subclass from a sorcerous origin which describes the
+          source of your innate magical power. Your choice grants you features
+          when you choose it at 1st level and again at 6th, 14th, and 18th
+          level.
+    "2":
+      - name: Font of Magic
+        description: >-
+          You tap into a deep wellspring of magic within yourself. This
+          wellspring is represented by sorcery points which allow you to create
+          a variety of magical effects. 
+           You start with 2 sorcery points and gain more as you reach higher levels, as shown in the Sorcery Points Column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest. 
+           You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels. 
+           You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The creating spell slots table shows the cost of creating a spell slot of a given level. you can create spell slots no higher than 5th level. The spell slots created vanish at the end of a long rest. 
+           As a bonus action on your turn, you can also expend one spell slot and gain a number of sorcery points equal to the Slot's level.
+    "3":
+      - name: Metamagic
+        description: >-
+          You gain the ability to twist your spells to suit your needs. You gain
+          Two of the Following Metamagic options of your Choice. You gain
+          another one at 10th and 17th level. You can use only one metamagic
+          option on a spell when you cast it unless otherwise noted. 
+           Careful spell When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of creatures upto your Charisma modifier (minimum of 1). A chosen creature automatically succeeds on its saving throw against the spell. 
+           Distant Spell: When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range the spell 30 feet. 
+           Empowered spell: When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of damage dice up to your Charisma modifier (minimum of one). You must use the new rolls. You can use Empowered spell even if you have already used a different metamagic option during the Casting of the spell 
+           Extended spell. When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration to a maximum of 24 hours. 
+           Heightened spell: When you cast a spell that forces a creature to make a saving throw to restist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell 
+           Quickened Spell When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting, 
+           Subtle spell, when you cast a spell, you can cast it without any somatic or verbal components. 
+           Twinned spell When you cast a spell that targets only one creature that doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range within the spell (1 sorcery point if the spell is a cantrip) to be eligible for Twinned spell, a spell must be incapable of targeting more than one creature at the spells current level. 
+           Seeking spell If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20 and you must use the new roll. You can use seeking spell even if you have already used a different metamagic option during the casting of the spell 
+           Transmuted spell: When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other liste types: Acid, Cold, Fire, Lightning, Poison, thunder
+    "4":
+      - name: Ability Score Improvement
+        description: You can increase one ability score of your Choice by 1
