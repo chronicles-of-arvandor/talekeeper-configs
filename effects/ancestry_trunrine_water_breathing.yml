@@ -1,0 +1,13 @@
+effect:
+  ==: PotionEffectEffect
+  potion-effect:
+    ==: PotionEffect
+    amplifier: 0
+    duration: -1
+    effect: 13
+    ambient: false
+    has-particles: false
+    has-icon: true
+  prerequisites:
+    - ==: AncestryPrerequisite
+      ancestry-id: 2300d5d4-2f14-4b25-ad9d-77910877fd50
