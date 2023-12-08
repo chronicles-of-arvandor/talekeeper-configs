@@ -1,7 +1,7 @@
 choice:
   ==: Choice
   id: a087869b-ee82-4c7e-861a-b3d5180c7d37
-  text: Kobold_ASI_Choice (3)
+  text: Kobold ASI (3)
   prerequisites:
     - ==: AncestryPrerequisite
       ancestry-id: 32c234c9-0785-40d4-80ce-0fd43afa0919
