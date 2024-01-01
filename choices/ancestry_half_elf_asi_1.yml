@@ -51,12 +51,3 @@ choice:
             ==: AbilityPrerequisite
             ability: WISDOM
             score: 20
-    - ==: ChoiceOption
-      id: 1f0d336a-cb8c-4f07-944f-15754c29314c
-      text: Charisma
-      prerequisites:
-        - ==: NotPrerequisite
-          prerequisite:
-            ==: AbilityPrerequisite
-            ability: CHARISMA
-            score: 20
