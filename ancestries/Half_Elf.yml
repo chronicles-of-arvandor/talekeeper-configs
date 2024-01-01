@@ -7,7 +7,7 @@ ancestry:
     ==: Distance
     value: 60.0
     unit: FEET
-  minimum-age: 80
+  minimum-age: 16
   maximum-age: 375
   minimum-height: 4'0"
   maximum-height: 6'0"
