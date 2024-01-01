@@ -1,0 +1,117 @@
+choice:
+  ==: Choice
+  id: b0c33ed8-2de7-46a7-bd74-b9cfbc236011
+  text: "Magic Initiate: Bard Cantrip (1)"
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: d146c60f-5154-49ca-92fe-537cb27e9e06
+      option-id: 5d147992-22a6-400a-b688-763529d04b9a
+  options:
+    - ==: ChoiceOption
+      id: 524bbf74-87b6-436e-bee9-28d438d6bb11
+      text: Blade Ward
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 733e257a-475e-4fb2-acfe-0a884d33efcb
+    - ==: ChoiceOption
+      id: 3de8b4fb-e417-41fe-960f-07c77d55b111
+      text: Dancing Lights
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 56451d67-b7b1-4a7e-a100-2d653199df5d
+    - ==: ChoiceOption
+      id: 4afd7358-3667-4c87-8fdc-2a1a8ee8b641
+      text: Friends
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 191f1c4f-4bd4-4811-a27b-3b99bc389f8d
+    - ==: ChoiceOption
+      id: 41e4503c-9883-4abb-9e45-2c6a4f897c51
+      text: Light
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ba914481-32f6-415b-bc0b-b7a0cf6f5b4c
+    - ==: ChoiceOption
+      id: 19e8bcce-8b13-406d-a051-df32406a3b8b
+      text: Mage Hand
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ff05080b-7b90-4e2a-997e-6616edb53966
+    - ==: ChoiceOption
+      id: 91a56934-c485-45db-8e6c-eb944051ca7d
+      text: Mending
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 01a38667-24df-4c6c-b1b4-b79bc0e90e48
+    - ==: ChoiceOption
+      id: ba1f76c9-5a41-40a6-b5b6-de25fb0080f3
+      text: Message
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 06b1bd92-99ce-4011-b88d-6efef6237581
+    - ==: ChoiceOption
+      id: 20687953-d346-4654-8aec-9c38b30eaf15
+      text: Minor Illusion
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 4d61d9e1-dff5-4a95-8904-e2dfa80e9c0b
+    - ==: ChoiceOption
+      id: eb2f17ee-2941-48a3-848d-a2ec13a03fd9
+      text: Prestidigitation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 99789a43-9d2d-4837-9847-ddea2ffe72ff
+    - ==: ChoiceOption
+      id: e523998e-2508-410c-a088-168c9e34b0ac
+      text: Thunderclap
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0ca352c-f724-4161-844e-a17bd6a65263
+    - ==: ChoiceOption
+      id: 55f02de4-a80f-4c28-b575-f60ba2841769
+      text: True Strike
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - b66a154a-9d7a-4f1e-909a-9b4c17aaa13c
+    - ==: ChoiceOption
+      id: 2b927470-640c-4ff4-b4c0-cd9bba81cd3f
+      text: Vicious Mockery
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 19a8848b-4148-46e1-bfcc-1d9bf216d6b7

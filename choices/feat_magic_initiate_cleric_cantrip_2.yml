@@ -1,0 +1,171 @@
+choice:
+  ==: Choice
+  id: d6b53f70-97c3-40f4-9cb2-bd9baa86e87a
+  text: "Magic Initiate: Cleric Cantrip (2)"
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: d146c60f-5154-49ca-92fe-537cb27e9e06
+      option-id: f0a9ed69-6ab6-457b-a6ef-d63776e11f0a
+  options:
+    - ==: ChoiceOption
+      id: d6a40b78-71bb-40f9-889d-ffcb582176fe
+      text: Guidance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c1ad3fff-8e6b-4577-aadb-ba25a97a87c0
+    - ==: ChoiceOption
+      id: 3018f0a5-2eb9-43a6-9b38-15b5806c6079
+      text: Light
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ba914481-32f6-415b-bc0b-b7a0cf6f5b4c
+    - ==: ChoiceOption
+      id: 1450ea2c-e15a-4aa9-928d-fbdf16393697
+      text: Mending
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 01a38667-24df-4c6c-b1b4-b79bc0e90e48
+    - ==: ChoiceOption
+      id: d28d2969-cf60-43db-8642-cda89f9c8658
+      text: Resistance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 031565a2-d0df-4151-9422-2fa8dbd7f76f
+    - ==: ChoiceOption
+      id: 8c32b505-3c39-48bb-b00e-abef38d46ea2
+      text: Sacred Flame
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 4d95c6f1-0610-4bac-a068-278fbdada345
+    - ==: ChoiceOption
+      id: 4e4de5a4-9c0f-4aeb-84f4-226fdd7c5b80
+      text: Spare the Dying
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 42e223a7-c858-4d31-beb2-fa6e652fe70d
+    - ==: ChoiceOption
+      id: 0c800724-4cbe-4ed5-b89e-a708d76414a7
+      text: Thaumaturgy
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 7366b8ec-8164-470b-adb0-2911a1107d30
+    - ==: ChoiceOption
+      id: 6809e913-72cf-4cf8-aec5-8c4fdbc01c54
+      text: Toll the Dead
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 19a5c80e-0099-41ca-8071-1ead39826363
+    - ==: ChoiceOption
+      id: 23180081-7f75-43ae-ba31-e8433ce1b506
+      text: Word of Radiance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8cc398ef-5d48-4e75-90d7-39c60349caca
+    - ==: ChoiceOption
+      id: 1a108b5a-d025-40fc-a4cf-96b624641edb
+      text: Guidance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c1ad3fff-8e6b-4577-aadb-ba25a97a87c0
+    - ==: ChoiceOption
+      id: 09287edb-a108-4893-9aaa-68118bc1c5c1
+      text: Light
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ba914481-32f6-415b-bc0b-b7a0cf6f5b4c
+    - ==: ChoiceOption
+      id: 5c10b2e7-4ec5-4ee3-995a-fe929fe0a11c
+      text: Mending
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 01a38667-24df-4c6c-b1b4-b79bc0e90e48
+    - ==: ChoiceOption
+      id: c4106d05-1779-4951-9c13-9825d0c1c555
+      text: Resistance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 031565a2-d0df-4151-9422-2fa8dbd7f76f
+    - ==: ChoiceOption
+      id: 7fa55255-58a6-4bdd-b60b-a26a14576252
+      text: Sacred Flame
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 4d95c6f1-0610-4bac-a068-278fbdada345
+    - ==: ChoiceOption
+      id: 8c623f18-5187-4d1f-8491-96957cc72c5e
+      text: Spare the Dying
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 42e223a7-c858-4d31-beb2-fa6e652fe70d
+    - ==: ChoiceOption
+      id: 130afc2f-6bb6-4ef2-a033-4f2a8bb58f9a
+      text: Thaumaturgy
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 7366b8ec-8164-470b-adb0-2911a1107d30
+    - ==: ChoiceOption
+      id: e0bd4f61-fba5-46d4-883a-899414ad015d
+      text: Toll the Dead
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 19a5c80e-0099-41ca-8071-1ead39826363
+    - ==: ChoiceOption
+      id: 3e4d172e-2a3d-4a59-aa5e-9b0cd2d3ac31
+      text: Word of Radiance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 8cc398ef-5d48-4e75-90d7-39c60349caca

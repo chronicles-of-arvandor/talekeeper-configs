@@ -1,0 +1,51 @@
+choice:
+  ==: Choice
+  id: d146c60f-5154-49ca-92fe-537cb27e9e06
+  text: "Magic Initiate: Spell list"
+  prerequisites:
+    - ==: FeatPrerequisite
+      feat-id: dab4c9dc-2b99-47f0-8926-c858effb8732
+  options:
+    - ==: ChoiceOption
+      id: 5d147992-22a6-400a-b688-763529d04b9a
+      text: Bard
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: BackgroundPrerequisite
+            background-id: 5c677fca-430f-4716-99ec-f1ba72a7fe54
+    - ==: ChoiceOption
+      id: f0a9ed69-6ab6-457b-a6ef-d63776e11f0a
+      text: Cleric
+    - ==: ChoiceOption
+      id: fd0552d1-a8d1-46e5-b01a-d1f92dbe323f
+      text: Druid
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: BackgroundPrerequisite
+            background-id: 5c677fca-430f-4716-99ec-f1ba72a7fe54
+    - ==: ChoiceOption
+      id: 23f01be3-47b7-4e7e-9a74-6399d62c4bba
+      text: Sorcerer
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: BackgroundPrerequisite
+            background-id: 5c677fca-430f-4716-99ec-f1ba72a7fe54
+    - ==: ChoiceOption
+      id: 56c24b11-09bf-4daa-bc80-e9ce5f9951cd
+      text: Warlock
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: BackgroundPrerequisite
+            background-id: 5c677fca-430f-4716-99ec-f1ba72a7fe54
+    - ==: ChoiceOption
+      id: baf21471-8bdd-4523-b0c6-cc3f98dc7a61
+      text: Wizard
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: BackgroundPrerequisite
+            background-id: 5c677fca-430f-4716-99ec-f1ba72a7fe54

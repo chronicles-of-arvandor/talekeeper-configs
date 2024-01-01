@@ -57,3 +57,12 @@ effect:
           class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
           sub-class-id: 79cdccd4-341e-4445-9f6c-d3ea700432e1
           level: 1
+        - ==: ChoicePrerequisite
+          choice-id: d6b53f70-97c3-40f4-9cb2-bd9baa86e87a
+          option-id: d6a40b78-71bb-40f9-889d-ffcb582176fe
+        - ==: ChoicePrerequisite
+          choice-id: d6b53f70-97c3-40f4-9cb2-bd9baa86e87a
+          option-id: 1a108b5a-d025-40fc-a4cf-96b624641edb
+        - ==: ChoicePrerequisite
+          choice-id: 0a4c9c4f-0e68-4485-92e1-e91cd3adc3e9
+          option-id: 7a636c18-69aa-4a70-8025-256da77ec872

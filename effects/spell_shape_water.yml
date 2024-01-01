@@ -101,3 +101,12 @@ effect:
         - ==: ChoicePrerequisite
           choice-id: 87d7ae10-ca4b-4879-b1ae-dab9de7186d7
           option-id: 055c1da8-40bc-440c-9fc4-be2528b64a97
+        - ==: ChoicePrerequisite
+          choice-id: 0a4c9c4f-0e68-4485-92e1-e91cd3adc3e9
+          option-id: 96a1feb5-9caf-4e6c-871b-3c4b1a50df40
+        - ==: ChoicePrerequisite
+          choice-id: 6bb7e7f5-8267-4782-a1b1-586a98d712a5
+          option-id: c180cc94-fbd1-4b70-9eff-ee84d4ac08cf
+        - ==: ChoicePrerequisite
+          choice-id: 0b138fc3-80f2-4589-89a7-42877b07bfa0
+          option-id: 3bc9bd0f-383a-4189-aae3-8b4786b733e1

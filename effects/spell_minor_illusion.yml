@@ -118,3 +118,15 @@ effect:
           class-id: 43ec1f3c-eb4c-4829-9cd0-a496a3279316
           sub-class-id: 072783e5-2e21-4710-a0e0-b84fbe06f09b
           level: 1
+        - ==: ChoicePrerequisite
+          choice-id: db738e9b-5f01-422a-ad67-1515ea210002
+          option-id: 61b0fa82-3da8-4384-a5e8-fea90b7fe1a4
+        - ==: ChoicePrerequisite
+          choice-id: 6bb7e7f5-8267-4782-a1b1-586a98d712a5
+          option-id: f665ddbe-4680-412b-b9f3-e50372cffa83
+        - ==: ChoicePrerequisite
+          choice-id: 4ebe6457-7b4d-4873-808c-f2b1e168ec50
+          option-id: 3e3152ed-711c-42fc-8f52-3f3c951c9a02
+        - ==: ChoicePrerequisite
+          choice-id: 0b138fc3-80f2-4589-89a7-42877b07bfa0
+          option-id: 8e750b2b-4ae4-4d8b-b364-e916d1f1219d

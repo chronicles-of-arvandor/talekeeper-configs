@@ -1,0 +1,171 @@
+choice:
+  ==: Choice
+  id: 0a4c9c4f-0e68-4485-92e1-e91cd3adc3e9
+  text: "Magic Initiate: Druid Cantrip (2)"
+  prerequisites:
+    - ==: ChoicePrerequisite
+      choice-id: d146c60f-5154-49ca-92fe-537cb27e9e06
+      option-id: fd0552d1-a8d1-46e5-b01a-d1f92dbe323f
+  options:
+    - ==: ChoiceOption
+      id: 88e4fef2-dd50-4ed4-b3c9-61624311d833
+      text: Control Flames
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 7a1184a4-502f-430b-be12-1478e0b792b6
+    - ==: ChoiceOption
+      id: ad89f037-4a5d-49a8-a1de-a22eaac1312f
+      text: Create Bonfire
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e8d039f1-79ca-4437-a1a3-6623f9d67283
+    - ==: ChoiceOption
+      id: b34997cb-7985-4915-8d49-0a0124923c8f
+      text: Druidcraft
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3872ae13-fa62-444d-aeab-7aec4a734bea
+    - ==: ChoiceOption
+      id: 26ceee24-e5f9-48ed-947c-2e95bbde79be
+      text: Frostbite
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 2a783877-dd06-4e52-a4d4-0acdedead0da
+    - ==: ChoiceOption
+      id: 7a636c18-69aa-4a70-8025-256da77ec872
+      text: Guidance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c1ad3fff-8e6b-4577-aadb-ba25a97a87c0
+    - ==: ChoiceOption
+      id: 0603c8d3-b72e-482e-a912-3e87333d3029
+      text: Gust
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - a82737a3-af26-4f2b-a58c-7ba94d0dc451
+    - ==: ChoiceOption
+      id: d59d1647-4489-45d0-b32d-9aa879beaac6
+      text: Infestation
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 29427ded-1f5c-4ae8-a919-8b44079a1f53
+    - ==: ChoiceOption
+      id: 7a3b268d-7031-4006-9b63-941508e167ab
+      text: Magic Stone
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - df828041-0900-4b97-8390-f816ba158ddd
+    - ==: ChoiceOption
+      id: 7083d341-c8ee-49fc-8eec-b3145da8d284
+      text: Mending
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 01a38667-24df-4c6c-b1b4-b79bc0e90e48
+    - ==: ChoiceOption
+      id: 21e7e9e3-c1de-446d-ba2e-b652497306d6
+      text: Mold Earth
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - c323498b-9173-4d87-a582-82701d55577c
+    - ==: ChoiceOption
+      id: 5cfcf5a3-dacb-449b-a06e-40fde3eec575
+      text: Poison Spray
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - d3d77389-c974-4a2b-aa5b-366bbe5d5216
+    - ==: ChoiceOption
+      id: 5bd8474f-03eb-465a-959f-b08713d064b7
+      text: Primal Savagery
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 27677c67-bc10-4fa4-8099-09131c54b402
+    - ==: ChoiceOption
+      id: 65318851-c855-4565-8f7b-76ed7b42cc3e
+      text: Produce Flame
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3af3447d-09ac-4257-9003-98ebae059276
+    - ==: ChoiceOption
+      id: 77187592-700f-4506-910e-acd67243576d
+      text: Resistance
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 031565a2-d0df-4151-9422-2fa8dbd7f76f
+    - ==: ChoiceOption
+      id: 96a1feb5-9caf-4e6c-871b-3c4b1a50df40
+      text: Shape Water
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - 3f3e3187-f22e-4127-a215-df451ae1534a
+    - ==: ChoiceOption
+      id: c44a4a88-2dd2-4d69-afe9-54d81d451292
+      text: Shillelagh
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - ff40b891-5726-47df-affa-d112301ea058
+    - ==: ChoiceOption
+      id: 22c1e83e-893c-4d34-8bdf-7c0fbd27f47d
+      text: Thorn Whip
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - de53146b-2a1c-4c5c-b6a6-01a220b1e60d
+    - ==: ChoiceOption
+      id: d54b9aa3-2c59-420e-9e17-62d887115d7c
+      text: Thunderclap
+      prerequisites:
+        - ==: NotPrerequisite
+          prerequisite:
+            ==: SpellPrerequisite
+            spell-ids:
+              - e0ca352c-f724-4161-844e-a17bd6a65263

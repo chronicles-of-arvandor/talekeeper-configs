@@ -40,3 +40,9 @@ effect:
           class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
           sub-class-id: 9cf9fce0-a077-46ba-b13c-a5e0d0da0cbb
           level: 1
+        - ==: ChoicePrerequisite
+          choice-id: d6b53f70-97c3-40f4-9cb2-bd9baa86e87a
+          option-id: 4e4de5a4-9c0f-4aeb-84f4-226fdd7c5b80
+        - ==: ChoicePrerequisite
+          choice-id: d6b53f70-97c3-40f4-9cb2-bd9baa86e87a
+          option-id: 8c623f18-5187-4d1f-8491-96957cc72c5e

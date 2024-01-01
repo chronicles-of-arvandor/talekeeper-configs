@@ -118,3 +118,15 @@ effect:
         - ==: SubAncestryPrerequisite
           ancestry-id: f3d6e7fe-39e0-4c65-a1dd-bbdfd665f2c8
           sub-ancestry-id: f7b3b6e5-e2fa-47e8-a082-1a8315c68596
+        - ==: ChoicePrerequisite
+          choice-id: db738e9b-5f01-422a-ad67-1515ea210002
+          option-id: f19b9bf6-383f-4498-b57b-5a979ba2633f
+        - ==: ChoicePrerequisite
+          choice-id: 6bb7e7f5-8267-4782-a1b1-586a98d712a5
+          option-id: dcafb0c4-2e8b-473e-9e6c-bd576b08a78e
+        - ==: ChoicePrerequisite
+          choice-id: 4ebe6457-7b4d-4873-808c-f2b1e168ec50
+          option-id: 36525d1e-1a0d-4a38-968d-94eb055337ab
+        - ==: ChoicePrerequisite
+          choice-id: 0b138fc3-80f2-4589-89a7-42877b07bfa0
+          option-id: eb51a096-8e53-4a4d-a692-d8c028d09eb9

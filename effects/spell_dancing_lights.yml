@@ -95,3 +95,12 @@ effect:
         - ==: SubAncestryPrerequisite
           ancestry-id: c8fe0976-bc55-4dc6-8b45-91bdda4ed48d
           sub-ancestry-id: 55dc16f9-514a-4c00-9e11-ef3978b24a4d
+        - ==: ChoicePrerequisite
+          choice-id: db738e9b-5f01-422a-ad67-1515ea210002
+          option-id: 5564d2cf-1b09-4c92-a241-02fd69c2fbd8
+        - ==: ChoicePrerequisite
+          choice-id: 6bb7e7f5-8267-4782-a1b1-586a98d712a5
+          option-id: 2018599a-ce1f-469d-94ed-835725e263b8
+        - ==: ChoicePrerequisite
+          choice-id: 0b138fc3-80f2-4589-89a7-42877b07bfa0
+          option-id: 2b89b8a1-a66f-4cba-b2db-36f411c93ea8
