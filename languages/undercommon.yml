@@ -2,4 +2,27 @@ language:
   ==: Language
   id: 2cf3a918-d647-4f59-a605-acf440b53dd8
   name: Undercommon
-  cypher: {}
+  cypher:
+    a: si
+    b: un
+    c: d
+    d: l
+    e: i
+    f: q
+    g: gk
+    h: ll
+    i: o
+    j: y
+    k: b
+    l: d
+    m: tr
+    n: xc
+    o: ar
+    p: xa
+    r: s
+    s: c
+    t: g
+    u: ''
+    v: te
+    y: l
+    z: jh
