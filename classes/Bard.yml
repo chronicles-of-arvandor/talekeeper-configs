@@ -500,3 +500,4 @@ class:
           creature must be able to hear you to gain this benefit. The
           performance ends early if you are incapacitated or silenced or if you
           voluntarily end it (no action required.)
+  levels-per-caster-level: 1
