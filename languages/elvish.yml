@@ -56,14 +56,13 @@ language:
     Falcon: Gyrlass
     Drink: Salen
     Center: Haera
-    True: Hond
+    'True': Hond
     Place: Iilor
     Create: Iquar
     Creator: Iqua
     Light: Ivae
     Horse: Kelytha
     Sword: Kerym
-    Warrior: Keryn
     Three: Khov
     Gem: Kiir
     Jewel: Kiir
@@ -201,14 +200,13 @@ language:
     falcon: gyrlass
     drink: salen
     center: haera
-    true: hond
+    'true': hond
     place: iilor
     create: iquar
     creator: iqua
     light: ivae
     horse: kelytha
     sword: kerym
-    warrior: keryn
     three: khov
     gem: kiir
     jewel: kiir

@@ -18,7 +18,6 @@ language:
     treachery: ᚿᛁᚩ᛭ᛟᛠ
     thief: ᚰᛚᛦᛚᛈᛈ
     liar: ᚰᛚᛦᛚᛈᛈ
-    killer: ᚰ᛭ᛟᛦᛚᛟ
     familiar: ᚩᛚᛁᛟᛠ
     treasure: ᚩᛚᛨᚿᛦᛁ
     loot: ᚩᛚᛨᚿᛦᛁ
@@ -37,7 +36,6 @@ language:
     agreement: ᛦᚦᛦᚦᚭᛐ
     idiot: ᚧᛚᛟᚳᛐ
     joker: ᚧᛚᛟᚳᛐ
-    halfling: ᚧᛚᛟᚳᛐ
     axe: ᛣᛨᛦᚩ
     river: ᛦᛨᛟ
     marsh: ᛦᛨᛟᚳᛐ
@@ -64,7 +62,6 @@ language:
     destruction: ᛟ᛭ᛟᛠ
     battlefield: ᛟ᛭ᛟᛠᚭᚮᛠ
     over: ᛟᛟᚦᛠ
-    familiar: ᛟᛨᛠᛁ
     known: ᛟᛨᛠᛁ
     home: ᛟᛨᛠᛁᚩᛚᛟ
     broken: ᛈᛚᚿᛟᛚᛣ
@@ -110,7 +107,7 @@ language:
     shouldnt: ᚭᛨᛟᛚᛟ
     what: ᛟᛚᛣᚭᛨᛈ
     in: ᚭᛟ᛭ᛟ
-    no: ᚭᛨᛟᛈ
+    'no': ᚭᛨᛟᛈ
     nay: ᚭᛨᛟᛈ
     go: ᚿᛟᛁᚭᛐ
     dragon: ᛤ
@@ -142,7 +139,6 @@ language:
     Treachery: ᚿᛁᚩ᛭ᛟᛠ
     Thief: ᚰᛚᛦᛚᛈᛈ
     Liar: ᚰᛚᛦᛚᛈᛈ
-    Killer: ᚰ᛭ᛟᛦᛚᛟ
     Familiar: ᚩᛚᛁᛟᛠ
     Treasure: ᚩᛚᛨᚿᛦᛁ
     Loot: ᚩᛚᛨᚿᛦᛁ
@@ -161,7 +157,6 @@ language:
     Agreement: ᛦᚦᛦᚦᚭᛐ
     Idiot: ᚧᛚᛟᚳᛐ
     Joker: ᚧᛚᛟᚳᛐ
-    Halfling: ᚧᛚᛟᚳᛐ
     Axe: ᛣᛨᛦᚩ
     River: ᛦᛨᛟ
     Marsh: ᛦᛨᛟᚳᛐ
@@ -188,7 +183,6 @@ language:
     Destruction: ᛟ᛭ᛟᛠ
     Battlefield: ᛟ᛭ᛟᛠᚭᚮᛠ
     Over: ᛟᛟᚦᛠ
-    Familiar: ᛟᛨᛠᛁ
     Known: ᛟᛨᛠᛁ
     Home: ᛟᛨᛠᛁᚩᛚᛟ
     Broken: ᛈᛚᚿᛟᛚᛣ

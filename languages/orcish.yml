@@ -4,7 +4,6 @@ language:
   name: Orcish
   cypher:
     attack: ᛚᛠᛨᛣᛐ
-    blood: ᚩᛚᛇ
     bastard: ᚩᛨᛣᛐᛚᛦ
     bitch: ᚩᛨᛣᛐᛚᛦ
     torch: ᚳᛚᛟᛁᛣᛁ
@@ -17,7 +16,7 @@ language:
     calm: ᛟᛚᚳᛐ
     down: ᛚᛦᛚ
     for: ᛨᛦ
-    yes: ᛟᛚᚳᛐ
+    'yes': ᛟᛚᚳᛐ
     is: ᛚᛣᛐ
     isnt: ᛟᛚᛣᛐ
     is not: ᛟᛚᛣᛐ
@@ -53,7 +52,6 @@ language:
     well: ᚿᛟᛚᛐ
     work: ᛟᛁᛣ
     by: ᚩᛨᛈᛐ
-    well: ᚿᛟᛁ’ᛟᛚ
     say: ᛣᛟᛚᛟ
     big: ᛟᛨᛣᛣ
     large: ᛟᛨᛣᛣ
