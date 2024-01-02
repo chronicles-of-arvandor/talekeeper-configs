@@ -30,9 +30,6 @@ effect:
           choice-id: 51dfdea4-e400-4a60-90f4-42067ca448df
           option-id: 2477ce8a-a13a-461c-88a9-f6a70520c024
         - ==: ChoicePrerequisite
-          choice-id: 67b31d50-d3fa-4693-b87b-dc6c801d061a
-          option-id: d06f3a38-13b5-410c-af2e-838b23b41c1b
-        - ==: ChoicePrerequisite
           choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
           option-id: 9469610e-e5f9-4dbd-84d5-129d36fc590b
         - ==: ChoicePrerequisite

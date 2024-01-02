@@ -13,26 +13,6 @@ effect:
         - ==: ClassPrerequisite
           class-id: 95dcb8e1-3f08-4ef7-897b-a638107f47e4
           level: 1
-        - ==: ClassPrerequisite
-          class-id: 3286e4ac-bbe1-4876-a54a-4847440b3d53
-          level: 1
-        - ==: ClassPrerequisite
-          class-id: a9b560a5-7a29-4675-a424-a624f8488db7
-          level: 1
-        - ==: ClassPrerequisite
-          class-id: 848f186f-a5ae-4fee-aa0f-8362cbeb0417
-          level: 1
-        - ==: ClassPrerequisite
-          class-id: 4c6dd6cb-8740-4355-8f09-5c2e2214f795
-          level: 1
-        - ==: SubClassPrerequisite
-          class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
-          sub-class-id: 03300739-47b3-4533-ba25-e6f60d093a40
-          level: 1
-        - ==: SubClassPrerequisite
-          class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
-          sub-class-id: aa8f5a5f-d356-46d4-999a-95bcbb50798f
-          level: 1
         - ==: SubClassPrerequisite
           class-id: 601d7597-f9b7-4ee4-b88e-083262d1522d
           sub-class-id: 03300739-47b3-4533-ba25-e6f60d093a40

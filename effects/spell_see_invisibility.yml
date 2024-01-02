@@ -42,24 +42,6 @@ effect:
           choice-id: 286555df-d2ca-46e9-b3af-679cb39a1e59
           option-id: 4cf05fd5-1414-45c7-ba86-25db23779218
         - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: cf2bc1ee-8baf-4215-9dc1-db4527d7e2cb
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: bd0a6c4c-03cc-4024-9dda-d9a422ee316c
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 40a3db6d-63aa-4157-bbfc-1f7c0f05b9a6
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 4e27dee9-204b-498a-af9f-5edde31ba48e
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 542c99f5-a485-4d0a-b694-d41974036b3e
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 717711f9-7f74-4421-a50b-fda79d387b85
-        - ==: ChoicePrerequisite
           choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
           option-id: d587ac86-f4ac-4b42-b26d-f83ae5c2e10d
         - ==: ChoicePrerequisite

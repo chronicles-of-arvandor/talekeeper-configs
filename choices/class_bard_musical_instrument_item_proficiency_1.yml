@@ -69,7 +69,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - hand drum
+              - hand_drum
     - ==: ChoiceOption
       id: 23c70574-6695-4d75-b583-289663f27e4f
       text: horn
@@ -114,7 +114,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - pan flute
+              - pan_flute
     - ==: ChoiceOption
       id: 2c4a6983-5b8e-4b5a-95cf-c00eb5de57f8
       text: shawm
@@ -186,7 +186,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - whistle-stick
+              - whistle_stick
     - ==: ChoiceOption
       id: c05806d1-e481-4d35-9db1-4815b8e8e719
       text: yarting

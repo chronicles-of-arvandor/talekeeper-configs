@@ -133,7 +133,7 @@ choice:
           prerequisite:
             ==: ItemProficiencyPrerequisite
             item-ids:
-              - Scimitar
+              - scimitar
     - ==: ChoiceOption
       id: 0cda6399-88b2-4a64-8bbc-3b07ded8153b
       text: shortsword

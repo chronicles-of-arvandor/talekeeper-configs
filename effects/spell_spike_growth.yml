@@ -6,15 +6,6 @@ effect:
     - ==: OrPrerequisite
       prerequisites:
         - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 5477d62c-c458-429c-a625-b4b282547f63
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 1bfa46c0-f34c-43e3-8bbe-862225a70523
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: c6ed145c-040d-4fc8-89a6-54237155ea3a
-        - ==: ChoicePrerequisite
           choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
           option-id: bcc19f0c-db49-4ede-9a04-e506ae904791
         - ==: ChoicePrerequisite

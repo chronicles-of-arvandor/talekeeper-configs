@@ -12,18 +12,6 @@ effect:
           choice-id: fd58eaad-4e96-4f26-9cb3-642267375400
           option-id: b6026fac-7360-4e32-b3de-696ad44a73d9
         - ==: ChoicePrerequisite
-          choice-id: acbb520f-3506-4f09-93c3-496153a5b514
-          option-id: 30104ef5-e924-4e7b-af1d-e73c4651a70b
-        - ==: ChoicePrerequisite
-          choice-id: 7d666e0b-db03-4869-b58f-25d682b3e90a
-          option-id: 5656f2ca-6d77-4b1f-befa-72adcd3f4bd6
-        - ==: ChoicePrerequisite
-          choice-id: 453e5ec6-dd04-4c67-a765-858bab513aa6
-          option-id: edefa964-7da8-4d98-a1e6-d7e412538976
-        - ==: ChoicePrerequisite
-          choice-id: 21dd02b8-a02d-41a2-a698-9cafa0c99ce9
-          option-id: b15f569c-7ce4-4cf2-9dfc-5a38b352fa27
-        - ==: ChoicePrerequisite
           choice-id: 45baa58a-bde6-4ee5-90a4-63558e380d6f
           option-id: b6b361a1-5591-4b6f-958e-d4bb7ee49eae
         - ==: ChoicePrerequisite

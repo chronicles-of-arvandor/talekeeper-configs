@@ -24,48 +24,6 @@ effect:
           choice-id: 286555df-d2ca-46e9-b3af-679cb39a1e59
           option-id: 318a9690-f36e-4647-8705-5416d29abe2b
         - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 42139ddf-bd32-4e12-879a-a981f1952124
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: a4f87ae7-3f89-486c-aa4c-ae7ece8608a6
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: e83755d3-c3d0-425e-bce0-55ed69e99b75
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: d3f6ff5c-364d-4a3e-99cc-e99888326c87
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 3e9c74d8-7cc6-4dd2-b401-8784490d7669
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 32ab7d9e-8a61-42d2-a514-096c7d239f86
-        - ==: ChoicePrerequisite
-          choice-id: f2ccb10c-20d9-4635-90ec-50d6cc51697d
-          option-id: 9574da24-11ff-47f3-b5b8-44260cec8643
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 88630854-6030-4e41-9b04-f7404336ffe8
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 99ce46be-ced8-4989-84d9-e141bbb2507b
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: fec06710-88d3-40ae-8647-e56683d7c37e
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 03438e85-8510-4de5-aedf-0ecc6c5c2ee5
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: dbe120cf-0367-409a-8415-98b22296afa0
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: e42ab895-58b8-4492-a56e-f26d0efb6bbe
-        - ==: ChoicePrerequisite
-          choice-id: 3e507b5b-7f06-4032-95a1-04f3c70a4d14
-          option-id: 8cf72f0b-ea48-442b-a09a-b2ab27f1e1c5
-        - ==: ChoicePrerequisite
           choice-id: 7db1de75-23d4-465a-85e5-3b7228d90347
           option-id: 6b1becd5-b271-4206-bc35-3d7d5769dd6b
         - ==: ChoicePrerequisite
