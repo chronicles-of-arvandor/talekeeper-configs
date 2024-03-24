@@ -736,7 +736,7 @@ class:
       - name: Ability Score Improvement
         description: You can increase an Ability score of your choice by 1
     "5":
-      - name: Destroy undead.
+      - name: Destroy Undead.
         description: When an undead fails its saving throw against your Turn Undead
           feature, the creature is instantly destroyed if its challenge rating
           is at or below a certain threshold as shown in the Cleric Table
